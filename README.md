@@ -1,4 +1,6 @@
-# nasa-CPU
+<!-- # nasa-CPU -->
+
+![](assets/logo1.png)
 
 An hobbystic and full of love RISC-V Central Processing Unit.
 
@@ -142,3 +144,6 @@ An instruction set is, at the very end, just a set of rules that hardware and so
 
 ![](assets/RV32I%20Instruction%20Format.png#gh-light-mode-only)
 ![](assets/RV32I%20Instruction%20Format%20Dark.png#gh-dark-mode-only)
+
+## High-Level Sythesys Notes
+
