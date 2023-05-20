@@ -145,5 +145,24 @@ An instruction set is, at the very end, just a set of rules that hardware and so
 ![](assets/RV32I%20Instruction%20Format.png#gh-light-mode-only)
 ![](assets/RV32I%20Instruction%20Format%20Dark.png#gh-dark-mode-only)
 
-## High-Level Sythesys Notes
+## High-Level Sythesis Notes
+
+The development board used for the experiments is the [PYNQ-Z2](https://www.xilinx.com/support/university/xup-boards/XUPPYNQ-Z2.html). 
+
+### The Critical Path
+
+This is the simplified exeution loop used for the first version of nasa-CPU.
+
+![](assets/Critical%20Path.jpg)
+
+During _execute_ the new PC counter is calculated so it can be used by the next fetch phase.
+The entire loop continues until a specific condition (i.e. the **RET** instruction) is encounted.
+
+### HLS Interface
+
+The ``fetching_ip()`` top function uses the [AXI](https://developer.arm.com/documentation/ihi0022/latest/) interface [in HLS](https://docs.xilinx.com/r/en-US/ug1399-vitis-hls/pragma-HLS-interface) for the connection with the "outer world". AXI is a simple and powerful protocol, and this pragma is used to connect the FPGA core with the ARM core, indeed is can be used only by top-level function.
+
+```c
+#pragma HLS INTERFACE s_axilite port=<connection name>
+```
 
