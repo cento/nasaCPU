@@ -76,3 +76,69 @@ $ make
 $ sudo make install
 ```
 
+## RISC-V ISA Notes
+
+In nasa-CPU I am going to use 32-bit instructions with 32-bit integer data. This is the minimal version of RISC-V ISA (named RV32I) what uses 32 registers, sufficient to run basically any simple possible application written and compiled for this instructions set, even a simple Operating System (OS).
+
+I found [this OS](https://github.com/moratorium08/osmium/) written in Rust using only the RV32IM isa, I will keep an eye on similar projects. 
+
+On top of RV32I I will try to add/build other RISC-V (RV from now on) extensions as exercises, for example:
+
+* *M extension*: for the integer multiplication
+* *F extension*: for the floating-point computation
+* *E extension*: for embedded systems, basically RV32I but with 16 registers
+
+The full RV Specification is [here](https://riscv.org/technical/specifications/).
+
+### ABI
+
+An instruction set is, at the very end, just a set of rules that hardware and software agreed on. 
+
+#### Registers:
+
+| ISA name | alias | suggested role         | save in stack |
+| -------- | ----- | ---------------------- | ------------- |
+| x0       | zero  | hardwired to zero      | no            |
+| x1       | ra    | **r**eturn address     | yes           |
+| x2       | sp    | **s**tack **p**ointer  | no            |
+| x3       | gp    | **g**lobal **p**ointer | no            |
+| x4       | tp    | **t**hread **p**ointer | no            |
+| x5       | t0    | **t**emporary          | no            |
+| x6       | t1    | **t**emporary          | no            |
+| x7       | t2    | **t**emporary          | no            |
+| x8       | s0    | **s**aved              | yes           |
+| x9       | s1    | **s**aved              | yes           |
+| x10      | a0    | **a**rguments          | no            |
+| x11      | a1    | **a**rguments          | no            |
+| x12      | a2    | **a**rguments          | no            |
+| x13      | a3    | **a**rguments          | no            |
+| x14      | a4    | **a**rguments          | no            |
+| x15      | a5    | **a**rguments          | no            |
+| x16      | a6    | **a**rguments          | no            |
+| x17      | a7    | **a**rguments          | no            |
+| x18      | s2    | **s**aved              | yes           |
+| x19      | s3    | **s**aved              | yes           |
+| x20      | s4    | **s**aved              | yes           |
+| x21      | s5    | **s**aved              | yes           |
+| x22      | s6    | **s**aved              | yes           |
+| x23      | s7    | **s**aved              | yes           |
+| x24      | s8    | **s**aved              | yes           |
+| x25      | s9    | **s**aved              | yes           |
+| x26      | s10   | **s**aved              | yes           |
+| x27      | s11   | **s**aved              | yes           |
+| x28      | t3    | **t**emporary          | no            |
+| x29      | t4    | **t**emporary          | no            |
+| x30      | t5    | **t**emporary          | no            |
+| x31      | t6    | **t**emporary          | no            |
+
+#### Instruction format:
+
+* R-TYPE: Register 
+* I-TYPE: Immediate
+* U-TYPE: Upper
+    * J-TYPE: (variant)
+* S-TYPE: Store
+    * B-TYPE: (variant)
+
+![](assets/RV32I%20Instruction%20Format.png#gh-light-mode-only)
+![](assets/RV32I%20Instruction%20Format%20Dark.png#gh-dark-mode-only)
