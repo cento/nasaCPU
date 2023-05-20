@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
-  <source/>
+  <source>
+    <originFiles name="nasa_fetching-ip.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\nasa_fetching-ip\src\nasa_fetching-ip.h"/>
+    <originFiles name="nasa_fetching-ip.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\nasa_fetching-ip\src\nasa_fetching-ip.cpp"/>
+  </source>
   <testbench/>
 </autopilotfilemapping:AutoPilotFileMapping>
