@@ -163,6 +163,6 @@ The entire loop continues until a specific condition (i.e. the **RET** instructi
 The ``fetching_ip()`` top function uses the [AXI](https://developer.arm.com/documentation/ihi0022/latest/) interface [in HLS](https://docs.xilinx.com/r/en-US/ug1399-vitis-hls/pragma-HLS-interface) for the connection with the "outer world". AXI is a simple and powerful protocol, and this pragma is used to connect the FPGA core with the ARM core, indeed is can be used only by top-level function.
 
 ```c
-#pragma HLS INTERFACE s_axilite port=<connection name>
+#pragma HLS INTERFACE mode=s_axilite port=<connection name>
 ```
 
