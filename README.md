@@ -187,6 +187,14 @@ PC: 0052 -> Instruction: 00008067
 done
 ```
 
+The synthesis in my run reports: 128 BRAM, 225 Flip-Flops, and 272 LUTs.
+
+Looking at the Schedule Viewers, the instruction fetched is used to check the RET, nothing else.
+The Execute only computes the next PC. Lately I will add more useful work.
+
+![](assets/execute_view.png)
+![](assets/fetch_view.png)
+![](assets/running_cond_view.png)
 
 ### HLS Interface
 
