@@ -11,5 +11,7 @@
     <originFiles name="execute.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\execute.h"/>
     <originFiles name="execute.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\execute.cpp"/>
   </source>
-  <testbench/>
+  <testbench>
+    <originFiles name="tb_fetching_ip.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\tb_fetching_ip.cpp"/>
+  </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

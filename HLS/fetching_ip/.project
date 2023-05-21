@@ -87,6 +87,11 @@
 			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/src/running_cond_update.h</location>
 		</link>
 		<link>
+			<name>testbench/tb_fetching_ip.cpp</name>
+			<type>1</type>
+			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/src/tb_fetching_ip.cpp</location>
+		</link>
+		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
 			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/solution1.directive</location>

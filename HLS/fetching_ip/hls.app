@@ -10,6 +10,7 @@
     <file name="src/fetching_ip.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
     <file name="src/running_cond_update.cpp" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
     <file name="src/running_cond_update.h" sc="0" tb="false" cflags="" blackbox="false" csimflags=""/>
+    <file name="../../src/tb_fetching_ip.cpp" sc="0" tb="1" cflags="" csimflags=""/>
   </files>
   <solutions>
     <solution name="solution1" status="active"/>
