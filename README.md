@@ -221,3 +221,9 @@ Base instruction:
 ```assembly
 jalr x0, x1, 0
 ```
+
+### About exporting the RTL design with Vivado HLS
+
+Vivado HLS seems not really happy about folder names with spaces. Initially I was using "exported RTL" as destination for the implementation export, but it seems despite we live in 2023, it is still very hard to handle folder so named.
+
+The quick workaround/solution was to use 'exported_rtl' to export the RTL from Vivado. The exported file is used to create the actual designe using... Vivado IDE!
