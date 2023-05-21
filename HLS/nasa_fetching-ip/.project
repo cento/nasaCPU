@@ -42,16 +42,6 @@
 			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/nasa_fetching-ip/solution/.tcls</location>
 		</link>
 		<link>
-			<name>source/nasa_fetching-ip.cpp</name>
-			<type>1</type>
-			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/nasa_fetching-ip/src/nasa_fetching-ip.cpp</location>
-		</link>
-		<link>
-			<name>source/nasa_fetching-ip.h</name>
-			<type>1</type>
-			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/nasa_fetching-ip/src/nasa_fetching-ip.h</location>
-		</link>
-		<link>
 			<name>solution/constraints/.xml.directive</name>
 			<type>1</type>
 			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/nasa_fetching-ip/solution/solution.directive</location>
