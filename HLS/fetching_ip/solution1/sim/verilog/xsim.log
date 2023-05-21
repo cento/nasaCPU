@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# xsim v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Sun May 21 16:02:53 2023
+# Process ID: 19664
+# Current directory: C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/fetching_ip/xsim_script.tcl}
+# Log file: C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/xsim.log
+# Journal file: C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog\xsim.jou
+# Running On: Naboo, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 17022 MB
+#-----------------------------------------------------------
+source xsim.dir/fetching_ip/xsim_script.tcl
+# xsim {fetching_ip} -autoloadwcfg -tclbatch {fetching_ip.tcl}
+Time resolution is 1 ps
+source fetching_ip.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [n/a] @ "125000"
+// RTL Simulation : 1 / 1 [n/a] @ "8520615000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 8520675 ns : File "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/fetching_ip.autotb.v" Line 275
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 241.410 ; gain = 16.516
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun May 21 16:03:11 2023...

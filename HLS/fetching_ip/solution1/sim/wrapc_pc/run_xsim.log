@@ -1,0 +1,90 @@
+PC: 0000 -> Instruction: 00500593
+PC: 0004 -> Instruction: 00158613
+PC: 0008 -> Instruction: 00c67693
+PC: 0012 -> Instruction: fff68713
+PC: 0016 -> Instruction: 00576793
+PC: 0020 -> Instruction: 00c7c813
+PC: 0024 -> Instruction: 00d83893
+PC: 0028 -> Instruction: 00b83293
+PC: 0032 -> Instruction: 01c81313
+PC: 0036 -> Instruction: ff632393
+PC: 0040 -> Instruction: 7e633e13
+PC: 0044 -> Instruction: 01c35e93
+PC: 0048 -> Instruction: 41c35f13
+PC: 0052 -> Instruction: 00008067
+done
+
+C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_ip\solution1\sim\verilog>set PATH= 
+
+C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_ip\solution1\sim\verilog>call C:/Xilinx/Vivado/2022.2/bin/xelab xil_defaultlib.apatb_fetching_ip_top glbl -Oenable_linking_all_libraries  -prj fetching_ip.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_1_15 -L floating_point_v7_0_20 --lib "ieee_proposed=./ieee_proposed" -s fetching_ip  
+Vivado Simulator v2022.2.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_fetching_ip_top glbl -Oenable_linking_all_libraries -prj fetching_ip.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_15 -L floating_point_v7_0_20 --lib ieee_proposed=./ieee_proposed -s fetching_ip 
+Multi-threading is on. Using 6 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/AESL_axi_slave_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/fetching_ip.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_fetching_ip_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/fetching_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetching_ip
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/fetching_ip_control_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetching_ip_control_s_axi
+INFO: [VRFC 10-311] analyzing module fetching_ip_control_s_axi_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/fetching_ip_execute.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetching_ip_execute
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/fetching_ip_fetch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetching_ip_fetch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/fetching_ip_running_cond_update.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetching_ip_running_cond_update
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.fetching_ip_fetch
+Compiling module xil_defaultlib.fetching_ip_execute
+Compiling module xil_defaultlib.fetching_ip_running_cond_update
+Compiling module xil_defaultlib.fetching_ip_control_s_axi_ram(ME...
+Compiling module xil_defaultlib.fetching_ip_control_s_axi
+Compiling module xil_defaultlib.fetching_ip
+Compiling module xil_defaultlib.AESL_axi_slave_control
+WARNING: [XSIM 43-3373] "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/AESL_axi_slave_control.v" Line 700. System function $fread is used as system task. This system function should have a LHS e.g. x=$fread().
+WARNING: [XSIM 43-3373] "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/AESL_axi_slave_control.v" Line 709. System function $fread is used as system task. This system function should have a LHS e.g. x=$fread().
+WARNING: [XSIM 43-3373] "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/AESL_axi_slave_control.v" Line 750. System function $fread is used as system task. This system function should have a LHS e.g. x=$fread().
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=4)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_fetching_ip_top
+Compiling module work.glbl
+Built simulation snapshot fetching_ip
+
+****** xsim v2022.2.2 (64-bit)
+  **** SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+  **** IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+    ** Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/fetching_ip/xsim_script.tcl
+# xsim {fetching_ip} -autoloadwcfg -tclbatch {fetching_ip.tcl}
+Time resolution is 1 ps
+source fetching_ip.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [n/a] @ "125000"
+// RTL Simulation : 1 / 1 [n/a] @ "8520615000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 8520675 ns : File "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/sim/verilog/fetching_ip.autotb.v" Line 275
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 241.410 ; gain = 16.516
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun May 21 16:03:11 2023...
+done
