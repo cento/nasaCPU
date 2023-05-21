@@ -222,8 +222,18 @@ Base instruction:
 jalr x0, x1, 0
 ```
 
-### About exporting the RTL design with Vivado HLS
+### Exporting the RTL design with Vivado HLS
 
 Vivado HLS seems not really happy about folder names with spaces. Initially I was using "exported RTL" as destination for the implementation export, but it seems despite we live in 2023, it is still very hard to handle folder so named.
 
 The quick workaround/solution was to use 'exported_rtl' to export the RTL from Vivado. The exported file is used to create the actual designe using... Vivado IDE!
+
+## The IP Design on PYNQ-Z2
+
+The board has an Arm core (also named PS or Processing System) and the programmable FPGA that will be programmed with the fetching IP created. Vivado has a nice tool that try to connect automatically the two components according to their interface/setup, AXI included.
+
+This is how the fetching IP looks like after the proper connections:
+
+![](assets/fetching_ip%20design%20scheme.png)
+
+We use Vivado not only to connect the IP, but also to crate its HDL wrapper and finally the bitstream we are going to move on the FPGA. This is where we program the FPGA.
