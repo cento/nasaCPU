@@ -164,6 +164,30 @@ This is the simplified exeution loop used for the first version of nasa-CPU.
 During _execute_ the new PC counter is calculated so it can be used by the next fetch phase.
 The entire loop continues until a specific condition (i.e. the **RET** instruction) is encounted.
 
+#### Testbench
+
+Printing the content of test_op_imm_0_text.hex will return the following output:
+
+```
+Generating csim.exe
+PC: 0000 -> Instruction: 00500593
+PC: 0004 -> Instruction: 00158613
+PC: 0008 -> Instruction: 00c67693
+PC: 0012 -> Instruction: fff68713
+PC: 0016 -> Instruction: 00576793
+PC: 0020 -> Instruction: 00c7c813
+PC: 0024 -> Instruction: 00d83893
+PC: 0028 -> Instruction: 00b83293
+PC: 0032 -> Instruction: 01c81313
+PC: 0036 -> Instruction: ff632393
+PC: 0040 -> Instruction: 7e633e13
+PC: 0044 -> Instruction: 01c35e93
+PC: 0048 -> Instruction: 41c35f13
+PC: 0052 -> Instruction: 00008067
+done
+```
+
+
 ### HLS Interface
 
 The ``fetching_ip()`` top function uses the [AXI](https://developer.arm.com/documentation/ihi0022/latest/) interface [in HLS](https://docs.xilinx.com/r/en-US/ug1399-vitis-hls/pragma-HLS-interface) for the connection with the "outer world". AXI is a simple and powerful protocol, and this pragma is used to connect the FPGA core with the ARM core, indeed is can be used only by top-level function.
