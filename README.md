@@ -149,6 +149,12 @@ An instruction set is, at the very end, just a set of rules that hardware and so
 
 The development board used for the experiments is the [PYNQ-Z2](https://www.xilinx.com/support/university/xup-boards/XUPPYNQ-Z2.html). 
 
+To source the HLS project, run the tcl build script from Vitis HLS console:
+
+```
+source nasa-CPU\HLS\fetching_ip\solution1\script.tcl
+```
+
 ### The Critical Path
 
 This is the simplified exeution loop used for the first version of nasa-CPU.
