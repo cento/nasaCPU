@@ -42,9 +42,29 @@
 			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/.tcls</location>
 		</link>
 		<link>
-			<name>source/fetchin_ip.h</name>
+			<name>source/debug_fetch.h</name>
 			<type>1</type>
-			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/src/fetchin_ip.h</location>
+			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/src/debug_fetch.h</location>
+		</link>
+		<link>
+			<name>source/execute.cpp</name>
+			<type>1</type>
+			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/src/execute.cpp</location>
+		</link>
+		<link>
+			<name>source/execute.h</name>
+			<type>1</type>
+			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/src/execute.h</location>
+		</link>
+		<link>
+			<name>source/fetch.cpp</name>
+			<type>1</type>
+			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/src/fetch.cpp</location>
+		</link>
+		<link>
+			<name>source/fetch.h</name>
+			<type>1</type>
+			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/src/fetch.h</location>
 		</link>
 		<link>
 			<name>source/fetching_ip.cpp</name>
@@ -52,9 +72,19 @@
 			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/src/fetching_ip.cpp</location>
 		</link>
 		<link>
-			<name>source/typedefs.h</name>
+			<name>source/fetching_ip.h</name>
 			<type>1</type>
-			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/src/typedefs.h</location>
+			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/src/fetching_ip.h</location>
+		</link>
+		<link>
+			<name>source/running_cond_update.cpp</name>
+			<type>1</type>
+			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/src/running_cond_update.cpp</location>
+		</link>
+		<link>
+			<name>source/running_cond_update.h</name>
+			<type>1</type>
+			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/src/running_cond_update.h</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>

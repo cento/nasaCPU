@@ -172,3 +172,20 @@ The ``fetching_ip()`` top function uses the [AXI](https://developer.arm.com/docu
 #pragma HLS INTERFACE mode=s_axilite port=<connection name>
 ```
 
+### Pseudoinstructions used
+
+Official reference [here](https://github.com/riscv-non-isa/riscv-asm-manual/blob/master/riscv-asm.md).
+
+#### RET 
+
+Return from subroutine.
+
+```c++
+#define RET               0x8067
+```
+
+Base instruction:
+
+```assembly
+jalr x0, x1, 0
+```

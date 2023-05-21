@@ -5,9 +5,15 @@
 ############################################################
 open_project fetching_ip
 set_top fetching_ip
-add_files src/fetchin_ip.h
+add_files src/debug_fetch.h
+add_files src/execute.cpp
+add_files src/execute.h
+add_files src/fetch.cpp
+add_files src/fetch.h
 add_files src/fetching_ip.cpp
-add_files src/typedefs.h
+add_files src/fetching_ip.h
+add_files src/running_cond_update.cpp
+add_files src/running_cond_update.h
 open_solution "solution1" -flow_target vivado
 set_part {xc7z020clg400-1}
 create_clock -period 10 -name default

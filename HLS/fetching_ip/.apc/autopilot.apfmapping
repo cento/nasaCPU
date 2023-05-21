@@ -2,8 +2,14 @@
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
     <originFiles name="fetching_ip.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\fetching_ip.cpp"/>
-    <originFiles name="typedefs.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\typedefs.h"/>
-    <originFiles name="fetchin_ip.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\fetchin_ip.h"/>
+    <originFiles name="fetching_ip.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\fetching_ip.h"/>
+    <originFiles name="running_cond_update.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\running_cond_update.h"/>
+    <originFiles name="running_cond_update.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\running_cond_update.cpp"/>
+    <originFiles name="fetch.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\fetch.h"/>
+    <originFiles name="fetch.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\fetch.cpp"/>
+    <originFiles name="debug_fetch.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\debug_fetch.h"/>
+    <originFiles name="execute.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\execute.h"/>
+    <originFiles name="execute.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\src\execute.cpp"/>
   </source>
   <testbench/>
 </autopilotfilemapping:AutoPilotFileMapping>
