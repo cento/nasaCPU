@@ -1,0 +1,7 @@
+
+HLS/fetching_ip/solution1/.autopilot/
+HLS/fetching_ip/solution1/csim/build/
+HLS/fetching_ip/solution1/csim/report/fetching_ip_csim.log
+HLS/fetching_ip/solution1/*.log
+HLS/fetching_ip/.vitis_hls_log_all.xml
+HLS/vitis_hls.log
