@@ -7,4 +7,5 @@ vitis_workspace_z2_fetching_ip/.metadata/.log
 vitis_workspace_z2_fetching_ip/.metadata/.log
 vitis_workspace_z2_fetching_ip/.analytics
 *.log
-*.log
+**/.log
+vitis_workspace_z2_fetching_ip/.metadata/.plugins/org.eclipse.core.resources/.history/*

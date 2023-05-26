@@ -199,3 +199,106 @@ con
 
 20:47:04 INFO  : Launch script is exported to file 'C:\Users\monde\Documents\GitHub\nasa-CPU\vitis_workspace_z2_fetching_ip\z2_fetching_ip_00_system\_ide\scripts\systemdebugger_z2_fetching_ip_00_system_standalone.tcl'
 20:47:25 INFO  : Checking for BSP changes to sync application flags for project 'z2_fetching_ip_00'...
+21:47:09 DEBUG : Logs will be stored at 'C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/IDE.log'.
+21:47:10 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\monde\Documents\GitHub\nasa-CPU\vitis_workspace_z2_fetching_ip\temp_xsdb_launch_script.tcl
+21:47:22 INFO  : Platform repository initialization has completed.
+21:47:23 INFO  : Registering command handlers for Vitis TCF services
+21:47:25 INFO  : XSCT server has started successfully.
+21:47:25 INFO  : Successfully done setting XSCT server connection channel  
+21:47:33 INFO  : plnx-install-location is set to ''
+21:47:33 INFO  : Successfully done setting workspace for the tool. 
+21:47:33 INFO  : Successfully done query RDI_DATADIR 
+21:50:08 INFO  : Result from executing command 'getProjects': design_1_wrapper
+21:50:08 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+21:50:09 INFO  : Checking for BSP changes to sync application flags for project 'z2_fetching_ip_00'...
+21:51:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:51:59 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+21:51:59 INFO  : 'jtag frequency' command is executed.
+21:51:59 INFO  : Context for 'APU' is selected.
+21:51:59 INFO  : System reset is completed.
+21:52:02 INFO  : 'after 3000' command is executed.
+21:52:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+21:52:05 INFO  : Device configured successfully with "C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/z2_fetching_ip_00/_ide/bitstream/design_1_wrapper.bit"
+21:52:05 INFO  : Context for 'APU' is selected.
+21:52:05 INFO  : Hardware design and registers information is loaded from 'C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+21:52:05 INFO  : 'configparams force-mem-access 1' command is executed.
+21:52:05 INFO  : Context for 'APU' is selected.
+21:52:06 INFO  : Sourcing of 'C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/z2_fetching_ip_00/_ide/psinit/ps7_init.tcl' is done.
+21:52:07 INFO  : 'ps7_init' command is executed.
+21:52:07 INFO  : 'ps7_post_config' command is executed.
+21:52:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:52:08 INFO  : The application 'C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/z2_fetching_ip_00/Debug/z2_fetching_ip_00.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:52:08 INFO  : 'configparams force-mem-access 0' command is executed.
+21:52:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/z2_fetching_ip_00/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/z2_fetching_ip_00/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/z2_fetching_ip_00/Debug/z2_fetching_ip_00.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:52:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:52:09 INFO  : 'con' command is executed.
+21:52:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:52:09 INFO  : Launch script is exported to file 'C:\Users\monde\Documents\GitHub\nasa-CPU\vitis_workspace_z2_fetching_ip\z2_fetching_ip_00_system\_ide\scripts\systemdebugger_z2_fetching_ip_00_system_standalone.tcl'
+21:52:36 INFO  : Disconnected from the channel tcfchan#3.
+21:52:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:52:37 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+21:52:37 INFO  : 'jtag frequency' command is executed.
+21:52:37 INFO  : Context for 'APU' is selected.
+21:52:37 INFO  : System reset is completed.
+21:52:40 INFO  : 'after 3000' command is executed.
+21:52:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+21:52:42 INFO  : Device configured successfully with "C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/z2_fetching_ip_00/_ide/bitstream/design_1_wrapper.bit"
+21:52:42 INFO  : Context for 'APU' is selected.
+21:52:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+21:52:42 INFO  : 'configparams force-mem-access 1' command is executed.
+21:52:43 INFO  : Context for 'APU' is selected.
+21:52:43 INFO  : Sourcing of 'C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/z2_fetching_ip_00/_ide/psinit/ps7_init.tcl' is done.
+21:52:44 INFO  : 'ps7_init' command is executed.
+21:52:44 INFO  : 'ps7_post_config' command is executed.
+21:52:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:52:45 INFO  : The application 'C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/z2_fetching_ip_00/Debug/z2_fetching_ip_00.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:52:45 INFO  : 'configparams force-mem-access 0' command is executed.
+21:52:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/z2_fetching_ip_00/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/z2_fetching_ip_00/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/z2_fetching_ip_00/Debug/z2_fetching_ip_00.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:52:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:52:45 INFO  : 'con' command is executed.
+21:52:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:52:45 INFO  : Launch script is exported to file 'C:\Users\monde\Documents\GitHub\nasa-CPU\vitis_workspace_z2_fetching_ip\z2_fetching_ip_00_system\_ide\scripts\systemdebugger_z2_fetching_ip_00_system_standalone.tcl'

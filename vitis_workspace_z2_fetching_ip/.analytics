@@ -7,3 +7,9 @@ timestamp=[2023-05-26 20:42:19], mode=BUILD, duration=0:00:08.982, duration_ms=8
 timestamp=[2023-05-26 20:42:38], mode=BUILD, duration=0:00:17.413, duration_ms=17413, data={name=z2_fetching_ip_00_system, configuration=Debug, clean_build=false}
 timestamp=[2023-05-26 20:47:28], mode=BUILD, duration=0:00:02.837, duration_ms=2837, data={name=z2_fetching_ip_00, configuration=Debug, clean_build=false}
 timestamp=[2023-05-26 20:47:50], mode=BUILD, duration=0:00:20.103, duration_ms=20103, data={name=z2_fetching_ip_00_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 21:47:17], mode=WORKBENCH_START, duration=0:00:22.408, duration_ms=22408, data={}
+timestamp=[2023-05-26 21:47:20], mode=WORKBENCH_UI_INIT, duration=0:00:02.648, duration_ms=2648, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,z2_fetching_ip_00,z2_fetching_ip_00_system}
+timestamp=[2023-05-26 21:47:22], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.298, duration_ms=298, data={}
+timestamp=[2023-05-26 21:50:09], mode=PLATFORM_GENERATION, duration=0:00:41.923, duration_ms=41923, data={name=design_1_wrapper}
+timestamp=[2023-05-26 21:50:23], mode=BUILD, duration=0:00:05.005, duration_ms=5005, data={name=z2_fetching_ip_00, configuration=Debug, clean_build=false}
+timestamp=[2023-05-26 21:50:39], mode=BUILD, duration=0:00:15.668, duration_ms=15668, data={name=z2_fetching_ip_00_system, configuration=Debug, clean_build=false}
