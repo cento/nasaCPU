@@ -244,7 +244,7 @@ I am using Vitis IDE. A new project is created starting from the XSA (bitstream)
 
 ## Decoder
 
-According to the RV32I spec, the 32 instructions are encoded in the 5 bits of the opcode ``INSTRUCTION[2-6]``. Bernard suggest to implement the decoder using 4 mux in cascade for the bits 2-4 , followed bu a mux driven by bits 5 and 6. 
+According to the RV32I spec, the 32 instructions are encoded in the 5 bits of the opcode ``INSTRUCTION[2-6]``. Goossens suggests to implement the decoder using 4 mux in cascade for the bits 2-4 , followed bu a mux driven by bits 5 and 6. 
 
 ![](assets/decoder.png)
 
