@@ -7,3 +7,8 @@
 19:59:05 INFO  : plnx-install-location is set to ''
 19:59:05 INFO  : Successfully done query RDI_DATADIR 
 19:59:05 INFO  : Successfully done setting workspace for the tool. 
+20:12:30 INFO  : Result from executing command 'getProjects': design_1_wrapper
+20:12:31 INFO  : Result from executing command 'getPlatforms': 
+20:12:31 WARN  : An unexpected exception occurred in the module 'platform project logging'
+20:12:31 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+20:13:09 INFO  : Platform 'design_1_wrapper' is added to custom repositories.

@@ -237,3 +237,7 @@ This is how the fetching IP looks like after the proper connections:
 ![](assets/fetching_ip%20design%20scheme.png)
 
 We use Vivado not only to connect the IP, but also to crate its HDL wrapper and finally the bitstream we are going to move on the FPGA. This is where we program the FPGA.
+
+## Running the exported bitstream on the FPGA
+
+I am using Vitis IDE. A new project is created starting from the XSA (bitstream) generated before. Vitis offers a classic hello_word example useful to test if the board works, the connections are ok and if everything is ready for our *fetching_ip*.
