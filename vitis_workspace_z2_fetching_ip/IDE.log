@@ -1,0 +1,9 @@
+19:58:39 DEBUG : Logs will be stored at 'C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/IDE.log'.
+19:58:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\monde\Documents\GitHub\nasa-CPU\vitis_workspace_z2_fetching_ip\temp_xsdb_launch_script.tcl
+19:58:47 INFO  : Platform repository initialization has completed.
+19:58:48 INFO  : Registering command handlers for Vitis TCF services
+19:58:56 INFO  : XSCT server has started successfully.
+19:59:05 INFO  : Successfully done setting XSCT server connection channel  
+19:59:05 INFO  : plnx-install-location is set to ''
+19:59:05 INFO  : Successfully done query RDI_DATADIR 
+19:59:05 INFO  : Successfully done setting workspace for the tool. 
