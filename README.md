@@ -241,3 +241,11 @@ We use Vivado not only to connect the IP, but also to crate its HDL wrapper and 
 ## Running the exported bitstream on the FPGA
 
 I am using Vitis IDE. A new project is created starting from the XSA (bitstream) generated before. Vitis offers a classic hello_word example useful to test if the board works, the connections are ok and if everything is ready for our *fetching_ip*.
+
+## Decoder
+
+According to the RV32I spec, the 32 instructions are encoded in the 5 bits of the opcode ``INSTRUCTION[2-6]``. Bernard suggest to implement the decoder using 4 mux in cascade for the bits 2-4 , followed bu a mux driven by bits 5 and 6. 
+
+![](assets/decoder.png)
+
+At this stage we don't have much concerns regarding the timing of the two set of multiplexer in cascade, and this approach should be easly optimized by Vivado.
