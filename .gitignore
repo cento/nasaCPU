@@ -4,3 +4,7 @@ HLS/fetching_ip/solution1/*.log
 HLS/fetching_ip/.vitis_hls_log_all.xml
 HLS/vitis_hls.log
 vitis_workspace_z2_fetching_ip/.metadata/.log
+vitis_workspace_z2_fetching_ip/.metadata/.log
+vitis_workspace_z2_fetching_ip/.analytics
+*.log
+*.log

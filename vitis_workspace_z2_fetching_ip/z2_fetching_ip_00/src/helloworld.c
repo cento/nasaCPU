@@ -54,8 +54,8 @@ int main()
 {
     init_platform();
 
-    print("Hello World\n\r");
-    print("Successfully ran Hello World application");
+    print("\nHello World\n\r");
+    print("Successfully ran Hello World application\n");
     cleanup_platform();
     return 0;
 }
