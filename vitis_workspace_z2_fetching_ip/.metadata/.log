@@ -6708,3 +6708,9 @@ java.lang.Error
 
 !ENTRY com.xilinx.sdk.utils 1 0 2023-05-27 17:57:24.554
 !MESSAGE Tool usage for 'SDX_BUILD' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-27 21:02:25.579
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-196
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-27 21:02:25.752
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-196
