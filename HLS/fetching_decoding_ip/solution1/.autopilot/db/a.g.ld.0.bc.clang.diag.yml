@@ -1,0 +1,2194 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 215, Column: 76 }
+Function:        _ZN11ap_int_baseILi16ELb0EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ssdm_int<16, false>::ssdm_int(unsigned short)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<16, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi16EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<16, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<16>::ap_uint(unsigned int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/fetch.cpp, Line: 16, 
+                   Column: 26 }
+Function:        _Z5fetch7ap_uintILi16EEPjS1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<16, false>::operator unsigned long long() const'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'fetch(ap_uint<16>, unsigned int*, unsigned int*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/fetch.cpp, Line: 13, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 215, Column: 76 }
+Function:        _ZN11ap_int_baseILi5ELb0EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi5ELb0EEC2EDq5_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<5, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi5EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<5, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<5>::ap_uint(unsigned int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 215, Column: 76 }
+Function:        _ZN11ap_int_baseILi3ELb0EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi3ELb0EEC2EDq3_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<3, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi3EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<3, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<3>::ap_uint(unsigned int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 215, Column: 76 }
+Function:        _ZN11ap_int_baseILi7ELb0EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi7ELb0EEC2EDq7_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<7, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi7EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<7, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<7>::ap_uint(unsigned int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi5ELb0EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi5ELb0EEC2EDq5_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<5, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1669, Column: 558 }
+Function:        _ZrsILi5ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT_EXT0_EE4arg1ERKS1_i
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<5, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<5, false>::RType<5, false>::arg1 operator>><5, false>(ap_int_base<5, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi2ELb0EEC2ILi5ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi2ELb0EEC2EDq2_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<2, false>::ap_int_base<5, false>(ap_int_base<5, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi2EEC2ILi5EEERKS_IXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<2, false>::ap_int_base<5, false>(ap_int_base<5, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<2>::ap_uint<5>(ap_uint<5> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi3ELb0EEC2ILi5ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi3ELb0EEC2EDq3_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<3, false>::ap_int_base<5, false>(ap_int_base<5, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi3EEC2ILi5EEERKS_IXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<3, false>::ap_int_base<5, false>(ap_int_base<5, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<3>::ap_uint<5>(ap_uint<5> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi3ELb0EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi3ELb0EEC2EDq3_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<3, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi3EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<3, false>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<3>::ap_uint(int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 6, Column: 9 }
+Function:        _ZL7type_007ap_uintILi3EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<3, false>::operator unsigned long long() const'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'type_00(ap_uint<3>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 4, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 21, Column: 9 }
+Function:        _ZL7type_017ap_uintILi3EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<3, false>::operator unsigned long long() const'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'type_01(ap_uint<3>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 19, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 36, Column: 9 }
+Function:        _ZL7type_107ap_uintILi3EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<3, false>::operator unsigned long long() const'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'type_10(ap_uint<3>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 34, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 51, Column: 9 }
+Function:        _ZL7type_117ap_uintILi3EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<3, false>::operator unsigned long long() const'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'type_11(ap_uint<3>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 49, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 69, Column: 16 }
+Function:        _Z4type7ap_uintILi5EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<5, false>::RType<5, false>::arg1 operator>><5, false>(ap_int_base<5, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'type(ap_uint<5>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 64, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 76, Column: 23 }
+Function:        _Z4type7ap_uintILi5EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'type_11(ap_uint<3>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 49, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'type(ap_uint<5>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 64, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 75, Column: 23 }
+Function:        _Z4type7ap_uintILi5EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'type_10(ap_uint<3>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 34, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'type(ap_uint<5>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 64, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 74, Column: 23 }
+Function:        _Z4type7ap_uintILi5EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'type_01(ap_uint<3>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 19, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'type(ap_uint<5>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 64, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 73, Column: 23 }
+Function:        _Z4type7ap_uintILi5EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'type_00(ap_uint<3>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 4, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'type(ap_uint<5>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 64, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 72, Column: 10 }
+Function:        _Z4type7ap_uintILi5EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<2, false>::operator unsigned long long() const'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'type(ap_uint<5>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 64, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 22, 
+                   Column: 15 }
+Function:        _ZL18decode_instructionjP21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'type(ap_uint<5>)'
+    DebugLoc:        { File: fetching_decoding_ip/src/type.cpp, Line: 64, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'decode_instruction(unsigned int, decoded_instruction_s*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 14, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 215, Column: 76 }
+Function:        _ZN11ap_int_baseILi1ELb0EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi1ELb0EEC2EDq1_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<1, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi1EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<1, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<1>::ap_uint(unsigned int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 215, Column: 76 }
+Function:        _ZN11ap_int_baseILi6ELb0EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi6ELb0EEC2EDq6_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<6, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi6EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<6, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<6>::ap_uint(unsigned int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 215, Column: 76 }
+Function:        _ZN11ap_int_baseILi4ELb0EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi4ELb0EEC2EDq4_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<4, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi4EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<4, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<4>::ap_uint(unsigned int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 215, Column: 76 }
+Function:        _ZN11ap_int_baseILi8ELb0EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ssdm_int<8, false>::ssdm_int(unsigned char)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<8, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi8EEC2Ej
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<8, false>::ap_int_base(unsigned int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 215, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<8>::ap_uint(unsigned int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi20ELb1EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi20ELb1EEC2EDq20_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<20, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN6ap_intILi20EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int<20>::ap_int(int)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi12ELb1EEC2ILi1ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi12ELb1EEC2EDq12_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<12, true>::ap_int_base<1, false>(ap_int_base<1, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN6ap_intILi12EEC2ILi1EEERK7ap_uintIXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::ap_int_base<1, false>(ap_int_base<1, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int<12>::ap_int<1>(ap_uint<1> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi12ELb1EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi12ELb1EEC2EDq12_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<12, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1669, Column: 228 }
+Function:        _ZlsILi12ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT_EXT0_EE4arg1ERKS1_i
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<12, true>::RType<12, true>::arg1 operator<<<12, true>(ap_int_base<12, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi12ELb1EEC2ILi6ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi12ELb1EEC2EDq12_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<12, true>::ap_int_base<6, false>(ap_int_base<6, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN6ap_intILi12EEC2ILi6EEERK7ap_uintIXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::ap_int_base<6, false>(ap_int_base<6, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int<12>::ap_int<6>(ap_uint<6> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1498, Column: 520 }
+Function:        _ZorILi12ELb1ELi12ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE5logicERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<12, true>::RType<12, true>::logic operator|<12, true, 12, true>(ap_int_base<12, true> const&, ap_int_base<12, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi12ELb1EEC2ILi4ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi12ELb1EEC2EDq12_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<12, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN6ap_intILi12EEC2ILi4EEERK7ap_uintIXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int<12>::ap_int<4>(ap_uint<4> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 7, 
+                   Column: 48 }
+Function:        _Z11i_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::logic operator|<12, true, 12, true>(ap_int_base<12, true> const&, ap_int_base<12, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'i_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 3, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 6, 
+                   Column: 48 }
+Function:        _Z11i_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::logic operator|<12, true, 12, true>(ap_int_base<12, true> const&, ap_int_base<12, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'i_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 3, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 7, 
+                   Column: 42 }
+Function:        _Z11i_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::arg1 operator<<<12, true>(ap_int_base<12, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'i_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 3, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 5, 
+                   Column: 46 }
+Function:        _Z11i_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::logic operator|<12, true, 12, true>(ap_int_base<12, true> const&, ap_int_base<12, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'i_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 3, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 6, 
+                   Column: 42 }
+Function:        _Z11i_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::arg1 operator<<<12, true>(ap_int_base<12, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'i_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 3, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 5, 
+                   Column: 40 }
+Function:        _Z11i_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::arg1 operator<<<12, true>(ap_int_base<12, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'i_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 3, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi20ELb1EEC2ILi12ELb1EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi20ELb1EEC2EDq20_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<20, true>::ap_int_base<12, true>(ap_int_base<12, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN6ap_intILi20EEC2ILi12EEERKS_IXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::ap_int_base<12, true>(ap_int_base<12, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int<20>::ap_int<12>(ap_int<12> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 15, 
+                   Column: 48 }
+Function:        _Z11s_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::logic operator|<12, true, 12, true>(ap_int_base<12, true> const&, ap_int_base<12, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          's_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 11, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 14, 
+                   Column: 48 }
+Function:        _Z11s_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::logic operator|<12, true, 12, true>(ap_int_base<12, true> const&, ap_int_base<12, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          's_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 11, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 15, 
+                   Column: 42 }
+Function:        _Z11s_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::arg1 operator<<<12, true>(ap_int_base<12, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          's_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 11, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 13, 
+                   Column: 46 }
+Function:        _Z11s_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::logic operator|<12, true, 12, true>(ap_int_base<12, true> const&, ap_int_base<12, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          's_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 11, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 14, 
+                   Column: 42 }
+Function:        _Z11s_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::arg1 operator<<<12, true>(ap_int_base<12, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          's_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 11, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 13, 
+                   Column: 40 }
+Function:        _Z11s_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::arg1 operator<<<12, true>(ap_int_base<12, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          's_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 11, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 23, 
+                   Column: 48 }
+Function:        _Z11b_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::logic operator|<12, true, 12, true>(ap_int_base<12, true> const&, ap_int_base<12, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'b_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 19, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 22, 
+                   Column: 45 }
+Function:        _Z11b_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::logic operator|<12, true, 12, true>(ap_int_base<12, true> const&, ap_int_base<12, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'b_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 19, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 23, 
+                   Column: 42 }
+Function:        _Z11b_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::arg1 operator<<<12, true>(ap_int_base<12, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'b_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 19, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 21, 
+                   Column: 46 }
+Function:        _Z11b_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::logic operator|<12, true, 12, true>(ap_int_base<12, true> const&, ap_int_base<12, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'b_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 19, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 22, 
+                   Column: 39 }
+Function:        _Z11b_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::arg1 operator<<<12, true>(ap_int_base<12, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'b_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 19, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 21, 
+                   Column: 40 }
+Function:        _Z11b_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<12, true>::RType<12, true>::arg1 operator<<<12, true>(ap_int_base<12, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'b_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 19, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi20ELb1EEC2ILi1ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi20ELb1EEC2EDq20_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<20, true>::ap_int_base<1, false>(ap_int_base<1, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN6ap_intILi20EEC2ILi1EEERK7ap_uintIXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::ap_int_base<1, false>(ap_int_base<1, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int<20>::ap_int<1>(ap_uint<1> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1669, Column: 228 }
+Function:        _ZlsILi20ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT_EXT0_EE4arg1ERKS1_i
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<20, true>::RType<20, true>::arg1 operator<<<20, true>(ap_int_base<20, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi20ELb1EEC2ILi6ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi20ELb1EEC2EDq20_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<20, true>::ap_int_base<6, false>(ap_int_base<6, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN6ap_intILi20EEC2ILi6EEERK7ap_uintIXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::ap_int_base<6, false>(ap_int_base<6, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int<20>::ap_int<6>(ap_uint<6> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1498, Column: 520 }
+Function:        _ZorILi20ELb1ELi20ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE5logicERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<20, true>::RType<20, true>::logic operator|<20, true, 20, true>(ap_int_base<20, true> const&, ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi20ELb1EEC2ILi4ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi20ELb1EEC2EDq20_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<20, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN6ap_intILi20EEC2ILi4EEERK7ap_uintIXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::ap_int_base<4, false>(ap_int_base<4, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int<20>::ap_int<4>(ap_uint<4> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi20ELb1EEC2ILi8ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi20ELb1EEC2EDq20_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<20, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN6ap_intILi20EEC2ILi8EEERK7ap_uintIXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::ap_int_base<8, false>(ap_int_base<8, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int<20>::ap_int<8>(ap_uint<8> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 32, 
+                   Column: 46 }
+Function:        _Z11u_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::logic operator|<20, true, 20, true>(ap_int_base<20, true> const&, ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'u_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 31, 
+                   Column: 48 }
+Function:        _Z11u_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::logic operator|<20, true, 20, true>(ap_int_base<20, true> const&, ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'u_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 32, 
+                   Column: 40 }
+Function:        _Z11u_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::arg1 operator<<<20, true>(ap_int_base<20, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'u_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 30, 
+                   Column: 48 }
+Function:        _Z11u_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::logic operator|<20, true, 20, true>(ap_int_base<20, true> const&, ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'u_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 31, 
+                   Column: 42 }
+Function:        _Z11u_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::arg1 operator<<<20, true>(ap_int_base<20, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'u_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 29, 
+                   Column: 46 }
+Function:        _Z11u_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::logic operator|<20, true, 20, true>(ap_int_base<20, true> const&, ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'u_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 30, 
+                   Column: 42 }
+Function:        _Z11u_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::arg1 operator<<<20, true>(ap_int_base<20, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'u_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 29, 
+                   Column: 40 }
+Function:        _Z11u_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::arg1 operator<<<20, true>(ap_int_base<20, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'u_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 40, 
+                   Column: 48 }
+Function:        _Z11j_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::logic operator|<20, true, 20, true>(ap_int_base<20, true> const&, ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'j_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 35, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 39, 
+                   Column: 46 }
+Function:        _Z11j_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::logic operator|<20, true, 20, true>(ap_int_base<20, true> const&, ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'j_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 35, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 40, 
+                   Column: 42 }
+Function:        _Z11j_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::arg1 operator<<<20, true>(ap_int_base<20, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'j_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 35, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 38, 
+                   Column: 48 }
+Function:        _Z11j_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::logic operator|<20, true, 20, true>(ap_int_base<20, true> const&, ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'j_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 35, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 39, 
+                   Column: 40 }
+Function:        _Z11j_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::arg1 operator<<<20, true>(ap_int_base<20, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'j_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 35, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 37, 
+                   Column: 46 }
+Function:        _Z11j_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::logic operator|<20, true, 20, true>(ap_int_base<20, true> const&, ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1498, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'j_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 35, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 38, 
+                   Column: 42 }
+Function:        _Z11j_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::arg1 operator<<<20, true>(ap_int_base<20, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'j_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 35, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 37, 
+                   Column: 40 }
+Function:        _Z11j_immediate19decoded_immediate_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::arg1 operator<<<20, true>(ap_int_base<20, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'j_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 35, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 44, 
+                   Column: 24 }
+Function:        _ZL16decode_immediatejP21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'j_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 35, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'decode_immediate(unsigned int, decoded_instruction_s*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 43, 
+                   Column: 24 }
+Function:        _ZL16decode_immediatejP21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'u_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'decode_immediate(unsigned int, decoded_instruction_s*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 42, 
+                   Column: 24 }
+Function:        _ZL16decode_immediatejP21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'b_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 19, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'decode_immediate(unsigned int, decoded_instruction_s*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 41, 
+                   Column: 24 }
+Function:        _ZL16decode_immediatejP21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          's_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 11, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'decode_immediate(unsigned int, decoded_instruction_s*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 40, 
+                   Column: 24 }
+Function:        _ZL16decode_immediatejP21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'i_immediate(decoded_immediate_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/immediate.cpp, Line: 3, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'decode_immediate(unsigned int, decoded_instruction_s*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 37, 
+                   Column: 10 }
+Function:        _ZL16decode_immediatejP21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<3, false>::operator unsigned long long() const'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'decode_immediate(unsigned int, decoded_instruction_s*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 54, 
+                   Column: 2 }
+Function:        _Z6decodejP21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'decode_instruction(unsigned int, decoded_instruction_s*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 14, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'decode(unsigned int, decoded_instruction_s*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 51, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 55, 
+                   Column: 3 }
+Function:        _Z6decodejP21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'decode_immediate(unsigned int, decoded_instruction_s*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 27, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'decode(unsigned int, decoded_instruction_s*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/decode.cpp, Line: 51, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi32ELb1EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ssdm_int<32, true>::ssdm_int(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<32, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi33ELb1EEC2ILi16ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi33ELb1EEC2EDq33_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<33, true>::ap_int_base<16, false>(ap_int_base<16, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi33ELb1EEC2ILi32ELb1EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi33ELb1EEC2EDq33_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<33, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi33ELb1EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi33ELb1EEC2EDq33_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<33, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 339 }
+Function:        _ZplILi16ELb0ELi32ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<33, true>::ap_int_base<16, false>(ap_int_base<16, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<16, false>::RType<32, true>::plus operator+<16, false, 32, true>(ap_int_base<16, false> const&, ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 516 }
+Function:        _ZplILi16ELb0ELi32ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<33, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<16, false>::RType<32, true>::plus operator+<16, false, 32, true>(ap_int_base<16, false> const&, ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 427 }
+Function:        _ZplILi16ELb0ELi32ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<33, true>::ap_int_base<32, true>(ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<16, false>::RType<32, true>::plus operator+<16, false, 32, true>(ap_int_base<16, false> const&, ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1633, Column: 1006 }
+Function:        '_ZplILi16ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXL3$_032EEXLb1EEE4plusERKS1_i'
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<32, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<16, false>::RType<($_0)32, true>::plus operator+<16, false>(ap_int_base<16, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1633, Column: 1004 }
+Function:        '_ZplILi16ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXL3$_032EEXLb1EEE4plusERKS1_i'
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<16, false>::RType<32, true>::plus operator+<16, false, 32, true>(ap_int_base<16, false> const&, ap_int_base<32, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<16, false>::RType<($_0)32, true>::plus operator+<16, false>(ap_int_base<16, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi16ELb0EEC2ILi33ELb1EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ssdm_int<16, false>::ssdm_int(unsigned short)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<16, false>::ap_int_base<33, true>(ap_int_base<33, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi16EEC2ILi33EEERK6ap_intIXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<16, false>::ap_int_base<33, true>(ap_int_base<33, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<16>::ap_uint<33>(ap_int<33> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1669, Column: 558 }
+Function:        _ZrsILi20ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT_EXT0_EE4arg1ERKS1_i
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<20, true>::RType<20, true>::arg1 operator>><20, true>(ap_int_base<20, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi21ELb1EEC2ILi16ELb0EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi21ELb1EEC2EDq21_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<21, true>::ap_int_base<16, false>(ap_int_base<16, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi21ELb1EEC2ILi20ELb1EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi21ELb1EEC2EDq21_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<21, true>::ap_int_base<20, true>(ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi21ELb1EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi21ELb1EEC2EDq21_i
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<21, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 339 }
+Function:        _ZplILi16ELb0ELi20ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<21, true>::ap_int_base<16, false>(ap_int_base<16, false> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<16, false>::RType<20, true>::plus operator+<16, false, 20, true>(ap_int_base<16, false> const&, ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 516 }
+Function:        _ZplILi16ELb0ELi20ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<21, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<16, false>::RType<20, true>::plus operator+<16, false, 20, true>(ap_int_base<16, false> const&, ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 1495, Column: 427 }
+Function:        _ZplILi16ELb0ELi20ELb1EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT1_EXT2_EE4plusERKS1_RKS0_IXT1_EXT2_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<21, true>::ap_int_base<20, true>(ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<16, false>::RType<20, true>::plus operator+<16, false, 20, true>(ap_int_base<16, false> const&, ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 185, Column: 106 }
+Function:        _ZN11ap_int_baseILi16ELb0EEC2ILi21ELb1EEERKS_IXT_EXT0_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ssdm_int<16, false>::ssdm_int(unsigned short)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<16, false>::ap_int_base<21, true>(ap_int_base<21, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi16EEC2ILi21EEERK6ap_intIXT_EE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<16, false>::ap_int_base<21, true>(ap_int_base<21, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 185, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<16>::ap_uint<21>(ap_int<21> const&)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 8, 
+                   Column: 10 }
+Function:        _Z15compute_next_pc7ap_uintILi16EE21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<3, false>::operator unsigned long long() const'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'compute_next_pc(ap_uint<16>, decoded_instruction_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 5, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 28, 
+                   Column: 20 }
+Function:        _Z15compute_next_pc7ap_uintILi16EE21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<16, false>::RType<($_0)32, true>::plus operator+<16, false>(ap_int_base<16, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'compute_next_pc(ap_uint<16>, decoded_instruction_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 5, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 25, 
+                   Column: 20 }
+Function:        _Z15compute_next_pc7ap_uintILi16EE21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<16, false>::RType<20, true>::plus operator+<16, false, 20, true>(ap_int_base<16, false> const&, ap_int_base<20, true> const&)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1495, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'compute_next_pc(ap_uint<16>, decoded_instruction_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 5, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 25, 
+                   Column: 30 }
+Function:        _Z15compute_next_pc7ap_uintILi16EE21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<20, true>::RType<20, true>::arg1 operator>><20, true>(ap_int_base<20, true> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1669, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'compute_next_pc(ap_uint<16>, decoded_instruction_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 5, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 22, 
+                   Column: 20 }
+Function:        _Z15compute_next_pc7ap_uintILi16EE21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<16, false>::RType<($_0)32, true>::plus operator+<16, false>(ap_int_base<16, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'compute_next_pc(ap_uint<16>, decoded_instruction_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 5, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 19, 
+                   Column: 20 }
+Function:        _Z15compute_next_pc7ap_uintILi16EE21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<16, false>::RType<($_0)32, true>::plus operator+<16, false>(ap_int_base<16, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'compute_next_pc(ap_uint<16>, decoded_instruction_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 5, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 16, 
+                   Column: 20 }
+Function:        _Z15compute_next_pc7ap_uintILi16EE21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<16, false>::RType<($_0)32, true>::plus operator+<16, false>(ap_int_base<16, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'compute_next_pc(ap_uint<16>, decoded_instruction_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 5, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 13, 
+                   Column: 20 }
+Function:        _Z15compute_next_pc7ap_uintILi16EE21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<16, false>::RType<($_0)32, true>::plus operator+<16, false>(ap_int_base<16, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'compute_next_pc(ap_uint<16>, decoded_instruction_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 5, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 10, 
+                   Column: 20 }
+Function:        _Z15compute_next_pc7ap_uintILi16EE21decoded_instruction_s
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<16, false>::RType<($_0)32, true>::plus operator+<16, false>(ap_int_base<16, false> const&, int)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 1633, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'compute_next_pc(ap_uint<16>, decoded_instruction_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 5, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 39, 
+                   Column: 13 }
+Function:        _Z7execute7ap_uintILi16EE21decoded_instruction_sPS0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'compute_next_pc(ap_uint<16>, decoded_instruction_s)'
+    DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 5, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'execute(ap_uint<16>, decoded_instruction_s, ap_uint<16>*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/execute.cpp, Line: 37, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 208, Column: 68 }
+Function:        _ZN11ap_int_baseILi1ELb0EEC2Eb
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi1ELb0EEC2EDq1_j
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 523, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<1, false>::ap_int_base(bool)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 208, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN7ap_uintILi1EEC2Eb
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<1, false>::ap_int_base(bool)'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 208, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_uint<1>::ap_uint(bool)'
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: fetching_decoding_ip/src/fetching_decoding_ip.cpp, 
+                   Line: 38, Column: 12 }
+Function:        _Z20fetching_decoding_ipjPjS_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<1, false>::operator unsigned long long() const'
+    DebugLoc:        { File: 'C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 541, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'fetching_decoding_ip(unsigned int, unsigned int*, unsigned int*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/fetching_decoding_ip.cpp, 
+                       Line: 11, Column: 0 }
+  - String:          ''''
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: fetching_decoding_ip/src/fetching_decoding_ip.cpp, 
+                   Line: 29, Column: 20 }
+Function:        _Z20fetching_decoding_ipjPjS_
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_29_1
+  - String:          ' '
+  - LoopLoc:         'fetching_decoding_ip/src/fetching_decoding_ip.cpp:29:20'
+  - String:          ' '
+  - Function:        'fetching_decoding_ip(unsigned int, unsigned int*, unsigned int*)'
+    DebugLoc:        { File: fetching_decoding_ip/src/fetching_decoding_ip.cpp, 
+                       Line: 11, Column: 0 }
+  - String:          ' '
+...
