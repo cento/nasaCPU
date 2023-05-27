@@ -379,3 +379,10 @@ INFO: [SIM 1] CSim done with 0 errors.
 INFO: [SIM 3] *************** CSIM finish ***************
 ```
 
+### Timing plot
+
+Following the usual Schedule View for the three main functions: fetch, decode, execute:
+
+![](assets/fetch.png)
+![](assets/decode.png)
+![](assets/execute.png)

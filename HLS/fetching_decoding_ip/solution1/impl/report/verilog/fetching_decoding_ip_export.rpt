@@ -1,0 +1,24 @@
+
+
+Implementation tool: Xilinx Vivado v.2022.2.2
+Project:             fetching_decoding_ip
+Solution:            solution1
+Device target:       xc7z020-clg400-1
+Report date:         Sat May 27 20:08:25 +0800 2023
+
+#=== Post-Implementation Resource usage ===
+SLICE:          408
+LUT:            918
+FF:             357
+DSP:              0
+BRAM:           128
+URAM:             0
+LATCH:            0
+SRL:              0
+CLB:              0
+
+#=== Final timing ===
+CP required:                     10.000
+CP achieved post-synthesis:      5.978
+CP achieved post-implementation: 7.980
+Timing met
