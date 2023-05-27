@@ -6681,3 +6681,30 @@ java.lang.Error
 	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
 	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
 	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-27 17:56:55.066
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-50: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-27 17:56:55.141
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-50: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-27 17:56:55.146
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-50: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-27 17:56:55.169
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-50: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-05-27 17:56:55.169
+!MESSAGE Generating MD5 hash for file: C:\Users\monde\Documents\GitHub\nasa-CPU\vitis_workspace_z2_fetching_ip\design_1_wrapper\export\design_1_wrapper\sw\design_1_wrapper\standalone_ps7_cortexa9_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-27 17:56:55.176
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-50: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-27 17:56:55.185
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/monde/Documents/GitHub/nasa-CPU/vitis_workspace_z2_fetching_ip/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-50: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-05-27 17:57:24.554
+!MESSAGE Tool usage for 'SDX_BUILD' updated to '2'

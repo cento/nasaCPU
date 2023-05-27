@@ -82,11 +82,6 @@
 			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_decoding_ip/src/fetching_decoding_ip.cpp</location>
 		</link>
 		<link>
-			<name>source/fetching_decoding_ip.h</name>
-			<type>1</type>
-			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_decoding_ip/src/fetching_decoding_ip.h</location>
-		</link>
-		<link>
 			<name>source/immediate.cpp</name>
 			<type>1</type>
 			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_decoding_ip/src/immediate.cpp</location>
@@ -135,6 +130,11 @@
 			<name>source/type.h</name>
 			<type>1</type>
 			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_decoding_ip/src/type.h</location>
+		</link>
+		<link>
+			<name>testbench/testbench_fetching_decoding_ip.cpp</name>
+			<type>1</type>
+			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_decoding_ip/src/testbench_fetching_decoding_ip.cpp</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>

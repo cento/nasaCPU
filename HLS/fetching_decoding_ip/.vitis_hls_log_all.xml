@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog"/>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T18:14:47.009+0800"/>
+        <logs message="ERROR: [SIM 211-100] CSim file generation failed: compilation error(s)." projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T18:09:18.029+0800"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T18:01:15.042+0800"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <csimLog>
+        <logs message="WARNING: [HLS 200-40] Cannot find design file 'src/fetching_decoding_ip.h'" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T18:08:37.503+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find design file 'src/fetching_decoding_ip.cpp'" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T18:08:37.474+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find design file 'src/fetching_decoding_ip.h'" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T18:00:07.168+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Cannot find design file 'src/fetching_decoding_ip.cpp'" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T18:00:07.113+0800" type="Warning"/>
+      </csimLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

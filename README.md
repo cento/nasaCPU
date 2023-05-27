@@ -249,3 +249,133 @@ According to the RV32I spec, the 32 instructions are encoded in the 5 bits of th
 ![](assets/decoder.png)
 
 At this stage we don't have much concerns regarding the timing of the two set of multiplexer in cascade, and this approach should be easly optimized by Vivado.
+
+## HSL Testbench for the phase2 IP
+
+The phase2 IP is the new ip that add decoding functionalities to the previous fetching ip.
+This decoding is implementing according to the RISC-V spec, so for each 32-bit instructions the relevant _struct_ are filled with the documented fields: opcode, imm, rs, rd, etc.
+
+The testbench just print the instructions decoded, as follow:
+
+```
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../src/fetching_decoding_ip.cpp in debug mode
+   Generating csim.exe
+PC: 0 , realPC: 0000 , instruction: 00500593
+opcode:      4
+rd:          b
+func3:       0
+rs1:         0
+rs2:         5
+func7:       0
+I_TYPE
+PC: 1 , realPC: 0004 , instruction: 00158613
+opcode:      4
+rd:          c
+func3:       0
+rs1:         b
+rs2:         1
+func7:       0
+I_TYPE
+PC: 2 , realPC: 0008 , instruction: 00c67693
+opcode:      4
+rd:          d
+func3:       7
+rs1:         c
+rs2:         c
+func7:       0
+I_TYPE
+PC: 3 , realPC: 0012 , instruction: fff68713
+opcode:      4
+rd:          e
+func3:       0
+rs1:         d
+rs2:        1f
+func7:      7f
+I_TYPE
+PC: 4 , realPC: 0016 , instruction: 00576793
+opcode:      4
+rd:          f
+func3:       6
+rs1:         e
+rs2:         5
+func7:       0
+I_TYPE
+PC: 5 , realPC: 0020 , instruction: 00c7c813
+opcode:      4
+rd:         10
+func3:       4
+rs1:         f
+rs2:         c
+func7:       0
+I_TYPE
+PC: 6 , realPC: 0024 , instruction: 00d83893
+opcode:      4
+rd:         11
+func3:       3
+rs1:        10
+rs2:         d
+func7:       0
+I_TYPE
+PC: 7 , realPC: 0028 , instruction: 00b83293
+opcode:      4
+rd:          5
+func3:       3
+rs1:        10
+rs2:         b
+func7:       0
+I_TYPE
+PC: 8 , realPC: 0032 , instruction: 01c81313
+opcode:      4
+rd:          6
+func3:       1
+rs1:        10
+rs2:        1c
+func7:       0
+I_TYPE
+PC: 9 , realPC: 0036 , instruction: ff632393
+opcode:      4
+rd:          7
+func3:       2
+rs1:         6
+rs2:        16
+func7:      7f
+I_TYPE
+PC: 10 , realPC: 0040 , instruction: 7e633e13
+opcode:      4
+rd:         1c
+func3:       3
+rs1:         6
+rs2:         6
+func7:      3f
+I_TYPE
+PC: 11 , realPC: 0044 , instruction: 01c35e93
+opcode:      4
+rd:         1d
+func3:       5
+rs1:         6
+rs2:        1c
+func7:       0
+I_TYPE
+PC: 12 , realPC: 0048 , instruction: 41c35f13
+opcode:      4
+rd:         1e
+func3:       5
+rs1:         6
+rs2:        1c
+func7:      20
+I_TYPE
+PC: 13 , realPC: 0052 , instruction: 00008067
+opcode:     19
+rd:          0
+func3:       0
+rs1:         1
+rs2:         0
+func7:       0
+I_TYPE
+14 fetched and decoded instructions
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
+```
+

@@ -12,8 +12,7 @@ add_files fetching_decoding_ip/src/execute.cpp
 add_files fetching_decoding_ip/src/execute.h
 add_files fetching_decoding_ip/src/fetch.cpp
 add_files fetching_decoding_ip/src/fetch.h
-add_files src/fetching_decoding_ip.cpp
-add_files src/fetching_decoding_ip.h
+add_files fetching_decoding_ip/src/fetching_decoding_ip.cpp
 add_files fetching_decoding_ip/src/immediate.cpp
 add_files fetching_decoding_ip/src/immediate.h
 add_files fetching_decoding_ip/src/print.cpp
@@ -24,11 +23,12 @@ add_files fetching_decoding_ip/src/statistic_update.cpp
 add_files fetching_decoding_ip/src/statistic_update.h
 add_files fetching_decoding_ip/src/type.cpp
 add_files fetching_decoding_ip/src/type.h
+add_files -tb fetching_decoding_ip/src/testbench_fetching_decoding_ip.cpp
 open_solution "solution1" -flow_target vivado
 set_part {xc7z020clg400-1}
 create_clock -period 10 -name default
 #source "./fetching_decoding_ip/solution1/directives.tcl"
-#csim_design
+csim_design
 csynth_design
-#cosim_design
+cosim_design
 export_design -format ip_catalog

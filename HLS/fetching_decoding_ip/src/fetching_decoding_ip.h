@@ -95,4 +95,5 @@ void fetching_decoding_ip(
   unsigned int  start_pc,
   unsigned int  code_ram[CODE_RAM_SIZE],
   unsigned int *nb_instruction);
+
 #endif

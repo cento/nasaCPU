@@ -37,6 +37,11 @@
 			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/.apc/.tb</location>
 		</link>
 		<link>
+			<name>.reference/stdio.h</name>
+			<type>1</type>
+			<location>C:/Xilinx/Vitis_HLS/2022.2/tps/win64/msys64/mingw64/x86_64-w64-mingw32/include/stdio.h</location>
+		</link>
+		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
 			<location>C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/.tcls</location>

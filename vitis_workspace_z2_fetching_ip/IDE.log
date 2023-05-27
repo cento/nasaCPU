@@ -302,3 +302,4 @@ con
 ----------------End of Script----------------
 
 21:52:45 INFO  : Launch script is exported to file 'C:\Users\monde\Documents\GitHub\nasa-CPU\vitis_workspace_z2_fetching_ip\z2_fetching_ip_00_system\_ide\scripts\systemdebugger_z2_fetching_ip_00_system_standalone.tcl'
+17:56:55 INFO  : Checking for BSP changes to sync application flags for project 'z2_fetching_ip_00'...
