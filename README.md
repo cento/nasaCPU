@@ -386,3 +386,23 @@ Following the usual Schedule View for the three main functions: fetch, decode, e
 ![](assets/fetch.png)
 ![](assets/decode.png)
 ![](assets/execute.png)
+
+### Place Design
+
+After generating the bitstream on Vivado for the fetching_decoding_ip, we can check on the report the FPGA utilization. 
+
+|           Site Type         | Used | Fixed | Prohibited | Available | Util% |
+| ----------------------------|------|-------|------------|-----------|-------|
+|  Slice LUTs                 | 1344 |     0 |          0 |     53200 |  2.53 |
+|    LUT as Logic             | 1284 |     0 |          0 |     53200 |  2.41 |
+|    LUT as Memory            |   60 |     0 |          0 |     17400 |  0.34 |
+|      LUT as Distributed RAM |    0 |     0 |            |           |       |
+|      LUT as Shift Register  |   60 |     0 |            |           |       |
+|  Slice Registers            |  884 |     0 |          0 |    106400 |  0.83 |
+|    Register as Flip Flop    |  884 |     0 |          0 |    106400 |  0.83 |
+|    Register as Latch        |    0 |     0 |          0 |    106400 |  0.00 |
+|  F7 Muxes                   |    0 |     0 |          0 |     26600 |  0.00 |
+|  F8 Muxes                   |    0 |     0 |          0 |     13300 |  0.00 |
+
+The LUTs utilization is still pretty low even for the little board I am working with (PYNQ-Z2). But this number is likely to increase soon wheh more realistic hardware is added. So far we just fetch and decode rv32i instructions, not much except some mutex and some logic without timing constrains.
+
