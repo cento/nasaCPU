@@ -2,20 +2,29 @@
 <vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
   <errorLogs>
     <logs>
+      <synLog/>
+      <simLog>
+        <logs message="ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:46:57.192+0800"/>
+        <logs message="ERROR: Please check the snapshot name which is created during 'xelab',the current snapshot name &quot;xsim.dir/fetching_decoding_ip/xsimk.exe&quot; does not exist " projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:46:57.188+0800"/>
+        <logs message="ERROR: [VRFC 10-8530] module 'dataflow_monitor' is ignored due to previous errors [C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_decoding_ip/solution1/sim/verilog/dataflow_monitor.sv:14]&#xD;&#xA;ECHO is off." projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:46:57.027+0800"/>
+        <logs message="ERROR: [VRFC 10-4982] syntax error near ';' [C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_decoding_ip/solution1/sim/verilog/dataflow_monitor.sv:73]" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:46:55.926+0800"/>
+      </simLog>
+      <mgLog/>
       <packageLog/>
+      <csimLog/>
     </logs>
   </errorLogs>
   <warningLogs>
     <logs>
-      <packageLog>
-        <logs message="WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port &quot;ap_clk&quot; is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew&#xD;&#xD;&#xA;Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design&#xD;" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T20:08:10.959+0800" type="Warning"/>
-        <logs message="WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port &quot;ap_clk&quot; is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew&#xD;&#xD;&#xA;Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design&#xD;" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T20:07:50.862+0800" type="Warning"/>
-        <logs message="WARNING: [Route 35-198] Port &quot;s_axi_control_awaddr[14]&quot; does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal &quot;s_axi_control_awaddr[14]&quot;. Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.&#xD;&#xD;&#xA;Post Restoration Checksum: NetGraph: 766903e6 NumContArr: f65d33c6 Constraints: 0 Timing: 0&#xD;&#xD;&#xA;Phase 1 Build RT Design | Checksum: 16cc637ac&#xD;&#xD;&#xA;&#xD;&#xD;&#xA;Time (s): cpu = 00:00:26 ; elapsed = 00:01:58 . Memory (MB): peak = 2027.676 ; gain = 95.051&#xD;&#xD;&#xA;&#xD;&#xD;&#xA;Phase 2 Router Initialization&#xD;&#xD;&#xA;&#xD;&#xD;&#xA;Phase 2.1 Fix Topology Constraints&#xD;&#xD;&#xA;Phase 2.1 Fix Topology Constraints | Checksum: 16cc637ac&#xD;&#xD;&#xA;&#xD;&#xD;&#xA;Time (s): cpu = 00:00:26 ; elapsed = 00:01:58 . Memory (MB): peak = 2027.676 ; gain = 95.051&#xD;&#xD;&#xA;&#xD;&#xD;&#xA;Phase 2.2 Pre Route Cleanup&#xD;&#xD;&#xA;Phase 2.2 Pre Route Cleanup | Checksum: 16cc637ac&#xD;&#xD;&#xA;&#xD;&#xD;&#xA;Time (s): cpu = 00:00:26 ; elapsed = 00:01:58 . Memory (MB): peak = 2027.676 ; gain = 95.051&#xD;&#xD;&#xA; Number of Nodes with overlaps = 0&#xD;&#xD;&#xA;&#xD;&#xD;&#xA;Phase 2.3 Update Timing&#xD;&#xD;&#xA;Phase 2.3 Update Timing | Checksum: 189a4a14b&#xD;&#xD;&#xA;&#xD;&#xD;&#xA;Time (s): cpu = 00:00:29 ; elapsed = 00:02:02 . Memory (MB): peak = 2027.676 ; gain = 95.051&#xD;" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T20:07:14.723+0800" type="Warning"/>
-        <logs message="WARNING: [Route 35-198] Port &quot;s_axi_control_awaddr[11]&quot; does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal &quot;s_axi_control_awaddr[11]&quot;. Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.&#xD;" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T20:05:21.039+0800" type="Warning"/>
-        <logs message="WARNING: [Route 35-198] Port &quot;s_axi_control_awaddr[9]&quot; does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal &quot;s_axi_control_awaddr[9]&quot;. Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.&#xD;" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T20:05:20.974+0800" type="Warning"/>
-        <logs message="WARNING: [Route 35-198] Port &quot;s_axi_control_awaddr[8]&quot; does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal &quot;s_axi_control_awaddr[8]&quot;. Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.&#xD;" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T20:05:20.926+0800" type="Warning"/>
-        <logs message="WARNING: [Route 35-198] Port &quot;s_axi_control_awaddr[7]&quot; does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal &quot;s_axi_control_awaddr[7]&quot;. Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.&#xD;" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-05-27T20:05:20.863+0800" type="Warning"/>
-      </packageLog>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:35:45.612+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-1016] The critical path in module 'fetching_decoding_ip' consists of the following:&#xD;&#xA;&#x9;'call' operation ('decode_ret', fetching_decoding_ip/src/fetching_decoding_ip.cpp:34) to 'decode' [29]  (4.130 ns)&#xD;&#xA;&#x9;'call' operation ('pc', fetching_decoding_ip/src/fetching_decoding_ip.cpp:35) to 'execute' [33]  (4.705 ns)&#xD;&#xA;&#x9;'store' operation ('pc_write_ln38', fetching_decoding_ip/src/fetching_decoding_ip.cpp:38) of variable 'pc', fetching_decoding_ip/src/fetching_decoding_ip.cpp:35 on local variable 'pc' [37]  (1.588 ns)&#xD;&#xA;&#xA;&#xD;&#xA;Resolution: For help on HLS 200-1016 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-1016.html" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:35:44.934+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-871] Estimated clock period (10.423 ns) exceeds the target (target clock period: 10.000 ns, clock uncertainty: 2.700 ns, effective delay budget: 7.300 ns).&#xD;&#xA;Resolution: For help on HLS 200-871 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-871.html" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:35:44.928+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
     </logs>
   </warningLogs>
 </vivadoHLSLog:LogRoot>

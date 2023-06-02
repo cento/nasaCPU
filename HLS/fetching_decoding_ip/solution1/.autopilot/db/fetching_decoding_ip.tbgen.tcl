@@ -10,6 +10,8 @@ set ProfileFlag 0
 set StallSigGenFlag 0
 set isEnableWaveformDebug 1
 set hasInterrupt 0
+set DLRegFirstOffset 0
+set DLRegItemOffset 0
 set C_modelName {fetching_decoding_ip}
 set C_modelType { void 0 }
 set C_modelArgList {
@@ -17,6 +19,7 @@ set C_modelArgList {
 	{ code_ram int 32 regular {axi_slave 0}  }
 	{ nb_instruction int 32 regular {axi_slave 1}  }
 }
+set hasAXIMCache 0
 set C_modelArgMapList {[ 
 	{ "Name" : "start_pc", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 32, "direction" : "READONLY", "offset" : {"in":16}, "offset_end" : {"in":23}} , 
  	{ "Name" : "code_ram", "interface" : "axi_slave", "bundle":"control","type":"ap_memory","bitwidth" : 32, "direction" : "READONLY", "offset" : {"in":262144}, "offset_end" : {"in":524287}} , 
@@ -106,16 +109,16 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"IsBlackBox" : "0",
 		"Port" : [
-			{"Name" : "pc", "Type" : "None", "Direction" : "I"},
+			{"Name" : "pc_val", "Type" : "None", "Direction" : "I"},
 			{"Name" : "code_ram", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.decode_ret_decode_fu_94", "Parent" : "0",
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_decode_fu_94", "Parent" : "0",
 		"CDFG" : "decode",
 		"Protocol" : "ap_ctrl_hs",
-		"ControlExist" : "0", "ap_start" : "0", "ap_ready" : "1", "ap_done" : "0", "ap_continue" : "0", "ap_idle" : "0", "real_start" : "0",
+		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
-		"II" : "1",
-		"VariableLatency" : "0", "ExactLatency" : "0", "EstimateLatencyMin" : "0", "EstimateLatencyMax" : "0",
-		"Combinational" : "1",
+		"II" : "2",
+		"VariableLatency" : "0", "ExactLatency" : "1", "EstimateLatencyMin" : "1", "EstimateLatencyMax" : "1",
+		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
 		"HasSubDataflow" : "0",
@@ -124,7 +127,7 @@ set RtlHierarchyInfo {[
 		"IsBlackBox" : "0",
 		"Port" : [
 			{"Name" : "instruction", "Type" : "None", "Direction" : "I"}]},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.is_running_V_running_cond_update_fu_100", "Parent" : "0",
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.is_running_running_cond_update_fu_100", "Parent" : "0",
 		"CDFG" : "running_cond_update",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "0", "ap_start" : "0", "ap_ready" : "1", "ap_done" : "0", "ap_continue" : "0", "ap_idle" : "0", "real_start" : "0",
@@ -140,7 +143,7 @@ set RtlHierarchyInfo {[
 		"IsBlackBox" : "0",
 		"Port" : [
 			{"Name" : "instruction", "Type" : "None", "Direction" : "I"}]},
-	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.pc_V_1_execute_fu_106", "Parent" : "0",
+	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.pc_1_execute_fu_106", "Parent" : "0",
 		"CDFG" : "execute",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "0", "ap_start" : "0", "ap_ready" : "1", "ap_done" : "0", "ap_continue" : "0", "ap_idle" : "0", "real_start" : "0",
@@ -155,9 +158,9 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"IsBlackBox" : "0",
 		"Port" : [
-			{"Name" : "pc", "Type" : "None", "Direction" : "I"},
-			{"Name" : "d_i_type", "Type" : "None", "Direction" : "I"},
-			{"Name" : "d_i_imm", "Type" : "None", "Direction" : "I"}]},
+			{"Name" : "pc_val", "Type" : "None", "Direction" : "I"},
+			{"Name" : "d_i_type_val", "Type" : "None", "Direction" : "I"},
+			{"Name" : "d_i_imm_val", "Type" : "None", "Direction" : "I"}]},
 	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.nbi_statistic_update_fu_113", "Parent" : "0",
 		"CDFG" : "statistic_update",
 		"Protocol" : "ap_ctrl_hs",
@@ -183,16 +186,16 @@ set ArgLastReadFirstWriteLatency {
 		code_ram {Type I LastRead 0 FirstWrite -1}
 		nb_instruction {Type O LastRead -1 FirstWrite 5}}
 	fetch {
-		pc {Type I LastRead 0 FirstWrite -1}
+		pc_val {Type I LastRead 0 FirstWrite -1}
 		code_ram {Type I LastRead 0 FirstWrite -1}}
 	decode {
 		instruction {Type I LastRead 0 FirstWrite -1}}
 	running_cond_update {
 		instruction {Type I LastRead 0 FirstWrite -1}}
 	execute {
-		pc {Type I LastRead 0 FirstWrite -1}
-		d_i_type {Type I LastRead 0 FirstWrite -1}
-		d_i_imm {Type I LastRead 0 FirstWrite -1}}
+		pc_val {Type I LastRead 0 FirstWrite -1}
+		d_i_type_val {Type I LastRead 0 FirstWrite -1}
+		d_i_imm_val {Type I LastRead 0 FirstWrite -1}}
 	statistic_update {
 		nbi_read {Type I LastRead 0 FirstWrite -1}}}
 

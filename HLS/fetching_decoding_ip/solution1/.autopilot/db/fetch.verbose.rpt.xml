@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'fetch'" level="0">
-<item name = "Date">Sat May 27 19:24:35 2023
+<item name = "Date">Fri Jun  2 20:35:45 2023
 </item>
-<item name = "Version">2022.2.2 (Build 3779808 on Feb 17 2023)</item>
+<item name = "Version">2023.1 (Build 3854077 on May  4 2023)</item>
 <item name = "Project">fetching_decoding_ip</item>
 <item name = "Solution">solution1 (Vivado IP Flow Target)</item>
 <item name = "Product family">zynq</item>
@@ -103,7 +103,7 @@
 <column name="ap_idle">out, 1, ap_ctrl_hs, fetch, return value</column>
 <column name="ap_ready">out, 1, ap_ctrl_hs, fetch, return value</column>
 <column name="ap_return">out, 32, ap_ctrl_hs, fetch, return value</column>
-<column name="pc">in, 16, ap_none, pc, scalar</column>
+<column name="pc_val">in, 16, ap_none, pc_val, scalar</column>
 <column name="code_ram_address0">out, 16, ap_memory, code_ram, array</column>
 <column name="code_ram_ce0">out, 1, ap_memory, code_ram, array</column>
 <column name="code_ram_q0">in, 32, ap_memory, code_ram, array</column>

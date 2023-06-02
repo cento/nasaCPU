@@ -1,12 +1,14 @@
 # ==============================================================
-# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2.2 (64-bit)
-# Tool Version Limit: 2019.12
-# Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.1 (64-bit)
+# Tool Version Limit: 2023.05
+# Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+# Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+# 
 # ==============================================================
-set ::env(PATH) "$::env(PATH);C:/Xilinx/Vitis_HLS/2022.2/win64/tools/fpo_v7_1"
-set ::env(PATH) "$::env(PATH);C:/Xilinx/Vitis_HLS/2022.2/win64/tools/fft_v9_1"
-set ::env(PATH) "$::env(PATH);C:/Xilinx/Vitis_HLS/2022.2/win64/tools/fir_v7_0"
-set ::env(PATH) "$::env(PATH);C:/Xilinx/Vitis_HLS/2022.2/win64/tools/dds_v6_0"
+set ::env(PATH) "$::env(PATH);C:/Xilinx/Vitis_HLS/2023.1/win64/tools/fpo_v7_1"
+set ::env(PATH) "$::env(PATH);C:/Xilinx/Vitis_HLS/2023.1/win64/tools/fft_v9_1"
+set ::env(PATH) "$::env(PATH);C:/Xilinx/Vitis_HLS/2023.1/win64/tools/fir_v7_0"
+set ::env(PATH) "$::env(PATH);C:/Xilinx/Vitis_HLS/2023.1/win64/tools/dds_v6_0"
 
 proc cpvcdfromsctortl {} {
 	#copy *.vcd from sc to verilog/vhdl dir

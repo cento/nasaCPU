@@ -1,7 +1,7 @@
-Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2022.2.2 (win64) Build 3788238 Tue Feb 21 20:00:34 MST 2023
-| Date             : Sun May 28 11:30:51 2023
+| Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date             : Fri Jun  2 20:44:04 2023
 | Host             : Naboo running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,7 +30,7 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.532        |
+| Total On-Chip Power (W)  | 1.531        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 1.388        |
@@ -53,7 +53,7 @@ Table of Contents
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
 | Clocks                  |     0.008 |        3 |       --- |             --- |
-| Slice Logic             |     0.011 |     3154 |       --- |             --- |
+| Slice Logic             |     0.010 |     3154 |       --- |             --- |
 |   LUT as Logic          |     0.010 |     1284 |     53200 |            2.41 |
 |   Register              |    <0.001 |      884 |    106400 |            0.83 |
 |   CARRY4                |    <0.001 |       38 |     13300 |            0.29 |
@@ -63,7 +63,7 @@ Table of Contents
 | Block RAM               |     0.097 |       64 |       140 |           45.71 |
 | PS7                     |     1.256 |        1 |       --- |             --- |
 | Static Power            |     0.143 |          |           |                 |
-| Total                   |     1.532 |          |           |                 |
+| Total                   |     1.531 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 

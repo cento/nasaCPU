@@ -11,14 +11,14 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 4 \
-    name pc \
+    name pc_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_pc \
+    corename dc_pc_val \
     op interface \
-    ports { pc { I 16 vector } } \
+    ports { pc_val { I 16 vector } } \
 } "
 }
 
@@ -26,14 +26,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 5 \
-    name d_i_type \
+    name d_i_type_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_d_i_type \
+    corename dc_d_i_type_val \
     op interface \
-    ports { d_i_type { I 3 vector } } \
+    ports { d_i_type_val { I 3 vector } } \
 } "
 }
 
@@ -41,14 +41,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 6 \
-    name d_i_imm \
+    name d_i_imm_val \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_d_i_imm \
+    corename dc_d_i_imm_val \
     op interface \
-    ports { d_i_imm { I 17 vector } } \
+    ports { d_i_imm_val { I 17 vector } } \
 } "
 }
 

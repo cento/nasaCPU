@@ -34,7 +34,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1702129263</coreId>
+              <coreId>1852142702</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -58,7 +58,7 @@
               <id>2</id>
               <name>nbi_read_1</name>
               <fileName>fetching_decoding_ip/src/statistic_update.cpp</fileName>
-              <fileDirectory>..</fileDirectory>
+              <fileDirectory>../.</fileDirectory>
               <lineNumber>6</lineNumber>
               <contextFuncName>statistic_update</contextFuncName>
               <contextNormFuncName>statistic_update</contextNormFuncName>
@@ -88,7 +88,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1663070068</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -115,7 +115,7 @@
               <id>3</id>
               <name>add_ln9</name>
               <fileName>fetching_decoding_ip/src/statistic_update.cpp</fileName>
-              <fileDirectory>..</fileDirectory>
+              <fileDirectory>../.</fileDirectory>
               <lineNumber>9</lineNumber>
               <contextFuncName>statistic_update</contextFuncName>
               <contextNormFuncName>statistic_update</contextNormFuncName>
@@ -172,7 +172,7 @@
               <id>4</id>
               <name>_ln10</name>
               <fileName>fetching_decoding_ip/src/statistic_update.cpp</fileName>
-              <fileDirectory>..</fileDirectory>
+              <fileDirectory>../.</fileDirectory>
               <lineNumber>10</lineNumber>
               <contextFuncName>statistic_update</contextFuncName>
               <contextNormFuncName>statistic_update</contextNormFuncName>
@@ -202,7 +202,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1970040691</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -248,7 +248,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1702129263</coreId>
+              <coreId>1667591269</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>

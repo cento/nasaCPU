@@ -1,6 +1,6 @@
 <profile>
     <ReportVersion>
-        <Version>2022.2.2</Version>
+        <Version>2023.1</Version>
     </ReportVersion>
     <UserAssignments>
         <unit>ns</unit>
@@ -15,7 +15,7 @@
         <PipelineType>no</PipelineType>
         <SummaryOfTimingAnalysis>
             <unit>ns</unit>
-            <EstimatedClockPeriod>7.504</EstimatedClockPeriod>
+            <EstimatedClockPeriod>10.423</EstimatedClockPeriod>
         </SummaryOfTimingAnalysis>
         <SummaryOfOverallLatency>
             <unit>clock cycles</unit>
@@ -43,8 +43,8 @@
     <AreaEstimates>
         <Resources>
             <BRAM_18K>128</BRAM_18K>
-            <FF>319</FF>
-            <LUT>576</LUT>
+            <FF>338</FF>
+            <LUT>627</LUT>
             <DSP>0</DSP>
             <URAM>0</URAM>
         </Resources>
@@ -289,19 +289,19 @@
                     <ID>87</ID>
                 </Instance>
                 <Instance>
-                    <InstName>decode_ret_decode_fu_94</InstName>
+                    <InstName>grp_decode_fu_94</InstName>
                     <ModuleName>decode</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>94</ID>
                 </Instance>
                 <Instance>
-                    <InstName>is_running_V_running_cond_update_fu_100</InstName>
+                    <InstName>is_running_running_cond_update_fu_100</InstName>
                     <ModuleName>running_cond_update</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>100</ID>
                 </Instance>
                 <Instance>
-                    <InstName>pc_V_1_execute_fu_106</InstName>
+                    <InstName>pc_1_execute_fu_106</InstName>
                     <ModuleName>execute</ModuleName>
                     <IsCompInst>true</IsCompInst>
                     <ID>106</ID>
@@ -366,23 +366,26 @@
                     <TargetClockPeriod>10.00</TargetClockPeriod>
                     <ClockUncertainty>2.70</ClockUncertainty>
                     <TargetInitiationInterval>3</TargetInitiationInterval>
-                    <EstimatedClockPeriod>4.250</EstimatedClockPeriod>
+                    <EstimatedClockPeriod>2.184</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
-                    <Best-caseLatency>0</Best-caseLatency>
-                    <Average-caseLatency>0</Average-caseLatency>
-                    <Worst-caseLatency>0</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
-                    <PipelineInitiationInterval>1</PipelineInitiationInterval>
-                    <PipelineDepth>1</PipelineDepth>
+                    <Best-caseLatency>1</Best-caseLatency>
+                    <Average-caseLatency>1</Average-caseLatency>
+                    <Worst-caseLatency>1</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>10.000 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>10.000 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>10.000 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2</PipelineInitiationInterval>
+                    <PipelineDepth>2</PipelineDepth>
                     <PipelineType>yes</PipelineType>
                 </SummaryOfOverallLatency>
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
-                    <LUT>79</LUT>
+                    <FF>39</FF>
+                    <AVAIL_FF>106400</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>90</LUT>
                     <AVAIL_LUT>53200</AVAIL_LUT>
                     <UTIL_LUT>~0</UTIL_LUT>
                     <BRAM_18K>0</BRAM_18K>
@@ -391,9 +394,6 @@
                     <DSP>0</DSP>
                     <AVAIL_DSP>220</AVAIL_DSP>
                     <UTIL_DSP>0</UTIL_DSP>
-                    <FF>0</FF>
-                    <AVAIL_FF>106400</AVAIL_FF>
-                    <UTIL_FF>0</UTIL_FF>
                     <URAM>0</URAM>
                     <AVAIL_URAM>0</AVAIL_URAM>
                     <UTIL_URAM>0</UTIL_URAM>
@@ -407,7 +407,7 @@
                     <TargetClockPeriod>10.00</TargetClockPeriod>
                     <ClockUncertainty>2.70</ClockUncertainty>
                     <TargetInitiationInterval>3</TargetInitiationInterval>
-                    <EstimatedClockPeriod>4.186</EstimatedClockPeriod>
+                    <EstimatedClockPeriod>4.705</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
                     <Best-caseLatency>0</Best-caseLatency>
@@ -426,7 +426,7 @@
                     <FF>0</FF>
                     <AVAIL_FF>106400</AVAIL_FF>
                     <UTIL_FF>0</UTIL_FF>
-                    <LUT>128</LUT>
+                    <LUT>147</LUT>
                     <AVAIL_LUT>53200</AVAIL_LUT>
                     <UTIL_LUT>~0</UTIL_LUT>
                     <BRAM_18K>0</BRAM_18K>
@@ -495,7 +495,7 @@
                     <TargetClockPeriod>10.00</TargetClockPeriod>
                     <ClockUncertainty>2.70</ClockUncertainty>
                     <TargetInitiationInterval>3</TargetInitiationInterval>
-                    <EstimatedClockPeriod>2.473</EstimatedClockPeriod>
+                    <EstimatedClockPeriod>2.552</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
                     <Best-caseLatency>0</Best-caseLatency>
@@ -514,7 +514,7 @@
                     <FF>0</FF>
                     <AVAIL_FF>106400</AVAIL_FF>
                     <UTIL_FF>0</UTIL_FF>
-                    <LUT>18</LUT>
+                    <LUT>39</LUT>
                     <AVAIL_LUT>53200</AVAIL_LUT>
                     <UTIL_LUT>~0</UTIL_LUT>
                     <BRAM_18K>0</BRAM_18K>
@@ -538,7 +538,7 @@
                 <SummaryOfTimingAnalysis>
                     <TargetClockPeriod>10.00</TargetClockPeriod>
                     <ClockUncertainty>2.70</ClockUncertainty>
-                    <EstimatedClockPeriod>7.504</EstimatedClockPeriod>
+                    <EstimatedClockPeriod>10.423</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
                     <Best-caseLatency>undef</Best-caseLatency>
@@ -562,9 +562,9 @@
                         <PipelineType>yes</PipelineType>
                         <InstanceList>
                             <Instance>grp_fetch_fu_87</Instance>
-                            <Instance>decode_ret_decode_fu_94</Instance>
-                            <Instance>is_running_V_running_cond_update_fu_100</Instance>
-                            <Instance>pc_V_1_execute_fu_106</Instance>
+                            <Instance>grp_decode_fu_94</Instance>
+                            <Instance>is_running_running_cond_update_fu_100</Instance>
+                            <Instance>pc_1_execute_fu_106</Instance>
                             <Instance>nbi_statistic_update_fu_113</Instance>
                         </InstanceList>
                     </VITIS_LOOP_29_1>
@@ -575,10 +575,10 @@
                     <BRAM_18K>128</BRAM_18K>
                     <AVAIL_BRAM>280</AVAIL_BRAM>
                     <UTIL_BRAM>45</UTIL_BRAM>
-                    <FF>319</FF>
+                    <FF>338</FF>
                     <AVAIL_FF>106400</AVAIL_FF>
                     <UTIL_FF>~0</UTIL_FF>
-                    <LUT>576</LUT>
+                    <LUT>627</LUT>
                     <AVAIL_LUT>53200</AVAIL_LUT>
                     <UTIL_LUT>1</UTIL_LUT>
                     <DSP>0</DSP>
@@ -592,7 +592,9 @@
         </Module>
     </ModuleInformation>
     <FIFOInformation/>
-    <UserConfigCommands/>
+    <UserConfigCommands>
+        <config_export flow="impl" vivado_clock="10"/>
+    </UserConfigCommands>
     <Args>
         <Arg ArgName="start_pc" index="0" direction="in" srcType="unsigned int" srcSize="32">
             <hwRefs>
@@ -730,13 +732,13 @@
     <ReportHWInterface>
         <section name="HW Interfaces" level="0">
             <item name="S_AXILITE Interfaces">
-                <table isCollapsed="0">
+                <table>
                     <keys size="6">Interface, Data Width, Address Width, Offset, Register, Resource Estimate</keys>
-                    <column name="s_axi_control">32, 19, 16, 0, BRAM=128, , , , </column>
+                    <column name="s_axi_control">32, 19, 16, 0, BRAM=128</column>
                 </table>
             </item>
             <item name="S_AXILITE Registers">
-                <table isCollapsed="0">
+                <table>
                     <keys size="7">Interface, Register, Offset, Width, Access, Description, Bit Fields</keys>
                     <column name="s_axi_control">CTRL, 0x00, 32, RW, Control signals, 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT</column>
                     <column name="s_axi_control">GIER, 0x04, 32, RW, Global Interrupt Enable Register, 0=Enable</column>
@@ -748,12 +750,12 @@
                 </table>
             </item>
             <item name="TOP LEVEL CONTROL">
-                <table isCollapsed="0">
+                <table>
                     <keys size="3">Interface, Type, Ports</keys>
-                    <column name="ap_clk">clock, ap_clk, </column>
-                    <column name="ap_rst_n">reset, ap_rst_n, </column>
-                    <column name="interrupt">interrupt, interrupt, </column>
-                    <column name="ap_ctrl">ap_ctrl_hs, , </column>
+                    <column name="ap_clk">clock, ap_clk</column>
+                    <column name="ap_rst_n">reset, ap_rst_n</column>
+                    <column name="interrupt">interrupt, interrupt</column>
+                    <column name="ap_ctrl">ap_ctrl_hs, </column>
                 </table>
             </item>
         </section>
@@ -761,7 +763,7 @@
     <ReportSWInterface>
         <section name="SW I/O Information" level="0">
             <item name="Top Function Arguments">
-                <table isCollapsed="1">
+                <table>
                     <keys size="3">Argument, Direction, Datatype</keys>
                     <column name="start_pc">in, unsigned int</column>
                     <column name="code_ram">in, unsigned int*</column>
@@ -769,16 +771,17 @@
                 </table>
             </item>
             <item name="SW-to-HW Mapping">
-                <table isCollapsed="1">
+                <table>
                     <keys size="4">Argument, HW Interface, HW Type, HW Info</keys>
-                    <column name="start_pc">s_axi_control, register, name=start_pc offset=0x10 range=32, </column>
-                    <column name="code_ram">s_axi_control, memory, name=code_ram offset=262144 range=262144, </column>
-                    <column name="nb_instruction">s_axi_control, register, name=nb_instruction offset=0x18 range=32, </column>
-                    <column name="nb_instruction">s_axi_control, register, name=nb_instruction_ctrl offset=0x1c range=32, </column>
+                    <column name="start_pc">s_axi_control, register, name=start_pc offset=0x10 range=32</column>
+                    <column name="code_ram">s_axi_control, memory, name=code_ram offset=262144 range=262144</column>
+                    <column name="nb_instruction">s_axi_control, register, name=nb_instruction offset=0x18 range=32</column>
+                    <column name="nb_instruction">s_axi_control, register, name=nb_instruction_ctrl offset=0x1c range=32</column>
                 </table>
             </item>
         </section>
     </ReportSWInterface>
+    <ResolutionUrl key="ZZZ">www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=ZZZ.html</ResolutionUrl>
     <ReportBurst>
         <section name="M_AXI Burst Information" level="0" HEADER_NOTE="Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings."/>
     </ReportBurst>

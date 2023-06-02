@@ -1,7 +1,7 @@
 <profile>
 
 <ReportVersion>
-<Version>2022.2.2</Version>
+<Version>2023.1</Version>
 </ReportVersion>
 
 <UserAssignments>
@@ -132,8 +132,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>pc</name>
-<Object>pc</Object>
+<name>pc_val</name>
+<Object>pc_val</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>

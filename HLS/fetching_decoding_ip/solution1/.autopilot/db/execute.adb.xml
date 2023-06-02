@@ -19,10 +19,10 @@
 
 <Node id="4" bw="17" op_0_bw="17" op_1_bw="17">
 <![CDATA[
-entry_ifconv:0 %d_i_imm_read = read i17 @_ssdm_op_Read.ap_auto.i17, i17 %d_i_imm
+entry_ifconv:0 %d_i_imm_val_read = read i17 @_ssdm_op_Read.ap_auto.i17, i17 %d_i_imm_val
 
 ]]></Node>
-<StgValue><ssdm name="d_i_imm_read"/></StgValue>
+<StgValue><ssdm name="d_i_imm_val_read"/></StgValue>
 </operation>
 
 <operation id="3" st_id="1" stage="1" lat="1">
@@ -34,10 +34,10 @@ entry_ifconv:0 %d_i_imm_read = read i17 @_ssdm_op_Read.ap_auto.i17, i17 %d_i_imm
 
 <Node id="5" bw="3" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-entry_ifconv:1 %d_i_type_read = read i3 @_ssdm_op_Read.ap_auto.i3, i3 %d_i_type
+entry_ifconv:1 %d_i_type_val_read = read i3 @_ssdm_op_Read.ap_auto.i3, i3 %d_i_type_val
 
 ]]></Node>
-<StgValue><ssdm name="d_i_type_read"/></StgValue>
+<StgValue><ssdm name="d_i_type_val_read"/></StgValue>
 </operation>
 
 <operation id="4" st_id="1" stage="1" lat="1">
@@ -49,10 +49,10 @@ entry_ifconv:1 %d_i_type_read = read i3 @_ssdm_op_Read.ap_auto.i3, i3 %d_i_type
 
 <Node id="6" bw="16" op_0_bw="16" op_1_bw="16">
 <![CDATA[
-entry_ifconv:2 %pc_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %pc
+entry_ifconv:2 %pc_val_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %pc_val
 
 ]]></Node>
-<StgValue><ssdm name="pc_read"/></StgValue>
+<StgValue><ssdm name="pc_val_read"/></StgValue>
 </operation>
 
 <operation id="5" st_id="1" stage="1" lat="1">
@@ -67,7 +67,7 @@ entry_ifconv:2 %pc_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %pc
 
 <Node id="7" bw="16" op_0_bw="16" op_1_bw="17" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-entry_ifconv:3 %trunc_ln = partselect i16 @_ssdm_op_PartSelect.i16.i17.i32.i32, i17 %d_i_imm_read, i32 1, i32 16
+entry_ifconv:3 %trunc_ln = partselect i16 @_ssdm_op_PartSelect.i16.i17.i32.i32, i17 %d_i_imm_val_read, i32 1, i32 16
 
 ]]></Node>
 <StgValue><ssdm name="trunc_ln"/></StgValue>
@@ -83,7 +83,7 @@ entry_ifconv:3 %trunc_ln = partselect i16 @_ssdm_op_PartSelect.i16.i17.i32.i32, 
 
 <Node id="8" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-entry_ifconv:4 %icmp_ln8 = icmp_eq  i3 %d_i_type_read, i3 6
+entry_ifconv:4 %icmp_ln8 = icmp_eq  i3 %d_i_type_val_read, i3 6
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln8"/></StgValue>
@@ -99,7 +99,7 @@ entry_ifconv:4 %icmp_ln8 = icmp_eq  i3 %d_i_type_read, i3 6
 
 <Node id="9" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-entry_ifconv:5 %icmp_ln8_1 = icmp_eq  i3 %d_i_type_read, i3 5
+entry_ifconv:5 %icmp_ln8_1 = icmp_eq  i3 %d_i_type_val_read, i3 5
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln8_1"/></StgValue>
@@ -114,7 +114,7 @@ entry_ifconv:5 %icmp_ln8_1 = icmp_eq  i3 %d_i_type_read, i3 5
 
 <Node id="10" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-entry_ifconv:6 %icmp_ln8_2 = icmp_eq  i3 %d_i_type_read, i3 4
+entry_ifconv:6 %icmp_ln8_2 = icmp_eq  i3 %d_i_type_val_read, i3 4
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln8_2"/></StgValue>
@@ -129,7 +129,7 @@ entry_ifconv:6 %icmp_ln8_2 = icmp_eq  i3 %d_i_type_read, i3 4
 
 <Node id="11" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-entry_ifconv:7 %icmp_ln8_3 = icmp_eq  i3 %d_i_type_read, i3 3
+entry_ifconv:7 %icmp_ln8_3 = icmp_eq  i3 %d_i_type_val_read, i3 3
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln8_3"/></StgValue>
@@ -144,7 +144,7 @@ entry_ifconv:7 %icmp_ln8_3 = icmp_eq  i3 %d_i_type_read, i3 3
 
 <Node id="12" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-entry_ifconv:8 %icmp_ln8_4 = icmp_eq  i3 %d_i_type_read, i3 2
+entry_ifconv:8 %icmp_ln8_4 = icmp_eq  i3 %d_i_type_val_read, i3 2
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln8_4"/></StgValue>
@@ -159,7 +159,7 @@ entry_ifconv:8 %icmp_ln8_4 = icmp_eq  i3 %d_i_type_read, i3 2
 
 <Node id="13" bw="1" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-entry_ifconv:9 %icmp_ln8_5 = icmp_eq  i3 %d_i_type_read, i3 1
+entry_ifconv:9 %icmp_ln8_5 = icmp_eq  i3 %d_i_type_val_read, i3 1
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln8_5"/></StgValue>
@@ -283,7 +283,7 @@ entry_ifconv:16 %select_ln8_2 = select i1 %or_ln8_3, i16 1, i16 %select_ln8_1
 
 <Node id="21" bw="16" op_0_bw="16" op_1_bw="16">
 <![CDATA[
-entry_ifconv:17 %next_pc = add i16 %select_ln8_2, i16 %pc_read
+entry_ifconv:17 %next_pc = add i16 %select_ln8_2, i16 %pc_val_read
 
 ]]></Node>
 <StgValue><ssdm name="next_pc"/></StgValue>
@@ -308,60 +308,60 @@ entry_ifconv:18 %ret_ln40 = ret i16 %next_pc
 
 
 <ports>
-<port id="22" name="pc" dir="0" iftype="0">
-<core>NULL</core><StgValue><ssdm name="pc"/></StgValue>
+<port id="22" name="pc_val" dir="0" iftype="0">
+<core>NULL</core><StgValue><ssdm name="pc_val"/></StgValue>
 </port>
-<port id="23" name="d_i_type" dir="0" iftype="0">
-<core>NULL</core><StgValue><ssdm name="d_i_type"/></StgValue>
+<port id="23" name="d_i_type_val" dir="0" iftype="0">
+<core>NULL</core><StgValue><ssdm name="d_i_type_val"/></StgValue>
 </port>
-<port id="24" name="d_i_imm" dir="0" iftype="0">
-<core>NULL</core><StgValue><ssdm name="d_i_imm"/></StgValue>
+<port id="24" name="d_i_imm_val" dir="0" iftype="0">
+<core>NULL</core><StgValue><ssdm name="d_i_imm_val"/></StgValue>
 </port>
 </ports>
 
 
 <dataflows>
-<dataflow id="26" from="_ssdm_op_Read.ap_auto.i17" to="d_i_imm_read" fromId="25" toId="2">
+<dataflow id="26" from="_ssdm_op_Read.ap_auto.i17" to="d_i_imm_val_read" fromId="25" toId="2">
 </dataflow>
-<dataflow id="27" from="d_i_imm" to="d_i_imm_read" fromId="24" toId="2">
+<dataflow id="27" from="d_i_imm_val" to="d_i_imm_val_read" fromId="24" toId="2">
 </dataflow>
-<dataflow id="29" from="_ssdm_op_Read.ap_auto.i3" to="d_i_type_read" fromId="28" toId="3">
+<dataflow id="29" from="_ssdm_op_Read.ap_auto.i3" to="d_i_type_val_read" fromId="28" toId="3">
 </dataflow>
-<dataflow id="30" from="d_i_type" to="d_i_type_read" fromId="23" toId="3">
+<dataflow id="30" from="d_i_type_val" to="d_i_type_val_read" fromId="23" toId="3">
 </dataflow>
-<dataflow id="32" from="_ssdm_op_Read.ap_auto.i16" to="pc_read" fromId="31" toId="4">
+<dataflow id="32" from="_ssdm_op_Read.ap_auto.i16" to="pc_val_read" fromId="31" toId="4">
 </dataflow>
-<dataflow id="33" from="pc" to="pc_read" fromId="22" toId="4">
+<dataflow id="33" from="pc_val" to="pc_val_read" fromId="22" toId="4">
 </dataflow>
 <dataflow id="35" from="_ssdm_op_PartSelect.i16.i17.i32.i32" to="trunc_ln" fromId="34" toId="5">
 </dataflow>
-<dataflow id="36" from="d_i_imm_read" to="trunc_ln" fromId="2" toId="5">
+<dataflow id="36" from="d_i_imm_val_read" to="trunc_ln" fromId="2" toId="5">
 </dataflow>
 <dataflow id="38" from="StgValue_37" to="trunc_ln" fromId="37" toId="5">
 </dataflow>
 <dataflow id="40" from="StgValue_39" to="trunc_ln" fromId="39" toId="5">
 </dataflow>
-<dataflow id="41" from="d_i_type_read" to="icmp_ln8" fromId="3" toId="6">
+<dataflow id="41" from="d_i_type_val_read" to="icmp_ln8" fromId="3" toId="6">
 </dataflow>
 <dataflow id="43" from="StgValue_42" to="icmp_ln8" fromId="42" toId="6">
 </dataflow>
-<dataflow id="44" from="d_i_type_read" to="icmp_ln8_1" fromId="3" toId="7">
+<dataflow id="44" from="d_i_type_val_read" to="icmp_ln8_1" fromId="3" toId="7">
 </dataflow>
 <dataflow id="46" from="StgValue_45" to="icmp_ln8_1" fromId="45" toId="7">
 </dataflow>
-<dataflow id="47" from="d_i_type_read" to="icmp_ln8_2" fromId="3" toId="8">
+<dataflow id="47" from="d_i_type_val_read" to="icmp_ln8_2" fromId="3" toId="8">
 </dataflow>
 <dataflow id="49" from="StgValue_48" to="icmp_ln8_2" fromId="48" toId="8">
 </dataflow>
-<dataflow id="50" from="d_i_type_read" to="icmp_ln8_3" fromId="3" toId="9">
+<dataflow id="50" from="d_i_type_val_read" to="icmp_ln8_3" fromId="3" toId="9">
 </dataflow>
 <dataflow id="52" from="StgValue_51" to="icmp_ln8_3" fromId="51" toId="9">
 </dataflow>
-<dataflow id="53" from="d_i_type_read" to="icmp_ln8_4" fromId="3" toId="10">
+<dataflow id="53" from="d_i_type_val_read" to="icmp_ln8_4" fromId="3" toId="10">
 </dataflow>
 <dataflow id="55" from="StgValue_54" to="icmp_ln8_4" fromId="54" toId="10">
 </dataflow>
-<dataflow id="56" from="d_i_type_read" to="icmp_ln8_5" fromId="3" toId="11">
+<dataflow id="56" from="d_i_type_val_read" to="icmp_ln8_5" fromId="3" toId="11">
 </dataflow>
 <dataflow id="58" from="StgValue_57" to="icmp_ln8_5" fromId="57" toId="11">
 </dataflow>
@@ -401,7 +401,7 @@ entry_ifconv:18 %ret_ln40 = ret i16 %next_pc
 </dataflow>
 <dataflow id="77" from="select_ln8_2" to="next_pc" fromId="18" toId="19">
 </dataflow>
-<dataflow id="78" from="pc_read" to="next_pc" fromId="4" toId="19">
+<dataflow id="78" from="pc_val_read" to="next_pc" fromId="4" toId="19">
 </dataflow>
 <dataflow id="79" from="next_pc" to="ret_ln40" fromId="19" toId="20">
 </dataflow>

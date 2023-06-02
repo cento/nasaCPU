@@ -10,32 +10,35 @@ set ProfileFlag 0
 set StallSigGenFlag 0
 set isEnableWaveformDebug 1
 set hasInterrupt 0
+set DLRegFirstOffset 0
+set DLRegItemOffset 0
 set C_modelName {execute}
 set C_modelType { int 16 }
 set C_modelArgList {
-	{ pc int 16 regular  }
-	{ d_i_type int 3 regular  }
-	{ d_i_imm int 17 regular  }
+	{ pc_val int 16 regular  }
+	{ d_i_type_val int 3 regular  }
+	{ d_i_imm_val int 17 regular  }
 }
+set hasAXIMCache 0
 set C_modelArgMapList {[ 
-	{ "Name" : "pc", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
- 	{ "Name" : "d_i_type", "interface" : "wire", "bitwidth" : 3, "direction" : "READONLY"} , 
- 	{ "Name" : "d_i_imm", "interface" : "wire", "bitwidth" : 17, "direction" : "READONLY"} , 
+	{ "Name" : "pc_val", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
+ 	{ "Name" : "d_i_type_val", "interface" : "wire", "bitwidth" : 3, "direction" : "READONLY"} , 
+ 	{ "Name" : "d_i_imm_val", "interface" : "wire", "bitwidth" : 17, "direction" : "READONLY"} , 
  	{ "Name" : "ap_return", "interface" : "wire", "bitwidth" : 16} ]}
 # RTL Port declarations: 
 set portNum 5
 set portList { 
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
-	{ pc sc_in sc_lv 16 signal 0 } 
-	{ d_i_type sc_in sc_lv 3 signal 1 } 
-	{ d_i_imm sc_in sc_lv 17 signal 2 } 
+	{ pc_val sc_in sc_lv 16 signal 0 } 
+	{ d_i_type_val sc_in sc_lv 3 signal 1 } 
+	{ d_i_imm_val sc_in sc_lv 17 signal 2 } 
 	{ ap_return sc_out sc_lv 16 signal -1 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
- 	{ "name": "pc", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "pc", "role": "default" }} , 
- 	{ "name": "d_i_type", "direction": "in", "datatype": "sc_lv", "bitwidth":3, "type": "signal", "bundle":{"name": "d_i_type", "role": "default" }} , 
- 	{ "name": "d_i_imm", "direction": "in", "datatype": "sc_lv", "bitwidth":17, "type": "signal", "bundle":{"name": "d_i_imm", "role": "default" }} , 
+ 	{ "name": "pc_val", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "pc_val", "role": "default" }} , 
+ 	{ "name": "d_i_type_val", "direction": "in", "datatype": "sc_lv", "bitwidth":3, "type": "signal", "bundle":{"name": "d_i_type_val", "role": "default" }} , 
+ 	{ "name": "d_i_imm_val", "direction": "in", "datatype": "sc_lv", "bitwidth":17, "type": "signal", "bundle":{"name": "d_i_imm_val", "role": "default" }} , 
  	{ "name": "ap_return", "direction": "out", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "ap_return", "role": "default" }}  ]}
 
 set RtlHierarchyInfo {[
@@ -54,16 +57,16 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"IsBlackBox" : "0",
 		"Port" : [
-			{"Name" : "pc", "Type" : "None", "Direction" : "I"},
-			{"Name" : "d_i_type", "Type" : "None", "Direction" : "I"},
-			{"Name" : "d_i_imm", "Type" : "None", "Direction" : "I"}]}]}
+			{"Name" : "pc_val", "Type" : "None", "Direction" : "I"},
+			{"Name" : "d_i_type_val", "Type" : "None", "Direction" : "I"},
+			{"Name" : "d_i_imm_val", "Type" : "None", "Direction" : "I"}]}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	execute {
-		pc {Type I LastRead 0 FirstWrite -1}
-		d_i_type {Type I LastRead 0 FirstWrite -1}
-		d_i_imm {Type I LastRead 0 FirstWrite -1}}}
+		pc_val {Type I LastRead 0 FirstWrite -1}
+		d_i_type_val {Type I LastRead 0 FirstWrite -1}
+		d_i_imm_val {Type I LastRead 0 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
@@ -76,7 +79,7 @@ set PipelineEnableSignalInfo {[
 ]}
 
 set Spec2ImplPortList { 
-	pc { ap_none {  { pc in_data 0 16 } } }
-	d_i_type { ap_none {  { d_i_type in_data 0 3 } } }
-	d_i_imm { ap_none {  { d_i_imm in_data 0 17 } } }
+	pc_val { ap_none {  { pc_val in_data 0 16 } } }
+	d_i_type_val { ap_none {  { d_i_type_val in_data 0 3 } } }
+	d_i_imm_val { ap_none {  { d_i_imm_val in_data 0 17 } } }
 }

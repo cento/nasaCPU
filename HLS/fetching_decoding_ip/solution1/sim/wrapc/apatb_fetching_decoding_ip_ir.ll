@@ -11,8 +11,7 @@ entry:
   %nb_instruction_copy = alloca i32, align 512
   %0 = bitcast i32* %code_ram to [65536 x i32]*
   call fastcc void @copy_in([65536 x i32]* nonnull %0, [65536 x i32]* %code_ram_copy, i32* nonnull %nb_instruction, i32* nonnull align 512 %nb_instruction_copy)
-  %1 = getelementptr inbounds [65536 x i32], [65536 x i32]* %code_ram_copy, i32 0, i32 0
-  call void @apatb_fetching_decoding_ip_hw(i32 %start_pc, i32* %1, i32* %nb_instruction_copy)
+  call void @apatb_fetching_decoding_ip_hw(i32 %start_pc, [65536 x i32]* %code_ram_copy, i32* %nb_instruction_copy)
   call void @copy_back([65536 x i32]* %0, [65536 x i32]* %code_ram_copy, i32* %nb_instruction, i32* %nb_instruction_copy)
   tail call void @free(i8* %malloccall)
   ret void
@@ -29,41 +28,15 @@ entry:
 }
 
 ; Function Attrs: argmemonly noinline norecurse
-define internal fastcc void @onebyonecpy_hls.p0a65536i32([65536 x i32]* noalias, [65536 x i32]* noalias readonly) unnamed_addr #2 {
+define internal fastcc void @onebyonecpy_hls.p0a65536i32([65536 x i32]* noalias %dst, [65536 x i32]* noalias readonly %src) unnamed_addr #2 {
 entry:
-  %2 = icmp eq [65536 x i32]* %0, null
-  %3 = icmp eq [65536 x i32]* %1, null
-  %4 = or i1 %2, %3
-  br i1 %4, label %ret, label %copy
+  %0 = icmp eq [65536 x i32]* %dst, null
+  %1 = icmp eq [65536 x i32]* %src, null
+  %2 = or i1 %0, %1
+  br i1 %2, label %ret, label %copy
 
 copy:                                             ; preds = %entry
-  br label %for.loop
-
-for.loop:                                         ; preds = %for.loop, %copy
-  %for.loop.idx1 = phi i64 [ 0, %copy ], [ %for.loop.idx.next, %for.loop ]
-  %dst.addr = getelementptr [65536 x i32], [65536 x i32]* %0, i64 0, i64 %for.loop.idx1
-  %src.addr = getelementptr [65536 x i32], [65536 x i32]* %1, i64 0, i64 %for.loop.idx1
-  %5 = load i32, i32* %src.addr, align 4
-  store i32 %5, i32* %dst.addr, align 4
-  %for.loop.idx.next = add nuw nsw i64 %for.loop.idx1, 1
-  %exitcond = icmp ne i64 %for.loop.idx.next, 65536
-  br i1 %exitcond, label %for.loop, label %ret
-
-ret:                                              ; preds = %for.loop, %entry
-  ret void
-}
-
-; Function Attrs: argmemonly noinline norecurse
-define internal fastcc void @onebyonecpy_hls.p0i32(i32* noalias align 512, i32* noalias readonly) unnamed_addr #2 {
-entry:
-  %2 = icmp eq i32* %0, null
-  %3 = icmp eq i32* %1, null
-  %4 = or i1 %2, %3
-  br i1 %4, label %ret, label %copy
-
-copy:                                             ; preds = %entry
-  %5 = load i32, i32* %1, align 4
-  store i32 %5, i32* %0, align 512
+  call void @arraycpy_hls.p0a65536i32([65536 x i32]* nonnull %dst, [65536 x i32]* nonnull %src, i64 65536)
   br label %ret
 
 ret:                                              ; preds = %copy, %entry
@@ -71,7 +44,56 @@ ret:                                              ; preds = %copy, %entry
 }
 
 ; Function Attrs: argmemonly noinline norecurse
-define internal fastcc void @copy_out([65536 x i32]* noalias, [65536 x i32]* noalias readonly, i32* noalias, i32* noalias readonly align 512) unnamed_addr #3 {
+define void @arraycpy_hls.p0a65536i32([65536 x i32]* %dst, [65536 x i32]* readonly %src, i64 %num) local_unnamed_addr #3 {
+entry:
+  %0 = icmp eq [65536 x i32]* %src, null
+  %1 = icmp eq [65536 x i32]* %dst, null
+  %2 = or i1 %1, %0
+  br i1 %2, label %ret, label %copy
+
+copy:                                             ; preds = %entry
+  %for.loop.cond1 = icmp sgt i64 %num, 0
+  br i1 %for.loop.cond1, label %for.loop.lr.ph, label %copy.split
+
+for.loop.lr.ph:                                   ; preds = %copy
+  br label %for.loop
+
+for.loop:                                         ; preds = %for.loop, %for.loop.lr.ph
+  %for.loop.idx2 = phi i64 [ 0, %for.loop.lr.ph ], [ %for.loop.idx.next, %for.loop ]
+  %dst.addr = getelementptr [65536 x i32], [65536 x i32]* %dst, i64 0, i64 %for.loop.idx2
+  %src.addr = getelementptr [65536 x i32], [65536 x i32]* %src, i64 0, i64 %for.loop.idx2
+  %3 = load i32, i32* %src.addr, align 4
+  store i32 %3, i32* %dst.addr, align 4
+  %for.loop.idx.next = add nuw nsw i64 %for.loop.idx2, 1
+  %exitcond = icmp ne i64 %for.loop.idx.next, %num
+  br i1 %exitcond, label %for.loop, label %copy.split
+
+copy.split:                                       ; preds = %for.loop, %copy
+  br label %ret
+
+ret:                                              ; preds = %copy.split, %entry
+  ret void
+}
+
+; Function Attrs: argmemonly noinline norecurse
+define internal fastcc void @onebyonecpy_hls.p0i32(i32* noalias align 512 %dst, i32* noalias readonly %src) unnamed_addr #2 {
+entry:
+  %0 = icmp eq i32* %dst, null
+  %1 = icmp eq i32* %src, null
+  %2 = or i1 %0, %1
+  br i1 %2, label %ret, label %copy
+
+copy:                                             ; preds = %entry
+  %3 = load i32, i32* %src, align 4
+  store i32 %3, i32* %dst, align 512
+  br label %ret
+
+ret:                                              ; preds = %copy, %entry
+  ret void
+}
+
+; Function Attrs: argmemonly noinline norecurse
+define internal fastcc void @copy_out([65536 x i32]* noalias, [65536 x i32]* noalias readonly, i32* noalias, i32* noalias readonly align 512) unnamed_addr #4 {
 entry:
   call fastcc void @onebyonecpy_hls.p0a65536i32([65536 x i32]* %0, [65536 x i32]* %1)
   call fastcc void @onebyonecpy_hls.p0i32(i32* %2, i32* align 512 %3)
@@ -80,22 +102,21 @@ entry:
 
 declare void @free(i8*) local_unnamed_addr
 
-declare void @apatb_fetching_decoding_ip_hw(i32, i32*, i32*)
+declare void @apatb_fetching_decoding_ip_hw(i32, [65536 x i32]*, i32*)
 
 ; Function Attrs: argmemonly noinline norecurse
-define internal fastcc void @copy_back([65536 x i32]* noalias, [65536 x i32]* noalias readonly, i32* noalias, i32* noalias readonly align 512) unnamed_addr #3 {
+define internal fastcc void @copy_back([65536 x i32]* noalias, [65536 x i32]* noalias readonly, i32* noalias, i32* noalias readonly align 512) unnamed_addr #4 {
 entry:
   call fastcc void @onebyonecpy_hls.p0i32(i32* %2, i32* align 512 %3)
   ret void
 }
 
-define void @fetching_decoding_ip_hw_stub_wrapper(i32, i32*, i32*) #4 {
+define void @fetching_decoding_ip_hw_stub_wrapper(i32, [65536 x i32]*, i32*) #5 {
 entry:
-  %3 = bitcast i32* %1 to [65536 x i32]*
-  call void @copy_out([65536 x i32]* null, [65536 x i32]* %3, i32* null, i32* %2)
-  %4 = bitcast [65536 x i32]* %3 to i32*
-  call void @fetching_decoding_ip_hw_stub(i32 %0, i32* %4, i32* %2)
-  call void @copy_in([65536 x i32]* null, [65536 x i32]* %3, i32* null, i32* %2)
+  call void @copy_out([65536 x i32]* null, [65536 x i32]* %1, i32* null, i32* %2)
+  %3 = bitcast [65536 x i32]* %1 to i32*
+  call void @fetching_decoding_ip_hw_stub(i32 %0, i32* %3, i32* %2)
+  call void @copy_in([65536 x i32]* null, [65536 x i32]* %1, i32* null, i32* %2)
   ret void
 }
 
@@ -104,8 +125,9 @@ declare void @fetching_decoding_ip_hw_stub(i32, i32*, i32*)
 attributes #0 = { noinline "fpga.wrapper.func"="wrapper" }
 attributes #1 = { argmemonly noinline norecurse "fpga.wrapper.func"="copyin" }
 attributes #2 = { argmemonly noinline norecurse "fpga.wrapper.func"="onebyonecpy_hls" }
-attributes #3 = { argmemonly noinline norecurse "fpga.wrapper.func"="copyout" }
-attributes #4 = { "fpga.wrapper.func"="stub" }
+attributes #3 = { argmemonly noinline norecurse "fpga.wrapper.func"="arraycpy_hls" }
+attributes #4 = { argmemonly noinline norecurse "fpga.wrapper.func"="copyout" }
+attributes #5 = { "fpga.wrapper.func"="stub" }
 
 !llvm.dbg.cu = !{}
 !llvm.ident = !{!0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0}

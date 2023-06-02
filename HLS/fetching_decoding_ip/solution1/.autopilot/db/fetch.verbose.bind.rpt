@@ -3,9 +3,9 @@
 ================================================================
 == Vitis HLS Report for 'fetch'
 ================================================================
-* Date:           Sat May 27 19:24:31 2023
+* Date:           Fri Jun  2 20:35:44 2023
 
-* Version:        2022.2.2 (Build 3779808 on Feb 17 2023)
+* Version:        2023.1 (Build 3854077 on May  4 2023)
 * Project:        fetching_decoding_ip
 * Solution:       solution1 (Vivado IP Flow Target)
 * Product family: zynq
@@ -80,9 +80,9 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 3.25>
-ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%pc_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %pc"   --->   Operation 3 'read' 'pc_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%zext_ln541 = zext i16 %pc_read"   --->   Operation 4 'zext' 'zext_ln541' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%code_ram_addr = getelementptr i32 %code_ram, i64 0, i64 %zext_ln541" [fetching_decoding_ip/src/fetch.cpp:16]   --->   Operation 5 'getelementptr' 'code_ram_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%pc_val_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %pc_val" [fetching_decoding_ip/src/fetch.cpp:16]   --->   Operation 3 'read' 'pc_val_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%zext_ln16 = zext i16 %pc_val_read" [fetching_decoding_ip/src/fetch.cpp:16]   --->   Operation 4 'zext' 'zext_ln16' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%code_ram_addr = getelementptr i32 %code_ram, i64 0, i64 %zext_ln16" [fetching_decoding_ip/src/fetch.cpp:16]   --->   Operation 5 'getelementptr' 'code_ram_addr' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 6 [2/2] (3.25ns)   --->   "%code_ram_load = load i16 %code_ram_addr" [fetching_decoding_ip/src/fetch.cpp:16]   --->   Operation 6 'load' 'code_ram_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM_1P">   --->   Core 86 'RAM_1P' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 1> <Width = 32> <Depth = 65536> <RAM>
 
 State 2 <SV = 1> <Delay = 3.25>
@@ -103,7 +103,7 @@ STG Binding:
 - Is pipelined: 1
 - Is top level: 0
 Port [ Return ] is wired: 1; IO mode=ap_ctrl_hs:ce=0
-Port [ pc]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ pc_val]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
 Port [ code_ram]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=1; pingpong=0; private_global=0; MemPort=[1]; IO mode=ap_memory:ce=0
 ---------------- STG Properties END ------------------
 
@@ -111,8 +111,8 @@ Port [ code_ram]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; e
 
 <LifeTime>
 <method=bitvector/>
-pc_read           (read         ) [ 000]
-zext_ln541        (zext         ) [ 000]
+pc_val_read       (read         ) [ 000]
+zext_ln16         (zext         ) [ 000]
 code_ram_addr     (getelementptr) [ 001]
 specmemcore_ln0   (specmemcore  ) [ 000]
 specinterface_ln0 (specinterface) [ 000]
@@ -123,12 +123,12 @@ ret_ln24          (ret          ) [ 000]
 <model>
 
 <comp_list>
-<comp id="0" class="1000" name="pc">
+<comp id="0" class="1000" name="pc_val">
 <pin_list>
 <pin id="1" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="pc"/></StgValue>
+<StgValue><ssdm name="pc_val"/></StgValue>
 </bind>
 </comp>
 
@@ -250,7 +250,7 @@ ret_ln24          (ret          ) [ 000]
 </bind>
 </comp>
 
-<comp id="28" class="1004" name="pc_read_read_fu_28">
+<comp id="28" class="1004" name="pc_val_read_read_fu_28">
 <pin_list>
 <pin id="29" dir="0" index="0" bw="16" slack="0"/>
 <pin id="30" dir="0" index="1" bw="16" slack="0"/>
@@ -258,7 +258,7 @@ ret_ln24          (ret          ) [ 000]
 </pin_list>
 <bind>
 <opcode="read(1150) " fcode="read"/>
-<opset="pc_read/1 "/>
+<opset="pc_val_read/1 "/>
 </bind>
 </comp>
 
@@ -288,14 +288,14 @@ ret_ln24          (ret          ) [ 000]
 </bind>
 </comp>
 
-<comp id="47" class="1004" name="zext_ln541_fu_47">
+<comp id="47" class="1004" name="zext_ln16_fu_47">
 <pin_list>
 <pin id="48" dir="0" index="0" bw="16" slack="0"/>
 <pin id="49" dir="1" index="1" bw="64" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="zext_ln541/1 "/>
+<opset="zext_ln16/1 "/>
 </bind>
 </comp>
 
@@ -338,7 +338,7 @@ ret_ln24          (ret          ) [ 000]
 * FSMD analyzer results:
   - Output states:
  - Input state : 
-	Port: fetch : pc | {1 }
+	Port: fetch : pc_val | {1 }
 	Port: fetch : code_ram | {1 2 }
   - Chain level:
 	State 1
@@ -353,15 +353,15 @@ ret_ln24          (ret          ) [ 000]
 ============================================================
 
 * Functional unit list:
-|----------|--------------------|
-| Operation|   Functional Unit  |
-|----------|--------------------|
-|   read   | pc_read_read_fu_28 |
-|----------|--------------------|
-|   zext   |  zext_ln541_fu_47  |
-|----------|--------------------|
-|   Total  |                    |
-|----------|--------------------|
+|----------|------------------------|
+| Operation|     Functional Unit    |
+|----------|------------------------|
+|   read   | pc_val_read_read_fu_28 |
+|----------|------------------------|
+|   zext   |     zext_ln16_fu_47    |
+|----------|------------------------|
+|   Total  |                        |
+|----------|------------------------|
 
 Memories:
 N/A

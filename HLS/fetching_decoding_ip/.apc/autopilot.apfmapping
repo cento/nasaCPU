@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="debug_fetching_decoding_ip.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\debug_fetching_decoding_ip.h"/>
-    <originFiles name="decode.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\decode.cpp"/>
-    <originFiles name="decode.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\decode.h"/>
-    <originFiles name="execute.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\execute.cpp"/>
-    <originFiles name="execute.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\execute.h"/>
-    <originFiles name="fetch.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\fetch.cpp"/>
-    <originFiles name="fetch.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\fetch.h"/>
-    <originFiles name="immediate.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\immediate.cpp"/>
-    <originFiles name="immediate.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\immediate.h"/>
-    <originFiles name="print.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\print.cpp"/>
-    <originFiles name="print.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\print.h"/>
-    <originFiles name="running_cond_update.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\running_cond_update.cpp"/>
-    <originFiles name="running_cond_update.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\running_cond_update.h"/>
-    <originFiles name="statistic_update.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\statistic_update.cpp"/>
-    <originFiles name="statistic_update.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\statistic_update.h"/>
-    <originFiles name="type.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\type.cpp"/>
     <originFiles name="type.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\type.h"/>
+    <originFiles name="type.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\type.cpp"/>
+    <originFiles name="statistic_update.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\statistic_update.h"/>
+    <originFiles name="statistic_update.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\statistic_update.cpp"/>
+    <originFiles name="running_cond_update.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\running_cond_update.h"/>
+    <originFiles name="running_cond_update.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\running_cond_update.cpp"/>
+    <originFiles name="print.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\print.h"/>
+    <originFiles name="print.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\print.cpp"/>
+    <originFiles name="immediate.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\immediate.h"/>
+    <originFiles name="immediate.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\immediate.cpp"/>
     <originFiles name="fetching_decoding_ip.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\fetching_decoding_ip.cpp"/>
+    <originFiles name="fetch.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\fetch.h"/>
+    <originFiles name="fetch.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\fetch.cpp"/>
+    <originFiles name="execute.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\execute.h"/>
+    <originFiles name="execute.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\execute.cpp"/>
+    <originFiles name="decode.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\decode.h"/>
+    <originFiles name="decode.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\decode.cpp"/>
+    <originFiles name="debug_fetching_decoding_ip.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\debug_fetching_decoding_ip.h"/>
   </source>
   <testbench>
     <originFiles name="testbench_fetching_decoding_ip.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\fetching_decoding_ip\src\testbench_fetching_decoding_ip.cpp"/>

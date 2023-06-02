@@ -1,140 +1,44 @@
-{"sourceFile": [{
-      "name": "",
-      "directive": [
+[
+  {
+    "functionLabel": "",
+    "functionName": "fetching_decoding_ip",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
         {
-          "functionName": "fetching_decoding_ip",
-          "label": "",
-          "functionLabel": "",
-          "id": "1",
-          "sourceFile": "C:\/Users\/monde\/Documents\/GitHub\/nasa-CPU\/HLS\/fetching_decoding_ip\/solution1\/csynth.tcl",
-          "sourceLine": "31",
-          "pragma": {
-            "name": "TOP",
-            "option": [{
-                "name": "name",
-                "value": "fetching_decoding_ip"
-              }]
-          }
-        },
-        {
-          "functionName": "fetching_decoding_ip",
-          "label": "",
-          "functionLabel": "",
-          "id": "2",
-          "sourceFile": "C:\/Users\/monde\/Documents\/GitHub\/nasa-CPU\/HLS\/fetching_decoding_ip\/solution1\/csynth.tcl",
-          "sourceLine": "31",
-          "pragma": {
-            "name": "TOP",
-            "option": [{
-                "name": "name",
-                "value": "fetching_decoding_ip"
-              }]
-          }
-        },
-        {
-          "functionName": "fetching_decoding_ip",
-          "label": "",
-          "functionLabel": "",
-          "id": "3",
-          "sourceFile": "C:\/Users\/monde\/Documents\/GitHub\/nasa-CPU\/HLS\/fetching_decoding_ip\/solution1\/csynth.tcl",
-          "sourceLine": "31",
-          "pragma": {
-            "name": "TOP",
-            "option": [{
-                "name": "name",
-                "value": "fetching_decoding_ip"
-              }]
-          }
-        },
-        {
-          "functionName": "fetching_decoding_ip",
-          "label": "",
-          "functionLabel": "",
-          "id": "4",
-          "sourceFile": "C:\/Users\/monde\/Documents\/GitHub\/nasa-CPU\/HLS\/fetching_decoding_ip\/solution1\/csynth.tcl",
-          "sourceLine": "31",
-          "pragma": {
-            "name": "TOP",
-            "option": [{
-                "name": "name",
-                "value": "fetching_decoding_ip"
-              }]
-          }
-        },
-        {
-          "functionName": "fetching_decoding_ip",
-          "label": "",
-          "functionLabel": "",
-          "id": "5",
-          "sourceFile": "C:\/Users\/monde\/Documents\/GitHub\/nasa-CPU\/HLS\/fetching_decoding_ip\/solution1\/csynth.tcl",
-          "sourceLine": "31",
-          "pragma": {
-            "name": "TOP",
-            "option": [{
-                "name": "name",
-                "value": "fetching_decoding_ip"
-              }]
-          }
-        },
-        {
-          "functionName": "fetching_decoding_ip",
-          "label": "",
-          "functionLabel": "",
-          "id": "6",
-          "sourceFile": "C:\/Users\/monde\/Documents\/GitHub\/nasa-CPU\/HLS\/fetching_decoding_ip\/solution1\/csynth.tcl",
-          "sourceLine": "31",
-          "pragma": {
-            "name": "TOP",
-            "option": [{
-                "name": "name",
-                "value": "fetching_decoding_ip"
-              }]
-          }
-        },
-        {
-          "functionName": "fetching_decoding_ip",
-          "label": "",
-          "functionLabel": "",
-          "id": "7",
-          "sourceFile": "C:\/Users\/monde\/Documents\/GitHub\/nasa-CPU\/HLS\/fetching_decoding_ip\/solution1\/csynth.tcl",
-          "sourceLine": "31",
-          "pragma": {
-            "name": "TOP",
-            "option": [{
-                "name": "name",
-                "value": "fetching_decoding_ip"
-              }]
-          }
-        },
-        {
-          "functionName": "fetching_decoding_ip",
-          "label": "",
-          "functionLabel": "",
-          "id": "8",
-          "sourceFile": "C:\/Users\/monde\/Documents\/GitHub\/nasa-CPU\/HLS\/fetching_decoding_ip\/solution1\/csynth.tcl",
-          "sourceLine": "31",
-          "pragma": {
-            "name": "TOP",
-            "option": [{
-                "name": "name",
-                "value": "fetching_decoding_ip"
-              }]
-          }
-        },
-        {
-          "functionName": "fetching_decoding_ip",
-          "label": "",
-          "functionLabel": "",
-          "id": "9",
-          "sourceFile": "C:\/Users\/monde\/Documents\/GitHub\/nasa-CPU\/HLS\/fetching_decoding_ip\/solution1\/csynth.tcl",
-          "sourceLine": "31",
-          "pragma": {
-            "name": "TOP",
-            "option": [{
-                "name": "name",
-                "value": "fetching_decoding_ip"
-              }]
-          }
+          "name": "name",
+          "value": "fetching_decoding_ip"
         }
       ]
-    }]}
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_decoding_ip/solution1/directives.tcl",
+    "sourceLine": 7,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "fetching_decoding_ip",
+    "id": 1,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "fetching_decoding_ip"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_decoding_ip/solution1/csynth.tcl",
+    "sourceLine": 34,
+    "success": true
+  }
+]

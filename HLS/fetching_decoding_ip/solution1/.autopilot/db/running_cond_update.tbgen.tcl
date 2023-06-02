@@ -10,11 +10,14 @@ set ProfileFlag 0
 set StallSigGenFlag 0
 set isEnableWaveformDebug 1
 set hasInterrupt 0
+set DLRegFirstOffset 0
+set DLRegItemOffset 0
 set C_modelName {running_cond_update}
 set C_modelType { int 1 }
 set C_modelArgList {
 	{ instruction int 32 regular  }
 }
+set hasAXIMCache 0
 set C_modelArgMapList {[ 
 	{ "Name" : "instruction", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
  	{ "Name" : "ap_return", "interface" : "wire", "bitwidth" : 1} ]}

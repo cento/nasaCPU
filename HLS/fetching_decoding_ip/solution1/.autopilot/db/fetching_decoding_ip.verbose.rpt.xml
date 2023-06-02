@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'fetching_decoding_ip'" level="0">
-<item name = "Date">Sat May 27 19:24:38 2023
+<item name = "Date">Fri Jun  2 20:35:45 2023
 </item>
-<item name = "Version">2022.2.2 (Build 3779808 on Feb 17 2023)</item>
+<item name = "Version">2023.1 (Build 3854077 on May  4 2023)</item>
 <item name = "Project">fetching_decoding_ip</item>
 <item name = "Solution">solution1 (Vivado IP Flow Target)</item>
 <item name = "Product family">zynq</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 7.504 ns, 2.70 ns</column>
+<column name="ap_clk">10.00 ns, 10.423 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -32,9 +32,9 @@
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
 <column name="grp_fetch_fu_87">fetch, 1, 1, 10.000 ns, 10.000 ns, 2, 2, yes</column>
-<column name="decode_ret_decode_fu_94">decode, 0, 0, 0 ns, 0 ns, 1, 1, yes</column>
-<column name="is_running_V_running_cond_update_fu_100">running_cond_update, 0, 0, 0 ns, 0 ns, 1, 1, yes</column>
-<column name="pc_V_1_execute_fu_106">execute, 0, 0, 0 ns, 0 ns, 1, 1, yes</column>
+<column name="grp_decode_fu_94">decode, 1, 1, 10.000 ns, 10.000 ns, 2, 2, yes</column>
+<column name="is_running_running_cond_update_fu_100">running_cond_update, 0, 0, 0 ns, 0 ns, 1, 1, yes</column>
+<column name="pc_1_execute_fu_106">execute, 0, 0, 0 ns, 0 ns, 1, 1, yes</column>
 <column name="nbi_statistic_update_fu_113">statistic_update, 0, 0, 0 ns, 0 ns, 1, 1, yes</column>
 </table>
 </item>
@@ -55,10 +55,10 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 2, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">128, -, 194, 516, -</column>
+<column name="Instance">128, -, 233, 567, -</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, -, 58, -</column>
-<column name="Register">-, -, 125, -, -</column>
+<column name="Register">-, -, 105, -, -</column>
 <specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
 <specialColumn name="Utilization (%)">45, 0, ~0, 1, 0</specialColumn>
 </table>
@@ -68,10 +68,10 @@
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="control_s_axi_U">control_s_axi, 128, 0, 192, 238, 0</column>
-<column name="decode_ret_decode_fu_94">decode, 0, 0, 0, 79, 0</column>
-<column name="pc_V_1_execute_fu_106">execute, 0, 0, 0, 128, 0</column>
+<column name="grp_decode_fu_94">decode, 0, 0, 39, 90, 0</column>
+<column name="pc_1_execute_fu_106">execute, 0, 0, 0, 147, 0</column>
 <column name="grp_fetch_fu_87">fetch, 0, 0, 2, 14, 0</column>
-<column name="is_running_V_running_cond_update_fu_100">running_cond_update, 0, 0, 0, 18, 0</column>
+<column name="is_running_running_cond_update_fu_100">running_cond_update, 0, 0, 0, 39, 0</column>
 <column name="nbi_statistic_update_fu_113">statistic_update, 0, 0, 0, 39, 0</column>
 </table>
 </item>
@@ -97,7 +97,7 @@
 <column name="ap_NS_fsm">31, 6, 1, 6</column>
 <column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
 <column name="nbi_1_fu_70">9, 2, 32, 64</column>
-<column name="pc_V_fu_66">9, 2, 16, 32</column>
+<column name="pc_fu_66">9, 2, 16, 32</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
@@ -105,14 +105,12 @@
 <column name="ap_CS_fsm">5, 0, 5, 0</column>
 <column name="ap_enable_reg_pp0_iter0">1, 0, 1, 0</column>
 <column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
-<column name="d_i_type_V_reg_182">3, 0, 3, 0</column>
+<column name="grp_decode_fu_94_ap_start_reg">1, 0, 1, 0</column>
 <column name="grp_fetch_fu_87_ap_start_reg">1, 0, 1, 0</column>
-<column name="is_running_V_reg_192">1, 0, 1, 0</column>
 <column name="nbi_1_fu_70">32, 0, 32, 0</column>
-<column name="nbi_reg_196">32, 0, 32, 0</column>
-<column name="pc_V_fu_66">16, 0, 16, 0</column>
-<column name="pc_V_load_reg_176">16, 0, 16, 0</column>
-<column name="trunc_ln34_reg_187">17, 0, 17, 0</column>
+<column name="nbi_reg_188">32, 0, 32, 0</column>
+<column name="pc_fu_66">16, 0, 16, 0</column>
+<column name="pc_load_reg_178">16, 0, 16, 0</column>
 </table>
 </item>
 </section>

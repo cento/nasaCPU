@@ -2,7 +2,7 @@
 set TopModule "fetching_decoding_ip"
 set ClockPeriod 10
 set ClockList ap_clk
-set HasVivadoClockPeriod 0
+set HasVivadoClockPeriod 1
 set CombLogicFlag 0
 set PipelineFlag 0
 set DataflowTaskPipelineFlag 1
@@ -44,7 +44,7 @@ set SCTraceOption all
 set TargetInfo xc7z020:-clg400:-1
 set SourceFiles {sc {} c {../src/type.cpp ../src/statistic_update.cpp ../src/running_cond_update.cpp ../src/print.cpp ../src/immediate.cpp ../src/fetching_decoding_ip.cpp ../src/fetch.cpp ../src/execute.cpp ../src/decode.cpp}}
 set SourceFlags {sc {} c {{} {} {} {} {} {} {} {} {}}}
-set DirectiveFile C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_decoding_ip/solution1/solution1.directive
+set DirectiveFile {}
 set TBFiles {verilog ../src/testbench_fetching_decoding_ip.cpp bc ../src/testbench_fetching_decoding_ip.cpp vhdl ../src/testbench_fetching_decoding_ip.cpp sc ../src/testbench_fetching_decoding_ip.cpp cas ../src/testbench_fetching_decoding_ip.cpp c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
@@ -56,7 +56,7 @@ set ExtraGlobalOptions {"area_timing" 1 "clock_gate" 1 "impl_flow" map "power_ga
 set TBTVFileNotFound {}
 set AppFile ../hls.app
 set ApsFile solution1.aps
-set AvePath ../..
+set AvePath ../../.
 set DefaultPlatform DefaultPlatform
 set multiClockList {}
 set SCPortClockMap {}

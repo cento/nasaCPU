@@ -13,3 +13,4 @@ vitis_workspace_z2_fetching_ip/.metadata/.plugins/org.eclipse.core.resources/.hi
 *.d
 vitis_workspace_z2_fetching_ip/.metadata/.log
 *.log
+HLS/fetching_decoding_ip/.vitis_hls_log_all.xml

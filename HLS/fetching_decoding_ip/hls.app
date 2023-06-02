@@ -1,11 +1,11 @@
-<project xmlns="com.autoesl.autopilot.project" top="fetching_decoding_ip" name="fetching_decoding_ip">
+<project xmlns="com.autoesl.autopilot.project" name="fetching_decoding_ip" top="fetching_decoding_ip" projectType="C/C++">
     <includePaths/>
     <libraryPaths/>
     <Simulation>
-        <SimFlow name="csim" csimMode="0" lastCsimMode="0"/>
+        <SimFlow name="csim" clean="true" csimMode="0" lastCsimMode="0"/>
     </Simulation>
     <files xmlns="">
-        <file name="../src/testbench_fetching_decoding_ip.cpp" sc="0" tb="1" cflags=" -Wno-unknown-pragmas" csimflags=" -Wno-unknown-pragmas" blackbox="false"/>
+        <file name="../src/testbench_fetching_decoding_ip.cpp" sc="0" tb="1" cflags="-Wno-unknown-pragmas" csimflags="" blackbox="false"/>
         <file name="fetching_decoding_ip/src/type.h" sc="0" tb="false" cflags="" csimflags="" blackbox="false"/>
         <file name="fetching_decoding_ip/src/type.cpp" sc="0" tb="false" cflags="" csimflags="" blackbox="false"/>
         <file name="fetching_decoding_ip/src/statistic_update.h" sc="0" tb="false" cflags="" csimflags="" blackbox="false"/>

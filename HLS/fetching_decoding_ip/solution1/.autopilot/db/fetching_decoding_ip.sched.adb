@@ -34,7 +34,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702129263</coreId>
+						<coreId>4294967294</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -70,7 +70,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702129263</coreId>
+						<coreId>1852142702</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -106,7 +106,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702129263</coreId>
+						<coreId>1852142702</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -121,14 +121,14 @@
 			</item>
 		</ports>
 		<nodes class_id="8" tracking_level="0" version="0">
-			<count>23</count>
+			<count>22</count>
 			<item_version>0</item_version>
 			<item class_id="9" tracking_level="1" version="0" object_id="_4">
 				<Value>
 					<Obj>
 						<type>0</type>
 						<id>4</id>
-						<name>pc_V</name>
+						<name>pc</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -138,7 +138,7 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>pc.V</originalName>
+						<originalName>pc</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -146,7 +146,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885548133</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -154,7 +154,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>46</item>
+					<item>44</item>
 				</oprand_edges>
 				<opcode>alloca</opcode>
 				<m_Display>0</m_Display>
@@ -188,7 +188,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1919252069</coreId>
+						<coreId>1651470960</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -196,7 +196,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>47</item>
+					<item>45</item>
 				</oprand_edges>
 				<opcode>alloca</opcode>
 				<m_Display>0</m_Display>
@@ -236,7 +236,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>start_pc</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -244,7 +244,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1769235310</coreId>
+						<coreId>1685021541</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -252,8 +252,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>49</item>
-					<item>50</item>
+					<item>47</item>
+					<item>48</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -269,12 +269,12 @@
 					<Obj>
 						<type>0</type>
 						<id>19</id>
-						<name>pc_V_2</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<name>pc_2</name>
+						<fileName>fetching_decoding_ip/src/fetching_decoding_ip.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>215</lineNumber>
-						<contextFuncName>ap_int_base</contextFuncName>
-						<contextNormFuncName>ap_int_base</contextNormFuncName>
+						<lineNumber>26</lineNumber>
+						<contextFuncName>fetching_decoding_ip</contextFuncName>
+						<contextNormFuncName>fetching_decoding_ip</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -285,15 +285,15 @@
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>ap_int_base</second>
+											<first>fetching_decoding_ip/src/fetching_decoding_ip.cpp</first>
+											<second>fetching_decoding_ip</second>
 										</first>
-										<second>215</second>
+										<second>26</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>pc.V</originalName>
+						<originalName>pc</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -301,7 +301,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>506</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -309,7 +309,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>51</item>
+					<item>49</item>
 				</oprand_edges>
 				<opcode>trunc</opcode>
 				<m_Display>0</m_Display>
@@ -357,7 +357,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1769104758</coreId>
+						<coreId>1953852527</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -365,8 +365,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>53</item>
-					<item>54</item>
+					<item>51</item>
+					<item>52</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -382,7 +382,7 @@
 					<Obj>
 						<type>0</type>
 						<id>21</id>
-						<name>pc_V_write_ln29</name>
+						<name>pc_write_ln29</name>
 						<fileName>fetching_decoding_ip/src/fetching_decoding_ip.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
 						<lineNumber>29</lineNumber>
@@ -414,7 +414,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1919251557</coreId>
+						<coreId>2</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -422,8 +422,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>55</item>
-					<item>56</item>
+					<item>53</item>
+					<item>54</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -471,7 +471,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1226980729</coreId>
+						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -479,7 +479,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>57</item>
+					<item>55</item>
 				</oprand_edges>
 				<opcode>br</opcode>
 				<m_Display>0</m_Display>
@@ -495,7 +495,7 @@
 					<Obj>
 						<type>0</type>
 						<id>24</id>
-						<name>pc_V_load</name>
+						<name>pc_load</name>
 						<fileName>fetching_decoding_ip/src/fetching_decoding_ip.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
 						<lineNumber>35</lineNumber>
@@ -527,7 +527,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1528970616</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -535,8 +535,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>58</item>
-					<item>273</item>
+					<item>56</item>
+					<item>272</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -584,7 +584,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1986360096</coreId>
+						<coreId>1768189795</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -592,8 +592,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>59</item>
-					<item>272</item>
+					<item>57</item>
+					<item>270</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -601,7 +601,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>16</m_topoIndex>
+				<m_topoIndex>13</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_13">
@@ -641,7 +641,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768713801</coreId>
+						<coreId>221</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -649,15 +649,15 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
+					<item>59</item>
+					<item>60</item>
 					<item>61</item>
-					<item>62</item>
-					<item>63</item>
 				</oprand_edges>
 				<opcode>call</opcode>
 				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>1</m_isOnCriticalPath>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>1</m_isStartOfPath>
+				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>3.25</m_delay>
 				<m_topoIndex>9</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
@@ -699,7 +699,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885420090</coreId>
+						<coreId>640232051</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>23</bitwidth>
@@ -707,15 +707,15 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>65</item>
-					<item>66</item>
+					<item>63</item>
+					<item>64</item>
 				</oprand_edges>
 				<opcode>call</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>4.24</m_delay>
+				<m_isStartOfPath>1</m_isStartOfPath>
+				<m_delay>4.36</m_delay>
 				<m_topoIndex>10</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -724,7 +724,7 @@
 					<Obj>
 						<type>0</type>
 						<id>30</id>
-						<name>d_i_type_V</name>
+						<name>d_i_type</name>
 						<fileName>fetching_decoding_ip/src/fetching_decoding_ip.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
 						<lineNumber>34</lineNumber>
@@ -748,7 +748,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>d_i.type.V</originalName>
+						<originalName>d_i.type</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -756,7 +756,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885420090</coreId>
+						<coreId>774778400</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -764,7 +764,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>67</item>
+					<item>65</item>
 				</oprand_edges>
 				<opcode>extractvalue</opcode>
 				<m_Display>0</m_Display>
@@ -772,7 +772,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>11</m_topoIndex>
+				<m_topoIndex>14</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_16">
@@ -780,7 +780,7 @@
 					<Obj>
 						<type>0</type>
 						<id>31</id>
-						<name>d_i_imm_V</name>
+						<name>d_i_imm</name>
 						<fileName>fetching_decoding_ip/src/fetching_decoding_ip.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
 						<lineNumber>34</lineNumber>
@@ -804,7 +804,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>d_i.imm.V</originalName>
+						<originalName>d_i.imm</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -812,7 +812,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1664037422</coreId>
+						<coreId>1377975655</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -820,15 +820,15 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>68</item>
+					<item>66</item>
 				</oprand_edges>
 				<opcode>extractvalue</opcode>
 				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>12</m_topoIndex>
+				<m_topoIndex>15</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_17">
@@ -868,7 +868,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1664037422</coreId>
+						<coreId>859188792</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>17</bitwidth>
@@ -876,15 +876,15 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>69</item>
+					<item>67</item>
 				</oprand_edges>
 				<opcode>trunc</opcode>
 				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>13</m_topoIndex>
+				<m_topoIndex>16</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_18">
@@ -892,7 +892,7 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>pc_V_1</name>
+						<name>pc_1</name>
 						<fileName>fetching_decoding_ip/src/fetching_decoding_ip.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
 						<lineNumber>35</lineNumber>
@@ -916,7 +916,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>pc.V</originalName>
+						<originalName>pc</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -924,7 +924,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1667589215</coreId>
+						<coreId>1668183398</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -932,17 +932,17 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
+					<item>69</item>
+					<item>70</item>
 					<item>71</item>
 					<item>72</item>
-					<item>73</item>
-					<item>74</item>
 				</oprand_edges>
 				<opcode>call</opcode>
 				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>4.18</m_delay>
+				<m_delay>4.70</m_delay>
 				<m_topoIndex>17</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -983,7 +983,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885420090</coreId>
+						<coreId>543450484</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -991,8 +991,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>76</item>
-					<item>77</item>
+					<item>74</item>
+					<item>75</item>
 				</oprand_edges>
 				<opcode>call</opcode>
 				<m_Display>0</m_Display>
@@ -1008,7 +1008,7 @@
 					<Obj>
 						<type>0</type>
 						<id>35</id>
-						<name>is_running_V</name>
+						<name>is_running</name>
 						<fileName>fetching_decoding_ip/src/fetching_decoding_ip.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
 						<lineNumber>37</lineNumber>
@@ -1032,7 +1032,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>is_running.V</originalName>
+						<originalName>is_running</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -1040,7 +1040,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885420090</coreId>
+						<coreId>757935405</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -1048,16 +1048,16 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>79</item>
-					<item>80</item>
+					<item>77</item>
+					<item>78</item>
 				</oprand_edges>
 				<opcode>call</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.47</m_delay>
-				<m_topoIndex>14</m_topoIndex>
+				<m_delay>2.55</m_delay>
+				<m_topoIndex>11</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_21">
@@ -1065,64 +1065,6 @@
 					<Obj>
 						<type>0</type>
 						<id>36</id>
-						<name>br_ln38</name>
-						<fileName>fetching_decoding_ip/src/fetching_decoding_ip.cpp</fileName>
-						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>fetching_decoding_ip</contextFuncName>
-						<contextNormFuncName>fetching_decoding_ip</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>fetching_decoding_ip/src/fetching_decoding_ip.cpp</first>
-											<second>fetching_decoding_ip</second>
-										</first>
-										<second>38</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1768713801</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>0</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>81</item>
-					<item>82</item>
-					<item>83</item>
-				</oprand_edges>
-				<opcode>br</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>15</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_22">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>38</id>
 						<name>nbi_1_write_ln38</name>
 						<fileName>fetching_decoding_ip/src/fetching_decoding_ip.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
@@ -1155,7 +1097,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768713801</coreId>
+						<coreId>1684959075</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1163,10 +1105,10 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>84</item>
-					<item>85</item>
-					<item>274</item>
-					<item>277</item>
+					<item>79</item>
+					<item>80</item>
+					<item>268</item>
+					<item>271</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -1177,12 +1119,12 @@
 				<m_topoIndex>19</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_23">
+			<item class_id_reference="9" object_id="_22">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>39</id>
-						<name>pc_V_write_ln38</name>
+						<id>37</id>
+						<name>pc_write_ln38</name>
 						<fileName>fetching_decoding_ip/src/fetching_decoding_ip.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
 						<lineNumber>38</lineNumber>
@@ -1214,7 +1156,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768713801</coreId>
+						<coreId>1667589215</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1222,25 +1164,25 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>86</item>
-					<item>87</item>
-					<item>275</item>
-					<item>276</item>
+					<item>81</item>
+					<item>82</item>
+					<item>269</item>
+					<item>273</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isOnCriticalPath>1</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>1.58</m_delay>
 				<m_topoIndex>20</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_24">
+			<item class_id_reference="9" object_id="_23">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>40</id>
+						<id>38</id>
 						<name>br_ln38</name>
 						<fileName>fetching_decoding_ip/src/fetching_decoding_ip.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
@@ -1273,15 +1215,17 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>544175214</coreId>
+						<coreId>1885415024</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>1</count>
+					<count>3</count>
 					<item_version>0</item_version>
-					<item>88</item>
+					<item>83</item>
+					<item>84</item>
+					<item>85</item>
 				</oprand_edges>
 				<opcode>br</opcode>
 				<m_Display>0</m_Display>
@@ -1289,14 +1233,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>21</m_topoIndex>
+				<m_topoIndex>12</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_25">
+			<item class_id_reference="9" object_id="_24">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>42</id>
+						<id>40</id>
 						<name>nb_instruction_write_ln40</name>
 						<fileName>fetching_decoding_ip/src/fetching_decoding_ip.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
@@ -1329,7 +1273,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1769172597</coreId>
+						<coreId>1031365995</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1337,9 +1281,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>90</item>
-					<item>91</item>
-					<item>92</item>
+					<item>87</item>
+					<item>88</item>
+					<item>89</item>
 				</oprand_edges>
 				<opcode>write</opcode>
 				<m_Display>0</m_Display>
@@ -1347,14 +1291,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>1.00</m_delay>
-				<m_topoIndex>22</m_topoIndex>
+				<m_topoIndex>21</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_26">
+			<item class_id_reference="9" object_id="_25">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>43</id>
+						<id>41</id>
 						<name>_ln41</name>
 						<fileName>fetching_decoding_ip/src/fetching_decoding_ip.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
@@ -1387,7 +1331,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>544175214</coreId>
+						<coreId>1226980729</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1402,18 +1346,18 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>23</m_topoIndex>
+				<m_topoIndex>22</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 		</nodes>
 		<consts class_id="15" tracking_level="0" version="0">
 			<count>7</count>
 			<item_version>0</item_version>
-			<item class_id="16" tracking_level="1" version="0" object_id="_27">
+			<item class_id="16" tracking_level="1" version="0" object_id="_26">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>45</id>
+						<id>43</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -1432,7 +1376,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702129263</coreId>
+						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -1440,11 +1384,11 @@
 				<const_type>0</const_type>
 				<content>1</content>
 			</item>
-			<item class_id_reference="16" object_id="_28">
+			<item class_id_reference="16" object_id="_27">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>52</id>
+						<id>50</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -1463,7 +1407,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702129263</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -1471,11 +1415,11 @@
 				<const_type>0</const_type>
 				<content>0</content>
 			</item>
-			<item class_id_reference="16" object_id="_29">
+			<item class_id_reference="16" object_id="_28">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>60</id>
+						<id>58</id>
 						<name>fetch</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -1494,7 +1438,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>959656295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -1502,11 +1446,11 @@
 				<const_type>6</const_type>
 				<content>&lt;constant:fetch&gt;</content>
 			</item>
-			<item class_id_reference="16" object_id="_30">
+			<item class_id_reference="16" object_id="_29">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>64</id>
+						<id>62</id>
 						<name>decode</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -1525,7 +1469,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>762538356</coreId>
+						<coreId>544433525</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>23</bitwidth>
@@ -1533,11 +1477,11 @@
 				<const_type>6</const_type>
 				<content>&lt;constant:decode&gt;</content>
 			</item>
-			<item class_id_reference="16" object_id="_31">
+			<item class_id_reference="16" object_id="_30">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>70</id>
+						<id>68</id>
 						<name>execute</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -1556,7 +1500,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2342116160</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1564,11 +1508,11 @@
 				<const_type>6</const_type>
 				<content>&lt;constant:execute&gt;</content>
 			</item>
-			<item class_id_reference="16" object_id="_32">
+			<item class_id_reference="16" object_id="_31">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>75</id>
+						<id>73</id>
 						<name>statistic_update</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -1587,7 +1531,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2389822891</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -1595,11 +1539,11 @@
 				<const_type>6</const_type>
 				<content>&lt;constant:statistic_update&gt;</content>
 			</item>
-			<item class_id_reference="16" object_id="_33">
+			<item class_id_reference="16" object_id="_32">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>78</id>
+						<id>76</id>
 						<name>running_cond_update</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -1618,7 +1562,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>10</coreId>
+						<coreId>1852142702</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -1628,9 +1572,9 @@
 			</item>
 		</consts>
 		<blocks class_id="17" tracking_level="0" version="0">
-			<count>4</count>
+			<count>3</count>
 			<item_version>0</item_version>
-			<item class_id="18" tracking_level="1" version="0" object_id="_34">
+			<item class_id="18" tracking_level="1" version="0" object_id="_33">
 				<Obj>
 					<type>3</type>
 					<id>23</id>
@@ -1652,7 +1596,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>0</coreId>
+					<coreId>2951937072</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -1667,10 +1611,10 @@
 					<item>22</item>
 				</node_objs>
 			</item>
-			<item class_id_reference="18" object_id="_35">
+			<item class_id_reference="18" object_id="_34">
 				<Obj>
 					<type>3</type>
-					<id>37</id>
+					<id>39</id>
 					<name>do.cond</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
@@ -1689,11 +1633,11 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>0</coreId>
+					<coreId>1313423872</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
-					<count>11</count>
+					<count>13</count>
 					<item_version>0</item_version>
 					<item>24</item>
 					<item>25</item>
@@ -1706,45 +1650,14 @@
 					<item>34</item>
 					<item>35</item>
 					<item>36</item>
-				</node_objs>
-			</item>
-			<item class_id_reference="18" object_id="_36">
-				<Obj>
-					<type>3</type>
-					<id>41</id>
-					<name>do.cond.do.cond_crit_edge</name>
-					<fileName></fileName>
-					<fileDirectory></fileDirectory>
-					<lineNumber>0</lineNumber>
-					<contextFuncName></contextFuncName>
-					<contextNormFuncName></contextNormFuncName>
-					<inlineStackInfo>
-						<count>0</count>
-						<item_version>0</item_version>
-					</inlineStackInfo>
-					<originalName></originalName>
-					<rtlName></rtlName>
-					<control></control>
-					<opType></opType>
-					<implIndex></implIndex>
-					<coreName></coreName>
-					<isStorage>0</isStorage>
-					<storageDepth>0</storageDepth>
-					<coreId>2340347432</coreId>
-					<rtlModuleName></rtlModuleName>
-				</Obj>
-				<node_objs>
-					<count>3</count>
-					<item_version>0</item_version>
+					<item>37</item>
 					<item>38</item>
-					<item>39</item>
-					<item>40</item>
 				</node_objs>
 			</item>
-			<item class_id_reference="18" object_id="_37">
+			<item class_id_reference="18" object_id="_35">
 				<Obj>
 					<type>3</type>
-					<id>44</id>
+					<id>42</id>
 					<name>do.end</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
@@ -1763,347 +1676,333 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>2340333096</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>42</item>
-					<item>43</item>
+					<item>40</item>
+					<item>41</item>
 				</node_objs>
 			</item>
 		</blocks>
 		<edges class_id="19" tracking_level="0" version="0">
-			<count>47</count>
+			<count>45</count>
 			<item_version>0</item_version>
-			<item class_id="20" tracking_level="1" version="0" object_id="_38">
-				<id>46</id>
+			<item class_id="20" tracking_level="1" version="0" object_id="_36">
+				<id>44</id>
 				<edge_type>1</edge_type>
-				<source_obj>45</source_obj>
+				<source_obj>43</source_obj>
 				<sink_obj>4</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_39">
-				<id>47</id>
+			<item class_id_reference="20" object_id="_37">
+				<id>45</id>
 				<edge_type>1</edge_type>
-				<source_obj>45</source_obj>
+				<source_obj>43</source_obj>
 				<sink_obj>5</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_40">
-				<id>50</id>
+			<item class_id_reference="20" object_id="_38">
+				<id>48</id>
 				<edge_type>1</edge_type>
 				<source_obj>1</source_obj>
 				<sink_obj>18</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_41">
-				<id>51</id>
+			<item class_id_reference="20" object_id="_39">
+				<id>49</id>
 				<edge_type>1</edge_type>
 				<source_obj>18</source_obj>
 				<sink_obj>19</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_42">
-				<id>53</id>
+			<item class_id_reference="20" object_id="_40">
+				<id>51</id>
 				<edge_type>1</edge_type>
-				<source_obj>52</source_obj>
+				<source_obj>50</source_obj>
 				<sink_obj>20</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_43">
-				<id>54</id>
+			<item class_id_reference="20" object_id="_41">
+				<id>52</id>
 				<edge_type>1</edge_type>
 				<source_obj>5</source_obj>
 				<sink_obj>20</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_44">
-				<id>55</id>
+			<item class_id_reference="20" object_id="_42">
+				<id>53</id>
 				<edge_type>1</edge_type>
 				<source_obj>19</source_obj>
 				<sink_obj>21</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_43">
+				<id>54</id>
+				<edge_type>1</edge_type>
+				<source_obj>4</source_obj>
+				<sink_obj>21</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_44">
+				<id>55</id>
+				<edge_type>2</edge_type>
+				<source_obj>39</source_obj>
+				<sink_obj>22</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_45">
 				<id>56</id>
 				<edge_type>1</edge_type>
 				<source_obj>4</source_obj>
-				<sink_obj>21</sink_obj>
+				<sink_obj>24</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_46">
 				<id>57</id>
-				<edge_type>2</edge_type>
-				<source_obj>37</source_obj>
-				<sink_obj>22</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_47">
-				<id>58</id>
-				<edge_type>1</edge_type>
-				<source_obj>4</source_obj>
-				<sink_obj>24</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_48">
-				<id>59</id>
 				<edge_type>1</edge_type>
 				<source_obj>5</source_obj>
 				<sink_obj>25</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_49">
-				<id>61</id>
+			<item class_id_reference="20" object_id="_47">
+				<id>59</id>
 				<edge_type>1</edge_type>
-				<source_obj>60</source_obj>
+				<source_obj>58</source_obj>
 				<sink_obj>28</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_50">
-				<id>62</id>
+			<item class_id_reference="20" object_id="_48">
+				<id>60</id>
 				<edge_type>1</edge_type>
 				<source_obj>24</source_obj>
 				<sink_obj>28</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_51">
-				<id>63</id>
+			<item class_id_reference="20" object_id="_49">
+				<id>61</id>
 				<edge_type>1</edge_type>
 				<source_obj>2</source_obj>
 				<sink_obj>28</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_52">
-				<id>65</id>
+			<item class_id_reference="20" object_id="_50">
+				<id>63</id>
 				<edge_type>1</edge_type>
-				<source_obj>64</source_obj>
+				<source_obj>62</source_obj>
 				<sink_obj>29</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_53">
-				<id>66</id>
+			<item class_id_reference="20" object_id="_51">
+				<id>64</id>
 				<edge_type>1</edge_type>
 				<source_obj>28</source_obj>
 				<sink_obj>29</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_54">
-				<id>67</id>
+			<item class_id_reference="20" object_id="_52">
+				<id>65</id>
 				<edge_type>1</edge_type>
 				<source_obj>29</source_obj>
 				<sink_obj>30</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_55">
-				<id>68</id>
+			<item class_id_reference="20" object_id="_53">
+				<id>66</id>
 				<edge_type>1</edge_type>
 				<source_obj>29</source_obj>
 				<sink_obj>31</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_56">
-				<id>69</id>
+			<item class_id_reference="20" object_id="_54">
+				<id>67</id>
 				<edge_type>1</edge_type>
 				<source_obj>31</source_obj>
 				<sink_obj>32</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
+			<item class_id_reference="20" object_id="_55">
+				<id>69</id>
+				<edge_type>1</edge_type>
+				<source_obj>68</source_obj>
+				<sink_obj>33</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_56">
+				<id>70</id>
+				<edge_type>1</edge_type>
+				<source_obj>24</source_obj>
+				<sink_obj>33</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
 			<item class_id_reference="20" object_id="_57">
 				<id>71</id>
 				<edge_type>1</edge_type>
-				<source_obj>70</source_obj>
+				<source_obj>30</source_obj>
 				<sink_obj>33</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_58">
 				<id>72</id>
 				<edge_type>1</edge_type>
-				<source_obj>24</source_obj>
-				<sink_obj>33</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_59">
-				<id>73</id>
-				<edge_type>1</edge_type>
-				<source_obj>30</source_obj>
-				<sink_obj>33</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_60">
-				<id>74</id>
-				<edge_type>1</edge_type>
 				<source_obj>32</source_obj>
 				<sink_obj>33</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_61">
-				<id>76</id>
+			<item class_id_reference="20" object_id="_59">
+				<id>74</id>
 				<edge_type>1</edge_type>
-				<source_obj>75</source_obj>
+				<source_obj>73</source_obj>
 				<sink_obj>34</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_62">
-				<id>77</id>
+			<item class_id_reference="20" object_id="_60">
+				<id>75</id>
 				<edge_type>1</edge_type>
 				<source_obj>25</source_obj>
 				<sink_obj>34</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_63">
-				<id>79</id>
+			<item class_id_reference="20" object_id="_61">
+				<id>77</id>
 				<edge_type>1</edge_type>
-				<source_obj>78</source_obj>
+				<source_obj>76</source_obj>
 				<sink_obj>35</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_64">
-				<id>80</id>
+			<item class_id_reference="20" object_id="_62">
+				<id>78</id>
 				<edge_type>1</edge_type>
 				<source_obj>28</source_obj>
 				<sink_obj>35</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
+			<item class_id_reference="20" object_id="_63">
+				<id>79</id>
+				<edge_type>1</edge_type>
+				<source_obj>34</source_obj>
+				<sink_obj>36</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_64">
+				<id>80</id>
+				<edge_type>1</edge_type>
+				<source_obj>5</source_obj>
+				<sink_obj>36</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
 			<item class_id_reference="20" object_id="_65">
 				<id>81</id>
 				<edge_type>1</edge_type>
-				<source_obj>35</source_obj>
-				<sink_obj>36</sink_obj>
+				<source_obj>33</source_obj>
+				<sink_obj>37</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_66">
 				<id>82</id>
-				<edge_type>2</edge_type>
-				<source_obj>44</source_obj>
-				<sink_obj>36</sink_obj>
+				<edge_type>1</edge_type>
+				<source_obj>4</source_obj>
+				<sink_obj>37</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_67">
 				<id>83</id>
-				<edge_type>2</edge_type>
-				<source_obj>41</source_obj>
-				<sink_obj>36</sink_obj>
+				<edge_type>1</edge_type>
+				<source_obj>35</source_obj>
+				<sink_obj>38</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_68">
 				<id>84</id>
-				<edge_type>1</edge_type>
-				<source_obj>34</source_obj>
+				<edge_type>2</edge_type>
+				<source_obj>42</source_obj>
 				<sink_obj>38</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_69">
 				<id>85</id>
-				<edge_type>1</edge_type>
-				<source_obj>5</source_obj>
+				<edge_type>2</edge_type>
+				<source_obj>39</source_obj>
 				<sink_obj>38</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_70">
-				<id>86</id>
-				<edge_type>1</edge_type>
-				<source_obj>33</source_obj>
-				<sink_obj>39</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_71">
-				<id>87</id>
-				<edge_type>1</edge_type>
-				<source_obj>4</source_obj>
-				<sink_obj>39</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_72">
 				<id>88</id>
-				<edge_type>2</edge_type>
-				<source_obj>37</source_obj>
+				<edge_type>1</edge_type>
+				<source_obj>3</source_obj>
 				<sink_obj>40</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_73">
-				<id>91</id>
-				<edge_type>1</edge_type>
-				<source_obj>3</source_obj>
-				<sink_obj>42</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_74">
-				<id>92</id>
+			<item class_id_reference="20" object_id="_71">
+				<id>89</id>
 				<edge_type>1</edge_type>
 				<source_obj>34</source_obj>
+				<sink_obj>40</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_72">
+				<id>265</id>
+				<edge_type>2</edge_type>
+				<source_obj>23</source_obj>
+				<sink_obj>39</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_73">
+				<id>266</id>
+				<edge_type>2</edge_type>
+				<source_obj>39</source_obj>
+				<sink_obj>39</sink_obj>
+				<is_back_edge>1</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_74">
+				<id>267</id>
+				<edge_type>2</edge_type>
+				<source_obj>39</source_obj>
 				<sink_obj>42</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_75">
 				<id>268</id>
-				<edge_type>2</edge_type>
-				<source_obj>23</source_obj>
-				<sink_obj>37</sink_obj>
+				<edge_type>4</edge_type>
+				<source_obj>25</source_obj>
+				<sink_obj>36</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_76">
 				<id>269</id>
-				<edge_type>2</edge_type>
-				<source_obj>37</source_obj>
-				<sink_obj>41</sink_obj>
+				<edge_type>4</edge_type>
+				<source_obj>24</source_obj>
+				<sink_obj>37</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_77">
 				<id>270</id>
-				<edge_type>2</edge_type>
-				<source_obj>37</source_obj>
-				<sink_obj>44</sink_obj>
+				<edge_type>4</edge_type>
+				<source_obj>20</source_obj>
+				<sink_obj>25</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_78">
 				<id>271</id>
-				<edge_type>2</edge_type>
-				<source_obj>41</source_obj>
-				<sink_obj>37</sink_obj>
-				<is_back_edge>1</is_back_edge>
+				<edge_type>4</edge_type>
+				<source_obj>20</source_obj>
+				<sink_obj>36</sink_obj>
+				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_79">
 				<id>272</id>
 				<edge_type>4</edge_type>
-				<source_obj>20</source_obj>
-				<sink_obj>25</sink_obj>
+				<source_obj>21</source_obj>
+				<sink_obj>24</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_80">
 				<id>273</id>
 				<edge_type>4</edge_type>
 				<source_obj>21</source_obj>
-				<sink_obj>24</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_81">
-				<id>274</id>
-				<edge_type>4</edge_type>
-				<source_obj>20</source_obj>
-				<sink_obj>38</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_82">
-				<id>275</id>
-				<edge_type>4</edge_type>
-				<source_obj>21</source_obj>
-				<sink_obj>39</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_83">
-				<id>276</id>
-				<edge_type>4</edge_type>
-				<source_obj>24</source_obj>
-				<sink_obj>39</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_84">
-				<id>277</id>
-				<edge_type>4</edge_type>
-				<source_obj>25</source_obj>
-				<sink_obj>38</sink_obj>
+				<sink_obj>37</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 		</edges>
@@ -2111,7 +2010,7 @@
 	<cdfg_regions class_id="21" tracking_level="0" version="0">
 		<count>4</count>
 		<item_version>0</item_version>
-		<item class_id="22" tracking_level="1" version="0" object_id="_85">
+		<item class_id="22" tracking_level="1" version="0" object_id="_81">
 			<mId>1</mId>
 			<mTag>fetching_decoding_ip</mTag>
 			<mNormTag>fetching_decoding_ip</mNormTag>
@@ -2136,7 +2035,7 @@
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
-		<item class_id_reference="22" object_id="_86">
+		<item class_id_reference="22" object_id="_82">
 			<mId>2</mId>
 			<mTag>Entry</mTag>
 			<mNormTag>Entry</mNormTag>
@@ -2159,7 +2058,7 @@
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
-		<item class_id_reference="22" object_id="_87">
+		<item class_id_reference="22" object_id="_83">
 			<mId>3</mId>
 			<mTag>VITIS_LOOP_29_1</mTag>
 			<mNormTag>VITIS_LOOP_29_1</mNormTag>
@@ -2169,10 +2068,9 @@
 				<item_version>0</item_version>
 			</sub_regions>
 			<basic_blocks>
-				<count>2</count>
+				<count>1</count>
 				<item_version>0</item_version>
-				<item>37</item>
-				<item>41</item>
+				<item>39</item>
 			</basic_blocks>
 			<mII>3</mII>
 			<mDepth>4</mDepth>
@@ -2183,7 +2081,7 @@
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
-		<item class_id_reference="22" object_id="_88">
+		<item class_id_reference="22" object_id="_84">
 			<mId>4</mId>
 			<mTag>Return</mTag>
 			<mNormTag>Return</mNormTag>
@@ -2195,7 +2093,7 @@
 			<basic_blocks>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>44</item>
+				<item>42</item>
 			</basic_blocks>
 			<mII>-1</mII>
 			<mDepth>-1</mDepth>
@@ -2210,7 +2108,7 @@
 	<fsm class_id="-1"></fsm>
 	<res class_id="-1"></res>
 	<node_label_latency class_id="26" tracking_level="0" version="0">
-		<count>23</count>
+		<count>22</count>
 		<item_version>0</item_version>
 		<item class_id="27" tracking_level="0" version="0">
 			<first>4</first>
@@ -2286,27 +2184,27 @@
 			<first>29</first>
 			<second>
 				<first>3</first>
-				<second>0</second>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>30</first>
 			<second>
-				<first>3</first>
+				<first>4</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>31</first>
 			<second>
-				<first>3</first>
+				<first>4</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>32</first>
 			<second>
-				<first>3</first>
+				<first>4</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -2334,40 +2232,33 @@
 		<item>
 			<first>36</first>
 			<second>
-				<first>3</first>
+				<first>4</first>
+				<second>0</second>
+			</second>
+		</item>
+		<item>
+			<first>37</first>
+			<second>
+				<first>4</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>38</first>
 			<second>
-				<first>4</first>
-				<second>0</second>
-			</second>
-		</item>
-		<item>
-			<first>39</first>
-			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>40</first>
 			<second>
-				<first>4</first>
-				<second>0</second>
-			</second>
-		</item>
-		<item>
-			<first>42</first>
-			<second>
 				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
-			<first>43</first>
+			<first>41</first>
 			<second>
 				<first>5</first>
 				<second>0</second>
@@ -2375,7 +2266,7 @@
 		</item>
 	</node_label_latency>
 	<bblk_ent_exit class_id="29" tracking_level="0" version="0">
-		<count>4</count>
+		<count>3</count>
 		<item_version>0</item_version>
 		<item class_id="30" tracking_level="0" version="0">
 			<first>23</first>
@@ -2385,21 +2276,14 @@
 			</second>
 		</item>
 		<item>
-			<first>37</first>
+			<first>39</first>
 			<second>
 				<first>1</first>
 				<second>4</second>
 			</second>
 		</item>
 		<item>
-			<first>41</first>
-			<second>
-				<first>4</first>
-				<second>4</second>
-			</second>
-		</item>
-		<item>
-			<first>44</first>
+			<first>42</first>
 			<second>
 				<first>5</first>
 				<second>5</second>
@@ -2409,13 +2293,12 @@
 	<regions class_id="32" tracking_level="0" version="0">
 		<count>1</count>
 		<item_version>0</item_version>
-		<item class_id="33" tracking_level="1" version="0" object_id="_89">
+		<item class_id="33" tracking_level="1" version="0" object_id="_85">
 			<region_name>VITIS_LOOP_29_1</region_name>
 			<basic_blocks>
-				<count>2</count>
+				<count>1</count>
 				<item_version>0</item_version>
-				<item>37</item>
-				<item>41</item>
+				<item>39</item>
 			</basic_blocks>
 			<nodes>
 				<count>0</count>

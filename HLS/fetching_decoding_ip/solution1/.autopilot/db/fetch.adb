@@ -16,7 +16,7 @@
             <Obj class_id="5" tracking_level="0" version="0">
               <type>1</type>
               <id>1</id>
-              <name>pc</name>
+              <name>pc_val</name>
               <fileName/>
               <fileDirectory/>
               <lineNumber>0</lineNumber>
@@ -34,7 +34,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1702129263</coreId>
+              <coreId>1852142702</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -70,7 +70,7 @@
               <coreName>RAM_1P</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1702129263</coreId>
+              <coreId>1852142702</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -92,12 +92,12 @@
             <Obj>
               <type>0</type>
               <id>5</id>
-              <name>pc_read</name>
-              <fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
-              <fileDirectory>..</fileDirectory>
-              <lineNumber>541</lineNumber>
-              <contextFuncName>operator unsigned long long</contextFuncName>
-              <contextNormFuncName>operator_unsigned_long_long</contextNormFuncName>
+              <name>pc_val_read</name>
+              <fileName>fetching_decoding_ip/src/fetch.cpp</fileName>
+              <fileDirectory>../.</fileDirectory>
+              <lineNumber>16</lineNumber>
+              <contextFuncName>fetch</contextFuncName>
+              <contextNormFuncName>fetch</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -108,10 +108,10 @@
                     <item_version>0</item_version>
                     <item class_id="12" tracking_level="0" version="0">
                       <first class_id="13" tracking_level="0" version="0">
-                        <first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-                        <second>operator unsigned long long</second>
+                        <first>fetching_decoding_ip/src/fetch.cpp</first>
+                        <second>fetch</second>
                       </first>
-                      <second>541</second>
+                      <second>16</second>
                     </item>
                   </second>
                 </item>
@@ -124,7 +124,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>745303137</coreId>
+              <coreId>2940301832</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -149,12 +149,12 @@
             <Obj>
               <type>0</type>
               <id>6</id>
-              <name>zext_ln541</name>
-              <fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
-              <fileDirectory>..</fileDirectory>
-              <lineNumber>541</lineNumber>
-              <contextFuncName>operator unsigned long long</contextFuncName>
-              <contextNormFuncName>operator_unsigned_long_long</contextNormFuncName>
+              <name>zext_ln16</name>
+              <fileName>fetching_decoding_ip/src/fetch.cpp</fileName>
+              <fileDirectory>../.</fileDirectory>
+              <lineNumber>16</lineNumber>
+              <contextFuncName>fetch</contextFuncName>
+              <contextNormFuncName>fetch</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -165,23 +165,23 @@
                     <item_version>0</item_version>
                     <item>
                       <first>
-                        <first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-                        <second>operator unsigned long long</second>
+                        <first>fetching_decoding_ip/src/fetch.cpp</first>
+                        <second>fetch</second>
                       </first>
-                      <second>541</second>
+                      <second>16</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>zext_ln541_fu_47_p1</rtlName>
+              <rtlName>zext_ln16_fu_47_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1734701612</coreId>
+              <coreId>2942297328</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -207,7 +207,7 @@
               <id>7</id>
               <name>code_ram_addr</name>
               <fileName>fetching_decoding_ip/src/fetch.cpp</fileName>
-              <fileDirectory>..</fileDirectory>
+              <fileDirectory>../.</fileDirectory>
               <lineNumber>16</lineNumber>
               <contextFuncName>fetch</contextFuncName>
               <contextNormFuncName>fetch</contextNormFuncName>
@@ -237,7 +237,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4267512584</coreId>
+              <coreId>2940298472</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -265,7 +265,7 @@
               <id>8</id>
               <name>code_ram_load</name>
               <fileName>fetching_decoding_ip/src/fetch.cpp</fileName>
-              <fileDirectory>..</fileDirectory>
+              <fileDirectory>../.</fileDirectory>
               <lineNumber>16</lineNumber>
               <contextFuncName>fetch</contextFuncName>
               <contextNormFuncName>fetch</contextNormFuncName>
@@ -321,7 +321,7 @@
               <id>9</id>
               <name>_ln24</name>
               <fileName>fetching_decoding_ip/src/fetch.cpp</fileName>
-              <fileDirectory>..</fileDirectory>
+              <fileDirectory>../.</fileDirectory>
               <lineNumber>24</lineNumber>
               <contextFuncName>fetch</contextFuncName>
               <contextNormFuncName>fetch</contextNormFuncName>
@@ -351,7 +351,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4267516504</coreId>
+              <coreId>2940300152</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -397,7 +397,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4266771232</coreId>
+              <coreId>2914481888</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -431,7 +431,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>2259805024</coreId>
+            <coreId>0</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -816,7 +816,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln541_fu_47</first>
+        <first>zext_ln16_fu_47</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -832,7 +832,7 @@
       <count>1</count>
       <item_version>0</item_version>
       <item>
-        <first>pc_read_read_fu_28</first>
+        <first>pc_val_read_read_fu_28</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -920,7 +920,7 @@
         </second>
       </item>
       <item>
-        <first>pc</first>
+        <first>pc_val</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

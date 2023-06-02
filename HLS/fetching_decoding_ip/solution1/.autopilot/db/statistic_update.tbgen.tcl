@@ -10,11 +10,14 @@ set ProfileFlag 0
 set StallSigGenFlag 0
 set isEnableWaveformDebug 1
 set hasInterrupt 0
+set DLRegFirstOffset 0
+set DLRegItemOffset 0
 set C_modelName {statistic_update}
 set C_modelType { int 32 }
 set C_modelArgList {
 	{ nbi_read int 32 regular  }
 }
+set hasAXIMCache 0
 set C_modelArgMapList {[ 
 	{ "Name" : "nbi_read", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
  	{ "Name" : "ap_return", "interface" : "wire", "bitwidth" : 32} ]}

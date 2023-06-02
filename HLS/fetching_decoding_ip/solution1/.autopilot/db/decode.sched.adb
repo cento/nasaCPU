@@ -34,7 +34,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702129263</coreId>
+						<coreId>1852142702</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -88,7 +88,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>745303137</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -113,7 +113,7 @@
 					<Obj>
 						<type>0</type>
 						<id>3</id>
-						<name>d_imm_inst_7_V</name>
+						<name>d_imm_inst_7</name>
 						<fileName>fetching_decoding_ip/src/decode.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
 						<lineNumber>17</lineNumber>
@@ -125,8 +125,15 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/decode.cpp</first>
@@ -137,7 +144,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>d_imm.inst_7.V</originalName>
+						<originalName>d_imm.inst_7</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -145,7 +152,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2268603824</coreId>
+						<coreId>4294967295</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -171,7 +178,7 @@
 					<Obj>
 						<type>0</type>
 						<id>4</id>
-						<name>d_imm_inst_20_V</name>
+						<name>d_imm_inst_20</name>
 						<fileName>fetching_decoding_ip/src/decode.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
 						<lineNumber>20</lineNumber>
@@ -183,8 +190,15 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/decode.cpp</first>
@@ -195,7 +209,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>d_imm.inst_20.V</originalName>
+						<originalName>d_imm.inst_20</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -203,7 +217,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>544433516</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -229,31 +243,45 @@
 					<Obj>
 						<type>0</type>
 						<id>5</id>
-						<name>opch_V</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<name>opch</name>
+						<fileName>fetching_decoding_ip/src/type.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>1669</lineNumber>
-						<contextFuncName>operator&amp;gt;&amp;gt;&amp;lt;5, false&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_rs_5_false</contextNormFuncName>
+						<lineNumber>69</lineNumber>
+						<contextFuncName>type</contextFuncName>
+						<contextNormFuncName>type</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>operator&amp;gt;&amp;gt;&amp;lt;5, false&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>1669</second>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>69</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>opch.V</originalName>
+						<originalName>opch</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -261,7 +289,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4267514824</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>2</bitwidth>
@@ -288,31 +316,45 @@
 					<Obj>
 						<type>0</type>
 						<id>6</id>
-						<name>opcl_V</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<name>opcl</name>
+						<fileName>fetching_decoding_ip/src/type.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>186</lineNumber>
-						<contextFuncName>ap_int_base&amp;lt;5, false&amp;gt;</contextFuncName>
-						<contextNormFuncName>ap_int_base_5_false_s</contextNormFuncName>
+						<lineNumber>70</lineNumber>
+						<contextFuncName>type</contextFuncName>
+						<contextNormFuncName>type</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>ap_int_base&amp;lt;5, false&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>186</second>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>70</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>opcl.V</originalName>
+						<originalName>opcl</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -320,7 +362,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702260512</coreId>
+						<coreId>2942297328</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -359,8 +401,22 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/type.cpp</first>
@@ -379,7 +435,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4267517064</coreId>
+						<coreId>2667052371</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -422,8 +478,29 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>4</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>74</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/type.cpp</first>
@@ -442,7 +519,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4228300630</coreId>
+						<coreId>3435973830</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -485,8 +562,29 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>4</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>74</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/type.cpp</first>
@@ -541,8 +639,29 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>4</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>74</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/type.cpp</first>
@@ -561,7 +680,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>779314286</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -597,8 +716,29 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>4</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>74</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/type.cpp</first>
@@ -617,7 +757,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1953852527</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -653,8 +793,29 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>4</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>73</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/type.cpp</first>
@@ -673,7 +834,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>44</coreId>
+						<coreId>540291125</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -716,8 +877,29 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>4</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>73</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/type.cpp</first>
@@ -736,7 +918,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -772,8 +954,29 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>4</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>73</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/type.cpp</first>
@@ -792,7 +995,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>774778400</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -828,8 +1031,29 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>4</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>73</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/type.cpp</first>
@@ -848,7 +1072,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>14</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -884,8 +1108,29 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>4</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>76</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/type.cpp</first>
@@ -904,7 +1149,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4</coreId>
+						<coreId>171847424</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -947,8 +1192,29 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>4</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>76</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/type.cpp</first>
@@ -967,7 +1233,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1701650532</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1003,8 +1269,29 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>4</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>76</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/type.cpp</first>
@@ -1059,8 +1346,29 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>4</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>54</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_instruction</second>
+										</first>
+										<second>22</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/type.cpp</first>
+											<second>type</second>
+										</first>
+										<second>76</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/type.cpp</first>
@@ -1079,7 +1387,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3598839998</coreId>
+						<coreId>7630437</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1103,7 +1411,7 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>d_i_type_V_write_assign</name>
+						<name>d_i_type_write_assign</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1113,7 +1421,7 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>d_i.type.V</originalName>
+						<originalName>d_i.type</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -1121,7 +1429,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1769104758</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -1170,31 +1478,38 @@
 					<Obj>
 						<type>0</type>
 						<id>34</id>
-						<name>d_imm_inst_31_V</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<name>d_imm_inst_31</name>
+						<fileName>fetching_decoding_ip/src/decode.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>215</lineNumber>
-						<contextFuncName>ap_int_base</contextFuncName>
-						<contextNormFuncName>ap_int_base</contextNormFuncName>
+						<lineNumber>30</lineNumber>
+						<contextFuncName>decode_immediate</contextFuncName>
+						<contextNormFuncName>decode_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>ap_int_base</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>215</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>30</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>d_imm.inst_31.V</originalName>
+						<originalName>d_imm.inst_31</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -1202,7 +1517,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>74</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -1228,31 +1543,38 @@
 					<Obj>
 						<type>0</type>
 						<id>35</id>
-						<name>d_imm_inst_11_8_V</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<name>d_imm_inst_11_8</name>
+						<fileName>fetching_decoding_ip/src/decode.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>215</lineNumber>
-						<contextFuncName>ap_int_base</contextFuncName>
-						<contextNormFuncName>ap_int_base</contextNormFuncName>
+						<lineNumber>35</lineNumber>
+						<contextFuncName>decode_immediate</contextFuncName>
+						<contextNormFuncName>decode_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>ap_int_base</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>215</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>35</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>d_imm.inst_11_8.V</originalName>
+						<originalName>d_imm.inst_11_8</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -1260,7 +1582,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>4</bitwidth>
@@ -1299,8 +1621,15 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>55</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/decode.cpp</first>
@@ -1319,7 +1648,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1701999221</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1355,25 +1684,39 @@
 						<type>0</type>
 						<id>38</id>
 						<name>tmp_4</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<fileName>fetching_decoding_ip/src/immediate.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>1498</lineNumber>
-						<contextFuncName>operator|&amp;lt;12, true, 12, true&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_or_12_true_12_true</contextNormFuncName>
+						<lineNumber>22</lineNumber>
+						<contextFuncName>b_immediate</contextFuncName>
+						<contextNormFuncName>b_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>operator|&amp;lt;12, true, 12, true&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>1498</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>42</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/immediate.cpp</first>
+											<second>b_immediate</second>
+										</first>
+										<second>22</second>
 									</item>
 								</second>
 							</item>
@@ -1386,7 +1729,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1885415472</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>6</bitwidth>
@@ -1413,31 +1756,45 @@
 					<Obj>
 						<type>0</type>
 						<id>39</id>
-						<name>ret_V_4</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<name>or_ln3</name>
+						<fileName>fetching_decoding_ip/src/immediate.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>1498</lineNumber>
-						<contextFuncName>operator|&amp;lt;12, true, 12, true&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_or_12_true_12_true</contextNormFuncName>
+						<lineNumber>23</lineNumber>
+						<contextFuncName>b_immediate</contextFuncName>
+						<contextNormFuncName>b_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>operator|&amp;lt;12, true, 12, true&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>1498</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>42</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/immediate.cpp</first>
+											<second>b_immediate</second>
+										</first>
+										<second>23</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>ret.V</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -1445,7 +1802,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1869833586</coreId>
+						<coreId>16843009</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -1485,8 +1842,15 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>55</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/decode.cpp</first>
@@ -1505,7 +1869,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1852400751</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -1541,8 +1905,15 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>55</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/decode.cpp</first>
@@ -1561,7 +1932,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1685021541</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1586,25 +1957,39 @@
 						<type>0</type>
 						<id>43</id>
 						<name>tmp_2</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<fileName>fetching_decoding_ip/src/immediate.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>1498</lineNumber>
-						<contextFuncName>operator|&amp;lt;12, true, 12, true&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_or_12_true_12_true</contextNormFuncName>
+						<lineNumber>15</lineNumber>
+						<contextFuncName>s_immediate</contextFuncName>
+						<contextNormFuncName>s_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>operator|&amp;lt;12, true, 12, true&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>1498</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>41</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/immediate.cpp</first>
+											<second>s_immediate</second>
+										</first>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -1617,7 +2002,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2854975413</coreId>
+						<coreId>1394737273</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -1645,25 +2030,39 @@
 						<type>0</type>
 						<id>44</id>
 						<name>tmp_3</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<fileName>fetching_decoding_ip/src/immediate.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>1498</lineNumber>
-						<contextFuncName>operator|&amp;lt;12, true, 12, true&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_or_12_true_12_true</contextNormFuncName>
+						<lineNumber>15</lineNumber>
+						<contextFuncName>s_immediate</contextFuncName>
+						<contextNormFuncName>s_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>operator|&amp;lt;12, true, 12, true&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>1498</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>41</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/immediate.cpp</first>
+											<second>s_immediate</second>
+										</first>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
@@ -1676,7 +2075,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1685021541</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>5</bitwidth>
@@ -1703,31 +2102,45 @@
 					<Obj>
 						<type>0</type>
 						<id>45</id>
-						<name>ret_V_3</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<name>or_ln2</name>
+						<fileName>fetching_decoding_ip/src/immediate.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>1498</lineNumber>
-						<contextFuncName>operator|&amp;lt;12, true, 12, true&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_or_12_true_12_true</contextNormFuncName>
+						<lineNumber>15</lineNumber>
+						<contextFuncName>s_immediate</contextFuncName>
+						<contextNormFuncName>s_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>operator|&amp;lt;12, true, 12, true&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>1498</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>41</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/immediate.cpp</first>
+											<second>s_immediate</second>
+										</first>
+										<second>15</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>ret.V</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -1735,7 +2148,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>28</coreId>
+						<coreId>788537856</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -1773,8 +2186,15 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>55</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/decode.cpp</first>
@@ -1793,7 +2213,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1667589167</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -1829,8 +2249,15 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>55</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/decode.cpp</first>
@@ -1849,7 +2276,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1953394531</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1873,31 +2300,45 @@
 					<Obj>
 						<type>0</type>
 						<id>49</id>
-						<name>ret_V</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<name>or_ln7</name>
+						<fileName>fetching_decoding_ip/src/immediate.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>1498</lineNumber>
-						<contextFuncName>operator|&amp;lt;12, true, 12, true&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_or_12_true_12_true</contextNormFuncName>
+						<lineNumber>7</lineNumber>
+						<contextFuncName>i_immediate</contextFuncName>
+						<contextNormFuncName>i_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>operator|&amp;lt;12, true, 12, true&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>1498</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>40</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/immediate.cpp</first>
+											<second>i_immediate</second>
+										</first>
+										<second>7</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>ret.V</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -1905,7 +2346,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>1702035557</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -1944,8 +2385,15 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>55</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/decode.cpp</first>
@@ -1964,7 +2412,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>778396783</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -2000,8 +2448,15 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>55</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/decode.cpp</first>
@@ -2020,7 +2475,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1229085474</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2044,31 +2499,45 @@
 					<Obj>
 						<type>0</type>
 						<id>53</id>
-						<name>ret_V_2</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<name>or_ln1</name>
+						<fileName>fetching_decoding_ip/src/immediate.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>1498</lineNumber>
-						<contextFuncName>operator|&amp;lt;20, true, 20, true&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_or_20_true_20_true</contextNormFuncName>
+						<lineNumber>32</lineNumber>
+						<contextFuncName>u_immediate</contextFuncName>
+						<contextNormFuncName>u_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>operator|&amp;lt;20, true, 20, true&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>1498</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>43</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/immediate.cpp</first>
+											<second>u_immediate</second>
+										</first>
+										<second>32</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>ret.V</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2115,8 +2584,15 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>55</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/decode.cpp</first>
@@ -2135,7 +2611,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1664037422</coreId>
+						<coreId>1868784996</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2160,25 +2636,39 @@
 						<type>0</type>
 						<id>56</id>
 						<name>tmp</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<fileName>fetching_decoding_ip/src/immediate.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>1498</lineNumber>
-						<contextFuncName>operator|&amp;lt;20, true, 20, true&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_or_20_true_20_true</contextNormFuncName>
+						<lineNumber>39</lineNumber>
+						<contextFuncName>j_immediate</contextFuncName>
+						<contextNormFuncName>j_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>operator|&amp;lt;20, true, 20, true&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>1498</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>44</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/immediate.cpp</first>
+											<second>j_immediate</second>
+										</first>
+										<second>39</second>
 									</item>
 								</second>
 							</item>
@@ -2191,7 +2681,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768713801</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -2219,25 +2709,39 @@
 						<type>0</type>
 						<id>57</id>
 						<name>tmp_1</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<fileName>fetching_decoding_ip/src/immediate.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>1498</lineNumber>
-						<contextFuncName>operator|&amp;lt;20, true, 20, true&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_or_20_true_20_true</contextNormFuncName>
+						<lineNumber>40</lineNumber>
+						<contextFuncName>j_immediate</contextFuncName>
+						<contextNormFuncName>j_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>operator|&amp;lt;20, true, 20, true&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>1498</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>44</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/immediate.cpp</first>
+											<second>j_immediate</second>
+										</first>
+										<second>40</second>
 									</item>
 								</second>
 							</item>
@@ -2250,7 +2754,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885420090</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>10</bitwidth>
@@ -2277,31 +2781,45 @@
 					<Obj>
 						<type>0</type>
 						<id>58</id>
-						<name>ret_V_1</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<name>or_ln</name>
+						<fileName>fetching_decoding_ip/src/immediate.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>1498</lineNumber>
-						<contextFuncName>operator|&amp;lt;20, true, 20, true&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_or_20_true_20_true</contextNormFuncName>
+						<lineNumber>40</lineNumber>
+						<contextFuncName>j_immediate</contextFuncName>
+						<contextNormFuncName>j_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>operator|&amp;lt;20, true, 20, true&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>1498</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>44</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/immediate.cpp</first>
+											<second>j_immediate</second>
+										</first>
+										<second>40</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>ret.V</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2309,7 +2827,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1664037422</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -2349,8 +2867,15 @@
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>2</count>
 									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>55</second>
+									</item>
 									<item>
 										<first>
 											<first>fetching_decoding_ip/src/decode.cpp</first>
@@ -2369,7 +2894,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885420090</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2393,17 +2918,45 @@
 					<Obj>
 						<type>0</type>
 						<id>61</id>
-						<name>d_i_imm_V_write_assign</name>
-						<fileName></fileName>
-						<fileDirectory></fileDirectory>
-						<lineNumber>0</lineNumber>
-						<contextFuncName></contextFuncName>
-						<contextNormFuncName></contextNormFuncName>
+						<name>d_i_imm_write_assign</name>
+						<fileName>fetching_decoding_ip/src/immediate.cpp</fileName>
+						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
+						<lineNumber>40</lineNumber>
+						<contextFuncName>j_immediate</contextFuncName>
+						<contextNormFuncName>j_immediate</contextNormFuncName>
 						<inlineStackInfo>
-							<count>0</count>
+							<count>1</count>
 							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
+								<second>
+									<count>3</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
+										</first>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>44</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/immediate.cpp</first>
+											<second>j_immediate</second>
+										</first>
+										<second>40</second>
+									</item>
+								</second>
+							</item>
 						</inlineStackInfo>
-						<originalName>ret.V</originalName>
+						<originalName>d_i.imm</originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2411,7 +2964,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1664037422</coreId>
+						<coreId>4294967294</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -2464,7 +3017,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885420090</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>23</bitwidth>
@@ -2490,25 +3043,39 @@
 						<type>0</type>
 						<id>63</id>
 						<name>newret2</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<fileName>fetching_decoding_ip/src/immediate.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>1498</lineNumber>
-						<contextFuncName>operator|&amp;lt;20, true, 20, true&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_or_20_true_20_true</contextNormFuncName>
+						<lineNumber>40</lineNumber>
+						<contextFuncName>j_immediate</contextFuncName>
+						<contextNormFuncName>j_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>operator|&amp;lt;20, true, 20, true&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>1498</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>44</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/immediate.cpp</first>
+											<second>j_immediate</second>
+										</first>
+										<second>40</second>
 									</item>
 								</second>
 							</item>
@@ -2521,7 +3088,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885420090</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>23</bitwidth>
@@ -2546,26 +3113,40 @@
 					<Obj>
 						<type>0</type>
 						<id>64</id>
-						<name>_ln1498</name>
-						<fileName>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</fileName>
+						<name>_ln40</name>
+						<fileName>fetching_decoding_ip/src/immediate.cpp</fileName>
 						<fileDirectory>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</fileDirectory>
-						<lineNumber>1498</lineNumber>
-						<contextFuncName>operator|&amp;lt;20, true, 20, true&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_or_20_true_20_true</contextNormFuncName>
+						<lineNumber>40</lineNumber>
+						<contextFuncName>j_immediate</contextFuncName>
+						<contextNormFuncName>j_immediate</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
 								<first>C:\Users\monde\Documents\GitHub\nasa-CPU\HLS</first>
 								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
-											<first>C:/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h</first>
-											<second>operator|&amp;lt;20, true, 20, true&amp;gt;</second>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode</second>
 										</first>
-										<second>1498</second>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/decode.cpp</first>
+											<second>decode_immediate</second>
+										</first>
+										<second>44</second>
+									</item>
+									<item>
+										<first>
+											<first>fetching_decoding_ip/src/immediate.cpp</first>
+											<second>j_immediate</second>
+										</first>
+										<second>40</second>
 									</item>
 								</second>
 							</item>
@@ -2578,7 +3159,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1664037422</coreId>
+						<coreId>3834512688</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2624,7 +3205,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1969317477</coreId>
+						<coreId>1852142702</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -2655,7 +3236,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>677867119</coreId>
+						<coreId>544433525</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -2686,7 +3267,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885415018</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -2717,7 +3298,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702043749</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -2748,7 +3329,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>997484326</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -2779,7 +3360,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539119430</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -2810,7 +3391,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>691761261</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>2</bitwidth>
@@ -2841,7 +3422,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>574452846</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>2</bitwidth>
@@ -2872,7 +3453,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1869903201</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>2</bitwidth>
@@ -2903,7 +3484,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1213932093</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -2934,7 +3515,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1965581683</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -2965,7 +3546,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1713399662</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -2996,7 +3577,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885548133</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -3027,7 +3608,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1936683105</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -3058,7 +3639,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>997420912</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -3089,7 +3670,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1852270963</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -3120,7 +3701,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>808542035</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>3</bitwidth>
@@ -3151,7 +3732,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>758132786</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3182,7 +3763,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1649165619</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3213,7 +3794,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1852793632</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3244,7 +3825,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>893088876</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3275,7 +3856,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>574454132</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3306,7 +3887,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>543516513</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3337,7 +3918,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701869908</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3368,7 +3949,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1629890932</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3399,7 +3980,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1936618784</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -3430,7 +4011,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1852400751</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>23</bitwidth>
@@ -3464,7 +4045,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>2336696379</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3500,7 +4081,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>2259805024</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3531,7 +4112,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>2259805024</coreId>
+					<coreId>2942530360</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3562,7 +4143,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>2259805024</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3593,7 +4174,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>2259805024</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3686,7 +4267,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>2340349352</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3748,7 +4329,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>2340332072</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3810,7 +4391,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>0</coreId>
+					<coreId>2942526040</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3841,7 +4422,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>0</coreId>
+					<coreId>78</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3906,7 +4487,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>2340335912</coreId>
+					<coreId>0</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -5437,12 +6018,12 @@
 				<item>60</item>
 				<item>65</item>
 			</basic_blocks>
-			<mII>1</mII>
-			<mDepth>1</mDepth>
+			<mII>2</mII>
+			<mDepth>2</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>0</mMinLatency>
-			<mMaxLatency>0</mMaxLatency>
+			<mMinLatency>1</mMinLatency>
+			<mMaxLatency>1</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -5581,182 +6162,182 @@
 		<item>
 			<first>33</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>34</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>35</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>36</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>38</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>39</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>40</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>41</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>43</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>44</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>45</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>46</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>47</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>49</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>50</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>51</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>53</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>54</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>56</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>57</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>58</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>59</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>61</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>62</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>63</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>64</first>
 			<second>
-				<first>0</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -5858,50 +6439,50 @@
 		<item>
 			<first>37</first>
 			<second>
-				<first>0</first>
-				<second>0</second>
+				<first>1</first>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>42</first>
 			<second>
-				<first>0</first>
-				<second>0</second>
+				<first>1</first>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>48</first>
 			<second>
-				<first>0</first>
-				<second>0</second>
+				<first>1</first>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>52</first>
 			<second>
-				<first>0</first>
-				<second>0</second>
+				<first>1</first>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>55</first>
 			<second>
-				<first>0</first>
-				<second>0</second>
+				<first>1</first>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>60</first>
 			<second>
-				<first>0</first>
-				<second>0</second>
+				<first>1</first>
+				<second>1</second>
 			</second>
 		</item>
 		<item>
 			<first>65</first>
 			<second>
-				<first>0</first>
-				<second>0</second>
+				<first>1</first>
+				<second>1</second>
 			</second>
 		</item>
 	</bblk_ent_exit>
@@ -5940,8 +6521,8 @@
 			</nodes>
 			<anchor_node>-1</anchor_node>
 			<region_type>8</region_type>
-			<interval>1</interval>
-			<pipe_depth>1</pipe_depth>
+			<interval>2</interval>
+			<pipe_depth>2</pipe_depth>
 			<mDBIIViolationVec class_id="34" tracking_level="0" version="0">
 				<count>0</count>
 				<item_version>0</item_version>
