@@ -406,3 +406,12 @@ After generating the bitstream on Vivado for the fetching_decoding_ip, we can ch
 
 The LUTs utilization is still pretty low even for the little board I am working with (PYNQ-Z2). But this number is likely to increase soon wheh more realistic hardware is added. So far we just fetch and decode rv32i instructions, not much except some mutex and some logic without timing constrains.
 
+The device for the fetching_decoding_ip, after synthesis, is the follow:
+
+![](assets/feching_decoding_ip.png)
+
+Where the single FPGA cell looks like:
+
+![](assets/cell.png)
+
+Very simple, but it is just a starting point.
