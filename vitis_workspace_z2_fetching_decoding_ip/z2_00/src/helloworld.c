@@ -1,61 +1,35 @@
-/******************************************************************************
-*
-* Copyright (C) 2009 - 2014 Xilinx, Inc.  All rights reserved.
-*
-* Permission is hereby granted, free of charge, to any person obtaining a copy
-* of this software and associated documentation files (the "Software"), to deal
-* in the Software without restriction, including without limitation the rights
-* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-* copies of the Software, and to permit persons to whom the Software is
-* furnished to do so, subject to the following conditions:
-*
-* The above copyright notice and this permission notice shall be included in
-* all copies or substantial portions of the Software.
-*
-* Use of the Software is limited solely to applications:
-* (a) running on a Xilinx device, or
-* (b) that interact with a Xilinx device through a bus or interconnect.
-*
-* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-* XILINX  BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-* WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
-* OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-* SOFTWARE.
-*
-* Except as contained in this notice, the name of the Xilinx shall not be used
-* in advertising or otherwise to promote the sale, use or other dealings in
-* this Software without prior written authorization from Xilinx.
-*
-******************************************************************************/
-
-/*
- * helloworld.c: simple test application
- *
- * This application configures UART 16550 to baud rate 9600.
- * PS7 UART (Zynq) is not initialized by this application, since
- * bootrom/bsp configures it to baud rate 115200
- *
- * ------------------------------------------------
- * | UART TYPE   BAUD RATE                        |
- * ------------------------------------------------
- *   uartns550   9600
- *   uartlite    Configurable only in HW design
- *   ps7_uart    115200 (configured by bootrom/bsp)
- */
-
 #include <stdio.h>
-#include "platform.h"
-#include "xil_printf.h"
+#include "xfetching_decoding_ip.h"
+#include "xparameters.h"
+#define LOG_CODE_RAM_SIZE 16
+//size in words
+#define CODE_RAM_SIZE     (1<<LOG_CODE_RAM_SIZE)
+XFetching_decoding_ip_Config *cfg_ptr;
+XFetching_decoding_ip         ip;
+word_type code_ram[CODE_RAM_SIZE]={
+		0x00500593,
+		0x00158613,
+		0x00c67693,
+		0xfff68713,
+		0x00576793,
+		0x00c7c813,
+		0x00d83893,
+		0x00b83293,
+		0x01c81313,
+		0xff632393,
+		0x7e633e13,
+		0x01c35e93,
+		0x41c35f13,
+		0x00008067,
 
-
-int main()
-{
-    init_platform();
-
-    print("Hello World\n\r");
-    print("Successfully ran Hello World application");
-    cleanup_platform();
-    return 0;
+};
+int main(){
+  cfg_ptr = XFetching_decoding_ip_LookupConfig(XPAR_XFETCHING_DECODING_IP_0_DEVICE_ID);
+  XFetching_decoding_ip_CfgInitialize(&ip, cfg_ptr);
+  XFetching_decoding_ip_Set_start_pc(&ip, 0);
+  XFetching_decoding_ip_Write_code_ram_Words(&ip, 0, code_ram, CODE_RAM_SIZE);
+  XFetching_decoding_ip_Start(&ip);
+  while (!XFetching_decoding_ip_IsDone(&ip));
+  printf("%d fetched and decoded instructions\n",
+    (int)XFetching_decoding_ip_Get_nb_instruction(&ip));
 }
