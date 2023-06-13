@@ -1,0 +1,283 @@
+================================================================
+== Vivado Place & Route Results
+================================================================
++ General Information:
+    * Date:            Tue Jun 13 21:00:55 +0800 2023
+    * Version:         2023.1 (Build 3854077 on May  4 2023)
+    * Project:         rv32i_npp_ip
+    * Solution:        solution1 (Vivado IP Flow Target)
+    * Product family:  zynq
+    * Target device:   xc7z020-clg400-1
+
+
+================================================================
+== Run Constraints & Options
+================================================================
++ Design Constraints & Options:
+    * Place & Route target clock:  10 ns
+    * C-Synthesis target clock:    10 ns
+    * C-Synthesis uncertainty:     27%
+
++ RTL Synthesis Options:
+    * config_export -vivado_synth_strategy:     default
+    * config_export -vivado_synth_design_args:  -directive sdx_optimization_effort_high
+
++ Place & Route Options:
+    * config_export -vivado_impl_strategy:  default
+    * config_export -vivado_phys_opt:       none
+
++ Reporting Options:
+    * config_export -vivado_report_level:      2
+    * config_export -vivado_max_timing_paths:  10
+
+
+================================================================
+== Place & Route Resource Summary
+================================================================
+LUT:              4926
+FF:               4950
+DSP:              0
+BRAM:             256
+URAM:             0
+SRL:              0
+
+
+================================================================
+== Place & Route Timing Summary
+================================================================
+* Timing was NOT met
++----------------+-------------+
+| Timing         | Period (ns) |
++----------------+-------------+
+| Target         | 10.000      |
+| Post-Synthesis | 8.716       |
+| Post-Route     | 10.727      |
++----------------+-------------+
+
+
+================================================================
+== Place & Route Resources
+================================================================
++-----------------------+------+------+-----+------+------+-----+--------+------+---------+----------+--------+
+| Name                  | LUT  | FF   | DSP | BRAM | URAM | SRL | Pragma | Impl | Latency | Variable | Source |
++-----------------------+------+------+-----+------+------+-----+--------+------+---------+----------+--------+
+| inst                  | 4926 | 4950 |     | 256  |      |     |        |      |         |          |        |
+|   (inst)              | 13   | 4745 |     |      |      |     |        |      |         |          |        |
+|   control_s_axi_U     | 4913 | 205  |     | 256  |      |     |        |      |         |          |        |
+|     (control_s_axi_U) | 105  | 138  |     |      |      |     |        |      |         |          |        |
++-----------------------+------+------+-----+------+------+-----+--------+------+---------+----------+--------+
+
+
+================================================================
+== Place & Route Fail Fast
+================================================================
++-----------------------------------------------------------+-----------+--------+--------+
+| Criteria                                                  | Guideline | Actual | Status |
++-----------------------------------------------------------+-----------+--------+--------+
+| LUT                                                       | 70%       | 9.26%  | OK     |
+| FD                                                        | 50%       | 4.65%  | OK     |
+| LUTRAM+SRL                                                | 25%       | 0.00%  | OK     |
+| MUXF7                                                     | 15%       | 0.97%  | OK     |
+| DSP                                                       | 80%       | 0.00%  | OK     |
+| RAMB/FIFO                                                 | 80%       | 91.43% | REVIEW |
+| DSP+RAMB+URAM (Avg)                                       | 70%       | 91.43% | REVIEW |
+| BUFGCE* + BUFGCTRL                                        | 24        | 0      | OK     |
+| DONT_TOUCH (cells/nets)                                   | 0         | 0      | OK     |
+| MARK_DEBUG (nets)                                         | 0         | 0      | OK     |
+| Control Sets                                              | 998       | 63     | OK     |
+| Average Fanout for modules > 100k cells                   | 4         | 0      | OK     |
+| Non-FD high fanout nets > 10k loads                       | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+| TIMING-6 (No common primary clock between related clocks) | 0         | 0      | OK     |
+| TIMING-7 (No common node between related clocks)          | 0         | 0      | OK     |
+| TIMING-8 (No common period between related clocks)        | 0         | 0      | OK     |
+| TIMING-14 (LUT on the clock tree)                         | 0         | 0      | OK     |
+| TIMING-35 (No common node in paths with the same clock)   | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+| Number of paths above max LUT budgeting (0.575ns)         | 0         | 0      | OK     |
+| Number of paths above max Net budgeting (0.403ns)         | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+
+
+================================================================
+== Place & Route Timing Paths
+================================================================
+* Timing was NOT met
++--------+--------+------------------------------------------------------+-----------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+| Path   |  SLACK | STARTPOINT PIN                                       | ENDPOINT PIN                                              | LOGIC LEVELS | MAX FANOUT | DATAPATH DELAY | DATAPATH LOGIC | DATAPATH NET |
+|        |        |                                                      |                                                           |              |            |                |          DELAY |        DELAY |
++--------+--------+------------------------------------------------------+-----------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+| Path1  | -0.727 | control_s_axi_U/int_code_ram/mem_reg_1_0_4/CLKBWRCLK | control_s_axi_U/int_data_ram/mem_reg_3_1_5/DIBDI[0]       |            8 |        203 |         10.402 |          2.321 |        8.081 |
+| Path2  | -0.653 | control_s_axi_U/int_code_ram/mem_reg_1_0_4/CLKBWRCLK | control_s_axi_U/int_data_ram/mem_reg_3_0_5/DIBDI[0]       |            8 |        203 |         10.328 |          2.321 |        8.007 |
+| Path3  | -0.635 | control_s_axi_U/int_code_ram/mem_reg_1_0_4/CLKBWRCLK | control_s_axi_U/int_data_ram/mem_reg_3_1_6/ADDRBWRADDR[2] |            7 |        203 |          9.985 |          2.197 |        7.788 |
+| Path4  | -0.612 | control_s_axi_U/int_code_ram/mem_reg_1_0_4/CLKBWRCLK | control_s_axi_U/int_data_ram/mem_reg_3_1_6/DIBDI[0]       |            8 |        203 |         10.287 |          2.321 |        7.966 |
+| Path5  | -0.572 | control_s_axi_U/int_code_ram/mem_reg_1_0_4/CLKBWRCLK | control_s_axi_U/int_data_ram/mem_reg_3_0_6/ADDRBWRADDR[2] |            7 |        203 |          9.922 |          2.197 |        7.725 |
+| Path6  | -0.482 | control_s_axi_U/int_code_ram/mem_reg_1_0_4/CLKBWRCLK | control_s_axi_U/int_data_ram/mem_reg_0_1_7/ADDRBWRADDR[2] |            7 |        203 |          9.832 |          2.197 |        7.635 |
+| Path7  | -0.468 | control_s_axi_U/int_code_ram/mem_reg_1_0_4/CLKBWRCLK | control_s_axi_U/int_data_ram/mem_reg_1_1_5/DIBDI[0]       |            8 |        203 |         10.143 |          2.321 |        7.822 |
+| Path8  | -0.467 | control_s_axi_U/int_code_ram/mem_reg_1_0_4/CLKBWRCLK | control_s_axi_U/int_data_ram/mem_reg_1_1_6/ADDRBWRADDR[2] |            7 |        203 |          9.817 |          2.197 |        7.620 |
+| Path9  | -0.464 | control_s_axi_U/int_code_ram/mem_reg_1_0_4/CLKBWRCLK | control_s_axi_U/int_data_ram/mem_reg_0_1_4/WEBWE[0]       |            8 |        203 |          9.848 |          2.321 |        7.527 |
+| Path10 | -0.443 | control_s_axi_U/int_code_ram/mem_reg_1_0_4/CLKBWRCLK | control_s_axi_U/int_data_ram/mem_reg_0_0_7/ADDRBWRADDR[2] |            7 |        203 |          9.793 |          2.197 |        7.596 |
++--------+--------+------------------------------------------------------+-----------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+
+    +---------------------------------------------------------+--------------------+
+    | Path1 Cells                                             | Primitive Type     |
+    +---------------------------------------------------------+--------------------+
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/mem_reg_1_1_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_14 | LUT.others.LUT3    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_10 | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[0]_i_5   | LUT.others.LUT4    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[0]_i_2   | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_3_0_0_i_25_comp    | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_3_0_1_i_21         | LUT.others.LUT6    |
+    | control_s_axi_U/int_data_ram/mem_reg_3_0_5_i_18         | LUT.others.LUT5    |
+    | control_s_axi_U/int_data_ram/mem_reg_3_1_5              | BMEM.bram.RAMB36E1 |
+    +---------------------------------------------------------+--------------------+
+
+    +---------------------------------------------------------+--------------------+
+    | Path2 Cells                                             | Primitive Type     |
+    +---------------------------------------------------------+--------------------+
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/mem_reg_1_1_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_14 | LUT.others.LUT3    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_10 | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[0]_i_5   | LUT.others.LUT4    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[0]_i_2   | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_3_0_0_i_25_comp    | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_3_0_1_i_21         | LUT.others.LUT6    |
+    | control_s_axi_U/int_data_ram/mem_reg_3_0_5_i_18         | LUT.others.LUT5    |
+    | control_s_axi_U/int_data_ram/mem_reg_3_0_5              | BMEM.bram.RAMB36E1 |
+    +---------------------------------------------------------+--------------------+
+
+    +---------------------------------------------------------+--------------------+
+    | Path3 Cells                                             | Primitive Type     |
+    +---------------------------------------------------------+--------------------+
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/mem_reg_1_1_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_14 | LUT.others.LUT3    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_10 | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_172        | LUT.others.LUT4    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_149        | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_67         | LUT.others.LUT6    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_6_i_32_comp    | LUT.others.LUT6    |
+    | control_s_axi_U/int_data_ram/mem_reg_3_1_6              | BMEM.bram.RAMB36E1 |
+    +---------------------------------------------------------+--------------------+
+
+    +---------------------------------------------------------+--------------------+
+    | Path4 Cells                                             | Primitive Type     |
+    +---------------------------------------------------------+--------------------+
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/mem_reg_1_1_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_14 | LUT.others.LUT3    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_10 | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[0]_i_5   | LUT.others.LUT4    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[0]_i_2   | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_3_0_0_i_25_comp    | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_3_0_1_i_21         | LUT.others.LUT6    |
+    | control_s_axi_U/int_data_ram/mem_reg_3_0_6_i_18         | LUT.others.LUT5    |
+    | control_s_axi_U/int_data_ram/mem_reg_3_1_6              | BMEM.bram.RAMB36E1 |
+    +---------------------------------------------------------+--------------------+
+
+    +---------------------------------------------------------+--------------------+
+    | Path5 Cells                                             | Primitive Type     |
+    +---------------------------------------------------------+--------------------+
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/mem_reg_1_1_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_14 | LUT.others.LUT3    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_10 | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_172        | LUT.others.LUT4    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_149        | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_67         | LUT.others.LUT6    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_6_i_32_comp    | LUT.others.LUT6    |
+    | control_s_axi_U/int_data_ram/mem_reg_3_0_6              | BMEM.bram.RAMB36E1 |
+    +---------------------------------------------------------+--------------------+
+
+    +---------------------------------------------------------+--------------------+
+    | Path6 Cells                                             | Primitive Type     |
+    +---------------------------------------------------------+--------------------+
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/mem_reg_1_1_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_14 | LUT.others.LUT3    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_10 | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_172        | LUT.others.LUT4    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_149        | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_67         | LUT.others.LUT6    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_6_i_32_comp    | LUT.others.LUT6    |
+    | control_s_axi_U/int_data_ram/mem_reg_0_1_7              | BMEM.bram.RAMB36E1 |
+    +---------------------------------------------------------+--------------------+
+
+    +---------------------------------------------------------+--------------------+
+    | Path7 Cells                                             | Primitive Type     |
+    +---------------------------------------------------------+--------------------+
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/mem_reg_1_1_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_14 | LUT.others.LUT3    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_10 | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[0]_i_5   | LUT.others.LUT4    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[0]_i_2   | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_3_0_0_i_25_comp    | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_0_i_20         | LUT.others.LUT3    |
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_5_i_17__0      | LUT.others.LUT6    |
+    | control_s_axi_U/int_data_ram/mem_reg_1_1_5              | BMEM.bram.RAMB36E1 |
+    +---------------------------------------------------------+--------------------+
+
+    +---------------------------------------------------------+--------------------+
+    | Path8 Cells                                             | Primitive Type     |
+    +---------------------------------------------------------+--------------------+
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/mem_reg_1_1_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_14 | LUT.others.LUT3    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_10 | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_172        | LUT.others.LUT4    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_149        | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_67         | LUT.others.LUT6    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_6_i_32_comp    | LUT.others.LUT6    |
+    | control_s_axi_U/int_data_ram/mem_reg_1_1_6              | BMEM.bram.RAMB36E1 |
+    +---------------------------------------------------------+--------------------+
+
+    +---------------------------------------------------------+--------------------+
+    | Path9 Cells                                             | Primitive Type     |
+    +---------------------------------------------------------+--------------------+
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/mem_reg_1_1_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_14 | LUT.others.LUT3    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_10 | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[0]_i_5   | LUT.others.LUT4    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[0]_i_2   | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_3_0_0_i_25_comp    | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_74         | LUT.others.LUT3    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_1_4_i_18__0      | LUT.others.LUT6    |
+    | control_s_axi_U/int_data_ram/mem_reg_0_1_4              | BMEM.bram.RAMB36E1 |
+    +---------------------------------------------------------+--------------------+
+
+    +---------------------------------------------------------+--------------------+
+    | Path10 Cells                                            | Primitive Type     |
+    +---------------------------------------------------------+--------------------+
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/mem_reg_1_1_4              | BMEM.bram.RAMB36E1 |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_14 | LUT.others.LUT3    |
+    | control_s_axi_U/int_code_ram/result_29_reg_565[28]_i_10 | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_172        | LUT.others.LUT4    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_149        | LUT.others.LUT5    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_0_i_67         | LUT.others.LUT6    |
+    | control_s_axi_U/int_code_ram/mem_reg_0_0_6_i_32_comp    | LUT.others.LUT6    |
+    | control_s_axi_U/int_data_ram/mem_reg_0_0_7              | BMEM.bram.RAMB36E1 |
+    +---------------------------------------------------------+--------------------+
+
+
+================================================================
+== Place & Route Vivado Reports
+================================================================
++--------------------------+----------------------------------------------------------------------+
+| Report Type              | Report Location                                                      |
++--------------------------+----------------------------------------------------------------------+
+| design_analysis          | impl/verilog/report/rv32i_npp_ip_design_analysis_routed.rpt          |
+| failfast                 | impl/verilog/report/rv32i_npp_ip_failfast_routed.rpt                 |
+| status                   | impl/verilog/report/rv32i_npp_ip_status_routed.rpt                   |
+| timing                   | impl/verilog/report/rv32i_npp_ip_timing_routed.rpt                   |
+| timing_paths             | impl/verilog/report/rv32i_npp_ip_timing_paths_routed.rpt             |
+| utilization              | impl/verilog/report/rv32i_npp_ip_utilization_routed.rpt              |
+| utilization_hierarchical | impl/verilog/report/rv32i_npp_ip_utilization_hierarchical_routed.rpt |
++--------------------------+----------------------------------------------------------------------+
+
+
