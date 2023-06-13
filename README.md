@@ -62,6 +62,8 @@ $ cd riscv-isa-sim
 $ mkdir build
 $ cd build
 $ ../configure --prefix=$RISCV --with-isa=rv32i
+$ make
+$ sudo make install
 ```
 
 ### Kernel proxy for Spike
