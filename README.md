@@ -436,3 +436,7 @@ The HLS implementation has been reused from Goossens report, so we can start fro
 Be sure it passes!
 
 ![](assets/rv32i_npp_ip_passed.png)
+
+Finished Export RTL/Implementation esults:
+
+![](assets/rv32i_npp_ip_resources.png)
