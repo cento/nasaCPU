@@ -415,3 +415,24 @@ Where the single FPGA cell looks like:
 ![](assets/cell.png)
 
 Very simple, but it is just a starting point.
+
+## RV32I_NPP_IP
+
+The rv32i_npp_ip is the first attempt to have a full rv32i RISC-V Cpu in this trip into the cpu design. Indeed it does not only fetch and decode, but also execute (branches included) instructions, writing the results back to the appropriate entry in the register file.
+
+The procedure, before moving to vivado and the board, is the same: 
+1. IP Design using HLS with vitis
+2. design test using a testbench
+3. C Simulation
+4. IP Synthesis (still in Vitis)
+5. Report Check, stats, usage, etc
+6. C/RTL Co-simulation, to verify everything is correct, before moving to Vivado
+7. Implementation run + RTL Export
+
+### Out-of-the-box
+
+The HLS implementation has been reused from Goossens report, so we can start from there to add any/other/further custom modifications or just more _debug4fun_ support.
+
+Be sure it passes!
+
+![](assets/rv32i_npp_ip_passed.png)

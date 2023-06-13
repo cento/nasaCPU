@@ -1,0 +1,67 @@
+{
+  "0": {
+    "basicblocks": 7,
+    "calls": "2 3 4",
+    "file": "rv32i_npp_ip.cpp",
+    "fileloc": 28,
+    "instructions": 139,
+    "loads": {
+      "L": 4,
+      "T": 1
+    },
+    "name": "rv32i_npp_ip",
+    "stores": {
+      "L": 33,
+      "T": 1
+    },
+    "total_instructions": 708
+  },
+  "1": {
+    "basicblocks": 38,
+    "calls": "",
+    "file": "execute.cpp",
+    "fileloc": 86,
+    "instructions": 123,
+    "name": "compute_result",
+    "total_instructions": 123
+  },
+  "2": {
+    "basicblocks": 33,
+    "calls": "",
+    "file": "type.cpp",
+    "fileloc": 60,
+    "instructions": 65,
+    "name": "type",
+    "stores": {
+      "L": 25
+    },
+    "total_instructions": 65
+  },
+  "3": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "decode.cpp",
+    "fileloc": 25,
+    "instructions": 114,
+    "name": "decode_immediate",
+    "stores": {
+      "L": 8
+    },
+    "total_instructions": 114
+  },
+  "4": {
+    "basicblocks": 64,
+    "calls": "1",
+    "file": "execute.cpp",
+    "fileloc": 255,
+    "instructions": 267,
+    "loads": {
+      "L": 33
+    },
+    "name": "execute",
+    "stores": {
+      "L": 34
+    },
+    "total_instructions": 390
+  }
+}

@@ -1,0 +1,96 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/rv32i_npp_ip/solution1/csynth.tcl:33:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="rv32i_npp_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=rv32i_npp_ip" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="rv32i_npp_ip/src/rv32i_npp_ip.cpp:34:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rv32i_npp_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=start_pc" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="rv32i_npp_ip/src/rv32i_npp_ip.cpp:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rv32i_npp_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=code_ram" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="rv32i_npp_ip/src/rv32i_npp_ip.cpp:36:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rv32i_npp_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=data_ram" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="rv32i_npp_ip/src/rv32i_npp_ip.cpp:37:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rv32i_npp_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=nb_instruction" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="rv32i_npp_ip/src/rv32i_npp_ip.cpp:38:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rv32i_npp_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="rv32i_npp_ip/src/rv32i_npp_ip.cpp:39:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rv32i_npp_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="recursive" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="rv32i_npp_ip/src/rv32i_npp_ip.cpp:43:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rv32i_npp_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=reg_file dim=1 complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="rv32i_npp_ip/src/rv32i_npp_ip.cpp:52:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="rv32i_npp_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=7" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/type.cpp:60:0" msg_body="Inlining function 'type_00(ap_uint&lt;3&gt;)' into 'type(ap_uint&lt;5&gt;)'">
+        <args Callee="type_00(ap_uint&lt;3&gt;)" Callee-DebugLoc="File rv32i_npp_ip/src/type.cpp Line 4 Column 0" Caller="type(ap_uint&lt;5&gt;)" Caller-DebugLoc="File rv32i_npp_ip/src/type.cpp Line 60 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/type.cpp:60:0" msg_body="Inlining function 'type_01(ap_uint&lt;3&gt;)' into 'type(ap_uint&lt;5&gt;)'">
+        <args Callee="type_01(ap_uint&lt;3&gt;)" Callee-DebugLoc="File rv32i_npp_ip/src/type.cpp Line 18 Column 0" Caller="type(ap_uint&lt;5&gt;)" Caller-DebugLoc="File rv32i_npp_ip/src/type.cpp Line 60 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/type.cpp:60:0" msg_body="Inlining function 'type_10(ap_uint&lt;3&gt;)' into 'type(ap_uint&lt;5&gt;)'">
+        <args Callee="type_10(ap_uint&lt;3&gt;)" Callee-DebugLoc="File rv32i_npp_ip/src/type.cpp Line 32 Column 0" Caller="type(ap_uint&lt;5&gt;)" Caller-DebugLoc="File rv32i_npp_ip/src/type.cpp Line 60 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/type.cpp:60:0" msg_body="Inlining function 'type_11(ap_uint&lt;3&gt;)' into 'type(ap_uint&lt;5&gt;)'">
+        <args Callee="type_11(ap_uint&lt;3&gt;)" Callee-DebugLoc="File rv32i_npp_ip/src/type.cpp Line 46 Column 0" Caller="type(ap_uint&lt;5&gt;)" Caller-DebugLoc="File rv32i_npp_ip/src/type.cpp Line 60 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/decode.cpp:27:0" msg_body="Inlining function 'i_immediate(decoded_immediate_s)' into 'decode_immediate(unsigned int, decoded_instruction_s*)'">
+        <args Callee="i_immediate(decoded_immediate_s)" Callee-DebugLoc="File rv32i_npp_ip/src/immediate.cpp Line 3 Column 0" Caller="decode_immediate(unsigned int, decoded_instruction_s*)" Caller-DebugLoc="File rv32i_npp_ip/src/decode.cpp Line 27 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/decode.cpp:27:0" msg_body="Inlining function 's_immediate(decoded_immediate_s)' into 'decode_immediate(unsigned int, decoded_instruction_s*)'">
+        <args Callee="s_immediate(decoded_immediate_s)" Callee-DebugLoc="File rv32i_npp_ip/src/immediate.cpp Line 9 Column 0" Caller="decode_immediate(unsigned int, decoded_instruction_s*)" Caller-DebugLoc="File rv32i_npp_ip/src/decode.cpp Line 27 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/decode.cpp:27:0" msg_body="Inlining function 'b_immediate(decoded_immediate_s)' into 'decode_immediate(unsigned int, decoded_instruction_s*)'">
+        <args Callee="b_immediate(decoded_immediate_s)" Callee-DebugLoc="File rv32i_npp_ip/src/immediate.cpp Line 15 Column 0" Caller="decode_immediate(unsigned int, decoded_instruction_s*)" Caller-DebugLoc="File rv32i_npp_ip/src/decode.cpp Line 27 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/decode.cpp:27:0" msg_body="Inlining function 'u_immediate(decoded_immediate_s)' into 'decode_immediate(unsigned int, decoded_instruction_s*)'">
+        <args Callee="u_immediate(decoded_immediate_s)" Callee-DebugLoc="File rv32i_npp_ip/src/immediate.cpp Line 21 Column 0" Caller="decode_immediate(unsigned int, decoded_instruction_s*)" Caller-DebugLoc="File rv32i_npp_ip/src/decode.cpp Line 27 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/decode.cpp:27:0" msg_body="Inlining function 'j_immediate(decoded_immediate_s)' into 'decode_immediate(unsigned int, decoded_instruction_s*)'">
+        <args Callee="j_immediate(decoded_immediate_s)" Callee-DebugLoc="File rv32i_npp_ip/src/immediate.cpp Line 28 Column 0" Caller="decode_immediate(unsigned int, decoded_instruction_s*)" Caller-DebugLoc="File rv32i_npp_ip/src/decode.cpp Line 27 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/decode.cpp:49:0" msg_body="Inlining function 'decode_instruction(unsigned int, decoded_instruction_s*)' into 'decode(unsigned int, decoded_instruction_s*)'">
+        <args Callee="decode_instruction(unsigned int, decoded_instruction_s*)" Callee-DebugLoc="File rv32i_npp_ip/src/decode.cpp Line 8 Column 0" Caller="decode(unsigned int, decoded_instruction_s*)" Caller-DebugLoc="File rv32i_npp_ip/src/decode.cpp Line 49 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/execute.cpp:90:0" msg_body="Inlining function 'compute_op_result(int, int, decoded_instruction_s)' into 'compute_result(int, int, decoded_instruction_s, ap_uint&lt;16&gt;)'">
+        <args Callee="compute_op_result(int, int, decoded_instruction_s)" Callee-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 51 Column 0" Caller="compute_result(int, int, decoded_instruction_s, ap_uint&lt;16&gt;)" Caller-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 90 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/execute.cpp:90:0" msg_body="Inlining function 'compute_branch_result(int, int, ap_uint&lt;3&gt;)' into 'compute_result(int, int, decoded_instruction_s, ap_uint&lt;16&gt;)'">
+        <args Callee="compute_branch_result(int, int, ap_uint&lt;3&gt;)" Callee-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 34 Column 0" Caller="compute_result(int, int, decoded_instruction_s, ap_uint&lt;16&gt;)" Caller-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 90 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/execute.cpp:260:0" msg_body="Inlining function 'read_reg(int*, ap_uint&lt;5&gt;, ap_uint&lt;5&gt;, int*, int*)' into 'execute(ap_uint&lt;16&gt;, int*, int*, decoded_instruction_s, ap_uint&lt;16&gt;*)'">
+        <args Callee="read_reg(int*, ap_uint&lt;5&gt;, ap_uint&lt;5&gt;, int*, int*)" Callee-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 16 Column 0" Caller="execute(ap_uint&lt;16&gt;, int*, int*, decoded_instruction_s, ap_uint&lt;16&gt;*)" Caller-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 260 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/execute.cpp:260:0" msg_body="Inlining function 'mem_store(int*, ap_uint&lt;18&gt;, int, ap_uint&lt;2&gt;)' into 'execute(ap_uint&lt;16&gt;, int*, int*, decoded_instruction_s, ap_uint&lt;16&gt;*)'">
+        <args Callee="mem_store(int*, ap_uint&lt;18&gt;, int, ap_uint&lt;2&gt;)" Callee-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 233 Column 0" Caller="execute(ap_uint&lt;16&gt;, int*, int*, decoded_instruction_s, ap_uint&lt;16&gt;*)" Caller-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 260 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/execute.cpp:260:0" msg_body="Inlining function 'mem_load(int*, ap_uint&lt;18&gt;, ap_uint&lt;3&gt;)' into 'execute(ap_uint&lt;16&gt;, int*, int*, decoded_instruction_s, ap_uint&lt;16&gt;*)'">
+        <args Callee="mem_load(int*, ap_uint&lt;18&gt;, ap_uint&lt;3&gt;)" Callee-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 172 Column 0" Caller="execute(ap_uint&lt;16&gt;, int*, int*, decoded_instruction_s, ap_uint&lt;16&gt;*)" Caller-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 260 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/execute.cpp:260:0" msg_body="Inlining function 'write_reg(int*, decoded_instruction_s, int)' into 'execute(ap_uint&lt;16&gt;, int*, int*, decoded_instruction_s, ap_uint&lt;16&gt;*)'">
+        <args Callee="write_reg(int*, decoded_instruction_s, int)" Callee-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 24 Column 0" Caller="execute(ap_uint&lt;16&gt;, int*, int*, decoded_instruction_s, ap_uint&lt;16&gt;*)" Caller-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 260 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/execute.cpp:260:0" msg_body="Inlining function 'compute_next_pc(ap_uint&lt;16&gt;, int, decoded_instruction_s, ap_uint&lt;1&gt;)' into 'execute(ap_uint&lt;16&gt;, int*, int*, decoded_instruction_s, ap_uint&lt;16&gt;*)'">
+        <args Callee="compute_next_pc(ap_uint&lt;16&gt;, int, decoded_instruction_s, ap_uint&lt;1&gt;)" Callee-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 136 Column 0" Caller="execute(ap_uint&lt;16&gt;, int*, int*, decoded_instruction_s, ap_uint&lt;16&gt;*)" Caller-DebugLoc="File rv32i_npp_ip/src/execute.cpp Line 260 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/rv32i_npp_ip.cpp:32:0" msg_body="Inlining function 'fetch(ap_uint&lt;16&gt;, unsigned int*, unsigned int*)' into 'rv32i_npp_ip(unsigned int, unsigned int*, int*, unsigned int*)'">
+        <args Callee="fetch(ap_uint&lt;16&gt;, unsigned int*, unsigned int*)" Callee-DebugLoc="File rv32i_npp_ip/src/fetch.cpp Line 13 Column 0" Caller="rv32i_npp_ip(unsigned int, unsigned int*, int*, unsigned int*)" Caller-DebugLoc="File rv32i_npp_ip/src/rv32i_npp_ip.cpp Line 32 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/rv32i_npp_ip.cpp:32:0" msg_body="Inlining function 'decode(unsigned int, decoded_instruction_s*)' into 'rv32i_npp_ip(unsigned int, unsigned int*, int*, unsigned int*)'">
+        <args Callee="decode(unsigned int, decoded_instruction_s*)" Callee-DebugLoc="File rv32i_npp_ip/src/decode.cpp Line 49 Column 0" Caller="rv32i_npp_ip(unsigned int, unsigned int*, int*, unsigned int*)" Caller-DebugLoc="File rv32i_npp_ip/src/rv32i_npp_ip.cpp Line 32 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/rv32i_npp_ip.cpp:32:0" msg_body="Inlining function 'statistic_update(unsigned int*)' into 'rv32i_npp_ip(unsigned int, unsigned int*, int*, unsigned int*)'">
+        <args Callee="statistic_update(unsigned int*)" Callee-DebugLoc="File rv32i_npp_ip/src/rv32i_npp_ip.cpp Line 24 Column 0" Caller="rv32i_npp_ip(unsigned int, unsigned int*, int*, unsigned int*)" Caller-DebugLoc="File rv32i_npp_ip/src/rv32i_npp_ip.cpp Line 32 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/rv32i_npp_ip.cpp:32:0" msg_body="Inlining function 'running_cond_update(unsigned int, ap_uint&lt;16&gt;, ap_uint&lt;1&gt;*)' into 'rv32i_npp_ip(unsigned int, unsigned int*, int*, unsigned int*)'">
+        <args Callee="running_cond_update(unsigned int, ap_uint&lt;16&gt;, ap_uint&lt;1&gt;*)" Callee-DebugLoc="File rv32i_npp_ip/src/rv32i_npp_ip.cpp Line 19 Column 0" Caller="rv32i_npp_ip(unsigned int, unsigned int*, int*, unsigned int*)" Caller-DebugLoc="File rv32i_npp_ip/src/rv32i_npp_ip.cpp Line 32 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="rv32i_npp_ip/src/rv32i_npp_ip.cpp:42:7" msg_body="Applying array_partition to 'reg_file': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="reg_file"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

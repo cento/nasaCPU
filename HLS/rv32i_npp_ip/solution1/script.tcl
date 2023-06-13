@@ -29,6 +29,7 @@ add_files -tb rv32i_npp_ip/src/testbench_rv32i_npp_ip.cpp
 open_solution "solution1" -flow_target vivado
 set_part {xc7z020clg400-1}
 create_clock -period 10 -name default
+config_cosim -tool xsim
 #source "./rv32i_npp_ip/solution1/directives.tcl"
 csim_design
 csynth_design
