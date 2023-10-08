@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="fetch.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\fetch.cpp"/>
+    <originFiles name="rv32i_npp_ip.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\rv32i_npp_ip.cpp"/>
+    <originFiles name="rv32i_npp_ip.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\rv32i_npp_ip.h"/>
+    <originFiles name="decode.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\decode.cpp"/>
+    <originFiles name="execute.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\execute.cpp"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>
