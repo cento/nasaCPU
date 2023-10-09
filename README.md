@@ -1,7 +1,8 @@
 <!-- # nasa-CPU -->
 
 <!-- ![](assets/logo1.png) -->
-![](assets/nasaCPU-logos-pink/nasaCPU-logos.jpeg)
+<!-- ![](assets/nasaCPU-logos-pink/nasaCPU-logos-small.jpeg) -->
+<img src="assets/nasaCPU-logos-pink/nasaCPU-logos-small.jpeg" width="400" height="400"> 
 
 An hobbystic and full of love RISC-V Central Processing Unit.
 
