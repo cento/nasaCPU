@@ -1,4 +1,5 @@
 #include "rv32i_npp_ip.h"
+#include "emulate.h"
 
 static void read_reg(
   int      *reg_file,
@@ -263,7 +264,7 @@ void execute(
   *next_pc = compute_next_pc(pc, rv1, d_i, (bit_t)result);
 #ifndef __SYNTHESIS__
 #ifdef DEBUG_EMULATE
-  emulate(reg_file, d_i, *next_pc); // TODOHERE
+  emulate(reg_file, d_i, *next_pc);
 #endif
 #endif
 }

@@ -1,5 +1,21 @@
 #include "rv32i_npp_ip.h"
 #include "ap_int.h"
+#include "fetch.h"
+#include "execute.h"
+#include "decode.h"
+#include "print.h"
+
+static void running_cond_update(
+  instruction_t  instruction,
+  code_address_t pc,
+  bit_t         *is_running){
+  *is_running = (instruction != RET || pc != 0);
+}
+
+static void statistic_update(
+  unsigned int *nbi){
+  *nbi = *nbi + 1;
+}
 
 void rv32i_npp_ip(
   unsigned int  start_pc,
