@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="fetch.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\fetch.cpp"/>
-    <originFiles name="rv32i_npp_ip.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\rv32i_npp_ip.cpp"/>
-    <originFiles name="rv32i_npp_ip.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\rv32i_npp_ip.h"/>
     <originFiles name="decode.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\decode.cpp"/>
-    <originFiles name="execute.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\execute.cpp"/>
+    <originFiles name="decode.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\decode.h"/>
     <originFiles name="emulate.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\emulate.cpp"/>
     <originFiles name="emulate.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\emulate.h"/>
+    <originFiles name="execute.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\execute.cpp"/>
+    <originFiles name="execute.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\execute.h"/>
+    <originFiles name="fetch.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\fetch.cpp"/>
+    <originFiles name="fetch.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\fetch.h"/>
     <originFiles name="print.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\print.cpp"/>
     <originFiles name="print.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\print.h"/>
-    <originFiles name="fetch.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\fetch.h"/>
-    <originFiles name="execute.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\execute.h"/>
-    <originFiles name="decode.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\decode.h"/>
+    <originFiles name="rv32i_npp_ip.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\rv32i_npp_ip.cpp"/>
+    <originFiles name="rv32i_npp_ip.h" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\rv32i_npp_ip.h"/>
   </source>
   <testbench>
     <originFiles name="tb_rv32i_npp_ip.cpp" path="C:\Users\monde\Documents\GitHub\nasa-CPU\HLS\rv32i_npp_ip\tb_rv32i_npp_ip.cpp"/>

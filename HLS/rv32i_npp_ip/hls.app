@@ -1,4 +1,4 @@
-<project xmlns="com.autoesl.autopilot.project" top="" name="rv32i_npp_ip" projectType="C/C++">
+<project xmlns="com.autoesl.autopilot.project" name="rv32i_npp_ip" top="rv32i_npp_ip" projectType="C/C++">
     <includePaths/>
     <libraryPaths/>
     <Simulation>
