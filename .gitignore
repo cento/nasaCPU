@@ -103,3 +103,6 @@
 */*/*/bd/*/ip/*/*.tcl
 hw_handoff
 ipshared
+**/.lock
+**/.repo.yaml
+**/logs/builder_*.py
