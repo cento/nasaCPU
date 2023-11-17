@@ -1,6 +1,10 @@
 <!-- # nasa-CPU -->
 
-![](assets/logo1.png)
+<!-- ![](assets/logo1.png) -->
+<!-- ![](assets/nasaCPU-logos-pink/nasaCPU-logos-small.jpeg) -->
+<p align="center">
+<img src="assets/nasaCPU-logos-pink/nasaCPU-logos-small.jpeg" width="400" height="400">
+</p>
 
 An hobbystic and full of love RISC-V Central Processing Unit.
 
@@ -442,3 +446,9 @@ Be sure it passes!
 Finished Export RTL/Implementation esults:
 
 ![](assets/rv32i_npp_ip_resources.png)
+
+### Refactoring of rv32i_pp
+
+After an off-side study of HLS and some aspect of the code optimmization, I decided to revisit the rv32i_cpp by starting with a very light refactoring -- for learning/understanding purpose.
+
+The code still reflect the original work, but the refactoring will allow me to revisit some unclear aspects and modify them later.
