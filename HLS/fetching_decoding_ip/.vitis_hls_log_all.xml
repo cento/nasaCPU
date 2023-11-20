@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog>
+        <logs message="ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:46:57.192+0800"/>
+        <logs message="ERROR: Please check the snapshot name which is created during 'xelab',the current snapshot name &quot;xsim.dir/fetching_decoding_ip/xsimk.exe&quot; does not exist " projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:46:57.188+0800"/>
+        <logs message="ERROR: [VRFC 10-8530] module 'dataflow_monitor' is ignored due to previous errors [C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_decoding_ip/solution1/sim/verilog/dataflow_monitor.sv:14]&#xD;&#xA;ECHO is off." projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:46:57.027+0800"/>
+        <logs message="ERROR: [VRFC 10-4982] syntax error near ';' [C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_decoding_ip/solution1/sim/verilog/dataflow_monitor.sv:73]" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:46:55.926+0800"/>
+      </simLog>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:35:45.612+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-1016] The critical path in module 'fetching_decoding_ip' consists of the following:&#xD;&#xA;&#x9;'call' operation ('decode_ret', fetching_decoding_ip/src/fetching_decoding_ip.cpp:34) to 'decode' [29]  (4.130 ns)&#xD;&#xA;&#x9;'call' operation ('pc', fetching_decoding_ip/src/fetching_decoding_ip.cpp:35) to 'execute' [33]  (4.705 ns)&#xD;&#xA;&#x9;'store' operation ('pc_write_ln38', fetching_decoding_ip/src/fetching_decoding_ip.cpp:38) of variable 'pc', fetching_decoding_ip/src/fetching_decoding_ip.cpp:35 on local variable 'pc' [37]  (1.588 ns)&#xD;&#xA;&#xA;&#xD;&#xA;Resolution: For help on HLS 200-1016 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-1016.html" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:35:44.934+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-871] Estimated clock period (10.423 ns) exceeds the target (target clock period: 10.000 ns, clock uncertainty: 2.700 ns, effective delay budget: 7.300 ns).&#xD;&#xA;Resolution: For help on HLS 200-871 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-871.html" projectName="fetching_decoding_ip" solutionName="solution1" date="2023-06-02T20:35:44.928+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

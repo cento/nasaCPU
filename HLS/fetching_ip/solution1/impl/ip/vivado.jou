@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 20:00:34 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Sun May 21 16:13:13 2023
+# Process ID: 20284
+# Current directory: C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/impl/ip/vivado.log
+# Journal file: C:/Users/monde/Documents/GitHub/nasa-CPU/HLS/fetching_ip/solution1/impl/ip\vivado.jou
+# Running On: Naboo, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 17022 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

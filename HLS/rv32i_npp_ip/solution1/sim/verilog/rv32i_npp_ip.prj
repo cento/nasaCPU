@@ -1,0 +1,8 @@
+sv work "glbl.v"
+sv xil_defaultlib "AESL_axi_slave_control.v"
+sv xil_defaultlib "rv32i_npp_ip.autotb.v"
+sv xil_defaultlib "rv32i_npp_ip.v"
+sv xil_defaultlib "rv32i_npp_ip_control_s_axi.v"
+sv xil_defaultlib "rv32i_npp_ip_mux_32_5_32_1_1.v"
+sv xil_defaultlib "dataflow_monitor.sv"
+

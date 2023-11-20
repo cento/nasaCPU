@@ -1,0 +1,381 @@
+{
+  "0": {
+    "basicblocks": 8,
+    "calls": "23 13 1 21 8",
+    "file": "rv32i_npp_ip.cpp",
+    "fileloc": 20,
+    "instructions": 112,
+    "loads": {
+      "L": 23
+    },
+    "name": "rv32i_npp_ip",
+    "stores": {
+      "L": 22,
+      "T": 1
+    },
+    "total_instructions": 1314
+  },
+  "1": {
+    "basicblocks": 5,
+    "calls": "17 3 6 18 24 15",
+    "file": "execute.cpp",
+    "fileloc": 248,
+    "instructions": 202,
+    "loads": {
+      "L": 61
+    },
+    "name": "execute",
+    "stores": {
+      "L": 60
+    },
+    "total_instructions": 726
+  },
+  "10": {
+    "basicblocks": 11,
+    "calls": "",
+    "file": "decode.cpp",
+    "fileloc": 23,
+    "instructions": 31,
+    "loads": {
+      "L": 1
+    },
+    "name": "type_01",
+    "stores": {
+      "L": 18
+    },
+    "total_instructions": 31
+  },
+  "11": {
+    "basicblocks": 10,
+    "calls": "14 2 16 22 25",
+    "file": "decode.cpp",
+    "fileloc": 127,
+    "instructions": 142,
+    "loads": {
+      "L": 6
+    },
+    "name": "decode_immediate",
+    "stores": {
+      "L": 43
+    },
+    "total_instructions": 252
+  },
+  "12": {
+    "basicblocks": 1,
+    "calls": "9",
+    "file": "decode.cpp",
+    "fileloc": 107,
+    "instructions": 49,
+    "loads": {
+      "L": 9
+    },
+    "name": "decode_instruction",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 202
+  },
+  "13": {
+    "basicblocks": 1,
+    "calls": "12 11",
+    "file": "decode.cpp",
+    "fileloc": 150,
+    "instructions": 3,
+    "name": "decode",
+    "total_instructions": 457
+  },
+  "14": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "decode.cpp",
+    "fileloc": 74,
+    "instructions": 20,
+    "loads": {
+      "L": 4
+    },
+    "name": "i_immediate",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 20
+  },
+  "15": {
+    "basicblocks": 23,
+    "calls": "",
+    "file": "execute.cpp",
+    "fileloc": 211,
+    "instructions": 95,
+    "loads": {
+      "L": 14
+    },
+    "name": "compute_next_pc",
+    "stores": {
+      "L": 7
+    },
+    "total_instructions": 95
+  },
+  "16": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "decode.cpp",
+    "fileloc": 86,
+    "instructions": 20,
+    "loads": {
+      "L": 4
+    },
+    "name": "b_immediate",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 20
+  },
+  "17": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "execute.cpp",
+    "fileloc": 4,
+    "instructions": 11,
+    "loads": {
+      "L": 4
+    },
+    "name": "read_reg",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 11
+  },
+  "18": {
+    "basicblocks": 17,
+    "calls": "",
+    "file": "execute.cpp",
+    "fileloc": 141,
+    "instructions": 61,
+    "loads": {
+      "L": 5
+    },
+    "name": "mem_load",
+    "total_instructions": 61
+  },
+  "19": {
+    "basicblocks": 20,
+    "calls": "",
+    "file": "execute.cpp",
+    "fileloc": 31,
+    "instructions": 53,
+    "loads": {
+      "L": 5
+    },
+    "name": "compute_op_result",
+    "total_instructions": 53
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "decode.cpp",
+    "fileloc": 80,
+    "instructions": 20,
+    "loads": {
+      "L": 4
+    },
+    "name": "s_immediate",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 20
+  },
+  "20": {
+    "basicblocks": 11,
+    "calls": "",
+    "file": "decode.cpp",
+    "fileloc": 36,
+    "instructions": 31,
+    "loads": {
+      "L": 1
+    },
+    "name": "type_10",
+    "stores": {
+      "L": 18
+    },
+    "total_instructions": 31
+  },
+  "21": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "rv32i_npp_ip.cpp",
+    "fileloc": 15,
+    "instructions": 4,
+    "loads": {
+      "L": 1
+    },
+    "name": "statistic_update",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 4
+  },
+  "22": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "decode.cpp",
+    "fileloc": 92,
+    "instructions": 25,
+    "loads": {
+      "L": 5
+    },
+    "name": "u_immediate",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 25
+  },
+  "23": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "fetch.cpp",
+    "fileloc": 8,
+    "instructions": 6,
+    "loads": {
+      "L": 2
+    },
+    "name": "fetch",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 6
+  },
+  "24": {
+    "basicblocks": 5,
+    "calls": "",
+    "file": "execute.cpp",
+    "fileloc": 201,
+    "instructions": 16,
+    "loads": {
+      "L": 4
+    },
+    "name": "write_reg",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 16
+  },
+  "25": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "decode.cpp",
+    "fileloc": 99,
+    "instructions": 25,
+    "loads": {
+      "L": 5
+    },
+    "name": "j_immediate",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 25
+  },
+  "3": {
+    "basicblocks": 21,
+    "calls": "19 19 4",
+    "file": "execute.cpp",
+    "fileloc": 69,
+    "instructions": 169,
+    "loads": {
+      "L": 44
+    },
+    "name": "compute_result",
+    "stores": {
+      "L": 33
+    },
+    "total_instructions": 309
+  },
+  "4": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "execute.cpp",
+    "fileloc": 14,
+    "instructions": 34,
+    "loads": {
+      "L": 1
+    },
+    "name": "compute_branch_result",
+    "stores": {
+      "L": 16
+    },
+    "total_instructions": 34
+  },
+  "5": {
+    "basicblocks": 11,
+    "calls": "",
+    "file": "decode.cpp",
+    "fileloc": 49,
+    "instructions": 31,
+    "loads": {
+      "L": 1
+    },
+    "name": "type_11",
+    "stores": {
+      "L": 18
+    },
+    "total_instructions": 31
+  },
+  "6": {
+    "basicblocks": 6,
+    "calls": "",
+    "file": "execute.cpp",
+    "fileloc": 115,
+    "instructions": 32,
+    "loads": {
+      "L": 4
+    },
+    "name": "mem_store",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 32
+  },
+  "7": {
+    "basicblocks": 11,
+    "calls": "",
+    "file": "decode.cpp",
+    "fileloc": 10,
+    "instructions": 31,
+    "loads": {
+      "L": 1
+    },
+    "name": "type_00",
+    "stores": {
+      "L": 18
+    },
+    "total_instructions": 31
+  },
+  "8": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "rv32i_npp_ip.cpp",
+    "fileloc": 8,
+    "instructions": 9,
+    "loads": {
+      "L": 1
+    },
+    "name": "running_cond_update",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 9
+  },
+  "9": {
+    "basicblocks": 7,
+    "calls": "7 10 20 5",
+    "file": "decode.cpp",
+    "fileloc": 62,
+    "instructions": 29,
+    "loads": {
+      "L": 2
+    },
+    "name": "type",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 153
+  }
+}
