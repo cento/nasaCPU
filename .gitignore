@@ -139,7 +139,7 @@ ipshared
 #Exclude all
 #########
 Vivado_workspace/*
-# !Vivado_workspace/*/
+!Vivado_workspace/*/
 !Vivado_workspace/.gitignore
 ###########################################################################
 ##	VIVADO
