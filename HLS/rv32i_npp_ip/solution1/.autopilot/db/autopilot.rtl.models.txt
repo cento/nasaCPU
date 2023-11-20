@@ -1,3 +1,0 @@
-rv32i_npp_ip_mux_32_5_32_1_1
-rv32i_npp_ip_control_s_axi
-rv32i_npp_ip
