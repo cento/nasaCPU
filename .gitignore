@@ -124,3 +124,6 @@ ipshared
 
 .bin
 .pdi
+**/hls/csim/build/*
+**/hls/csim/build/**/*.o
+**/hls/csim/build/**/*.d
