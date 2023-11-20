@@ -1,0 +1,84 @@
+{
+  "0": {
+    "basicblocks": 3,
+    "calls": "2 5 1 4 3",
+    "file": "fetching_decoding_ip.cpp",
+    "fileloc": 8,
+    "instructions": 35,
+    "loads": {
+      "L": 6
+    },
+    "name": "fetching_decoding_ip",
+    "stores": {
+      "L": 2,
+      "T": 1
+    },
+    "total_instructions": 247
+  },
+  "1": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "execute.cpp",
+    "fileloc": 34,
+    "instructions": 48,
+    "name": "execute",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 48
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "fetch.cpp",
+    "fileloc": 10,
+    "instructions": 5,
+    "loads": {
+      "L": 1
+    },
+    "name": "fetch",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 5
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "running_cond_update.cpp",
+    "fileloc": 4,
+    "instructions": 3,
+    "name": "running_cond_update",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 3
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "statistic_update.cpp",
+    "fileloc": 5,
+    "instructions": 4,
+    "loads": {
+      "L": 1
+    },
+    "name": "statistic_update",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 4
+  },
+  "5": {
+    "basicblocks": 23,
+    "calls": "",
+    "file": "decode.cpp",
+    "fileloc": 49,
+    "instructions": 152,
+    "name": "decode",
+    "stores": {
+      "L": 15
+    },
+    "total_instructions": 152
+  }
+}

@@ -127,3 +127,6 @@ ipshared
 **/hls/csim/build/*
 **/hls/csim/build/**/*.o
 **/hls/csim/build/**/*.d
+**/vitis_c++/*
+**/compile_commands.json
+**/hls_data.json
