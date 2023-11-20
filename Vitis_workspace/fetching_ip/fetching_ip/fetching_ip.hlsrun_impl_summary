@@ -1,0 +1,279 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\fetching_ip.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "11/20/23 22:29:02",
+ "timestampMillis": "3978460237",
+ "buildStep": {
+  "cmdId": "999aca9b-4af0-4b0c-872f-ff5e61540ba0",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\logs\\fetching_ip.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2023.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\hls_config.cfg --work_dir fetching_ip ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\hls_config.cfg",
+   "--work_dir",
+   "fetching_ip"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/20/23 22:29:02",
+ "timestampMillis": "3978460237",
+ "status": {
+  "cmdId": "999aca9b-4af0-4b0c-872f-ff5e61540ba0",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "11/20/23 22:29:05",
+ "timestampMillis": "3978463904",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "fetching_ip",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\debug_fetch.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\execute.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\execute.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetch.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetch.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\running_cond_update.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\running_cond_update.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2023.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "11/20/23 22:29:05",
+ "timestampMillis": "3978463908",
+ "buildStep": {
+  "cmdId": "53f25164-403f-42c9-91b2-7c5786542aec",
+  "name": "export_design",
+  "logFile": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\hls\\hls.log",
+  "commandLine": "export_design -flow impl",
+  "args": [
+   "-flow",
+   "impl"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/20/23 22:29:05",
+ "timestampMillis": "3978463908",
+ "status": {
+  "cmdId": "53f25164-403f-42c9-91b2-7c5786542aec",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/20/23 22:29:05",
+ "timestampMillis": "3978463910",
+ "report": {
+  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/20/23 22:29:05",
+ "timestampMillis": "3978463910",
+ "report": {
+  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/20/23 22:29:05",
+ "timestampMillis": "3978463911",
+ "report": {
+  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/20/23 22:29:05",
+ "timestampMillis": "3978463912",
+ "report": {
+  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/20/23 22:29:05",
+ "timestampMillis": "3978463913",
+ "report": {
+  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/20/23 22:29:05",
+ "timestampMillis": "3978463913",
+ "report": {
+  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/20/23 22:32:38",
+ "timestampMillis": "3978676864",
+ "report": {
+  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/20/23 22:32:38",
+ "timestampMillis": "3978676865",
+ "report": {
+  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/20/23 22:32:38",
+ "timestampMillis": "3978676866",
+ "status": {
+  "cmdId": "53f25164-403f-42c9-91b2-7c5786542aec",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/20/23 22:32:38",
+ "timestampMillis": "3978676936",
+ "status": {
+  "cmdId": "999aca9b-4af0-4b0c-872f-ff5e61540ba0",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/20/23 22:32:38",
+ "timestampMillis": "3978676937",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/20/23 22:32:38",
+ "timestampMillis": "3978676937",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

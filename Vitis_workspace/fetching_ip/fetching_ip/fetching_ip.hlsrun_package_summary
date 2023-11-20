@@ -1,0 +1,167 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\fetching_ip.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "11/20/23 22:35:12",
+ "timestampMillis": "3978830798",
+ "buildStep": {
+  "cmdId": "2a0256da-af31-43a0-8797-ec7710d15fcc",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\logs\\fetching_ip.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2023.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\hls_config.cfg --work_dir fetching_ip ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\hls_config.cfg",
+   "--work_dir",
+   "fetching_ip"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/20/23 22:35:12",
+ "timestampMillis": "3978830799",
+ "status": {
+  "cmdId": "2a0256da-af31-43a0-8797-ec7710d15fcc",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "11/20/23 22:35:16",
+ "timestampMillis": "3978834441",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "fetching_ip",
+     "file": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\fetching_ip.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\debug_fetch.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\execute.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\execute.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetch.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetch.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\running_cond_update.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\running_cond_update.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2023.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "11/20/23 22:35:16",
+ "timestampMillis": "3978834445",
+ "buildStep": {
+  "cmdId": "0537895f-188e-4ea5-a2e0-2d954d83b71b",
+  "name": "export_design",
+  "logFile": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip\\hls\\hls.log",
+  "commandLine": "export_design -flow none",
+  "args": [
+   "-flow",
+   "none"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/20/23 22:35:16",
+ "timestampMillis": "3978834446",
+ "status": {
+  "cmdId": "0537895f-188e-4ea5-a2e0-2d954d83b71b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/20/23 22:35:26",
+ "timestampMillis": "3978844976",
+ "status": {
+  "cmdId": "0537895f-188e-4ea5-a2e0-2d954d83b71b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/20/23 22:35:26",
+ "timestampMillis": "3978845048",
+ "status": {
+  "cmdId": "2a0256da-af31-43a0-8797-ec7710d15fcc",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/20/23 22:35:26",
+ "timestampMillis": "3978845048",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/20/23 22:35:26",
+ "timestampMillis": "3978845048",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

@@ -1,0 +1,48 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/execute.cpp', 
+                   Line: 17, Column: 13 }
+Function:        _Z7execute7ap_uintILi16EEPS0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'compute_next_pc(ap_uint<16>)'
+    DebugLoc:        { File: 'C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/execute.cpp', 
+                       Line: 5, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'execute(ap_uint<16>, ap_uint<16>*)'
+    DebugLoc:        { File: 'C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/execute.cpp', 
+                       Line: 14, Column: 0 }
+  - String:          ''''
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: 'C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetching_ip.cpp', 
+                   Line: 20, Column: 20 }
+Function:        _Z11fetching_ipjPj
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_20_1
+  - String:          ' '
+  - LoopLoc:         'C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetching_ip.cpp:20:20'
+  - String:          ' '
+  - Function:        'fetching_ip(unsigned int, unsigned int*)'
+    DebugLoc:        { File: 'C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetching_ip.cpp', 
+                       Line: 8, Column: 0 }
+  - String:          ' '
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: 'C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetching_ip.cpp', 
+                   Line: 20, Column: 20 }
+Function:        _Z11fetching_ipjPj
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        VITIS_LOOP_20_1
+  - String:          '''('
+  - LoopLoc:         'C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetching_ip.cpp:20:20'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...

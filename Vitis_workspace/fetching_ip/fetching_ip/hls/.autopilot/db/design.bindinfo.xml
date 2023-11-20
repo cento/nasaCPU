@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindInfo>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="ap_return" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/execute.cpp:8" VARIABLE="add_ln8" MODULE="execute" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op icmp" ID="" IMPL="auto" LATENCY="0" OPTYPE="icmp" PRAGMA="" RTLNAME="ap_return" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/running_cond_update.cpp:9" VARIABLE="icmp_ln9" MODULE="running_cond_update" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+	<BindNode BINDTYPE="adapter" DISPLAY="bind_adapter axilite" ID="" IMPL="" LATENCY="" OPTYPE="" PRAGMA="" RTLNAME="control_s_axi_U" SOURCE="" VARIABLE="" MODULE="fetching_ip" LOOP="" BUNDLEDNAME="control" DSP="0" BRAM="128" URAM="0" USAGE="interface" STORAGESUBTYPE="s_axilite" STORAGESIZE=""/>
+	<BindNode BINDTYPE="interface" DISPLAY="bind_storage bram" ID="" IMPL="" LATENCY="" OPTYPE="" PRAGMA="yes" RTLNAME="" SOURCE="" VARIABLE="code_ram" MODULE="fetching_ip" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="interface" STORAGESUBTYPE="bram" STORAGESIZE="32 0 1"/>
+</BindInfo>
