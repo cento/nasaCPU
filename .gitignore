@@ -130,3 +130,90 @@ ipshared
 **/vitis_c++/*
 **/compile_commands.json
 **/hls_data.json
+
+#########################################################################################################
+##	This is an example .gitignore file for Vivado, please treat it as an example as 
+##	it might not be complete. In addition, XAPP 1165 should be followed.
+#########################################################################################################
+#########
+#Exclude all
+#########
+Vivado_workspace/*
+!Vivado_workspace/*/
+!Vivado_workspace/.gitignore
+###########################################################################
+##	VIVADO
+###########################################################################
+#########
+#Source files:
+#########
+#Do NOT ignore VHDL, Verilog, block diagrams or EDIF files.
+!Vivado_workspace/*.vhd
+!Vivado_workspace/*.v
+!Vivado_workspace/*.bd
+!Vivado_workspace/*.edif
+#########
+#IP files
+#########
+#.xci: synthesis and implemented not possible - you need to return back to the previous version to generate output products
+#.xci + .dcp: implementation possible but not re-synthesis
+#*.xci(www.spiritconsortium.org)
+!Vivado_workspace/*.xci
+#*.dcp(checkpoint files)
+!Vivado_workspace/*.dcp
+!Vivado_workspace/*.vds
+!Vivado_workspace/*.pb
+#All bd comments and layout coordinates are stored within .ui
+!Vivado_workspace/*.ui
+!Vivado_workspace/*.ooc
+#########
+#System Generator
+#########
+!Vivado_workspace/*.mdl
+!Vivado_workspace/*.slx
+!Vivado_workspace/*.bxml
+#########
+#Simulation logic analyzer
+#########
+!Vivado_workspace/*.wcfg
+!Vivado_workspace/*.coe
+#########
+#MIG
+#########
+!Vivado_workspace/*.prj
+!Vivado_workspace/*.mem
+#########
+#Project files
+#########
+#XPR  +  *.XML ? XPR (Files are merged into a single XPR file for 2014.1 version)
+#Do NOT ignore *.xpr files
+!Vivado_workspace/*.xpr
+#Include *.xml files for 2013.4 or earlier version
+!Vivado_workspace/*.xml
+#########
+#Constraint files
+#########
+#Do NOT ignore *.xdc files
+!Vivado_workspace/*.xdc
+#########
+#TCL - files
+#########
+!Vivado_workspace/*.tcl
+#########
+#Journal - files
+#########
+!Vivado_workspace/*.jou
+#########
+#Reports
+#########
+!Vivado_workspace/*.rpt
+!Vivado_workspace/*.txt
+!Vivado_workspace/*.vdi
+#########
+#C-files
+#########
+!Vivado_workspace/*.c
+!Vivado_workspace/*.h
+!Vivado_workspace/*.elf
+!Vivado_workspace/*.bmm
+!Vivado_workspace/*.xmp
