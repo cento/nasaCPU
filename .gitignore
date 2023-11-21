@@ -156,3 +156,6 @@ ipshared
 **/**/.sim.status.tcl
 **/**/.autosim.status
 **/*.hlsrun_cosim_summary
+**/*.gen/*
+**/*.srcs/
+
