@@ -1,0 +1,12 @@
+{
+  "name": "fetching_decoding_ip",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "fetching_decoding_ip"
+  },
+  "previousBuildStatusMap": {}
+}
