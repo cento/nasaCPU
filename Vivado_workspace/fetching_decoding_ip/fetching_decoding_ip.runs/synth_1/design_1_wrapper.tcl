@@ -94,11 +94,11 @@ OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib c:/Users/monde/Documents/GitHub/nasa-CPU/Vivado_workspace/fetching_decoding_ip/fetching_decoding_ip.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
 add_files C:/Users/monde/Documents/GitHub/nasa-CPU/Vivado_workspace/fetching_decoding_ip/fetching_decoding_ip.srcs/sources_1/bd/design_1/design_1.bd
 set_property used_in_implementation false [get_files -all c:/Users/monde/Documents/GitHub/nasa-CPU/Vivado_workspace/fetching_decoding_ip/fetching_decoding_ip.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/monde/Documents/GitHub/nasa-CPU/Vivado_workspace/fetching_decoding_ip/fetching_decoding_ip.gen/sources_1/bd/design_1/ip/design_1_fetching_decoding_ip_0_0/constraints/fetching_decoding_ip_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/monde/Documents/GitHub/nasa-CPU/Vivado_workspace/fetching_decoding_ip/fetching_decoding_ip.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/monde/Documents/GitHub/nasa-CPU/Vivado_workspace/fetching_decoding_ip/fetching_decoding_ip.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/monde/Documents/GitHub/nasa-CPU/Vivado_workspace/fetching_decoding_ip/fetching_decoding_ip.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/monde/Documents/GitHub/nasa-CPU/Vivado_workspace/fetching_decoding_ip/fetching_decoding_ip.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/monde/Documents/GitHub/nasa-CPU/Vivado_workspace/fetching_decoding_ip/fetching_decoding_ip.gen/sources_1/bd/design_1/ip/design_1_fetching_decoding_ip_0_1/constraints/fetching_decoding_ip_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/monde/Documents/GitHub/nasa-CPU/Vivado_workspace/fetching_decoding_ip/fetching_decoding_ip.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/monde/Documents/GitHub/nasa-CPU/Vivado_workspace/fetching_decoding_ip/fetching_decoding_ip.gen/sources_1/bd/design_1/design_1_ooc.xdc]
 
 OPTRACE "Adding files" END { }
@@ -113,6 +113,8 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental C:/Users/monde/Documents/GitHub/nasa-CPU/Vivado_workspace/fetching_decoding_ip/fetching_decoding_ip.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
