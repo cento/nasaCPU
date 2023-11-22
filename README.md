@@ -452,3 +452,17 @@ Finished Export RTL/Implementation esults:
 After an off-side study of HLS and some aspect of the code optimmization, I decided to revisit the rv32i_cpp by starting with a very light refactoring -- for learning/understanding purpose.
 
 The code still reflect the original work, but the refactoring will allow me to revisit some unclear aspects and modify them later.
+
+## Migration to Vitis Unified IDE 2023
+
+With the new Vitis Unified IDE, the flow is slightly changed. I removed/migrated the old IP components and I cleaned up a little bit the old mess I created with my previous experiments.
+
+The new flow is something like that:
+
+1. Create a new workspace in Vitis Unified IDE (Vitis from now on)
+    * This is important, I spent hours to understand why i was not able to create an HLS component out of the box...
+2. Create a new HLS component
+3. Create a platform using the XSA generated and exported from Vivado
+4. Create a new testing app attached to the generated platform
+
+I am also experimenting some hybrid solution like using multiple variant (designs) in vivado to keep a single project for the multiple IP cores, or having a single platform on Vitis and switch XSA when needed.
