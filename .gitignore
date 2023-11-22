@@ -158,4 +158,4 @@ ipshared
 **/*.hlsrun_cosim_summary
 **/*.gen/*
 **/*.srcs/
-
+*/*/*.runs/**
