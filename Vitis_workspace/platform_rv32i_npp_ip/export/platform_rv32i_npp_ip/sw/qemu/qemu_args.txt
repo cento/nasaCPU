@@ -6,7 +6,7 @@
 #
 # This file contains flag and value pairs and they must be seperated 
 # into two lines value followed by flag. Below are the common/mandated 
-# flag and value pairs used for emulating Zynq. User can add more 
+# flag and value pairs used for emulating Zynq. User can add more
 # commandline args to this file depends on requirements.
 # 
 # For more details on the QEMU commandline, please refer to 
@@ -46,17 +46,6 @@ loader,addr=0xF8000240,data=0x00000000,data-len=4
 mode=5
 #
 #
-# Syste.dtb is passing as commandline to QEMU, as it is no more part 
-# of u-boot.elf
--device
-loader,addr=0x100000,file=<system.dtb>
-#
-#
 # Guest software to load during boot up
 -kernel
-<u-boot.elf>
-#
-#
-# linux=on, make qemu itself a loader of linux image
--machine
-linux=on
+<elf>
