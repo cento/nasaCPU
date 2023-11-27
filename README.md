@@ -19,7 +19,7 @@ This combination of events is perfect since I will be able to build my (hobbysti
 [^1]: _Guide to Computer Processor Architecture,
 A RISC-V Approach, with High-Level Synthesis_ - Bernard Goossens
 
-## Why nasa-CPU
+## Why nasaCPU
 
 Because the primary purpose of this processor will be to power the spaceships we're going to build in the near future, of course. But also because love leads to silly and funny things.
 
@@ -86,7 +86,7 @@ $ sudo make install
 
 ## RISC-V ISA Notes
 
-In nasa-CPU I am going to use 32-bit instructions with 32-bit integer data. This is the minimal version of RISC-V ISA (named RV32I) what uses 32 registers, sufficient to run basically any simple possible application written and compiled for this instructions set, even a simple Operating System (OS).
+In nasaCPU I am going to use 32-bit instructions with 32-bit integer data. This is the minimal version of RISC-V ISA (named RV32I) what uses 32 registers, sufficient to run basically any simple possible application written and compiled for this instructions set, even a simple Operating System (OS).
 
 I found [this OS](https://github.com/moratorium08/osmium/) written in Rust using only the RV32IM isa, I will keep an eye on similar projects. 
 
@@ -158,7 +158,7 @@ The development board used for the experiments is the [PYNQ-Z2](https://www.xili
 To source the HLS project, run the tcl build script from Vitis HLS console:
 
 ```
-source nasa-CPU\HLS\fetching_ip\solution1\script.tcl
+source nasaCPU\HLS\fetching_ip\solution1\script.tcl
 ```
 
 ### The Critical Path
