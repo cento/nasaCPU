@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# xsim v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Nov 20 22:09:37 2023
+# Process ID: 140624
+# Current directory: C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetching_ip/hls/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/fetching_ip/xsim_script.tcl}
+# Log file: C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetching_ip/hls/sim/verilog/xsim.log
+# Journal file: C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetching_ip/hls/sim/verilog\xsim.jou
+# Running On: Naboo, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 33567 MB
+#-----------------------------------------------------------
+source xsim.dir/fetching_ip/xsim_script.tcl
+source fetching_ip.tcl

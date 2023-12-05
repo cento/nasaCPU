@@ -1,0 +1,254 @@
+[
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\immediate.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\immediate.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\disassemble.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\disassemble.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\emulate.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\emulate.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\fetch.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\fetch.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\decode.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\decode.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\disassemble.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\disassemble.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\fde_ip.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\fde_ip.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\emulate.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\emulate.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\immediate.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\immediate.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\fde_ip.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\fde_ip.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\print.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\print.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\fetch.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\fetch.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\execute.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\execute.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\type.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\type.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\decode.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\decode.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\print.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\print.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\type.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\type.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\execute.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\.\\execute.cpp"
+  }
+]

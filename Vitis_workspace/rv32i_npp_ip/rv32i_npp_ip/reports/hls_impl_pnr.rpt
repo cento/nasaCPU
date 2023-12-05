@@ -1,0 +1,181 @@
+================================================================
+== Vivado Place & Route Results
+================================================================
++ General Information:
+    * Date:            Thu Nov 23 19:21:44 +0800 2023
+    * Version:         2023.2 (Build 4023990 on Oct 11 2023)
+    * Project:         rv32i_npp_ip
+    * Solution:        hls (Vivado IP Flow Target)
+    * Product family:  zynq
+    * Target device:   xc7z020-clg400-1
+
+
+================================================================
+== Run Constraints & Options
+================================================================
++ Design Constraints & Options:
+    * Place & Route target clock:  10 ns
+    * C-Synthesis uncertainty:     27%
+
++ RTL Synthesis Options:
+    * config_export -vivado_synth_strategy:     default
+    * config_export -vivado_synth_design_args:  -directive sdx_optimization_effort_high
+
++ Place & Route Options:
+    * config_export -vivado_impl_strategy:  default
+    * config_export -vivado_phys_opt:       none
+
++ Reporting Options:
+    * config_export -vivado_report_level:      2
+    * config_export -vivado_max_timing_paths:  10
+
+
+================================================================
+== Place & Route Resource Summary
+================================================================
+LUT:              4824
+FF:               2961
+DSP:              0
+BRAM:             256
+URAM:             0
+SRL:              0
+
+
+================================================================
+== Place & Route Timing Summary
+================================================================
+* Timing was met
++----------------+-------------+
+| Timing         | Period (ns) |
++----------------+-------------+
+| Target         | 10.000      |
+| Post-Synthesis | 7.443       |
+| Post-Route     | 9.803       |
++----------------+-------------+
+
+
+================================================================
+== Place & Route Resources
+================================================================
++-------------------+------+------+-----+------+------+-----+--------+------+---------+----------+--------+
+| Name              | LUT  | FF   | DSP | BRAM | URAM | SRL | Pragma | Impl | Latency | Variable | Source |
++-------------------+------+------+-----+------+------+-----+--------+------+---------+----------+--------+
+| inst              | 4824 | 2961 |     | 256  |      |     |        |      |         |          |        |
+|   (inst)          | 127  | 2756 |     |      |      |     |        |      |         |          |        |
+|   control_s_axi_U | 4699 | 205  |     | 256  |      |     |        |      |         |          |        |
++-------------------+------+------+-----+------+------+-----+--------+------+---------+----------+--------+
+
+
+================================================================
+== Place & Route Fail Fast
+================================================================
++-----------------------------------------------------------+-----------+--------+--------+
+| Criteria                                                  | Guideline | Actual | Status |
++-----------------------------------------------------------+-----------+--------+--------+
+| LUT                                                       | 70%       | 9.07%  | OK     |
+| FD                                                        | 50%       | 2.78%  | OK     |
+| LUTRAM+SRL                                                | 25%       | 0.00%  | OK     |
+| MUXF7                                                     | 15%       | 0.97%  | OK     |
+| DSP                                                       | 80%       | 0.00%  | OK     |
+| RAMB/FIFO                                                 | 80%       | 91.43% | REVIEW |
+| DSP+RAMB+URAM (Avg)                                       | 70%       | 91.43% | REVIEW |
+| BUFGCE* + BUFGCTRL                                        | 24        | 0      | OK     |
+| DONT_TOUCH (cells/nets)                                   | 0         | 0      | OK     |
+| MARK_DEBUG (nets)                                         | 0         | 0      | OK     |
+| Control Sets                                              | 998       | 53     | OK     |
+| Average Fanout for modules > 100k cells                   | 4         | 3.82   | OK     |
+| Max Average Fanout for modules > 100k cells               | 4         | 0      | OK     |
+| Non-FD high fanout nets > 10k loads                       | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+| TIMING-6 (No common primary clock between related clocks) | 0         | 0      | OK     |
+| TIMING-7 (No common node between related clocks)          | 0         | 0      | OK     |
+| TIMING-8 (No common period between related clocks)        | 0         | 0      | OK     |
+| TIMING-14 (LUT on the clock tree)                         | 0         | 0      | OK     |
+| TIMING-35 (No common node in paths with the same clock)   | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+| Number of paths above max LUT budgeting (0.575ns)         | 0         | 0      | OK     |
+| Number of paths above max Net budgeting (0.403ns)         | 0         | 0      | OK     |
++-----------------------------------------------------------+-----------+--------+--------+
+
+
+================================================================
+== Place & Route Timing Paths
+================================================================
+* Timing was met
++-------+-------+------------------------------------------------------+-----------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+| Path  | SLACK | STARTPOINT PIN                                       | ENDPOINT PIN                                        | LOGIC LEVELS | MAX FANOUT | DATAPATH DELAY | DATAPATH LOGIC | DATAPATH NET |
+|       |       |                                                      |                                                     |              |            |                |          DELAY |        DELAY |
++-------+-------+------------------------------------------------------+-----------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+| Path1 | 0.197 | ap_CS_fsm_reg[0]/C                                   | ap_CS_fsm_reg[1]_rep__20/D                          |            1 |       1112 |          9.796 |          0.718 |        9.078 |
+| Path2 | 0.310 | ap_CS_fsm_reg[4]/C                                   | control_s_axi_U/int_data_ram/mem_reg_1_0_2/WEBWE[0] |            5 |        226 |          9.074 |          1.534 |        7.540 |
+| Path3 | 0.351 | ap_CS_fsm_reg[0]/C                                   | pc_fu_270_reg[8]_rep__25/D                          |            1 |       1112 |          9.646 |          0.718 |        8.928 |
+| Path4 | 0.397 | control_s_axi_U/int_code_ram/mem_reg_2_0_4/CLKBWRCLK | rv2_reg_2746_reg[25]/D                              |            4 |        257 |          9.551 |          3.927 |        5.624 |
+| Path5 | 0.405 | control_s_axi_U/int_code_ram/mem_reg_2_0_6/CLKBWRCLK | rv2_reg_2746_reg[12]/D                              |            3 |        129 |          9.542 |          3.909 |        5.633 |
++-------+-------+------------------------------------------------------+-----------------------------------------------------+--------------+------------+----------------+----------------+--------------+
+
+    +------------------------------------------+----------------------+
+    | Path1 Cells                              | Primitive Type       |
+    +------------------------------------------+----------------------+
+    | ap_CS_fsm_reg[0]                         | FLOP_LATCH.flop.FDSE |
+    | control_s_axi_U/ap_CS_fsm[1]_rep_i_1__20 | LUT.others.LUT4      |
+    | ap_CS_fsm_reg[1]_rep__20                 | FLOP_LATCH.flop.FDRE |
+    +------------------------------------------+----------------------+
+
+    +--------------------------------------------------------+----------------------+
+    | Path2 Cells                                            | Primitive Type       |
+    +--------------------------------------------------------+----------------------+
+    | ap_CS_fsm_reg[4]                                       | FLOP_LATCH.flop.FDRE |
+    | control_s_axi_U/int_data_ram/result_29_reg_527[15]_i_9 | LUT.others.LUT2      |
+    | control_s_axi_U/int_data_ram/shl_ln131_reg_2891[3]_i_2 | LUT.others.LUT6      |
+    | control_s_axi_U/int_data_ram/shl_ln131_reg_2891[3]_i_1 | LUT.others.LUT6      |
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_0_i_21        | LUT.others.LUT5      |
+    | control_s_axi_U/int_code_ram/mem_reg_1_0_2_i_19        | LUT.others.LUT6      |
+    | control_s_axi_U/int_data_ram/mem_reg_1_0_2             | BMEM.bram.RAMB36E1   |
+    +--------------------------------------------------------+----------------------+
+
+    +-------------------------------------------------------+----------------------+
+    | Path3 Cells                                           | Primitive Type       |
+    +-------------------------------------------------------+----------------------+
+    | ap_CS_fsm_reg[0]                                      | FLOP_LATCH.flop.FDSE |
+    | control_s_axi_U/int_code_ram/pc_fu_270[8]_rep__25_i_1 | LUT.others.LUT6      |
+    | pc_fu_270_reg[8]_rep__25                              | FLOP_LATCH.flop.FDRE |
+    +-------------------------------------------------------+----------------------+
+
+    +-------------------------------------------------------+----------------------+
+    | Path4 Cells                                           | Primitive Type       |
+    +-------------------------------------------------------+----------------------+
+    | control_s_axi_U/int_code_ram/mem_reg_2_0_4            | BMEM.bram.RAMB36E1   |
+    | control_s_axi_U/int_code_ram/mem_reg_2_1_4            | BMEM.bram.RAMB36E1   |
+    | control_s_axi_U/int_code_ram/rv2_reg_2746[25]_i_10    | LUT.others.LUT6      |
+    | control_s_axi_U/int_code_ram/rv2_reg_2746_reg[25]_i_4 | MUXFX.others.MUXF7   |
+    | control_s_axi_U/int_code_ram/rv2_reg_2746[25]_i_1     | LUT.others.LUT6      |
+    | rv2_reg_2746_reg[25]                                  | FLOP_LATCH.flop.FDRE |
+    +-------------------------------------------------------+----------------------+
+
+    +-------------------------------------------------------+----------------------+
+    | Path5 Cells                                           | Primitive Type       |
+    +-------------------------------------------------------+----------------------+
+    | control_s_axi_U/int_code_ram/mem_reg_2_0_6            | BMEM.bram.RAMB36E1   |
+    | control_s_axi_U/int_code_ram/mem_reg_2_1_6            | BMEM.bram.RAMB36E1   |
+    | control_s_axi_U/int_code_ram/rv2_reg_2746_reg[12]_i_3 | MUXFX.others.MUXF7   |
+    | control_s_axi_U/int_code_ram/rv2_reg_2746[12]_i_1     | LUT.others.LUT6      |
+    | rv2_reg_2746_reg[12]                                  | FLOP_LATCH.flop.FDRE |
+    +-------------------------------------------------------+----------------------+
+
+
+================================================================
+== Place & Route Vivado Reports
+================================================================
++--------------------------+----------------------------------------------------------------------+
+| Report Type              | Report Location                                                      |
++--------------------------+----------------------------------------------------------------------+
+| design_analysis          | impl/verilog/report/rv32i_npp_ip_design_analysis_routed.rpt          |
+| failfast                 | impl/verilog/report/rv32i_npp_ip_failfast_routed.rpt                 |
+| status                   | impl/verilog/report/rv32i_npp_ip_status_routed.rpt                   |
+| timing                   | impl/verilog/report/rv32i_npp_ip_timing_routed.rpt                   |
+| timing_paths             | impl/verilog/report/rv32i_npp_ip_timing_paths_routed.rpt             |
+| utilization              | impl/verilog/report/rv32i_npp_ip_utilization_routed.rpt              |
+| utilization_hierarchical | impl/verilog/report/rv32i_npp_ip_utilization_hierarchical_routed.rpt |
++--------------------------+----------------------------------------------------------------------+
+
+

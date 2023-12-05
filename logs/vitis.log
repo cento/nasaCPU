@@ -1,0 +1,33 @@
+20:18:34 INFO  : updated workspace path: C:\Users\monde\Documents\GitHub\nasa-CPU
+20:18:34 ERROR : usage: use "python get_template_data.py --help" for more information
+20:18:34 INFO  : get_template_data.py: error: unrecognized arguments: cartella\.repo.yaml
+20:18:34 ERROR : Error in generating Application Template List.
+20:18:34 ERROR : Error in generating Application Template List. usage: use "python get_template_data.py --help" for more information
+20:18:34 INFO  : created .gitignore file for the project C:\Users\monde\Documents\GitHub\nasa-CPU
+20:18:34 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\repo.py -st   C:\Xilinx\Vitis\2023.2\data\embeddedsw && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+20:18:34 INFO  : updated workspace path: C:\Users\monde\Documents\GitHub\nasa-CPU
+20:18:36 INFO  : Successfully created repository data at C:\Users\monde\Documents\GitHub\nasa-CPU
+20:18:36 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde2771928425689810429 -r C:\Users\monde\Documents\GitHub\nasa-CPU\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+20:18:36 INFO  : Embedded Template List generated successfully
+20:18:36 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde10399260278899120745 -r C:\Users\monde\Documents\GitHub\nasa-CPU\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+20:18:36 INFO  : Embedded Template List generated successfully
+20:21:32 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde8267342459594372775 -r C:\Users\monde\Documents\GitHub\nasa-CPU\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+20:21:32 INFO  : created .gitignore file for the project C:\Users\monde\Documents\GitHub\nasa-CPU\HLS_new
+20:21:32 INFO  : Marking the target connection as default Local
+20:21:32 INFO  : Marking the target connection as default Linux Agent
+20:21:32 INFO  : Marking the target connection as default XRTServer
+20:21:32 INFO  : Marking the target connection as default LinuxEmulation
+20:21:32 INFO  : Marking the target connection as default QEMU
+19:34:25 INFO  : updated workspace path: C:\Users\monde\Documents\GitHub\nasa-CPU
+19:34:26 INFO  : created .gitignore file for the project C:\Users\monde\Documents\GitHub\nasa-CPU
+19:34:26 INFO  : updated workspace path: C:\Users\monde\Documents\GitHub\nasa-CPU
+19:34:27 INFO  : Successfully created repository data at C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde16586688241161341528
+19:34:27 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde14612143101938432134 -r C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde16586688241161341528\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:34:27 INFO  : Embedded Template List generated successfully
+19:34:27 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\repo.py -st   C:\Xilinx\Vitis\2023.2\data\embeddedsw && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:34:29 INFO  : Successfully created repository data at C:\Users\monde\Documents\GitHub\nasa-CPU
+19:34:29 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde15581710183362122161 -r C:\Users\monde\Documents\GitHub\nasa-CPU\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:34:29 INFO  : Embedded Template List generated successfully
+19:34:29 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde14537401042392504415 -r C:\Users\monde\Documents\GitHub\nasa-CPU\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+19:34:30 INFO  : Embedded Template List generated successfully
+19:37:24 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde10547961162511525981 -r C:\Users\monde\Documents\GitHub\nasa-CPU\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat

@@ -1,0 +1,173 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\fde_ip\\fde_ip.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "11/22/23 20:45:21",
+ "timestampMillis": "4145039152",
+ "buildStep": {
+  "cmdId": "434e8a6c-2698-44e3-ba92-cd53d85351b5",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\fde_ip\\logs\\fde_ip.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2023.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\hls_config.cfg --work_dir fde_ip ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\hls_config.cfg",
+   "--work_dir",
+   "fde_ip"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/22/23 20:45:21",
+ "timestampMillis": "4145039152",
+ "status": {
+  "cmdId": "434e8a6c-2698-44e3-ba92-cd53d85351b5",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "11/22/23 20:45:26",
+ "timestampMillis": "4145045067",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\decode.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\decode.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\disassemble.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\disassemble.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\emulate.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\emulate.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\execute.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\execute.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\fde_ip.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\fde_ip.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\fetch.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\fetch.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\immediate.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\immediate.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\print.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\print.h",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\type.cpp",
+     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\type.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2023.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "11/22/23 20:45:26",
+ "timestampMillis": "4145045074",
+ "buildStep": {
+  "cmdId": "ce997a4a-b4c8-479c-b4aa-2ccb496f55c7",
+  "name": "csim_design",
+  "logFile": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip\\fde_ip\\hls\\hls.log",
+  "commandLine": "csim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fde_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/22/23 20:45:26",
+ "timestampMillis": "4145045074",
+ "status": {
+  "cmdId": "ce997a4a-b4c8-479c-b4aa-2ccb496f55c7",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/22/23 20:45:28",
+ "timestampMillis": "4145046296",
+ "status": {
+  "cmdId": "ce997a4a-b4c8-479c-b4aa-2ccb496f55c7",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/22/23 20:45:28",
+ "timestampMillis": "4145046373",
+ "status": {
+  "cmdId": "434e8a6c-2698-44e3-ba92-cd53d85351b5",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/22/23 20:45:28",
+ "timestampMillis": "4145046373",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/22/23 20:45:28",
+ "timestampMillis": "4145046373",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

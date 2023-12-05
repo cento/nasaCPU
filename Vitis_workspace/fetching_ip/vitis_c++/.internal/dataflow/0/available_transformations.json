@@ -1,0 +1,12 @@
+[
+    {
+        "action": "merge",
+        "srcTask": "1",
+        "targetTask": "2"
+    },
+    {
+        "action": "merge",
+        "srcTask": "2",
+        "targetTask": "1"
+    }
+]
