@@ -1,0 +1,39 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Tue Nov 21 22:03:58 2023
+| Host         : Naboo running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 6 -file ./report/fetching_decoding_ip_utilization_hierarchical_routed.rpt
+| Design       : bd_0_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-----------------------------+--------------------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+|           Instance          |                         Module                         | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++-----------------------------+--------------------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| bd_0_wrapper                |                                                  (top) |        289 |        289 |       0 |    0 | 956 |     64 |      0 |          0 |
+|   bd_0_i                    |                                                   bd_0 |        289 |        289 |       0 |    0 | 956 |     64 |      0 |          0 |
+|     hls_inst                |                                        bd_0_hls_inst_0 |        289 |        289 |       0 |    0 | 956 |     64 |      0 |          0 |
+|       (hls_inst)            |                                        bd_0_hls_inst_0 |          0 |          0 |       0 |    0 |   0 |      0 |      0 |          0 |
+|       inst                  |                   bd_0_hls_inst_0_fetching_decoding_ip |        289 |        289 |       0 |    0 | 956 |     64 |      0 |          0 |
+|         (inst)              |                   bd_0_hls_inst_0_fetching_decoding_ip |          1 |          1 |       0 |    0 | 821 |      0 |      0 |          0 |
+|         control_s_axi_U     |     bd_0_hls_inst_0_fetching_decoding_ip_control_s_axi |        274 |        274 |       0 |    0 | 112 |     64 |      0 |          0 |
+|           (control_s_axi_U) |     bd_0_hls_inst_0_fetching_decoding_ip_control_s_axi |         78 |         78 |       0 |    0 | 104 |      0 |      0 |          0 |
+|           int_code_ram      | bd_0_hls_inst_0_fetching_decoding_ip_control_s_axi_ram |        197 |        197 |       0 |    0 |   8 |     64 |      0 |          0 |
+|         grp_decode_fu_89    |            bd_0_hls_inst_0_fetching_decoding_ip_decode |         10 |         10 |       0 |    0 |  21 |      0 |      0 |          0 |
+|         grp_fetch_fu_82     |             bd_0_hls_inst_0_fetching_decoding_ip_fetch |          6 |          6 |       0 |    0 |   2 |      0 |      0 |          0 |
++-----------------------------+--------------------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

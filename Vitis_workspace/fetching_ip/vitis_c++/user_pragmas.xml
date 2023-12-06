@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<slxup:slxUserPragmas xmlns:slxup="http://www.xilinx.com/act/slxUserPragmas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xilinx.com/act/slxUserPragmas slxUserPragmas.xsd">
+  <Pragma displayName="inline" functionName="fetch">
+    <Location beginColumn="1" beginLine="16" endColumn="1" endLine="16" file="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetch.cpp"/>
+  </Pragma>
+  <Pragma displayName="inline" functionName="execute">
+    <Location beginColumn="0" beginLine="0" endColumn="0" endLine="0" file=""/>
+  </Pragma>
+  <Pragma displayName="inline" functionName="compute_next_pc">
+    <Location beginColumn="1" beginLine="7" endColumn="1" endLine="7" file="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/execute.cpp"/>
+  </Pragma>
+  <Pragma displayName="pipeline" functionName="Outline_T2_F333_R3_Loop">
+    <Location beginColumn="1" beginLine="21" endColumn="1" endLine="21" file="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetching_ip.cpp"/>
+  </Pragma>
+</slxup:slxUserPragmas>

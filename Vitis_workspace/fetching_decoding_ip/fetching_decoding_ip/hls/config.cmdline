@@ -1,0 +1,3 @@
+relativeroot=C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_decoding_ip
+original_argv=--mode hls --impl --config C:\Users\monde\Documents\GitHub\nasa-CPU\Vitis_workspace\fetching_decoding_ip\hls_config.cfg --work_dir fetching_decoding_ip 
+

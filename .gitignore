@@ -110,3 +110,4 @@ Vitis_workspace/**/*.o
 Vitis_workspace/**/*.log
 Vitis_workspace/**/updategit.sh
 Vitis_workspace/**/compile_commands.json
+Vitis_workspace/**/hls/.autopilot/*

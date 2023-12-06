@@ -1,0 +1,131 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Thu Nov 23 19:20:06 2023
+| Host         : Naboo running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file bd_0_wrapper_control_sets_placed.rpt
+| Design       : bd_0_wrapper
+| Device       : xc7z020
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    53 |
+|    Minimum number of control sets                        |    53 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    23 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    53 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    51 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              95 |           77 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             148 |           89 |
+| Yes          | No                    | No                     |            1510 |          632 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |            1208 |          623 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------+--------------------------------------------------------------------------+----------------------------------------------------------------------+------------------+----------------+--------------+
+| Clock Signal |                               Enable Signal                              |                           Set/Reset Signal                           | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------+--------------------------------------------------------------------------+----------------------------------------------------------------------+------------------+----------------+--------------+
+|  ap_clk      | bd_0_i/hls_inst/inst/ap_CS_fsm_state4                                    | bd_0_i/hls_inst/inst/ap_predicate_pred373_state5_i_1_n_0             |                2 |              5 |         2.50 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/result_29_reg_5270     | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_6_0    |               12 |             15 |         1.25 |
+|  ap_clk      |                                                                          | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/SR[0]              |                8 |             16 |         2.00 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/result_29_reg_5270     | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_6_1    |               10 |             16 |         1.60 |
+|  ap_clk      | bd_0_i/hls_inst/inst/ap_CS_fsm_state5                                    | bd_0_i/hls_inst/inst/shl_ln131_2_reg_2896[15]_i_1_n_0                |               15 |             16 |         1.07 |
+|  ap_clk      | bd_0_i/hls_inst/inst/ap_CS_fsm_state5                                    | bd_0_i/hls_inst/inst/shl_ln131_2_reg_2896[31]_i_1_n_0                |               15 |             16 |         1.07 |
+|  ap_clk      | bd_0_i/hls_inst/inst/ap_CS_fsm_state2                                    |                                                                      |                4 |             16 |         4.00 |
+|  ap_clk      | bd_0_i/hls_inst/inst/d_i_imm_5_reg_507                                   | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_6_0[0] |               10 |             20 |         2.00 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/aw_hs                               |                                                                      |                8 |             20 |         2.50 |
+|  ap_clk      | bd_0_i/hls_inst/inst/ap_CS_fsm_state5                                    |                                                                      |               15 |             21 |         1.40 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_5[0]  | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               18 |             32 |         1.78 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_9[0]  | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               18 |             32 |         1.78 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_3[0]  | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               15 |             32 |         2.13 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_8[0]  | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               18 |             32 |         1.78 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_7[0]  | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               18 |             32 |         1.78 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_2[0]  | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               16 |             32 |         2.00 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_10[0] | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               17 |             32 |         1.88 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_13[0] | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               18 |             32 |         1.78 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_4[0]  | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               15 |             32 |         2.13 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_7_0[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               14 |             32 |         2.29 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_7_7[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               15 |             32 |         2.13 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_7_5[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               15 |             32 |         2.13 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_7_8[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               14 |             32 |         2.29 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_7_9[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               15 |             32 |         2.13 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_7_3[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               16 |             32 |         2.00 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_7_2[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               19 |             32 |         1.68 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_12[0] | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               19 |             32 |         1.68 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_7_1[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               18 |             32 |         1.78 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_7_6[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               16 |             32 |         2.00 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_7_4[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               16 |             32 |         2.00 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_0_1[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               13 |             32 |         2.46 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_1_0[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               15 |             32 |         2.13 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_1_1[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               17 |             32 |         1.88 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_0_2[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               16 |             32 |         2.00 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_0_0[0]     | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               18 |             32 |         1.78 |
+|  ap_clk      | bd_0_i/hls_inst/inst/reg_6450                                            |                                                                      |                8 |             32 |         4.00 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_6[0]  | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               19 |             32 |         1.68 |
+|  ap_clk      | bd_0_i/hls_inst/inst/ap_CS_fsm_state9                                    | bd_0_i/hls_inst/inst/control_s_axi_U/ap_rst_n_inv                    |               11 |             32 |         2.91 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/E[0]                   | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               17 |             32 |         1.88 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_0[0]  | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               17 |             32 |         1.88 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6][0]    | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               18 |             32 |         1.78 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_11[0] | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               18 |             32 |         1.78 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_7_10[0]    | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               16 |             32 |         2.00 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_CS_fsm_reg[6]_1[0]  | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |               17 |             32 |         1.88 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/int_start_pc[31]_i_1_n_0            | bd_0_i/hls_inst/inst/control_s_axi_U/ap_rst_n_inv                    |                9 |             32 |         3.56 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/rdata[31]_i_1_n_0                   |                                                                      |               15 |             32 |         2.13 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/sel                                 | bd_0_i/hls_inst/inst/control_s_axi_U/sel0[0]                         |                8 |             32 |         4.00 |
+|  ap_clk      | bd_0_i/hls_inst/inst/ap_CS_fsm_state6                                    |                                                                      |               25 |             56 |         2.24 |
+|  ap_clk      | bd_0_i/hls_inst/inst/ap_CS_fsm_state3                                    |                                                                      |               31 |             79 |         2.55 |
+|  ap_clk      |                                                                          |                                                                      |               77 |             95 |         1.23 |
+|  ap_clk      |                                                                          | bd_0_i/hls_inst/inst/control_s_axi_U/ap_rst_n_inv                    |               81 |            132 |         1.63 |
+|  ap_clk      | bd_0_i/hls_inst/inst/ap_CS_fsm_state4                                    |                                                                      |              113 |            214 |         1.89 |
+|  ap_clk      | bd_0_i/hls_inst/inst/control_s_axi_U/pc_fu_270                           |                                                                      |              413 |           1040 |         2.52 |
++--------------+--------------------------------------------------------------------------+----------------------------------------------------------------------+------------------+----------------+--------------+
+
+

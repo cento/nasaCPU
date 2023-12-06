@@ -1,0 +1,268 @@
+[
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\running_cond_update.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\running_cond_update.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\decode.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\decode.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\immediate.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\immediate.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\print.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\print.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\running_cond_update.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\running_cond_update.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\statistic_update.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\statistic_update.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\debug_fetching_decoding_ip.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\debug_fetching_decoding_ip.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\statistic_update.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\statistic_update.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\fetching_decoding_ip.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\fetching_decoding_ip.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\type.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\type.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\print.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\print.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\fetch.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\fetch.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\fetch.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\fetch.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\execute.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\execute.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\fetching_decoding_ip.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\fetching_decoding_ip.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\immediate.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\immediate.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\execute.h"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\execute.h"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\decode.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\decode.cpp"
+  },
+  {
+    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\etc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include\\ap_sysc",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
+      "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
+      "--compile",
+      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\type.cpp"
+    ],
+    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_decoding_ip\\.\\type.cpp"
+  }
+]
