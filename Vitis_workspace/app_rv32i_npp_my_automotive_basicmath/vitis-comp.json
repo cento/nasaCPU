@@ -1,0 +1,18 @@
+{
+  "name": "app_rv32i_npp_my_automotive_basicmath",
+  "type": "HOST",
+  "platform": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_rv32i_npp_ip\\export\\platform_rv32i_npp_ip\\platform_rv32i_npp_ip.xpfm",
+  "domain": "standalone_ps7_cortexa9_0",
+  "cpuInstance": "ps7_cortexa9_0",
+  "cpuType": "cortex-a9",
+  "os": "standalone",
+  "configuration": {
+    "componentType": "HOST",
+    "hostToolchainConfigurations": []
+  },
+  "domainRealName": "standalone_ps7_cortexa9_0",
+  "applicationFlow": "EMBEDDED",
+  "previousBuildStatusMap": {
+    "hw": "SUCCESS"
+  }
+}
