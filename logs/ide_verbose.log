@@ -4107,3 +4107,304 @@ PLUGIN_HOST(24096): initializing(make@1.79.0 with C:\Xilinx\Vitis\2023.2\ide\ele
 2023-12-13 21:08:08 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
 2023-12-13 21:08:08 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
 2023-12-13 21:08:08 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:09:00 [debug] : MonacoEditorModel.cancelSync {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.peers.ini\",\"ref\":\"~\"}"}
+2023-12-13 21:09:00 [debug] : MonacoEditorModel.doSync - enter {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.peers.ini\",\"ref\":\"~\"}"}
+2023-12-13 21:09:01 [debug] : MonacoEditorModel.cancelSync {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.theia\\\\settings.json\",\"ref\":\"~\"}"}
+2023-12-13 21:09:01 [debug] : MonacoEditorModel.doSync - enter {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.theia\\\\settings.json\",\"ref\":\"~\"}"}
+2023-12-13 21:09:01 [debug] : MonacoEditorModel.doSync - exit {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.peers.ini\",\"ref\":\"~\"}"}
+2023-12-13 21:09:01 [debug] : MonacoEditorModel.doSync - exit {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.theia\\\\settings.json\",\"ref\":\"~\"}"}
+2023-12-13 21:09:02 [debug] : MonacoEditorModel.cancelSync {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.theia\\\\settings.json\",\"ref\":\"~\"}"}
+2023-12-13 21:09:02 [debug] : MonacoEditorModel.cancelSave {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.theia\\\\settings.json\",\"ref\":\"~\"}"}
+2023-12-13 21:09:02 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 21:09:02 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 21:09:02 [debug] : [hosted-plugin: 24096] TextEditor is disposed! 
+2023-12-13 21:09:02 [debug] : [hosted-plugin: 24096] TextEditor is disposed! 
+2023-12-13 21:09:03 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:09:03 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:09:03 [debug] : [hosted-plugin: 24096] TextEditor is disposed! 
+2023-12-13 21:09:09 [debug] : MonacoEditorModel.cancelSync {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.peers.ini\",\"ref\":\"~\"}"}
+2023-12-13 21:09:09 [debug] : MonacoEditorModel.cancelSave {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.peers.ini\",\"ref\":\"~\"}"}
+2023-12-13 21:09:09 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini"}
+2023-12-13 21:09:09 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini"}
+2023-12-13 21:09:24 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:24 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:37 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:37 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:42 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:42 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:42 [debug] : Shutting down because of Reload request. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/commands'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/keyboard'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/logger'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/messageService'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/startup-workspace'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/remote-filesystem'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/envs'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/workspace'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/stopwatch'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/application'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/i18n'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hostedPlugin'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/project'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/rigel-workspace'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/component'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/debugger'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/debug'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/shell-terminal'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/task'. 
+2023-12-13 21:09:42 [debug] : a client has disconnected - removed from list: 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/quickPick'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/plugin-ext'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/plugin-paths'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/search'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/server'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/repository'. 
+2023-12-13 21:09:42 [debug] : [Repository Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/rigel-utils'. 
+2023-12-13 21:09:42 [debug] : [Rigel Utils Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/program_flash'. 
+2023-12-13 21:09:42 [debug] : [Program Flash Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/build'. 
+2023-12-13 21:09:42 [debug] : [Build Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path 'services/rigel-backend-helper'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/analysis'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/notification'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/recent-summaries'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/platform'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls/l1library/service'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/elf-reader'. 
+2023-12-13 21:09:42 [debug] : [Elf Reader Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/aie'. 
+2023-12-13 21:09:42 [debug] : [AIE Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/rigel_explorer'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/linker-script'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/rigel-logger'. 
+2023-12-13 21:09:42 [debug] : [Logger Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/vitis-hls'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/device'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/vcxx'. 
+2023-12-13 21:09:42 [debug] : [Rigel Vcxx Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls/common/data/info'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/flow_navigator'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls/common/file/service'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls/dataflow/info'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls_flow'. 
+2023-12-13 21:09:42 [debug] : [Hls Flow Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/mini-browser-service'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/bootgen'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls/report'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls/wave/open'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/search-in-workspace'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/request-service'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/report-model'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/keytar'. 
+2023-12-13 21:09:42 [debug] : [hosted-plugin: 24096] DEACTIVATE CONFIG LSP EXTENSION 
+2023-12-13 21:09:42 [debug] : [hosted-plugin: 24096] TextEditor is disposed! 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/commands'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/keyboard'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/logger'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/messageService'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/startup-workspace'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/remote-filesystem'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/envs'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/workspace'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/stopwatch'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/application'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/i18n'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/hostedPlugin'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/project'. 
+2023-12-13 21:09:45 [debug] : [Workspace Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/rigel-workspace'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/component'. 
+2023-12-13 21:09:45 [debug] : [Debugger Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/debugger'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/debug'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/shell-terminal'. 
+2023-12-13 21:09:45 [debug] : a client has connected - adding it to the list: 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/task'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/quickPick'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/plugin-ext'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/plugin-paths'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/search'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/server'. 
+2023-12-13 21:09:45 [debug] : [Repository Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/repository'. 
+2023-12-13 21:09:45 [debug] : [Rigel Utils Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/rigel-utils'. 
+2023-12-13 21:09:45 [debug] : [Program Flash Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/program_flash'. 
+2023-12-13 21:09:45 [debug] : [Build Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/build'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path 'services/rigel-backend-helper'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/analysis'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/notification'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/recent-summaries'. 
+2023-12-13 21:09:45 [debug] : [Platform Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/platform'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/hls/l1library/service'. 
+2023-12-13 21:09:45 [debug] : [Elf Reader Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/elf-reader'. 
+2023-12-13 21:09:45 [debug] : [AIE Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/aie'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/rigel_explorer'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/linker-script'. 
+2023-12-13 21:09:45 [debug] : [Logger Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/rigel-logger'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/vitis-hls'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/device'. 
+2023-12-13 21:09:45 [debug] : [Rigel Vcxx Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/vcxx'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/hls/common/data/info'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/flow_navigator'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/hls/common/file/service'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/hls/dataflow/info'. 
+2023-12-13 21:09:45 [debug] : [Hls Flow Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/hls_flow'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/mini-browser-service'. 
+2023-12-13 21:09:45 [debug] : [Workspace Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : [Debugger Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : [Repository Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : [Rigel Utils Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : [Logger Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : [Rigel Vcxx Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : [Hls Flow Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : getTasks(): about to return task information for 0 tasks 
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_examples","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2023.2","type":2},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/installed_examples","localDirectory":"C:/Xilinx/Vitis/2023.2/samples","gitUrl":"","gitBranch":"","type":2},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_libraries","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2023.2","type":1}]}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:listAieExampleRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:listHlsExampleRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Rigel Vcxx Server] Executing method:vcxx.hasVcxx with connection:(object). {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_examples","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2023.2","type":2},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/installed_examples","localDirectory":"C:/Xilinx/Vitis/2023.2/samples","gitUrl":"","gitBranch":"","type":2},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_libraries","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2023.2","type":1}]}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:listHlsExampleRepos. {"0":"result:","1":[{"id":"vitis_hls_examples","name":"Vitis HLS Introductory Examples","description":"Basic examples for Vitis HLS.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_hls_examples","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_hls_examples","gitUrl":"https://github.com/Xilinx/Vitis-HLS-Introductory-Examples.git","gitBranch":"2023.2","type":4}]}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_examples","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2023.2","type":2},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/installed_examples","localDirectory":"C:/Xilinx/Vitis/2023.2/samples","gitUrl":"","gitBranch":"","type":2},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_libraries","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2023.2","type":1}]}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_examples","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2023.2","type":2},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/installed_examples","localDirectory":"C:/Xilinx/Vitis/2023.2/samples","gitUrl":"","gitBranch":"","type":2},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_libraries","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2023.2","type":1}]}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:listAieExampleRepos. {"0":"result:","1":[{"id":"installed_aie_examples","name":"Installed AI Engine Examples","description":"This repository contains some simple AI Engine examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/installed_aie_examples","localDirectory":"C:/Xilinx/Vitis/2023.2/samples","gitUrl":"","gitBranch":"","type":3}]}
+2023-12-13 21:09:45 [debug] : [Rigel Vcxx Server] Executed method:vcxx.hasVcxx. {"0":"result:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[true],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : RIGEL SERVER 21:09:45 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde12375694248630254766 -r C:\Users\monde\Documents\GitHub\nasa-CPU\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : Frontend TabBarDecoratorService.initialize: 1.1 ms [Finished 3.070 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend LabelProvider.initialize: 0.7 ms [Finished 3.071 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend ApplicationConnectionStatusContribution.initialize: 0.0 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend DialogOverlayService.initialize: 0.0 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend Object.initialize: 0.0 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend FileSystemFrontendContribution.initialize: 0.0 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend ProblemDecorationContribution.initialize: 0.1 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend MonacoFrontendApplicationContribution.initialize: 0.0 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend MonacoFormattingConflictsContribution.initialize: 0.0 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend MonacoTextmateService.initialize: 4.7 ms [Finished 3.077 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend ConsoleContribution.initialize: 0.1 ms [Finished 3.077 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend WebviewFrontendSecurityWarnings.initialize: 0.1 ms [Finished 3.077 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend CoreContribution.initialize: 0.0 ms [Finished 3.077 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend ComponentProblemDecoratorContribution.initialize: 0.0 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend ApplicationProblemDecoratorContribution.initialize: 0.0 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Program Flash Output] Adding listeners to program flash service. 
+2023-12-13 21:09:45 [debug] : Frontend ProgramFlashContribution.initialize: 0.1 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Program Device Output] Adding listeners to program device service. 
+2023-12-13 21:09:45 [debug] : Frontend ProgramDeviceContribution.initialize: 0.0 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Build Output] Adding listeners to build service. 
+2023-12-13 21:09:45 [debug] : Frontend BuildContribution.initialize: 0.2 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Launch Menu] Adding listeners to manage launch session. 
+2023-12-13 21:09:45 [debug] : [Debug Manager] A debug session listener is registered to receive launch events. 
+2023-12-13 21:09:45 [debug] : Frontend LaunchContribution.initialize: 0.1 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend EmulationContribution.initialize: 0.1 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend AieContribution.initialize: 0.0 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend DebugXSDBConsoleContribution.initialize: 0.0 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Adding listeners to preference service. 
+2023-12-13 21:09:45 [debug] : Frontend LoggerContribution.initialize: 0.1 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Platform Output] Adding listeners to build service. 
+2023-12-13 21:09:45 [debug] : Frontend PlatformContribution.initialize: 0.1 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend RigelOutputContribution.initialize: 3.8 ms [Finished 3.082 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Build Output] Adding listeners to build service. 
+2023-12-13 21:09:45 [debug] : Frontend VcxxContribution.initialize: 0.1 ms [Finished 3.082 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [HLS Output] Adding listeners to HLS service. 
+2023-12-13 21:09:45 [debug] : Frontend HlsFlowContribution.initialize: 0.0 ms [Finished 3.082 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend MiniBrowserFrontendSecurityWarnings.initialize: 0.1 ms [Finished 3.083 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Program Flash Client]  {"0":"Initializaton completed and program flash service is ready in the frontend to receive program flash logs."}
+2023-12-13 21:09:45 [debug] : [Build Client] Initializaton completed and build service is ready in the frontend to receive build logs. 
+2023-12-13 21:09:45 [debug] : Initializaton completed and build service is ready in the frontend to receive build logs. 
+2023-12-13 21:09:45 [debug] : [Elf Reader Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [AIE Client] Initializaton completed and build service is ready in the frontend to receive build logs. 
+2023-12-13 21:09:45 [debug] : [Workspace Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [ProjectCache] fetching projects for project-cache 
+2023-12-13 21:09:45 [debug] : [Debugger Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [Repository Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [Repository Client] Ready to accept calls from the UI widgets. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider]  updating the model on initialization. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] refresh requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] refresh requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] refresh requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] refresh requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] common calling method requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update requested. 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] common calling method requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update requested. 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] common calling method requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update requested. 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:listAieExampleRepos from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] common calling method requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update requested. 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:listHlsExampleRepos from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] common calling method requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update completed. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Templates model update requested. 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Rigel Utils Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [Logger Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [Rigel vcxx Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [HLS Flow Client] Initialization completed. 
+2023-12-13 21:09:45 [debug] : Frontend CommonFrontendContribution.configure took longer than the expected maximum 100 milliseconds: 382.9 ms [Finished 3.466 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend WorkspaceFrontendContribution.configure: 0.2 ms [Finished 3.466 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["40c67b52-730f-45ed-beff-8e92a67bb9c7",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2023-12-13 21:09:45 [debug] : [ProjectCache] Project location updated to undefined 
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] installed_aie_examples:true 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update completed. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Templates model update requested. 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAieExampleTemplateTree from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAieExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2023-12-13 21:09:45 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 21:09:45 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["41fc2e78-767f-432e-8e0e-3f6d1aff84be",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_examples 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_examples 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Templates model update completed. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] common calling method completed. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] refresh completed. 
+2023-12-13 21:09:45 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : [Workspace Server] In 'setWorkspace' with connection:[object Object] request:{"path":"C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace"} 
+2023-12-13 21:09:45 [debug] : [Workspace Server] In 'setWorkspace' with connection:[object Object] request:{"path":"C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace"} 
+2023-12-13 21:09:45 [debug] : [Workspace Service] Initializaton completed. Updating workspace 'C:\Users\monde\Documents\GitHub\nasa-CPU\Vitis_workspace' in the server from service. 
+2023-12-13 21:09:45 [debug] : [Workspace Service] Initializaton completed. Updating workspace 'C:\Users\monde\Documents\GitHub\nasa-CPU\Vitis_workspace' in the server from service. 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : Frontend BuildChannelContribution.configure: 54.3 ms [Finished 3.520 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend HLSCommonContribution.configure: 0.0 ms [Finished 3.520 s after frontend start] 

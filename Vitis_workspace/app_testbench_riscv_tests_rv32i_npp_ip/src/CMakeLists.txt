@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.16)
 
 include(${CMAKE_CURRENT_SOURCE_DIR}/Hello_worldExample.cmake)
 include(${CMAKE_CURRENT_SOURCE_DIR}/UserConfig.cmake)
-set(APP_NAME app_rv32i_npp_ip)
+set(APP_NAME app_testbench_riscv_tests_rv32i_npp_ip)
 project(${APP_NAME})
 
 enable_language(C ASM CXX)
@@ -12,16 +12,6 @@ find_package(common)
 collect(PROJECT_LIB_DEPS xilstandalone)
 collect(PROJECT_LIB_DEPS xil)
 collect(PROJECT_LIB_DEPS xiltimer)
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,5 +1,6 @@
-obj/tb_rv32i_npp_ip.o: ../../../../tb_rv32i_npp_ip.cpp \
- ../../../../rv32i_npp_ip.h C:/Xilinx/Vitis_HLS/2023.2/include/ap_int.h \
+obj/tb_riscv_tests_rv32i_npp_ip.o: \
+ ../../../../tb_riscv_tests_rv32i_npp_ip.cpp ../../../../rv32i_npp_ip.h \
+ C:/Xilinx/Vitis_HLS/2023.2/include/ap_int.h \
  C:/Xilinx/Vitis_HLS/2023.2/include/etc/ap_common.h \
  C:/Xilinx/Vitis_HLS/2023.2/include/etc/ap_decl.h \
  C:/Xilinx/Vitis_HLS/2023.2/include/etc/ap_private.h \
@@ -19,4 +20,4 @@ obj/tb_rv32i_npp_ip.o: ../../../../tb_rv32i_npp_ip.cpp \
  C:/Xilinx/Vitis_HLS/2023.2/include/etc/ap_fixed_base.h \
  C:/Xilinx/Vitis_HLS/2023.2/include/etc/ap_fixed_ref.h \
  C:/Xilinx/Vitis_HLS/2023.2/include/etc/ap_fixed_special.h \
- ../../../../test_0_data.hex ../../../../test_0_text.hex
+ ../../../../test_load_store_0_text.hex
