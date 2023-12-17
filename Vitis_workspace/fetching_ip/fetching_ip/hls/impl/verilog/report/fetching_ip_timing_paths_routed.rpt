@@ -1,0 +1,560 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Mon Nov 20 22:32:35 2023
+| Host         : Naboo running 64-bit major release  (build 9200)
+| Command      : report_timing -max_paths 10 -file ./report/fetching_ip_timing_paths_routed.rpt
+| Design       : bd_0_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             1.228ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]/D
+                            (rising edge-triggered cell FDSE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        8.469ns  (logic 3.985ns (47.052%)  route 4.484ns (52.948%))
+  Logic Levels:           5  (LUT4=1 LUT5=1 LUT6=2 RAMB36E1=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.973     0.973    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_clk
+    RAMB36_X5Y7          RAMB36E1                                     r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X5Y7          RAMB36E1 (Prop_ramb36e1_CLKBWRCLK_CASCADEOUTB)
+                                                      2.872     3.845 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CASCADEOUTB
+                         net (fo=1, routed)           0.065     3.910    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3_n_1
+    RAMB36_X5Y8          RAMB36E1 (Prop_ramb36e1_CASCADEINB_DOBDO[0])
+                                                      0.425     4.335 f  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_3/DOBDO[0]
+                         net (fo=2, routed)           2.020     6.355    bd_0_i/hls_inst/inst/grp_fetch_fu_62/q0[11]
+    SLICE_X55Y52         LUT5 (Prop_lut5_I1_O)        0.118     6.473 f  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13/O
+                         net (fo=1, routed)           1.159     7.632    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13_n_0
+    SLICE_X43Y55         LUT6 (Prop_lut6_I2_O)        0.326     7.958 f  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6/O
+                         net (fo=2, routed)           0.598     8.556    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6_n_0
+    SLICE_X37Y50         LUT6 (Prop_lut6_I3_O)        0.124     8.680 r  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_2/O
+                         net (fo=6, routed)           0.450     9.129    bd_0_i/hls_inst/inst/control_s_axi_U/ap_done
+    SLICE_X37Y51         LUT4 (Prop_lut4_I1_O)        0.120     9.249 r  bd_0_i/hls_inst/inst/control_s_axi_U/ap_CS_fsm[0]_i_1__0/O
+                         net (fo=1, routed)           0.193     9.442    bd_0_i/hls_inst/inst/ap_NS_fsm[0]
+    SLICE_X36Y51         FDSE                                         r  bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.924    10.924    bd_0_i/hls_inst/inst/ap_clk
+    SLICE_X36Y51         FDSE                                         r  bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]/C
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    SLICE_X36Y51         FDSE (Setup_fdse_C_D)       -0.219    10.670    bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]
+  -------------------------------------------------------------------
+                         required time                         10.670    
+                         arrival time                          -9.442    
+  -------------------------------------------------------------------
+                         slack                                  1.228    
+
+Slack (MET) :             1.558ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_start_reg/D
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        8.435ns  (logic 3.989ns (47.294%)  route 4.446ns (52.706%))
+  Logic Levels:           5  (LUT4=1 LUT5=1 LUT6=2 RAMB36E1=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.973     0.973    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_clk
+    RAMB36_X5Y7          RAMB36E1                                     r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X5Y7          RAMB36E1 (Prop_ramb36e1_CLKBWRCLK_CASCADEOUTB)
+                                                      2.872     3.845 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CASCADEOUTB
+                         net (fo=1, routed)           0.065     3.910    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3_n_1
+    RAMB36_X5Y8          RAMB36E1 (Prop_ramb36e1_CASCADEINB_DOBDO[0])
+                                                      0.425     4.335 f  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_3/DOBDO[0]
+                         net (fo=2, routed)           2.020     6.355    bd_0_i/hls_inst/inst/grp_fetch_fu_62/q0[11]
+    SLICE_X55Y52         LUT5 (Prop_lut5_I1_O)        0.118     6.473 f  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13/O
+                         net (fo=1, routed)           1.159     7.632    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13_n_0
+    SLICE_X43Y55         LUT6 (Prop_lut6_I2_O)        0.326     7.958 f  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6/O
+                         net (fo=2, routed)           0.598     8.556    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6_n_0
+    SLICE_X37Y50         LUT6 (Prop_lut6_I3_O)        0.124     8.680 r  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_2/O
+                         net (fo=6, routed)           0.604     9.284    bd_0_i/hls_inst/inst/control_s_axi_U/ap_done
+    SLICE_X36Y52         LUT4 (Prop_lut4_I1_O)        0.124     9.408 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_start_i_1/O
+                         net (fo=1, routed)           0.000     9.408    bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_start_i_1_n_0
+    SLICE_X36Y52         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_start_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.924    10.924    bd_0_i/hls_inst/inst/control_s_axi_U/ap_clk
+    SLICE_X36Y52         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_start_reg/C
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    SLICE_X36Y52         FDRE (Setup_fdre_C_D)        0.077    10.966    bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_start_reg
+  -------------------------------------------------------------------
+                         required time                         10.966    
+                         arrival time                          -9.408    
+  -------------------------------------------------------------------
+                         slack                                  1.558    
+
+Slack (MET) :             1.569ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_i/hls_inst/inst/ap_CS_fsm_reg[1]/D
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        8.428ns  (logic 3.989ns (47.331%)  route 4.439ns (52.669%))
+  Logic Levels:           5  (LUT5=2 LUT6=2 RAMB36E1=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.973     0.973    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_clk
+    RAMB36_X5Y7          RAMB36E1                                     r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X5Y7          RAMB36E1 (Prop_ramb36e1_CLKBWRCLK_CASCADEOUTB)
+                                                      2.872     3.845 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CASCADEOUTB
+                         net (fo=1, routed)           0.065     3.910    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3_n_1
+    RAMB36_X5Y8          RAMB36E1 (Prop_ramb36e1_CASCADEINB_DOBDO[0])
+                                                      0.425     4.335 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_3/DOBDO[0]
+                         net (fo=2, routed)           2.020     6.355    bd_0_i/hls_inst/inst/grp_fetch_fu_62/q0[11]
+    SLICE_X55Y52         LUT5 (Prop_lut5_I1_O)        0.118     6.473 r  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13/O
+                         net (fo=1, routed)           1.159     7.632    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13_n_0
+    SLICE_X43Y55         LUT6 (Prop_lut6_I2_O)        0.326     7.958 r  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6/O
+                         net (fo=2, routed)           0.759     8.717    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6_n_0
+    SLICE_X36Y52         LUT6 (Prop_lut6_I3_O)        0.124     8.841 r  bd_0_i/hls_inst/inst/grp_fetch_fu_62/ap_CS_fsm[1]_i_2/O
+                         net (fo=1, routed)           0.436     9.277    bd_0_i/hls_inst/inst/grp_fetch_fu_62/is_running_running_cond_update_fu_74_ap_return
+    SLICE_X36Y52         LUT5 (Prop_lut5_I1_O)        0.124     9.401 r  bd_0_i/hls_inst/inst/grp_fetch_fu_62/ap_CS_fsm[1]_i_1__0/O
+                         net (fo=1, routed)           0.000     9.401    bd_0_i/hls_inst/inst/ap_NS_fsm[1]
+    SLICE_X36Y52         FDRE                                         r  bd_0_i/hls_inst/inst/ap_CS_fsm_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.924    10.924    bd_0_i/hls_inst/inst/ap_clk
+    SLICE_X36Y52         FDRE                                         r  bd_0_i/hls_inst/inst/ap_CS_fsm_reg[1]/C
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    SLICE_X36Y52         FDRE (Setup_fdre_C_D)        0.081    10.970    bd_0_i/hls_inst/inst/ap_CS_fsm_reg[1]
+  -------------------------------------------------------------------
+                         required time                         10.970    
+                         arrival time                          -9.401    
+  -------------------------------------------------------------------
+                         slack                                  1.569    
+
+Slack (MET) :             1.601ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_task_ap_done_reg/D
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        8.394ns  (logic 3.989ns (47.520%)  route 4.405ns (52.480%))
+  Logic Levels:           5  (LUT5=1 LUT6=3 RAMB36E1=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.973     0.973    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_clk
+    RAMB36_X5Y7          RAMB36E1                                     r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X5Y7          RAMB36E1 (Prop_ramb36e1_CLKBWRCLK_CASCADEOUTB)
+                                                      2.872     3.845 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CASCADEOUTB
+                         net (fo=1, routed)           0.065     3.910    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3_n_1
+    RAMB36_X5Y8          RAMB36E1 (Prop_ramb36e1_CASCADEINB_DOBDO[0])
+                                                      0.425     4.335 f  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_3/DOBDO[0]
+                         net (fo=2, routed)           2.020     6.355    bd_0_i/hls_inst/inst/grp_fetch_fu_62/q0[11]
+    SLICE_X55Y52         LUT5 (Prop_lut5_I1_O)        0.118     6.473 f  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13/O
+                         net (fo=1, routed)           1.159     7.632    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13_n_0
+    SLICE_X43Y55         LUT6 (Prop_lut6_I2_O)        0.326     7.958 f  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6/O
+                         net (fo=2, routed)           0.598     8.556    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6_n_0
+    SLICE_X37Y50         LUT6 (Prop_lut6_I3_O)        0.124     8.680 r  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_2/O
+                         net (fo=6, routed)           0.564     9.243    bd_0_i/hls_inst/inst/control_s_axi_U/ap_done
+    SLICE_X36Y50         LUT6 (Prop_lut6_I1_O)        0.124     9.367 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_task_ap_done_i_1/O
+                         net (fo=1, routed)           0.000     9.367    bd_0_i/hls_inst/inst/control_s_axi_U/int_task_ap_done_i_1_n_0
+    SLICE_X36Y50         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_task_ap_done_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.924    10.924    bd_0_i/hls_inst/inst/control_s_axi_U/ap_clk
+    SLICE_X36Y50         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_task_ap_done_reg/C
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    SLICE_X36Y50         FDRE (Setup_fdre_C_D)        0.079    10.968    bd_0_i/hls_inst/inst/control_s_axi_U/int_task_ap_done_reg
+  -------------------------------------------------------------------
+                         required time                         10.968    
+                         arrival time                          -9.367    
+  -------------------------------------------------------------------
+                         slack                                  1.601    
+
+Slack (MET) :             1.750ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_isr_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        8.243ns  (logic 3.989ns (48.390%)  route 4.254ns (51.610%))
+  Logic Levels:           5  (LUT5=2 LUT6=2 RAMB36E1=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.973     0.973    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_clk
+    RAMB36_X5Y7          RAMB36E1                                     r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X5Y7          RAMB36E1 (Prop_ramb36e1_CLKBWRCLK_CASCADEOUTB)
+                                                      2.872     3.845 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CASCADEOUTB
+                         net (fo=1, routed)           0.065     3.910    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3_n_1
+    RAMB36_X5Y8          RAMB36E1 (Prop_ramb36e1_CASCADEINB_DOBDO[0])
+                                                      0.425     4.335 f  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_3/DOBDO[0]
+                         net (fo=2, routed)           2.020     6.355    bd_0_i/hls_inst/inst/grp_fetch_fu_62/q0[11]
+    SLICE_X55Y52         LUT5 (Prop_lut5_I1_O)        0.118     6.473 f  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13/O
+                         net (fo=1, routed)           1.159     7.632    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13_n_0
+    SLICE_X43Y55         LUT6 (Prop_lut6_I2_O)        0.326     7.958 f  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6/O
+                         net (fo=2, routed)           0.598     8.556    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6_n_0
+    SLICE_X37Y50         LUT6 (Prop_lut6_I3_O)        0.124     8.680 r  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_2/O
+                         net (fo=6, routed)           0.413     9.092    bd_0_i/hls_inst/inst/control_s_axi_U/ap_done
+    SLICE_X36Y50         LUT5 (Prop_lut5_I3_O)        0.124     9.216 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_isr[0]_i_1/O
+                         net (fo=1, routed)           0.000     9.216    bd_0_i/hls_inst/inst/control_s_axi_U/int_isr[0]_i_1_n_0
+    SLICE_X36Y50         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_isr_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.924    10.924    bd_0_i/hls_inst/inst/control_s_axi_U/ap_clk
+    SLICE_X36Y50         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_isr_reg[0]/C
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    SLICE_X36Y50         FDRE (Setup_fdre_C_D)        0.077    10.966    bd_0_i/hls_inst/inst/control_s_axi_U/int_isr_reg[0]
+  -------------------------------------------------------------------
+                         required time                         10.966    
+                         arrival time                          -9.216    
+  -------------------------------------------------------------------
+                         slack                                  1.750    
+
+Slack (MET) :             1.757ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_isr_reg[1]/D
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        8.240ns  (logic 3.989ns (48.408%)  route 4.251ns (51.592%))
+  Logic Levels:           5  (LUT5=2 LUT6=2 RAMB36E1=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.973     0.973    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_clk
+    RAMB36_X5Y7          RAMB36E1                                     r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X5Y7          RAMB36E1 (Prop_ramb36e1_CLKBWRCLK_CASCADEOUTB)
+                                                      2.872     3.845 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CASCADEOUTB
+                         net (fo=1, routed)           0.065     3.910    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3_n_1
+    RAMB36_X5Y8          RAMB36E1 (Prop_ramb36e1_CASCADEINB_DOBDO[0])
+                                                      0.425     4.335 f  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_3/DOBDO[0]
+                         net (fo=2, routed)           2.020     6.355    bd_0_i/hls_inst/inst/grp_fetch_fu_62/q0[11]
+    SLICE_X55Y52         LUT5 (Prop_lut5_I1_O)        0.118     6.473 f  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13/O
+                         net (fo=1, routed)           1.159     7.632    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13_n_0
+    SLICE_X43Y55         LUT6 (Prop_lut6_I2_O)        0.326     7.958 f  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6/O
+                         net (fo=2, routed)           0.598     8.556    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6_n_0
+    SLICE_X37Y50         LUT6 (Prop_lut6_I3_O)        0.124     8.680 r  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_2/O
+                         net (fo=6, routed)           0.410     9.089    bd_0_i/hls_inst/inst/control_s_axi_U/ap_done
+    SLICE_X36Y50         LUT5 (Prop_lut5_I3_O)        0.124     9.213 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_isr[1]_i_1/O
+                         net (fo=1, routed)           0.000     9.213    bd_0_i/hls_inst/inst/control_s_axi_U/int_isr[1]_i_1_n_0
+    SLICE_X36Y50         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_isr_reg[1]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.924    10.924    bd_0_i/hls_inst/inst/control_s_axi_U/ap_clk
+    SLICE_X36Y50         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_isr_reg[1]/C
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    SLICE_X36Y50         FDRE (Setup_fdre_C_D)        0.081    10.970    bd_0_i/hls_inst/inst/control_s_axi_U/int_isr_reg[1]
+  -------------------------------------------------------------------
+                         required time                         10.970    
+                         arrival time                          -9.213    
+  -------------------------------------------------------------------
+                         slack                                  1.757    
+
+Slack (MET) :             1.818ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_ready_reg/D
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        8.179ns  (logic 3.989ns (48.769%)  route 4.190ns (51.231%))
+  Logic Levels:           5  (LUT4=1 LUT5=1 LUT6=2 RAMB36E1=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.973     0.973    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_clk
+    RAMB36_X5Y7          RAMB36E1                                     r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CLKBWRCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X5Y7          RAMB36E1 (Prop_ramb36e1_CLKBWRCLK_CASCADEOUTB)
+                                                      2.872     3.845 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3/CASCADEOUTB
+                         net (fo=1, routed)           0.065     3.910    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_0_3_n_1
+    RAMB36_X5Y8          RAMB36E1 (Prop_ramb36e1_CASCADEINB_DOBDO[0])
+                                                      0.425     4.335 f  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_1_1_3/DOBDO[0]
+                         net (fo=2, routed)           2.020     6.355    bd_0_i/hls_inst/inst/grp_fetch_fu_62/q0[11]
+    SLICE_X55Y52         LUT5 (Prop_lut5_I1_O)        0.118     6.473 f  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13/O
+                         net (fo=1, routed)           1.159     7.632    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_13_n_0
+    SLICE_X43Y55         LUT6 (Prop_lut6_I2_O)        0.326     7.958 f  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6/O
+                         net (fo=2, routed)           0.598     8.556    bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6_n_0
+    SLICE_X37Y50         LUT6 (Prop_lut6_I3_O)        0.124     8.680 r  bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_2/O
+                         net (fo=6, routed)           0.349     9.028    bd_0_i/hls_inst/inst/control_s_axi_U/ap_done
+    SLICE_X36Y51         LUT4 (Prop_lut4_I1_O)        0.124     9.152 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_ready_i_1/O
+                         net (fo=1, routed)           0.000     9.152    bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_ready_i_1_n_0
+    SLICE_X36Y51         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_ready_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.924    10.924    bd_0_i/hls_inst/inst/control_s_axi_U/ap_clk
+    SLICE_X36Y51         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_ready_reg/C
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    SLICE_X36Y51         FDRE (Setup_fdre_C_D)        0.081    10.970    bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_ready_reg
+  -------------------------------------------------------------------
+                         required time                         10.970    
+                         arrival time                          -9.152    
+  -------------------------------------------------------------------
+                         slack                                  1.818    
+
+Slack (MET) :             2.031ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_rstate_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_1_5/ADDRARDADDR[13]
+                            (rising edge-triggered cell RAMB36E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        7.116ns  (logic 0.610ns (8.572%)  route 6.506ns (91.428%))
+  Logic Levels:           1  (LUT4=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.973     0.973    bd_0_i/hls_inst/inst/control_s_axi_U/ap_clk
+    SLICE_X37Y42         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_rstate_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X37Y42         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_rstate_reg[1]/Q
+                         net (fo=148, routed)         1.579     3.008    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_0_7_0
+    SLICE_X33Y36         LUT4 (Prop_lut4_I1_O)        0.154     3.162 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_0_4_i_5/O
+                         net (fo=20, routed)          4.928     8.089    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_0_4_i_5_n_0
+    RAMB36_X5Y13         RAMB36E1                                     r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_1_5/ADDRARDADDR[13]
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.924    10.924    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_clk
+    RAMB36_X5Y13         RAMB36E1                                     r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_1_5/CLKARDCLK
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    RAMB36_X5Y13         RAMB36E1 (Setup_ramb36e1_CLKARDCLK_ADDRARDADDR[13])
+                                                     -0.769    10.120    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_1_5
+  -------------------------------------------------------------------
+                         required time                         10.120    
+                         arrival time                          -8.089    
+  -------------------------------------------------------------------
+                         slack                                  2.031    
+
+Slack (MET) :             2.362ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_rstate_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_0_5/ADDRARDADDR[13]
+                            (rising edge-triggered cell RAMB36E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        6.785ns  (logic 0.610ns (8.991%)  route 6.175ns (91.009%))
+  Logic Levels:           1  (LUT4=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.973     0.973    bd_0_i/hls_inst/inst/control_s_axi_U/ap_clk
+    SLICE_X37Y42         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_rstate_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X37Y42         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_rstate_reg[1]/Q
+                         net (fo=148, routed)         1.579     3.008    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_0_7_0
+    SLICE_X33Y36         LUT4 (Prop_lut4_I1_O)        0.154     3.162 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_0_4_i_5/O
+                         net (fo=20, routed)          4.596     7.758    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_0_4_i_5_n_0
+    RAMB36_X5Y12         RAMB36E1                                     r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_0_5/ADDRARDADDR[13]
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.924    10.924    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_clk
+    RAMB36_X5Y12         RAMB36E1                                     r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_0_5/CLKARDCLK
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    RAMB36_X5Y12         RAMB36E1 (Setup_ramb36e1_CLKARDCLK_ADDRARDADDR[13])
+                                                     -0.769    10.120    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_0_5
+  -------------------------------------------------------------------
+                         required time                         10.120    
+                         arrival time                          -7.758    
+  -------------------------------------------------------------------
+                         slack                                  2.362    
+
+Slack (MET) :             2.533ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_rstate_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_1_5/ADDRARDADDR[14]
+                            (rising edge-triggered cell RAMB36E1 clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        6.817ns  (logic 0.580ns (8.508%)  route 6.237ns (91.492%))
+  Logic Levels:           1  (LUT4=1)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 10.924 - 10.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.973     0.973    bd_0_i/hls_inst/inst/control_s_axi_U/ap_clk
+    SLICE_X37Y42         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_rstate_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X37Y42         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_rstate_reg[1]/Q
+                         net (fo=148, routed)         1.432     2.861    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_0_7_0
+    SLICE_X32Y36         LUT4 (Prop_lut4_I1_O)        0.124     2.985 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_0_4_i_4/O
+                         net (fo=20, routed)          4.805     7.790    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_0_4_i_4_n_0
+    RAMB36_X5Y13         RAMB36E1                                     r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_1_5/ADDRARDADDR[14]
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=337, unset)          0.924    10.924    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/ap_clk
+    RAMB36_X5Y13         RAMB36E1                                     r  bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_1_5/CLKARDCLK
+                         clock pessimism              0.000    10.924    
+                         clock uncertainty           -0.035    10.889    
+    RAMB36_X5Y13         RAMB36E1 (Setup_ramb36e1_CLKARDCLK_ADDRARDADDR[14])
+                                                     -0.566    10.323    bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_2_1_5
+  -------------------------------------------------------------------
+                         required time                         10.323    
+                         arrival time                          -7.790    
+  -------------------------------------------------------------------
+                         slack                                  2.533    
+
+
+
+

@@ -1,0 +1,50 @@
+{
+    "1": {
+        "name": "execute",
+        "file": "C:\/Users\/monde\/Documents\/GitHub\/nasa-CPU\/Vitis_workspace\/fetching_ip\/execute.cpp",
+        "fileloc": "17",
+        "instructions": "3",
+        "total_instructions": "3",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "2": {
+        "name": "fetch",
+        "file": "C:\/Users\/monde\/Documents\/GitHub\/nasa-CPU\/Vitis_workspace\/fetching_ip\/fetch.cpp",
+        "fileloc": "17",
+        "instructions": "7",
+        "total_instructions": "7",
+        "calls": "",
+        "basicblocks": "1",
+        "loads": {
+            "T": "1"
+        }
+    },
+    "0": {
+        "name": "fetching_ip",
+        "file": "fetching_ip.cpp",
+        "fileloc": "6",
+        "instructions": "22",
+        "total_instructions": "35",
+        "calls": "2 1 3",
+        "basicblocks": "3",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "3": {
+        "name": "running_cond_update",
+        "file": "C:\/Users\/monde\/Documents\/GitHub\/nasa-CPU\/Vitis_workspace\/fetching_ip\/running_cond_update.cpp",
+        "fileloc": "5",
+        "instructions": "3",
+        "total_instructions": "3",
+        "calls": "",
+        "basicblocks": "1"
+    }
+}

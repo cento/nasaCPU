@@ -1,0 +1,406 @@
+{
+    "rules": {
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\execute.cpp.0.bc', 'C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\execute.cpp.0.bc.d']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\execute.cpp.0.bc.d",
+                "-fhls",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2023.2",
+                "-fhlstoplevel=fetching_ip",
+                "-fslxtrace",
+                "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/execute.cpp",
+                "-o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\execute.cpp.0.bc"
+            ],
+            "exectime": 1.130382776260376,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\fetch.cpp.0.bc', 'C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\fetch.cpp.0.bc.d']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\fetch.cpp.0.bc.d",
+                "-fhls",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2023.2",
+                "-fhlstoplevel=fetching_ip",
+                "-fslxtrace",
+                "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetch.cpp",
+                "-o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\fetch.cpp.0.bc"
+            ],
+            "exectime": 1.0919101238250732,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\fetching_ip.cpp.0.bc', 'C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\fetching_ip.cpp.0.bc.d']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\fetching_ip.cpp.0.bc.d",
+                "-fhls",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2023.2",
+                "-fhlstoplevel=fetching_ip",
+                "-fslxtrace",
+                "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetching_ip.cpp",
+                "-o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\fetching_ip.cpp.0.bc"
+            ],
+            "exectime": 1.150869369506836,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\running_cond_update.cpp.0.bc', 'C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\running_cond_update.cpp.0.bc.d']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\running_cond_update.cpp.0.bc.d",
+                "-fhls",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2023.2",
+                "-fhlstoplevel=fetching_ip",
+                "-fslxtrace",
+                "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/running_cond_update.cpp",
+                "-o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\running_cond_update.cpp.0.bc"
+            ],
+            "exectime": 1.1383957862854004,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\tb_fetching_ip.cpp.0.o', 'C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\tb_fetching_ip.cpp.0.o.d']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\tb_fetching_ip.cpp.0.o.d",
+                "-fhls-tb",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2023.2",
+                "-fhlstoplevel=fetching_ip",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/tb_fetching_ip.cpp",
+                "-o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\tb_fetching_ip.cpp.0.o"
+            ],
+            "exectime": 1.365335464477539,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\execute.cpp.0.o', 'C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\execute.cpp.0.o.d']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\execute.cpp.0.o.d",
+                "-fhls-tb",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2023.2",
+                "-fhlstoplevel=fetching_ip",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/execute.cpp",
+                "-o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\execute.cpp.0.o"
+            ],
+            "exectime": 1.4165363311767578,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\fetch.cpp.0.o', 'C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\fetch.cpp.0.o.d']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\fetch.cpp.0.o.d",
+                "-fhls-tb",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2023.2",
+                "-fhlstoplevel=fetching_ip",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetch.cpp",
+                "-o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\fetch.cpp.0.o"
+            ],
+            "exectime": 1.3910281658172607,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\fetching_ip.cpp.0.o', 'C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\fetching_ip.cpp.0.o.d']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\fetching_ip.cpp.0.o.d",
+                "-fhls-tb",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2023.2",
+                "-fhlstoplevel=fetching_ip",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/fetching_ip.cpp",
+                "-o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\fetching_ip.cpp.0.o"
+            ],
+            "exectime": 1.4688730239868164,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\running_cond_update.cpp.0.o', 'C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\running_cond_update.cpp.0.o.d']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\running_cond_update.cpp.0.o.d",
+                "-fhls-tb",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2023.2",
+                "-fhlstoplevel=fetching_ip",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/fetching_ip/running_cond_update.cpp",
+                "-o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\running_cond_update.cpp.0.o"
+            ],
+            "exectime": 1.3790950775146484,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\syn_srcs.bc']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/llvm-link.exe",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\execute.cpp.0.bc",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\fetch.cpp.0.bc",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\fetching_ip.cpp.0.bc",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\running_cond_update.cpp.0.bc",
+                "-o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\syn_srcs.bc"
+            ],
+            "exectime": 0.05860471725463867,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\syn_srcs.opt.bc']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/opt.exe",
+                "-check-single-toplevel",
+                "-make-non-toplevel-internal",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\syn_srcs.bc",
+                "-o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\syn_srcs.opt.bc"
+            ],
+            "exectime": 0.05896115303039551,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\build\\\\app.exe']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/clang++.exe",
+                "-o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\app.exe",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\tb_fetching_ip.cpp.0.o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\execute.cpp.0.o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\fetch.cpp.0.o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\fetching_ip.cpp.0.o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\running_cond_update.cpp.0.o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\syn_srcs.opt.bc",
+                "-fhls",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2023.2",
+                "-fslxtrace",
+                "-Wl,-mllvm,-profilerOutputDirectory=C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\profiler\\0",
+                "-fslxpthreads",
+                "-static-libgcc",
+                "-lpthread",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\libIp_dds_compiler_v6_0_bitacc_cmodel.dll",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\libIp_xfft_v9_1_bitacc_cmodel.dll",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\libIp_fir_compiler_v7_2_bitacc_cmodel.dll",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\libgmp.dll",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\libIp_floating_point_v7_1_bitacc_cmodel.dll",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\libgmp.dll",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\libmpfr.dll"
+            ],
+            "exectime": 0.8796474933624268,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\instrument\\\\app_0\\\\binary_dependencies.json']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\libexec\\clang-scan-deps.exe",
+                "--compilation-database=C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\instrument\\app_0\\compile_commands.json",
+                "--format=vitiscxx",
+                "--reuse-filemanager=false",
+                "--output=C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\instrument\\app_0\\binary_dependencies.json"
+            ],
+            "exectime": 0.18343400955200195,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\output\\\\app.functionGraph']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/staticCallGraph.exe",
+                "-i",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\instrument\\app_0\\static.xml",
+                "-o",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\output\\app.functionGraph"
+            ],
+            "exectime": 0.22705984115600586,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\output\\\\app.functionMapping']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/functionMapper.exe",
+                "--static-xml",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\instrument\\app_0\\static.xml",
+                "--function-mapping",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\output\\app.functionMapping",
+                "--ir-module",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "--fn",
+                "333"
+            ],
+            "exectime": 0.13385963439941406,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\bin\\\\.tracing_stdout.txt', 'C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\bin\\\\.tracing_stderr.txt']": {
+            "command": [
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\build\\app.exe"
+            ],
+            "exectime": 0.721254825592041,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\tracing\\csim\\build"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\output\\\\reduced_programmodel.app']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/optimizer.exe",
+                "-DFGPass",
+                "-appName=app",
+                "-outputDir",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\output",
+                "-logDir",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\log",
+                "-pmout=C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\output\\reduced_programmodel.app",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "-staticFile",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\instrument\\app_0\\static.xml",
+                "-traceFile",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\profiler\\0\\app_0_1\\thread0000-trace.txt",
+                "-o",
+                "nul"
+            ],
+            "exectime": 0.21372056007385254,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\dataflow\\\\0\\\\taskgraph.json']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/parallelismSelector.exe",
+                "-g",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\output\\reduced_programmodel.app",
+                "--basepath",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip",
+                "--static-xml",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\instrument\\app_0\\static.xml",
+                "--fpga-part",
+                "xc7z020-clg400-1",
+                "--device-totals",
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\data\\platform\\logic\\fpga.devicetotals",
+                "--clock-frequency",
+                "100.0",
+                "--out-dir",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\output",
+                "--log-dir",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\log",
+                "--mapping",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\output\\app.functionMapping",
+                "--est-mode",
+                "worst",
+                "--objective",
+                "throughput,area",
+                "--performance-target",
+                "target_both",
+                "--complete-partition-limit",
+                "4",
+                "--lut-constraint",
+                "100.0",
+                "--ff-constraint",
+                "100.0",
+                "--dsp-constraint",
+                "100.0",
+                "--bram-constraint",
+                "100.0",
+                "--uram-constraint",
+                "100.0",
+                "--ir-module",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "--max-iterations",
+                "1000",
+                "--max-iterations-branch-full-log",
+                "20",
+                "--df-id",
+                "0",
+                "--df-target",
+                "%F333",
+                "--disable-dse",
+                "--user-pragmas",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\user_pragmas.xml"
+            ],
+            "exectime": 0.7935149669647217,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        },
+        "['C:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\Vitis_workspace\\\\fetching_ip\\\\vitis_c++\\\\.internal\\\\dataflow\\\\1\\\\taskgraph.json']": {
+            "command": [
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\/libexec/parallelismSelector.exe",
+                "-g",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\output\\reduced_programmodel.app",
+                "--basepath",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip",
+                "--static-xml",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\instrument\\app_0\\static.xml",
+                "--fpga-part",
+                "xc7z020-clg400-1",
+                "--device-totals",
+                "C:\\Xilinx\\Vitis_HLS\\2023.2\\vcxx\\data\\platform\\logic\\fpga.devicetotals",
+                "--clock-frequency",
+                "100.0",
+                "--out-dir",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\output",
+                "--log-dir",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\log",
+                "--mapping",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\output\\app.functionMapping",
+                "--est-mode",
+                "worst",
+                "--objective",
+                "throughput,area",
+                "--performance-target",
+                "target_both",
+                "--complete-partition-limit",
+                "4",
+                "--lut-constraint",
+                "100.0",
+                "--ff-constraint",
+                "100.0",
+                "--dsp-constraint",
+                "100.0",
+                "--bram-constraint",
+                "100.0",
+                "--uram-constraint",
+                "100.0",
+                "--ir-module",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "--max-iterations",
+                "1000",
+                "--max-iterations-branch-full-log",
+                "20",
+                "--df-id",
+                "1",
+                "--df-target",
+                "%F334",
+                "--disable-dse",
+                "--user-pragmas",
+                "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\vitis_c++\\user_pragmas.xml"
+            ],
+            "exectime": 0.7743644714355469,
+            "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip"
+        }
+    }
+}

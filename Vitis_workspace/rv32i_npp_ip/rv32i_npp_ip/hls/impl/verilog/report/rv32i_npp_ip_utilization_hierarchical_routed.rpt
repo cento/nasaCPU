@@ -1,0 +1,38 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Thu Nov 23 19:21:34 2023
+| Host         : Naboo running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 5 -file ./report/rv32i_npp_ip_utilization_hierarchical_routed.rpt
+| Design       : bd_0_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-----------------------------+----------------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+|           Instance          |                             Module                             | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++-----------------------------+----------------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+| bd_0_wrapper                |                                                          (top) |       4824 |       4824 |       0 |    0 | 2961 |    128 |      0 |          0 |
+|   bd_0_i                    |                                                           bd_0 |       4824 |       4824 |       0 |    0 | 2961 |    128 |      0 |          0 |
+|     hls_inst                |                                                bd_0_hls_inst_0 |       4824 |       4824 |       0 |    0 | 2961 |    128 |      0 |          0 |
+|       (hls_inst)            |                                                bd_0_hls_inst_0 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|       inst                  |                                   bd_0_hls_inst_0_rv32i_npp_ip |       4824 |       4824 |       0 |    0 | 2961 |    128 |      0 |          0 |
+|         (inst)              |                                   bd_0_hls_inst_0_rv32i_npp_ip |        127 |        127 |       0 |    0 | 2756 |      0 |      0 |          0 |
+|         control_s_axi_U     |                     bd_0_hls_inst_0_rv32i_npp_ip_control_s_axi |       4699 |       4699 |       0 |    0 |  205 |    128 |      0 |          0 |
+|           (control_s_axi_U) |                     bd_0_hls_inst_0_rv32i_npp_ip_control_s_axi |        137 |        137 |       0 |    0 |  138 |      0 |      0 |          0 |
+|           int_code_ram      |                 bd_0_hls_inst_0_rv32i_npp_ip_control_s_axi_ram |       3724 |       3724 |       0 |    0 |   64 |     64 |      0 |          0 |
+|           int_data_ram      | bd_0_hls_inst_0_rv32i_npp_ip_control_s_axi_ram__parameterized0 |        874 |        874 |       0 |    0 |    3 |     64 |      0 |          0 |
++-----------------------------+----------------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

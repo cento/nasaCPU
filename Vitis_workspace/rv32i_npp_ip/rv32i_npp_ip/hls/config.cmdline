@@ -1,0 +1,3 @@
+relativeroot=C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip
+original_argv=--mode hls --csim --config C:\Users\monde\Documents\GitHub\nasa-CPU\Vitis_workspace\rv32i_npp_ip\hls_config.cfg --work_dir rv32i_npp_ip 
+

@@ -1,0 +1,115 @@
+<profile>
+<RunData>
+  <RUN_TYPE>synth</RUN_TYPE>
+  <VIVADO_VERSION>v.2023.2</VIVADO_VERSION>
+  <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+</RunData>
+<TimingReport>
+  <TargetClockPeriod>10.000</TargetClockPeriod>
+  <AchievedClockPeriod>7.160</AchievedClockPeriod>
+  <CLOCK_NAME>ap_clk</CLOCK_NAME>
+  <CP_FINAL>7.160</CP_FINAL>
+  <CP_ROUTE>NA</CP_ROUTE>
+  <CP_SYNTH>7.160</CP_SYNTH>
+  <CP_TARGET>10.000</CP_TARGET>
+  <SLACK_FINAL>2.840</SLACK_FINAL>
+  <SLACK_ROUTE></SLACK_ROUTE>
+  <SLACK_SYNTH>2.840</SLACK_SYNTH>
+  <TIMING_MET>TRUE</TIMING_MET>
+  <TNS_FINAL>0.000</TNS_FINAL>
+  <TNS_ROUTE>NA</TNS_ROUTE>
+  <TNS_SYNTH>0.000</TNS_SYNTH>
+  <WNS_FINAL>2.840</WNS_FINAL>
+  <WNS_ROUTE>NA</WNS_ROUTE>
+  <WNS_SYNTH>2.840</WNS_SYNTH>
+</TimingReport>
+<AreaReport>
+  <Resources>
+    <BRAM>128</BRAM>
+    <CLB>0</CLB>
+    <DSP>0</DSP>
+    <FF>204</FF>
+    <LATCH>0</LATCH>
+    <LUT>262</LUT>
+    <SRL>0</SRL>
+    <URAM>0</URAM>
+  </Resources>
+  <AvailableResources>
+    <BRAM>280</BRAM>
+    <CLB>0</CLB>
+    <DSP>220</DSP>
+    <FF>106400</FF>
+    <LUT>53200</LUT>
+    <URAM>0</URAM>
+  </AvailableResources>
+</AreaReport>
+<RtlModules>
+  <RtlModule CELL="inst" DEPTH="0" FILE_NAME="bd_0_hls_inst_0.v" ORIG_REF_NAME="fetching_ip" TOP_CELL="bd_0_i/hls_inst/inst">
+    <SubModules count="2">control_s_axi_U grp_fetch_fu_62</SubModules>
+    <Resources BRAM="128" FF="204" LUT="262" LogicLUT="262" RAMB36="64"/>
+    <LocalResources FF="68"/>
+  </RtlModule>
+  <RtlModule CELL="inst/control_s_axi_U" BINDMODULE="fetching_ip_control_s_axi" DEPTH="1" FILE_NAME="fetching_ip.v" ORIG_REF_NAME="fetching_ip_control_s_axi">
+    <Resources BRAM="128" FF="102" LUT="225" LogicLUT="225" RAMB36="64"/>
+    <LocalResources FF="102" LUT="74" LogicLUT="74"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_fetch_fu_62" DEPTH="1" FILE_NAME="fetching_ip.v" ORIG_REF_NAME="fetching_ip_fetch">
+    <Resources FF="34" LUT="37" LogicLUT="37"/>
+  </RtlModule>
+</RtlModules>
+<TimingPaths>
+  <TPATH DATAPATH_DELAY="7.153" DATAPATH_LOGIC_DELAY="3.815" DATAPATH_NET_DELAY="3.338" ENDPOINT_PIN="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[1]/D" LOGIC_LEVELS="5" MAX_FANOUT="2" SLACK="2.840" STARTPOINT_PIN="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_0_0/CLKBWRCLK">
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_0_0" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" LINE_NUMBER="538"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_0" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" LINE_NUMBER="538"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_12" PRIMITIVE_TYPE="LUT.others.LUT5" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_6" PRIMITIVE_TYPE="LUT.others.LUT6" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/ap_CS_fsm[1]_i_2" PRIMITIVE_TYPE="LUT.others.LUT6" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/ap_CS_fsm[1]_i_1__0" PRIMITIVE_TYPE="LUT.others.LUT5" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[1]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" LINE_NUMBER="167"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="6.732" DATAPATH_LOGIC_DELAY="3.815" DATAPATH_NET_DELAY="2.917" ENDPOINT_PIN="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]/D" LOGIC_LEVELS="5" MAX_FANOUT="6" SLACK="3.261" STARTPOINT_PIN="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_0_6/CLKBWRCLK">
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_0_6" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" LINE_NUMBER="538"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_6" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" LINE_NUMBER="538"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_17" PRIMITIVE_TYPE="LUT.others.LUT5" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_7" PRIMITIVE_TYPE="LUT.others.LUT5" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_2" PRIMITIVE_TYPE="LUT.others.LUT6" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/ap_CS_fsm[0]_i_1__0" PRIMITIVE_TYPE="LUT.others.LUT4" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDSE" LINE_NUMBER="167"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="6.732" DATAPATH_LOGIC_DELAY="3.815" DATAPATH_NET_DELAY="2.917" ENDPOINT_PIN="bd_0_i/hls_inst/inst/control_s_axi_U/int_task_ap_done_reg/D" LOGIC_LEVELS="5" MAX_FANOUT="6" SLACK="3.261" STARTPOINT_PIN="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_0_6/CLKBWRCLK">
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_0_6" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" LINE_NUMBER="538"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_6" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" LINE_NUMBER="538"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_17" PRIMITIVE_TYPE="LUT.others.LUT5" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_7" PRIMITIVE_TYPE="LUT.others.LUT5" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_2" PRIMITIVE_TYPE="LUT.others.LUT6" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_task_ap_done_i_1" PRIMITIVE_TYPE="LUT.others.LUT6" LINE_NUMBER="317"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_task_ap_done_reg" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" LINE_NUMBER="317"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="6.728" DATAPATH_LOGIC_DELAY="3.841" DATAPATH_NET_DELAY="2.887" ENDPOINT_PIN="bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_start_reg/D" LOGIC_LEVELS="5" MAX_FANOUT="6" SLACK="3.265" STARTPOINT_PIN="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_0_6/CLKBWRCLK">
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_0_6" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" LINE_NUMBER="538"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_6" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" LINE_NUMBER="538"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_17" PRIMITIVE_TYPE="LUT.others.LUT5" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_7" PRIMITIVE_TYPE="LUT.others.LUT5" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_2" PRIMITIVE_TYPE="LUT.others.LUT6" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_start_i_1" PRIMITIVE_TYPE="LUT.others.LUT4" LINE_NUMBER="276"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_start_reg" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" LINE_NUMBER="276"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="6.702" DATAPATH_LOGIC_DELAY="3.815" DATAPATH_NET_DELAY="2.887" ENDPOINT_PIN="bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_ready_reg/D" LOGIC_LEVELS="5" MAX_FANOUT="6" SLACK="3.291" STARTPOINT_PIN="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_0_6/CLKBWRCLK">
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_0_6" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" LINE_NUMBER="538"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_code_ram/mem_reg_0_1_6" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" LINE_NUMBER="538"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_17" PRIMITIVE_TYPE="LUT.others.LUT5" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_7" PRIMITIVE_TYPE="LUT.others.LUT5" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/grp_fetch_fu_62/int_ap_start_i_2" PRIMITIVE_TYPE="LUT.others.LUT6" LINE_NUMBER="159"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_ready_i_1" PRIMITIVE_TYPE="LUT.others.LUT4" LINE_NUMBER="338"/>
+    <CELL  NAME="bd_0_i/hls_inst/inst/control_s_axi_U/int_ap_ready_reg" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" LINE_NUMBER="338"/>
+  </TPATH>
+</TimingPaths>
+<VivadoReportFiles>
+  <ReportFile TYPE="design_analysis" PATH="verilog/report/fetching_ip_design_analysis_synth.rpt"/>
+  <ReportFile TYPE="failfast" PATH="verilog/report/fetching_ip_failfast_synth.rpt"/>
+  <ReportFile TYPE="timing" PATH="verilog/report/fetching_ip_timing_synth.rpt"/>
+  <ReportFile TYPE="timing_paths" PATH="verilog/report/fetching_ip_timing_paths_synth.rpt"/>
+  <ReportFile TYPE="utilization" PATH="verilog/report/fetching_ip_utilization_synth.rpt"/>
+  <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/fetching_ip_utilization_hierarchical_synth.rpt"/>
+</VivadoReportFiles>
+</profile>

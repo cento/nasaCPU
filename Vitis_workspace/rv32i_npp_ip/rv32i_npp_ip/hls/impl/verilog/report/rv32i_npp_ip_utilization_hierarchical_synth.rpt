@@ -1,0 +1,37 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Thu Nov 23 19:18:39 2023
+| Host         : Naboo running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 5 -file ./report/rv32i_npp_ip_utilization_hierarchical_synth.rpt
+| Design       : bd_0_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-----------------------------+----------------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+|           Instance          |                             Module                             | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++-----------------------------+----------------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+| bd_0_wrapper                |                                                          (top) |       5770 |       5770 |       0 |    0 | 2894 |    128 |      0 |          0 |
+|   bd_0_i                    |                                                           bd_0 |       5770 |       5770 |       0 |    0 | 2894 |    128 |      0 |          0 |
+|     hls_inst                |                                                bd_0_hls_inst_0 |       5770 |       5770 |       0 |    0 | 2894 |    128 |      0 |          0 |
+|       (hls_inst)            |                                                bd_0_hls_inst_0 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|       inst                  |                                   bd_0_hls_inst_0_rv32i_npp_ip |       5770 |       5770 |       0 |    0 | 2894 |    128 |      0 |          0 |
+|         (inst)              |                                   bd_0_hls_inst_0_rv32i_npp_ip |        128 |        128 |       0 |    0 | 2756 |      0 |      0 |          0 |
+|         control_s_axi_U     |                     bd_0_hls_inst_0_rv32i_npp_ip_control_s_axi |       5642 |       5642 |       0 |    0 |  138 |    128 |      0 |          0 |
+|           (control_s_axi_U) |                     bd_0_hls_inst_0_rv32i_npp_ip_control_s_axi |        138 |        138 |       0 |    0 |  138 |      0 |      0 |          0 |
+|           int_code_ram      |                 bd_0_hls_inst_0_rv32i_npp_ip_control_s_axi_ram |       4177 |       4177 |       0 |    0 |    0 |     64 |      0 |          0 |
+|           int_data_ram      | bd_0_hls_inst_0_rv32i_npp_ip_control_s_axi_ram__parameterized0 |       1327 |       1327 |       0 |    0 |    0 |     64 |      0 |          0 |
++-----------------------------+----------------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+
+
