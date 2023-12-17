@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libfde_ip.a CMakeFiles/fde_ip.dir/xfde_ip.c.obj CMakeFiles/fde_ip.dir/xfde_ip_sinit.c.obj CMakeFiles/fde_ip.dir/xfde_ip_linux.c.obj CMakeFiles/fde_ip.dir/xfde_ip_g.c.obj
-C:/Xilinx/Vitis/2023.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib.exe libfde_ip.a

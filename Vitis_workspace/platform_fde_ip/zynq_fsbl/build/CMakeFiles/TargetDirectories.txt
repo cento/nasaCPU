@@ -1,3 +1,0 @@
-C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_fde_ip/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
-C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_fde_ip/zynq_fsbl/build/CMakeFiles/edit_cache.dir
-C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_fde_ip/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

@@ -1,2 +1,0 @@
-arm-none-eabi-ar qc libfetching_ip.a CMakeFiles/fetching_ip.dir/xfetching_ip.c.obj CMakeFiles/fetching_ip.dir/xfetching_ip_sinit.c.obj CMakeFiles/fetching_ip.dir/xfetching_ip_linux.c.obj CMakeFiles/fetching_ip.dir/xfetching_ip_g.c.obj
-C:/Xilinx/Vitis/2023.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib.exe libfetching_ip.a
