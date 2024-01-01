@@ -1,11 +1,11 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-// Date        : Thu Nov 23 19:17:49 2023
+// Tool Version: Vivado v.2023.2.1 (win64) Build 4081461 Thu Dec 14 12:24:51 MST 2023
+// Date        : Sun Dec 31 11:30:17 2023
 // Host        : Naboo running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               c:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0_sim_netlist.v
+//               c:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0_sim_netlist.v
 // Design      : bd_0_hls_inst_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -14,7 +14,7 @@
 `timescale 1 ps / 1 ps
 
 (* CHECK_LICENSE_TYPE = "bd_0_hls_inst_0,rv32i_npp_ip,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "HLS" *) 
-(* X_CORE_INFO = "rv32i_npp_ip,Vivado 2023.2" *) (* hls_module = "yes" *) 
+(* X_CORE_INFO = "rv32i_npp_ip,Vivado 2023.2.1" *) (* hls_module = "yes" *) 
 (* NotValidForBitStream *)
 module bd_0_hls_inst_0
    (s_axi_control_AWADDR,

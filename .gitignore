@@ -91,3 +91,4 @@ Vitis_workspace/**/hls/.autopilot/*
 .peers.ini
 .theia/settings.json
 logs/*
+Vitis_workspace/**/vitis_c++/.internal/profiler/**

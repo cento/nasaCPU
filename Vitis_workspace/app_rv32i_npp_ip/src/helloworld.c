@@ -18,6 +18,7 @@
  */
 
 #include <stdio.h>
+#include <xparameters.h>
 #include "platform.h"
 #include "xil_printf.h"
 #include "xrv32i_npp_ip.h"
@@ -31,11 +32,13 @@
 XRv32i_npp_ip_Config *cfg_ptr;
 XRv32i_npp_ip         ip;
 word_type code_ram[CODE_RAM_SIZE]={
-#include "test_mem_0_text.hex"
+#include "./test_mem_0_text.hex"
 };
 int main(){
   word_type w;
-  cfg_ptr = XRv32i_npp_ip_LookupConfig(0);
+//   cfg_ptr = XRv32i_npp_ip_LookupConfig(0);
+  cfg_ptr = XRv32i_npp_ip_LookupConfig(XPAR_XRV32I_NPP_IP_0_BASEADDR);
+//   cfg_ptr = XRv32i_npp_ip_LookupConfig(XPAR_DEVICE_ID);
   XRv32i_npp_ip_CfgInitialize(&ip, cfg_ptr);
   XRv32i_npp_ip_Set_start_pc(&ip, 0);
   XRv32i_npp_ip_Write_code_ram_Words(&ip, 0, code_ram, CODE_RAM_SIZE);
@@ -51,3 +54,19 @@ int main(){
             (unsigned int)w);
   }
 }
+
+
+// #include <stdio.h>
+// #include "platform.h"
+// #include "xil_printf.h"
+
+
+// int main()
+// {
+//     init_platform();
+
+//     print("Hello World\n\r");
+//     print("Successfully ran Hello World application");
+//     cleanup_platform();
+//     return 0;
+// }

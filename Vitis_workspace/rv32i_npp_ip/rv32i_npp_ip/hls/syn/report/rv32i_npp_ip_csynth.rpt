@@ -3,9 +3,9 @@
 ================================================================
 == Vitis HLS Report for 'rv32i_npp_ip'
 ================================================================
-* Date:           Thu Nov 23 19:15:24 2023
+* Date:           Sun Dec 31 10:48:30 2023
 
-* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Version:        2023.2.1 (Build 4070103 on Dec 13 2023)
 * Project:        rv32i_npp_ip
 * Solution:       hls (Vivado IP Flow Target)
 * Product family: zynq

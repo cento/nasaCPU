@@ -650,7 +650,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>63d08044</spirit:value>
+            <spirit:value>13bcd419</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -666,7 +666,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>becb2ede</spirit:value>
+            <spirit:value>0296dabf</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -682,7 +682,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>dc8eccdf</spirit:value>
+            <spirit:value>13055a26</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -698,7 +698,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>ae8526c8</spirit:value>
+            <spirit:value>5ff21696</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -712,7 +712,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>7d8be74e</spirit:value>
+            <spirit:value>37e00bd4</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1125,7 +1125,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/rv32i_npp_ip.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_be7ffd47</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_8bc70cf9</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -1258,18 +1258,18 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Rv32i_npp_ip</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2113308556</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2023-11-23T11:16:18Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2113364118</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2024-01-01T01:19:06Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>
       </xilinx:sdxKernelAttributes>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
-      <xilinx:xilinxVersion>2023.2</xilinx:xilinxVersion>
+      <xilinx:xilinxVersion>2023.2.1</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="6191cbdc"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="1556a96c"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="1699959a"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="2df5e0d7"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="daff5a28"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="5e773005"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="071469e6"/>

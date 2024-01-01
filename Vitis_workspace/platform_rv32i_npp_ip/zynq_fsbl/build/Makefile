@@ -60,10 +60,10 @@ RM = C:/Xilinx/Vitis/2023.2/tps/win64/cmake-3.24.2/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl
+CMAKE_SOURCE_DIR = C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/build
+CMAKE_BINARY_DIR = C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -90,9 +90,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/build/CMakeFiles C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/build/CMakeFiles C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/include/sleep.h"
-  "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/include/xiltimer.h"
-  "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/include/xtimer_config.h"
-  "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/lib/libxiltimer.a"
+  "C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/include/sleep.h"
+  "C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/include/xiltimer.h"
+  "C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/include/xtimer_config.h"
+  "C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/lib/libxiltimer.a"
   "CMakeFiles/xiltimer.dir/core/default_timer/globaltimer_sleep_zynq.c.obj"
   "CMakeFiles/xiltimer.dir/core/default_timer/globaltimer_sleep_zynq.c.obj.d"
   "CMakeFiles/xiltimer.dir/core/scutimer/scutimer.c.obj"

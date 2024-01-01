@@ -1,7 +1,7 @@
 {
   "name": "app_rv32i_npp_ip",
   "type": "HOST",
-  "platform": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_rv32i_npp_ip\\export\\platform_rv32i_npp_ip\\platform_rv32i_npp_ip.xpfm",
+  "platform": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_rv32i_npp_ip\\export\\platform_rv32i_npp_ip\\platform_rv32i_npp_ip.xpfm",
   "domain": "standalone_ps7_cortexa9_0",
   "cpuInstance": "ps7_cortexa9_0",
   "cpuType": "cortex-a9",

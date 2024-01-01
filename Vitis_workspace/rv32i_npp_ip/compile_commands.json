@@ -1,6 +1,6 @@
 [
   {
-    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
+    "directory": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
@@ -9,12 +9,12 @@
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
       "--compile",
-      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\print.cpp"
+      "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\rv32i_npp_ip.h"
     ],
-    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\print.cpp"
+    "file": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\rv32i_npp_ip.h"
   },
   {
-    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
+    "directory": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
@@ -23,12 +23,12 @@
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
       "--compile",
-      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\execute.cpp"
+      "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\execute.h"
     ],
-    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\execute.cpp"
+    "file": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\execute.h"
   },
   {
-    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
+    "directory": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
@@ -37,12 +37,12 @@
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
       "--compile",
-      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\fetch.h"
+      "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\decode.h"
     ],
-    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\fetch.h"
+    "file": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\decode.h"
   },
   {
-    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
+    "directory": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
@@ -51,12 +51,12 @@
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
       "--compile",
-      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\fetch.cpp"
+      "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\execute.cpp"
     ],
-    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\fetch.cpp"
+    "file": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\execute.cpp"
   },
   {
-    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
+    "directory": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
@@ -65,12 +65,12 @@
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
       "--compile",
-      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\decode.cpp"
+      "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\decode.cpp"
     ],
-    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\decode.cpp"
+    "file": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\decode.cpp"
   },
   {
-    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
+    "directory": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
@@ -79,12 +79,12 @@
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
       "--compile",
-      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\emulate.cpp"
+      "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\print.h"
     ],
-    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\emulate.cpp"
+    "file": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\print.h"
   },
   {
-    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
+    "directory": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
@@ -93,12 +93,12 @@
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
       "--compile",
-      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\emulate.h"
+      "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\print.cpp"
     ],
-    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\emulate.h"
+    "file": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\print.cpp"
   },
   {
-    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
+    "directory": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
@@ -107,12 +107,12 @@
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
       "--compile",
-      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\rv32i_npp_ip.h"
+      "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\fetch.h"
     ],
-    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\rv32i_npp_ip.h"
+    "file": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\fetch.h"
   },
   {
-    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
+    "directory": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
@@ -121,12 +121,12 @@
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
       "--compile",
-      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\execute.h"
+      "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\fetch.cpp"
     ],
-    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\execute.h"
+    "file": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\fetch.cpp"
   },
   {
-    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
+    "directory": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
@@ -135,12 +135,12 @@
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
       "--compile",
-      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\rv32i_npp_ip.cpp"
+      "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\rv32i_npp_ip.cpp"
     ],
-    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\rv32i_npp_ip.cpp"
+    "file": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\rv32i_npp_ip.cpp"
   },
   {
-    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
+    "directory": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
@@ -149,12 +149,12 @@
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
       "--compile",
-      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\print.h"
+      "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\emulate.cpp"
     ],
-    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\print.h"
+    "file": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\emulate.cpp"
   },
   {
-    "directory": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
+    "directory": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2023.2\\tps\\win64\\msys64\\mingw64\\bin\\g++",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\include",
@@ -163,8 +163,8 @@
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\auto_cc\\include",
       "-isystemC:\\Xilinx\\Vitis_HLS\\2023.2\\win64\\tools\\systemc\\include",
       "--compile",
-      "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\decode.h"
+      "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\emulate.h"
     ],
-    "file": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\decode.h"
+    "file": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\.\\emulate.h"
   }
 ]

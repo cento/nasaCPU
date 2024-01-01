@@ -1,0 +1,42 @@
+[
+    {
+        "action": "merge",
+        "srcTask": "1",
+        "targetTask": "2"
+    },
+    {
+        "action": "merge",
+        "srcTask": "2",
+        "targetTask": "1"
+    },
+    {
+        "action": "merge",
+        "srcTask": "2",
+        "targetTask": "3"
+    },
+    {
+        "action": "merge",
+        "srcTask": "3",
+        "targetTask": "2"
+    },
+    {
+        "action": "merge",
+        "srcTask": "3",
+        "targetTask": "4"
+    },
+    {
+        "action": "merge",
+        "srcTask": "4",
+        "targetTask": "3"
+    },
+    {
+        "action": "merge",
+        "srcTask": "4",
+        "targetTask": "5"
+    },
+    {
+        "action": "merge",
+        "srcTask": "5",
+        "targetTask": "4"
+    }
+]

@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.runs/synth_1'
+HD_PWD='C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

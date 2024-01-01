@@ -19,5 +19,4 @@ obj/tb_rv32i_npp_ip.o: ../../../../tb_rv32i_npp_ip.cpp \
  C:/Xilinx/Vitis_HLS/2023.2/include/etc/ap_fixed_base.h \
  C:/Xilinx/Vitis_HLS/2023.2/include/etc/ap_fixed_ref.h \
  C:/Xilinx/Vitis_HLS/2023.2/include/etc/ap_fixed_special.h \
- ../../../../basicmath_small_no_print_0_data.hex \
- ../../../../basicmath_small_no_print_0_text.hex
+ ../../../../test_load_store_0_text.hex

@@ -1,6 +1,6 @@
 <ENTRY>
 {
- "thisFile": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\rv32i_npp_ip.hlsrun_impl_summary",
+ "thisFile": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\rv32i_npp_ip.hlsrun_impl_summary",
  "connectId": "",
  "serverToken": "",
  "timestamp": "0"
@@ -9,34 +9,34 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "11/23/23 19:16:03",
- "timestampMillis": "4226081565",
+ "dateTimestamp": "12/31/23 11:28:42",
+ "timestampMillis": "3186272844",
  "buildStep": {
-  "cmdId": "fcf8aea0-1b32-4041-8da0-58e9d36434ea",
+  "cmdId": "7a689489-8f52-477c-a8e9-b9d713b6d6cb",
   "name": "vitis-run",
-  "logFile": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\logs\\rv32i_npp_ip.steps.log",
-  "commandLine": "C:/Xilinx/Vitis/2023.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\hls_config.cfg --work_dir rv32i_npp_ip ",
+  "logFile": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\logs\\rv32i_npp_ip.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2023.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\hls_config.cfg --work_dir rv32i_npp_ip ",
   "args": [
    "--mode",
    "hls",
    "--impl",
    "--config",
-   "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\hls_config.cfg",
+   "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\hls_config.cfg",
    "--work_dir",
    "rv32i_npp_ip"
   ],
   "iniFiles": [],
-  "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip"
+  "cwd": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "11/23/23 19:16:03",
- "timestampMillis": "4226081566",
+ "dateTimestamp": "12/31/23 11:28:42",
+ "timestampMillis": "3186272844",
  "status": {
-  "cmdId": "fcf8aea0-1b32-4041-8da0-58e9d36434ea",
+  "cmdId": "7a689489-8f52-477c-a8e9-b9d713b6d6cb",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "11/23/23 19:16:07",
- "timestampMillis": "4226085359",
+ "dateTimestamp": "12/31/23 11:28:45",
+ "timestampMillis": "3186276464",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -64,18 +64,18 @@
      "uuid": ""
     },
     "sources": [
-     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\decode.cpp",
-     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\decode.h",
-     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\emulate.cpp",
-     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\emulate.h",
-     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\execute.cpp",
-     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\execute.h",
-     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\fetch.cpp",
-     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\fetch.h",
-     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\print.cpp",
-     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\print.h",
-     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip.cpp",
-     "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip.h"
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\decode.cpp",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\decode.h",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\emulate.cpp",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\emulate.h",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\execute.cpp",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\execute.h",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\fetch.cpp",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\fetch.h",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\print.cpp",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\print.h",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip.cpp",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip.h"
     ],
     "psSources": [],
     "cuNames": [],
@@ -91,29 +91,29 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "11/23/23 19:16:07",
- "timestampMillis": "4226085364",
+ "dateTimestamp": "12/31/23 11:28:45",
+ "timestampMillis": "3186276467",
  "buildStep": {
-  "cmdId": "1106ea93-0c8f-4818-ab62-4cad98611cda",
+  "cmdId": "ba984a3a-749f-45d1-aac8-9b2a58a31be4",
   "name": "export_design",
-  "logFile": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\hls.log",
+  "logFile": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\hls.log",
   "commandLine": "export_design -flow impl",
   "args": [
    "-flow",
    "impl"
   ],
   "iniFiles": [],
-  "cwd": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip"
+  "cwd": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "11/23/23 19:16:07",
- "timestampMillis": "4226085365",
+ "dateTimestamp": "12/31/23 11:28:45",
+ "timestampMillis": "3186276468",
  "status": {
-  "cmdId": "1106ea93-0c8f-4818-ab62-4cad98611cda",
+  "cmdId": "ba984a3a-749f-45d1-aac8-9b2a58a31be4",
   "state": "CS_RUNNING"
  }
 }
@@ -121,10 +121,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "11/23/23 19:16:07",
- "timestampMillis": "4226085366",
+ "dateTimestamp": "12/31/23 11:28:45",
+ "timestampMillis": "3186276470",
  "report": {
-  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\impl\\verilog",
+  "path": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\impl\\verilog",
   "name": "",
   "fileType": "DIR",
   "reportType": "HLS_RTL_SYNTHESIS",
@@ -135,10 +135,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "11/23/23 19:16:07",
- "timestampMillis": "4226085367",
+ "dateTimestamp": "12/31/23 11:28:45",
+ "timestampMillis": "3186276470",
  "report": {
-  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "path": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\impl\\report\\verilog\\export_syn.rpt",
   "name": "",
   "fileType": "TEXT",
   "reportType": "HLS_RTL_SYNTHESIS",
@@ -149,10 +149,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "11/23/23 19:16:07",
- "timestampMillis": "4226085368",
+ "dateTimestamp": "12/31/23 11:28:45",
+ "timestampMillis": "3186276471",
  "report": {
-  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "path": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\impl\\report\\verilog\\export_syn.xml",
   "name": "",
   "fileType": "XML",
   "reportType": "HLS_RTL_SYNTHESIS",
@@ -163,10 +163,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "11/23/23 19:16:07",
- "timestampMillis": "4226085368",
+ "dateTimestamp": "12/31/23 11:28:45",
+ "timestampMillis": "3186276471",
  "report": {
-  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\impl\\verilog",
+  "path": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\impl\\verilog",
   "name": "",
   "fileType": "DIR",
   "reportType": "HLS_PLACE_AND_ROUTE",
@@ -177,10 +177,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "11/23/23 19:16:07",
- "timestampMillis": "4226085369",
+ "dateTimestamp": "12/31/23 11:28:45",
+ "timestampMillis": "3186276472",
  "report": {
-  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "path": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\impl\\report\\verilog\\export_impl.rpt",
   "name": "",
   "fileType": "TEXT",
   "reportType": "HLS_PLACE_AND_ROUTE",
@@ -191,10 +191,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "11/23/23 19:16:07",
- "timestampMillis": "4226085370",
+ "dateTimestamp": "12/31/23 11:28:45",
+ "timestampMillis": "3186276473",
  "report": {
-  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "path": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\impl\\report\\verilog\\export_impl.xml",
   "name": "",
   "fileType": "XML",
   "reportType": "HLS_PLACE_AND_ROUTE",
@@ -205,10 +205,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "11/23/23 19:21:44",
- "timestampMillis": "4226422747",
+ "dateTimestamp": "12/31/23 11:33:54",
+ "timestampMillis": "3186585765",
  "report": {
-  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls",
+  "path": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls",
   "name": "",
   "fileType": "DIR",
   "reportType": "HLS_RTL_SYNTHESIS",
@@ -219,10 +219,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "11/23/23 19:21:44",
- "timestampMillis": "4226422748",
+ "dateTimestamp": "12/31/23 11:33:54",
+ "timestampMillis": "3186585765",
  "report": {
-  "path": "C:/Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls",
+  "path": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls",
   "name": "",
   "fileType": "DIR",
   "reportType": "HLS_PLACE_AND_ROUTE",
@@ -233,10 +233,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "11/23/23 19:21:44",
- "timestampMillis": "4226422749",
+ "dateTimestamp": "12/31/23 11:33:54",
+ "timestampMillis": "3186585766",
  "status": {
-  "cmdId": "1106ea93-0c8f-4818-ab62-4cad98611cda",
+  "cmdId": "ba984a3a-749f-45d1-aac8-9b2a58a31be4",
   "state": "CS_PASSED"
  }
 }
@@ -244,10 +244,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "11/23/23 19:21:44",
- "timestampMillis": "4226422819",
+ "dateTimestamp": "12/31/23 11:33:55",
+ "timestampMillis": "3186585833",
  "status": {
-  "cmdId": "fcf8aea0-1b32-4041-8da0-58e9d36434ea",
+  "cmdId": "7a689489-8f52-477c-a8e9-b9d713b6d6cb",
   "state": "CS_PASSED"
  }
 }
@@ -255,8 +255,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "11/23/23 19:21:44",
- "timestampMillis": "4226422819",
+ "dateTimestamp": "12/31/23 11:33:55",
+ "timestampMillis": "3186585834",
  "report": {
   "path": "",
   "name": "",
@@ -269,8 +269,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "11/23/23 19:21:44",
- "timestampMillis": "4226422819",
+ "dateTimestamp": "12/31/23 11:33:55",
+ "timestampMillis": "3186585834",
  "report": {
   "path": "",
   "name": "",

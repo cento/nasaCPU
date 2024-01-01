@@ -7,7 +7,7 @@
       "name": "bd_0",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2023.2",
+      "tool_version": "2023.2.1",
       "validated": "true"
     },
     "design_tree": {
@@ -274,7 +274,7 @@
     "components": {
       "hls_inst": {
         "vlnv": "xilinx.com:hls:rv32i_npp_ip:1.0",
-        "ip_revision": "2113308556",
+        "ip_revision": "2113362808",
         "xci_name": "bd_0_hls_inst_0",
         "xci_path": "ip\\bd_0_hls_inst_0\\bd_0_hls_inst_0.xci",
         "inst_hier_path": "hls_inst"

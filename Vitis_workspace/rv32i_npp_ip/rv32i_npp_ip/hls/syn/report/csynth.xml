@@ -1,6 +1,6 @@
 <profile>
     <ReportVersion>
-        <Version>2023.2</Version>
+        <Version>2023.2.1</Version>
     </ReportVersion>
     <UserAssignments>
         <unit>ns</unit>
@@ -42,13 +42,13 @@
         <SummaryOfViolations>
             <IssueType>Timing Violation</IssueType>
             <ViolationType>-</ViolationType>
-            <SourceLocation>C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip.cpp:36</SourceLocation>
+            <SourceLocation>C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip.cpp:36</SourceLocation>
             <SummaryOfLoopViolations>
                 <VITIS_LOOP_41_2>
                     <Name>VITIS_LOOP_41_2</Name>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:75~C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:257~C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip.cpp:50</SourceLocation>
+                    <SourceLocation>C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:75~C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:257~C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip.cpp:50</SourceLocation>
                 </VITIS_LOOP_41_2>
             </SummaryOfLoopViolations>
         </SummaryOfViolations>
@@ -335,13 +335,13 @@
                 <SummaryOfViolations>
                     <IssueType>Timing Violation</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip.cpp:36</SourceLocation>
+                    <SourceLocation>C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip.cpp:36</SourceLocation>
                     <SummaryOfLoopViolations>
                         <VITIS_LOOP_41_2>
                             <Name>VITIS_LOOP_41_2</Name>
                             <IssueType>-</IssueType>
                             <ViolationType>-</ViolationType>
-                            <SourceLocation>C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:75~C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:257~C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip.cpp:50</SourceLocation>
+                            <SourceLocation>C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:75~C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:257~C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip.cpp:50</SourceLocation>
                         </VITIS_LOOP_41_2>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
@@ -366,23 +366,23 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="npc4_fu_1465_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:76" STORAGESUBTYPE="" URAM="0" VARIABLE="npc4"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="result_2_fu_1475_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:103" STORAGESUBTYPE="" URAM="0" VARIABLE="result_2"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_619_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:93" STORAGESUBTYPE="" URAM="0" VARIABLE="result"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="sub" PRAGMA="" RTLNAME="result_18_fu_1687_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="result_18"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_619_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:46" STORAGESUBTYPE="" URAM="0" VARIABLE="result_19"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_619_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:86" STORAGESUBTYPE="" URAM="0" VARIABLE="result_16"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="sub" PRAGMA="" RTLNAME="result_5_fu_1770_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="result_5"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="result_6_fu_1774_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:46" STORAGESUBTYPE="" URAM="0" VARIABLE="result_6"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln239_fu_2237_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:239" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln239"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_640_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:236" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln236"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln233_fu_2270_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:233" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln233"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_640_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:228" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln228"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln224_fu_2285_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:224" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln224"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_640_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:225" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln225"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_640_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:219" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln219"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_640_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:242" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln242"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln36_fu_2340_p2" SOURCE="C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip.cpp:36" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln36"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="npc4_fu_1465_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:76" STORAGESUBTYPE="" URAM="0" VARIABLE="npc4"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="result_2_fu_1475_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:103" STORAGESUBTYPE="" URAM="0" VARIABLE="result_2"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_619_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:93" STORAGESUBTYPE="" URAM="0" VARIABLE="result"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="sub" PRAGMA="" RTLNAME="result_18_fu_1687_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="result_18"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_619_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:46" STORAGESUBTYPE="" URAM="0" VARIABLE="result_19"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_619_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:86" STORAGESUBTYPE="" URAM="0" VARIABLE="result_16"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="sub" PRAGMA="" RTLNAME="result_5_fu_1770_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:44" STORAGESUBTYPE="" URAM="0" VARIABLE="result_5"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="result_6_fu_1774_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:46" STORAGESUBTYPE="" URAM="0" VARIABLE="result_6"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln239_fu_2237_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:239" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln239"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_640_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:236" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln236"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln233_fu_2270_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:233" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln233"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_640_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:228" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln228"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln224_fu_2285_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:224" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln224"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_640_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:225" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln225"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_640_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:219" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln219"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_640_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/execute.cpp:242" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln242"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_41_2" OPTYPE="add" PRAGMA="" RTLNAME="add_ln36_fu_2340_p2" SOURCE="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip.cpp:36" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln36"/>
                 <BindNode BINDTYPE="adapter" BRAM="256" BUNDLEDNAME="control" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="control_s_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="s_axilite" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
             </BindNodes>
         </Module>

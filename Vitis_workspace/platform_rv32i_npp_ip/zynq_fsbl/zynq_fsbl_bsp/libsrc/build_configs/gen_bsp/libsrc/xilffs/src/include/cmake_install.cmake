@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/xilffs/src/include
+# Install script for directory: C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/xilffs/src/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

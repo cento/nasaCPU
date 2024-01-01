@@ -56,10 +56,10 @@ RM = C:/Xilinx/Vitis/2023.2/tps/win64/cmake-3.24.2/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+CMAKE_SOURCE_DIR = C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp
+CMAKE_BINARY_DIR = C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp
 
 # Utility rule file for devcfg.
 
@@ -70,7 +70,7 @@ include CMakeFiles/devcfg.dir/compiler_depend.make
 include CMakeFiles/devcfg.dir/progress.make
 
 CMakeFiles/devcfg:
-	lopper -O C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/devcfg/src C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/hw_artifacts/ps7_cortexa9_0_baremetal.dts -- baremetalconfig_xlnx ps7_cortexa9_0 C:/Xilinx/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/devcfg_v3_8/src
+	lopper -O C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/devcfg/src C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/hw_artifacts/ps7_cortexa9_0_baremetal.dts -- baremetalconfig_xlnx ps7_cortexa9_0 C:/Xilinx/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/devcfg_v3_8/src
 
 devcfg: CMakeFiles/devcfg
 devcfg: CMakeFiles/devcfg.dir/build.make
@@ -85,6 +85,6 @@ CMakeFiles/devcfg.dir/clean:
 .PHONY : CMakeFiles/devcfg.dir/clean
 
 CMakeFiles/devcfg.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/devcfg.dir/DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/devcfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/devcfg.dir/depend
 
