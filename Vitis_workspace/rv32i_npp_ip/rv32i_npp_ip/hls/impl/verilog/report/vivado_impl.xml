@@ -1,7 +1,7 @@
 <profile>
 <RunData>
   <RUN_TYPE>impl</RUN_TYPE>
-  <VIVADO_VERSION>v.2023.2</VIVADO_VERSION>
+  <VIVADO_VERSION>v.2023.2.1</VIVADO_VERSION>
   <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
 </RunData>
 <TimingReport>

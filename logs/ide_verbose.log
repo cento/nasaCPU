@@ -3129,3 +3129,1282 @@ ACTIVATE CONFIG LSP EXTENSION
 2023-11-28 19:37:24 [debug] : [Workspace Service] Initializaton completed. Updating workspace '' in the server from service. 
 2023-11-28 19:37:24 [debug] : [Workspace Service] Initializaton completed. Updating workspace '' in the server from service. 
 2023-11-28 19:37:24 [debug] : [Workspace Server] In 'setWorkspace' with connection:[object Object] request:{"path":""} 
+2023-12-13 20:22:56 [debug] : Notification event posted from server - ON_DID_UPDATE_WORKSPACE. 
+2023-12-13 20:22:56 [debug] : --------------------------------------------------------------------------------- 
+2023-12-13 20:22:56 [debug] : C:\Users\monde\Documents\GitHub\nasa-CPU 
+2023-12-13 20:22:56 [debug] : --------------------------------------------------------------------------------- 
+2023-12-13 20:22:56 [debug] : [Logger] Previous user logs are stored in the file - C:\Users\monde\.Xilinx\Vitis\2023.2\logs\ide.log 
+2023-12-13 20:22:56 [debug] : [Logger] Previous debug logs are stored in the file - C:\Users\monde\.Xilinx\Vitis\2023.2\logs\ide_verbose.log 
+2023-12-13 20:22:56 [debug] : [Logger] All the internal problems will be logged at debug level. 
+2023-12-13 20:22:56 [debug] : RIGEL SERVER 20:22:56 INFO  : created .gitignore file for the project C:\Users\monde\Documents\GitHub\nasa-CPU 
+2023-12-13 20:22:56 [debug] : RIGEL SERVER 20:22:56 INFO  : Marking the target connection as default Local 
+2023-12-13 20:22:56 [debug] : RIGEL SERVER 20:22:56 INFO  : Marking the target connection as default Linux Agent 
+2023-12-13 20:22:56 [debug] : RIGEL SERVER 20:22:56 INFO  : Marking the target connection as default XRTServer 
+2023-12-13 20:22:56 [debug] : RIGEL SERVER 20:22:56 INFO  : Marking the target connection as default LinuxEmulation 
+2023-12-13 20:22:56 [debug] : RIGEL SERVER 20:22:56 INFO  : Marking the target connection as default QEMU 
+2023-12-13 20:22:56 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2023-12-13 20:22:56 [debug] : [Application Examples Provider] refresh requested. 
+2023-12-13 20:22:56 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2023-12-13 20:22:56 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2023-12-13 20:22:56 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:56 [debug] : [Logger UI]  Update Log Level  called 
+2023-12-13 20:22:56 [debug] : [ProjectCache] fetching projects for project-cache 
+2023-12-13 20:22:56 [debug] : [Application Examples Provider] common calling method requested. 
+2023-12-13 20:22:56 [debug] : [Application Examples Provider] Repositories model update requested. 
+2023-12-13 20:22:56 [debug] : [Application Examples Provider] Repositories model update completed. 
+2023-12-13 20:22:56 [debug] : [Application Examples Provider] Templates model update requested. 
+2023-12-13 20:22:56 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2023-12-13 20:22:56 [debug] : RIGEL SERVER 20:22:56 INFO  : updated workspace path: C:\Users\monde\Documents\GitHub\nasa-CPU 
+2023-12-13 20:22:56 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 47,
+        "endLineNumber": 2,
+        "endColumn": 52
+      },
+      "rangeLength": 5,
+      "text": "false",
+      "rangeOffset": 49,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:56 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:56 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:56 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:56 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:56 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:56 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:56 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:57 [debug] : Opening channel for service path '/services/bootgen'. 
+2023-12-13 20:22:57 [debug] : Opening channel for service path '/services/hls/report'. 
+2023-12-13 20:22:57 [debug] : Opening channel for service path '/services/hls/wave/open'. 
+2023-12-13 20:22:57 [debug] : Linked preference "workbench.colorCustomizations" not found. Source: "editor.bracketPairColorization.enabled" 
+2023-12-13 20:22:57 [debug] : Frontend RigelLogContribution.configure took longer than the expected maximum 100 milliseconds: 546.2 ms [Finished 4.054 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Application UI init preferences 
+2023-12-13 20:22:57 [debug] : [Bootgen Output] Adding listeners to bootgen service. 
+2023-12-13 20:22:57 [debug] : A command file.openWith.config-editor-widget is already registered. 
+2023-12-13 20:22:57 [debug] : Frontend commands.onStart: 24.7 ms [Finished 4.079 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Application UI init preferences 
+2023-12-13 20:22:57 [debug] : Frontend keybindings.onStart took longer than the expected maximum 100 milliseconds: 125.8 ms [Finished 4.205 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend menus.onStart: 6.9 ms [Finished 4.212 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Opening channel for service path '/services/search-in-workspace'. 
+2023-12-13 20:22:57 [debug] : Frontend IconThemeApplicationContribution.onStart: 5.0 ms [Finished 4.218 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend ColorApplicationContribution.onStart: 21.6 ms [Finished 4.239 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend TabBarToolbarRegistry.onStart: 5.9 ms [Finished 4.245 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Opening channel for service path '/services/request-service'. 
+2023-12-13 20:22:57 [debug] : Frontend CommonFrontendContribution.onStart: 0.1 ms [Finished 4.246 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend QuickInputFrontendContribution.onStart: 1.9 ms [Finished 4.248 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend JsonSchemaStore.onStart: 6.5 ms [Finished 4.255 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_WORKSPACE. 
+2023-12-13 20:22:57 [debug] : --------------------------------------------------------------------------------- 
+2023-12-13 20:22:57 [debug] : C:\Users\monde\Documents\GitHub\nasa-CPU 
+2023-12-13 20:22:57 [debug] : --------------------------------------------------------------------------------- 
+2023-12-13 20:22:57 [debug] : [Logger] Previous user logs are stored in the file - C:\Users\monde\Documents\GitHub\nasa-CPU\logs\ide.log 
+2023-12-13 20:22:57 [debug] : [Logger] Previous debug logs are stored in the file - C:\Users\monde\Documents\GitHub\nasa-CPU\logs\ide_verbose.log 
+2023-12-13 20:22:57 [debug] : [Logger] All the internal problems will be logged at debug level. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:57 [debug] : RIGEL SERVER 20:22:57 INFO  : created .gitignore file for the project C:\Users\monde\Documents\GitHub\nasa-CPU
+20:22:57 INFO  : updated workspace path: C:\Users\monde\Documents\GitHub\nasa-CPU 
+2023-12-13 20:22:57 [debug] : Frontend ApplicationShellMouseTracker.onStart: 0.2 ms [Finished 4.255 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend StylingService.onStart: 1.3 ms [Finished 4.257 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Skipping menu item with missing command: "plugin.view-container.test.toggle". 
+2023-12-13 20:22:57 [debug] : Frontend RigelElectronMenuContribution.onStart: 31.8 ms [Finished 4.289 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend ElectronTextInputContextMenuContribution.onStart: 0.2 ms [Finished 4.290 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend ElectronWindowService.onStart: 0.2 ms [Finished 4.290 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend VariableResolverFrontendContribution.onStart: 0.9 ms [Finished 4.291 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend EditorContribution.onStart: 0.4 ms [Finished 4.292 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend EditorNavigationContribution.onStart: 0.6 ms [Finished 4.293 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend FileSystemFrontendContribution.onStart: 0.1 ms [Finished 4.293 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend FileNavigatorContribution.onStart: 0.2 ms [Finished 4.293 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend NavigatorTabBarDecorator.onStart: 0.2 ms [Finished 4.293 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend ProblemContribution.onStart: 0.1 ms [Finished 4.293 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend MonacoOutlineContribution.onStart: 0.4 ms [Finished 4.294 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend MonacoStatusBarContribution.onStart: 0.3 ms [Finished 4.294 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend TaskFrontendContribution.onStart: 0.4 ms [Finished 4.295 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend DebugInlineValueDecorator.onStart: 0.3 ms [Finished 4.295 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend RigelDebugFrontendApplicationContribution.onStart: 1.1 ms [Finished 4.297 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend NotificationsContribution.onStart: 0.0 ms [Finished 4.297 s after frontend start] 
+2023-12-13 20:22:57 [debug] : [hosted-plugin: 24096] IPC started 
+2023-12-13 20:22:57 [debug] : Frontend ScmContribution.onStart: 0.3 ms [Finished 4.297 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend Object.onStart: 0.4 ms [Finished 4.298 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend CoreContribution.onStart: 22.6 ms [Finished 4.321 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend RigelServerContribution.onStart: 0.3 ms [Finished 4.321 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend RigelExplorerContribution.onStart: 0.1 ms [Finished 4.321 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend WelcomeContribution.onStart: 0.2 ms [Finished 4.322 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend ShowingNolicenseContribution.onStart: 0.0 ms [Finished 4.322 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend TimelineExtensionContribution.onStart: 0.0 ms [Finished 4.322 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend DataflowViewerContribution.onStart: 0.0 ms [Finished 4.322 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend L1LibraryContribution.onStart: 0.2 ms [Finished 4.322 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend MiniBrowserOpenHandler.onStart: 0.2 ms [Finished 4.322 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend ElectronMiniBrowserEnvironment.onStart: 0.1 ms [Finished 4.323 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Frontend PreviewContribution.onStart: 0.1 ms [Finished 4.323 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Start frontend contributions: 1425.8 ms [Finished 4.323 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Changed application state from 'init' to 'started_contributions'. 
+2023-12-13 20:22:57 [debug] : Changed application state from 'started_contributions' to 'attached_shell'. 
+2023-12-13 20:22:57 [debug] : >>> Restoring the layout state... 
+2023-12-13 20:22:57 [debug] : Skipping menu item with missing command: "plugin.view-container.test.toggle". 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2023-12-13 20:22:57 [debug] : [ProjectCache] fetching projects for project-cache 
+2023-12-13 20:22:57 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2023-12-13 20:22:57 [debug] : [Application Examples Provider] refresh requested. 
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2023-12-13 20:22:57 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2023-12-13 20:22:57 [debug] : [Logger UI]  Update Log Level  called 
+2023-12-13 20:22:57 [debug] : [Application Examples Provider] common calling method requested. 
+2023-12-13 20:22:57 [debug] : [Application Examples Provider] Repositories model update requested. 
+2023-12-13 20:22:57 [debug] : [Application Examples Provider] Repositories model update completed. 
+2023-12-13 20:22:57 [debug] : [Application Examples Provider] Templates model update requested. 
+2023-12-13 20:22:57 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2023-12-13 20:22:57 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["6c12992d-7a4d-40bb-8b58-8a16ace56697",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2023-12-13 20:22:57 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae] Waiting for backend deployment: 200.9 ms [Finished 4.499 s after frontend start] 
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["ce62039b-fb75-44c7-964d-5166f2dd1460",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["f69432fb-0f39-40bd-b132-6882aefae78e",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["f510557e-80a3-4bc4-89a4-60d658422b45",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["604256d3-e56d-4d11-88e2-d4486a85bfda",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["0664d294-9b89-4054-8b37-eadebe975ef4",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["fc9768bd-6687-4bf9-961b-6bdf0d003d7c",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["19d37f75-6663-42be-a007-e5ed0405ca97",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["f82f527c-f6d2-440a-9ccc-f41e0661aabd",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["7628d2e4-3eae-44ed-9f50-219b63afb943",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["648e6921-e52b-4128-bc1c-40131ef3629e",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["46e41c99-0ffd-4ba8-88cd-ac9ff9c69998",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["eb1ed5ec-9e4b-4244-a472-374981a4c965",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["e5a09fa5-ddcc-4300-9f8a-4372846c0bed",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["2a5e53c5-69cd-4ca0-8b7d-81311410dd70",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["9d078f14-c640-48ea-88bf-134420112a60",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2023-12-13 20:22:57 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:57 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096) starting instance 
+2023-12-13 20:22:58 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":1}}
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae] Sync of 16 plugins: 437.6 ms [Finished 4.937 s after frontend start] 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:58 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:58 [debug] : Opening channel for service path '/services/report-model'. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_DELETE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_UPDATE_SUMMARY. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2023-12-13 20:22:58 [debug] : [ProjectDecorator] tree decoration updated 
+2023-12-13 20:22:58 [debug] : [ProjectCache] Project location updated to undefined 
+2023-12-13 20:22:58 [debug] : [ProjectDecorator] tree decoration updated 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : [ProjectDecorator] tree decoration updated 
+2023-12-13 20:22:58 [debug] : [ProjectCache] Project location updated to undefined 
+2023-12-13 20:22:58 [debug] : [ProjectDecorator] tree decoration updated 
+2023-12-13 20:22:58 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["9d45dd60-d85e-4fd8-a06f-2f89d90734e3",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["0ebac6d5-0f30-4090-bc0a-98efc44310c9",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["2e208f75-49bf-4e2e-a9ff-e23476a8d755",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["74add850-46f6-45c0-9b42-2c9fb178f210",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["9a2066b8-ab6a-44d1-8ccb-be89d5bc7a64",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["c4e5039c-71e8-4710-ae37-97aa9656db7d",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["b7ba19dc-7f06-4bc7-b2af-046e27809d90",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["2bdf32be-0e58-4009-a063-220128dce5c4",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["d645e7fc-ecd2-4543-b849-dce00eef01d1",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["6076a31a-f6d7-41d3-8253-93b89b2ff6d2",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["b6dc906d-0655-47ac-a84a-4a9c7e8c1625",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["57a9746c-b6db-43ae-95b2-97b7eccd4ffc",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Warning: Each child in a list should have a unique "key" prop.[ '', '', '\n    at div' ]%s See https://reactjs.org/link/warning-keys for more information.%s 
+2023-12-13 20:22:58 [debug] : <<< The layout has been successfully restored. 
+2023-12-13 20:22:58 [debug] : RIGEL SERVER 20:22:58 INFO  : Successfully created repository data at C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde11797430179004643651 
+2023-12-13 20:22:58 [debug] : RIGEL SERVER 20:22:58 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde2784973992756627076 -r C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde11797430179004643651\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat 
+2023-12-13 20:22:58 [debug] : Initialize the workbench layout: 807.8 ms [Finished 5.163 s after frontend start] 
+2023-12-13 20:22:58 [debug] : Changed application state from 'attached_shell' to 'initialized_layout'. 
+2023-12-13 20:22:58 [debug] : Frontend PluginViewRegistry.onDidInitializeLayout: 0.1 ms [Finished 5.164 s after frontend start] 
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyRemoteFileUrlToClipboard","group":"1_gitlens@1","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyRemoteFileUrlFrom","group":"1_gitlens@2","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyRemoteCommitUrl","group":"1_gitlens@3","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyShaToClipboard","group":"2_gitlens@1","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyMessageToClipboard","group":"2_gitlens@2","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to extension/context {"0":{"command":"gitlens.showWelcomePage","group":"9_gitlens@1","when":"extension =~ /^eamodio.gitlens(-insiders)?$/ && extensionStatus == installed"},"1":"Error: Could not find submenu with id extension/context\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to extension/context {"0":{"command":"gitlens.showSettingsPage","group":"9_gitlens@2","when":"extension =~ /^eamodio.gitlens(-insiders)?$/ && extensionStatus == installed"},"1":"Error: Could not find submenu with id extension/context\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to git.commit {"0":{"command":"gitlens.addAuthors","group":"4_gitlens@1","when":"gitlens:enabled && !gitlens:readonly && config.gitlens.menus.scm.authors"},"1":"Error: Could not find submenu with id git.commit\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to menuBar/edit/copy {"0":{"command":"gitlens.copyRemoteFileUrlToClipboard","group":"1_gitlens@1","when":"gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id menuBar/edit/copy\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to menuBar/edit/copy {"0":{"command":"gitlens.copyRemoteFileUrlFrom","group":"1_gitlens@2","when":"gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id menuBar/edit/copy\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][eamodio.gitlens]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][xilinx.rigel-config-vscode]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][xilinx.rigel-hls-l1-library-vscode]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][xilinx.rigel-hls-pragma]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin xilinx.tcf-debug contributed to editor/title/run {"0":{"command":"extension.tcf-debug.debugEditorContents","group":"navigation@2","when":"resourceLangId == cpp || resourceLangId == c"},"1":"Error: Could not find submenu with id editor/title/run\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][xilinx.tcf-debug]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][twxs.cmake]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.cpp]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.github]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.github-authentication]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.json]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : Preference name collision detected in the schema for property: [json] 
+2023-12-13 20:22:58 [debug] : Preference name collision detected in the schema for property: [jsonc] 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.json-language-features]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][llvm-vs-code-extensions.vscode-clangd]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][pkief.material-icon-theme]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][webfreak.debug]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/sourceControl {"0":{"command":"git.close","group":"navigation","when":"scmProvider == git"},"1":"Error: Could not find submenu with id scm/sourceControl\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/change/title {"0":{"command":"git.stageChange","when":"config.git.enabled && !git.missing && originalResourceScheme == git"},"1":"Error: Could not find submenu with id scm/change/title\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/change/title {"0":{"command":"git.revertChange","when":"config.git.enabled && !git.missing && originalResourceScheme == git"},"1":"Error: Could not find submenu with id scm/change/title\n    at MenuModelRegistry.getMenuNode (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:60375:23)\n    at MenusContributionPointHandler.handle (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:6466:62)\n    at file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:71\n    at pushContribution (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7074:32)\n    at PluginContributionHandler.handleContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:7179:9)\n    at HostedPluginSupport.loadContributions (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:446:61)\n    at HostedPluginSupport.doLoad (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:358:42)\n    at async RigelProgressService.withProgress (file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/bundle.js:63423:20)\n    at async file:///C:/Xilinx/Vitis/2023.2/ide/electron-app/win64/resources/app/lib/vendors-node_modules_theia_plugin-ext_lib_hosted_browser_hosted-plugin_js.js:263:17"}
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.git]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.make]: Loaded contributions. 
+2023-12-13 20:22:58 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae] Load contributions of 16 plugins: 279.7 ms [Finished 5.444 s after frontend start] 
+2023-12-13 20:22:58 [debug] : Frontend CoreContribution.onDidInitializeLayout: 0.8 ms [Finished 5.445 s after frontend start] 
+2023-12-13 20:22:58 [debug] : Frontend AnalysisContribution.onDidInitializeLayout: 0.6 ms [Finished 5.448 s after frontend start] 
+2023-12-13 20:22:58 [debug] : Frontend RigelExplorerContribution.onDidInitializeLayout: 1.3 ms [Finished 5.452 s after frontend start] 
+2023-12-13 20:22:58 [debug] : Frontend EditorPreviewTreeDecorator.onDidInitializeLayout: 0.2 ms [Finished 5.470 s after frontend start] 
+2023-12-13 20:22:58 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 20:22:58 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 20:22:58 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 20:22:58 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["5b6927ca-493f-4457-be5b-382711789b3f",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["c878377c-16d4-4df2-b45d-76f51684789a",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["d3f074e8-b24d-49fa-a806-fee76c6182cf",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:22:58 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:22:58 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["dd216ce2-4ab1-4e3c-99f1-b9380082ebdb",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["147a99da-d05d-44cb-be2b-f6b59551309b",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["ea9218a8-c9f0-4658-a905-09fb98298dd6",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["ed707937-8887-4d14-8aeb-cd43f9fdcae1",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["dfb567c5-3cb8-49a7-b640-853d56384d4d",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["6b3d4a4d-c0f7-4449-a58f-05e82e600cc9",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["5eef11c7-f785-4d84-bcaa-e2151aef380c",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["d42a76ad-1ea6-46b1-9b3b-f2382e8ad947",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["a913400e-c4e3-414f-990c-f53f7be804ab",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["7af67844-0fe4-4dc8-8148-fb4f4c966785",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["083885a3-55a6-4d3d-8b0b-fe72525e8007",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["af1d8899-32e3-4547-9fc0-39ee831152db",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["9eeb0215-3eca-40ff-aa7b-9d9e408cf2e8",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["2f374e40-b0db-4150-b280-28f4b2203d26",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["e789026e-ef26-4aca-97a9-988033662b5f",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["203919ae-a855-4ccf-b3bd-7aa3e7575982",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["40d207b6-ba50-46de-a30d-667b3008b91b",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["a29785db-d1f3-4ab2-bc6c-1340dc201d81",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["932c0698-7a5f-443e-9a84-49db0d41c3c2",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["42b1f024-95de-4e0d-bd13-9e3b586171bc",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["7b4b7fb0-d4ec-4812-9e30-af7cab449d90",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["4d39b27d-391c-43df-aa0c-0ba991eb50b1",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["43f15d99-2777-4515-bd6f-df38f90a310e",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["f33a85a1-defe-4a58-b2a9-aa886762f047",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["3b003efa-5291-425e-8d69-750ced8fa6ad",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["20af3eee-dbad-479f-a8e7-51203b52b25f",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["146c9e91-0b33-4825-9053-15c7440fe5fb",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["6486707e-218a-4b79-9e2c-3974ff7db08f",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["9973fc2c-2563-40e5-b452-697d861359c6",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["8232dc5d-0165-46e5-a6a0-10d0ecbf1e6d",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope 
+2023-12-13 20:22:58 [debug] : a registered grammar configuration for 'cpp' language is overridden 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:58 [debug] : RIGEL SERVER 20:22:58 INFO  : Embedded Template List generated successfully 
+2023-12-13 20:22:58 [debug] : RIGEL SERVER 20:22:58 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde14232339602620841946 -r C:\Users\monde\Documents\GitHub\nasa-CPU\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat 
+2023-12-13 20:22:58 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 1,
+        "startColumn": 1,
+        "endLineNumber": 1,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "{\r\n    \"clangd.fallbackFlags\": []\r\n}",
+      "rangeOffset": 0,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:58 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:58 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:58 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:58 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:58 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:58 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 29,
+        "endLineNumber": 2,
+        "endColumn": 31
+      },
+      "rangeLength": 2,
+      "text": "[]",
+      "rangeOffset": 31,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 3,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["626e4869-1da6-4586-8431-655fdd31f774",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["4375d606-da09-4edc-91c9-afea4f988c1d",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["045f2103-7923-4230-9c86-385da4a12f59",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["9cf90669-27bf-4b5c-80c0-4fd9fd50b77e",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["d3d047fd-773c-485c-b498-ddc76ec33a50",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["c72dee88-0814-4ba7-9036-5cbbbb81d802",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["b9aa0927-bbd4-4353-8061-0e5d65d3221c",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : RIGEL SERVER 20:22:59 INFO  : Embedded Template List generated successfully 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["2a0aa787-04ef-4e5c-85a5-a3b242ec155f",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["71c0420e-2450-4263-94ef-fcda0d7f4573",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : RIGEL SERVER 20:22:59 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde9629078141107157030 -r C:\Users\monde\Documents\GitHub\nasa-CPU\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["5df4eb1b-0299-4983-b017-51e6b38e5b06",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["13b330fb-025d-4a9f-bc21-5e2f8b55ad59",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["1a56ad3f-4c8f-41b0-935e-c17c27855aed",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["6f9da9f9-16f0-45f4-8a5c-72334137ce24",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["2f980241-7798-4ba9-aad5-553cfade9eec",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["4b366d00-b751-4771-9b6d-47eb17150bca",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["c9b23ec9-49d6-4539-8e8b-f1c519988bed",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["c7007ca4-8a97-4339-a81d-4b8ee1a98521",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["5a17dfb0-6faf-4968-9edc-8ef064f3f5f2",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["cd004f8f-607c-485a-a42f-17181aeb2ccf",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["0f8aaf34-faf1-4cee-8882-9c8b1f29ef36",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["5a07e75e-12a8-4ba3-9f82-1c00157eb63c",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["d0461530-3347-4115-9956-10dd549e81b1",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["e0488ee9-3887-4ce3-a7ec-1ce3bd9527ef",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["b3d7b348-5063-483b-82af-42ea50acf0c1",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["30b2b883-f08f-47cd-a7d2-330c2d3e833d",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["0635473b-b943-4ea2-ad72-7d7c8499046e",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["8e2ce10b-135f-4f84-901d-64ee76bf1af8",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["ba2279e3-2fc5-42df-a614-12e6c6c5fde6",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["4b081934-508b-489e-9cd0-68c0405b3bed",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["571fe899-3896-4eee-b0bd-576881d155fc",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : [Application Examples Provider] Templates model update completed. 
+2023-12-13 20:22:59 [debug] : [Application Examples Provider] common calling method completed. 
+2023-12-13 20:22:59 [debug] : [Application Examples Provider] refresh completed. 
+2023-12-13 20:22:59 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":1}}
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : DefaultJsonSchemaContribution.registerSchemas is taking more than 500.0 ms, new schemas are ignored. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : [Application Examples Provider] Templates model update completed. 
+2023-12-13 20:22:59 [debug] : [Application Examples Provider] common calling method completed. 
+2023-12-13 20:22:59 [debug] : [Application Examples Provider] refresh completed. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 20:22:59 [debug] : Opening channel for service path '/services/keytar'. 
+2023-12-13 20:22:59 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 20:22:59 [debug] : getTasks(): about to return task information for 0 tasks 
+2023-12-13 20:22:59 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 20:22:59 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 20:22:59 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 3,
+        "startColumn": 29,
+        "endLineNumber": 3,
+        "endColumn": 37
+      },
+      "rangeLength": 8,
+      "text": "\"custom\"",
+      "rangeOffset": 85,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:22:59 [debug] : [Application Examples Provider]  Application repository status:1 for id:vitis_libraries 
+2023-12-13 20:22:59 [debug] : [Application Examples Provider] vitis_examples:false 
+2023-12-13 20:22:59 [debug] : [Application Examples Provider] installed_examples:true 
+2023-12-13 20:22:59 [debug] : [Application Examples Provider] vitis_libraries:true 
+2023-12-13 20:22:59 [debug] : [Application Examples Provider] Repositories model update completed. 
+2023-12-13 20:22:59 [debug] : [Application Examples Provider] common calling method completed. 
+2023-12-13 20:22:59 [debug] : Frontend application start: 3048.3 ms [Finished 38.980 s after backend start] 
+2023-12-13 20:22:59 [debug] : Replace loading indicator with ready workbench UI (animation): 1002.4 ms [Finished 6.473 s after frontend start] 
+2023-12-13 20:22:59 [debug] : Changed application state from 'initialized_layout' to 'ready'. 
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 35,
+        "startColumn": 1,
+        "endLineNumber": 35,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "20:22:57 INFO  : created .gitignore file for the project C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\r\n20:22:57 INFO  : updated workspace path: C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\r\n20:22:58 INFO  : Successfully created repository data at C:\\Users\\monde\\AppData\\Local\\Temp\\rigel_lopper_monde11797430179004643651\r\n20:22:58 INFO  : cmd.exe, /C, C:\\Xilinx\\Vitis\\2023.2\\tps\\win64\\lopper-1.1.0\\env\\Scripts\\activate.bat && python C:\\Xilinx\\Vitis\\2023.2\\data\\embeddedsw\\scripts\\pyesw\\\\get_template_data.py -d C:\\Users\\monde\\AppData\\Local\\Temp\\rigel_lopper_monde2784973992756627076 -r C:\\Users\\monde\\AppData\\Local\\Temp\\rigel_lopper_monde11797430179004643651\\.repo.yaml && C:\\Xilinx\\Vitis\\2023.2\\tps\\win64\\lopper-1.1.0\\env\\Scripts\\deactivate.bat\r\n20:22:58 INFO  : Embedded Template List generated successfully\r\n20:22:58 INFO  : cmd.exe, /C, C:\\Xilinx\\Vitis\\2023.2\\tps\\win64\\lopper-1.1.0\\env\\Scripts\\activate.bat && python C:\\Xilinx\\Vitis\\2023.2\\data\\embeddedsw\\scripts\\pyesw\\\\get_template_data.py -d C:\\Users\\monde\\AppData\\Local\\Temp\\rigel_lopper_monde14232339602620841946 -r C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\.repo.yaml && C:\\Xilinx\\Vitis\\2023.2\\tps\\win64\\lopper-1.1.0\\env\\Scripts\\deactivate.bat\r\n20:22:59 INFO  : Embedded Template List generated successfully\r\n20:22:59 INFO  : cmd.exe, /C, C:\\Xilinx\\Vitis\\2023.2\\tps\\win64\\lopper-1.1.0\\env\\Scripts\\activate.bat && python C:\\Xilinx\\Vitis\\2023.2\\data\\embeddedsw\\scripts\\pyesw\\\\get_template_data.py -d C:\\Users\\monde\\AppData\\Local\\Temp\\rigel_lopper_monde9629078141107157030 -r C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\.repo.yaml && C:\\Xilinx\\Vitis\\2023.2\\tps\\win64\\lopper-1.1.0\\env\\Scripts\\deactivate.bat\r\n",
+      "rangeOffset": 5467,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:22:59 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:22:59 [debug] : RIGEL SERVER 20:22:59 INFO  : Embedded Template List generated successfully 
+2023-12-13 20:22:59 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): PluginManagerExtImpl/init() 
+2023-12-13 20:22:59 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): initializing(gitlens@11.7.0 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2023-12-13 20:22:59 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): initializing(rigel-config-vscode@0.0.0 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2023-12-13 20:22:59 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): initializing(rigel-hls-l1-library-vscode@0.0.0 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2023-12-13 20:22:59 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): initializing(rigel-hls-pragma@0.0.0 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2023-12-13 20:22:59 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): initializing(tcf-debug@0.0.1 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+Debugger contribution has been registered: tcf-debug
+PLUGIN_HOST(24096): initializing(cmake@0.0.17 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(24096): initializing(cpp@1.52.1 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2023-12-13 20:22:59 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): initializing(github@1.62.3 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(24096): initializing(github-authentication@1.62.3 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(24096): initializing(json@1.52.1 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(24096): initializing(json-language-features@1.52.1 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(24096): initializing(vscode-clangd@0.1.15 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(24096): initializing(material-icon-theme@4.11.0 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(24096): initializing(debug@0.26.1 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+Debugger contribution has been registered: gdb
+Debugger contribution has been registered: lldb-mi
+Debugger contribution has been registered: mago-mi 
+2023-12-13 20:22:59 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): initializing(git@1.62.3 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init)
+PLUGIN_HOST(24096): initializing(make@1.79.0 with C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\@theia\plugin-ext-vscode\lib\node\plugin-vscode-init) 
+2023-12-13 20:22:59 [debug] : [hosted-plugin: 24096] Unsupported activation events: oncommand:gitlens.copyCurrentBranch, please open an issue: https://github.com/eclipse-theia/theia/issues/new 
+2023-12-13 20:23:00 [debug] : [Application Examples Provider] Templates model update completed. 
+2023-12-13 20:23:00 [debug] : [Application Examples Provider] common calling method completed. 
+2023-12-13 20:23:00 [debug] : [Application Examples Provider] refresh completed. 
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:23:00 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\plugins\vscode.git\extension\dist\main) 
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2023-12-13 20:23:00 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\plugins\vscode-builtin-github\extension\dist\extension.js) 
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 43,
+        "startColumn": 1,
+        "endLineNumber": 43,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "20:22:59 INFO  : Embedded Template List generated successfully\r\n",
+      "rangeOffset": 7120,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 3,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:23:00 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/logs/vitis.log"}
+2023-12-13 20:23:00 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\plugins\vscode-builtin-json-language-features\extension\client\dist\node\jsonClientMain) 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][eamodio.gitlens]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][xilinx.rigel-config-vscode]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][xilinx.rigel-hls-l1-library-vscode]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][xilinx.rigel-hls-pragma]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][xilinx.tcf-debug]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][twxs.cmake]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.cpp]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.github]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.github-authentication]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.json]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.json-language-features]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][llvm-vs-code-extensions.vscode-clangd]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][pkief.material-icon-theme]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][webfreak.debug]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.git]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae][vscode.make]: Started plugin. 
+2023-12-13 20:23:00 [debug] : [hosted-plugin: 24096] ApplicationInsights:CorrelationIdManager [
+  Error: Failed to establish a socket connection to proxies: ["https://dc.services.visualstudio.com/api/profiles/AIF-d9b70cd4-b9f9-4d70-929b-a071c400b217/appId"]
+      at _PacProxyAgent.<anonymous> (C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\vscode-proxy-agent\out\agent.js:141:19)
+      at Generator.next (<anonymous>)
+      at fulfilled (C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\node_modules\vscode-proxy-agent\out\agent.js:5:58)
+] 
+2023-12-13 20:23:00 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":1}}
+2023-12-13 20:23:00 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\plugins\vscode-material-icon-theme\extension\dist\extension) 
+2023-12-13 20:23:00 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\plugins\eamodio-gitlens\extension\dist\gitlens) 
+2023-12-13 20:23:01 [debug] : [Application Examples Provider]  Application repository status:1 for id:vitis_libraries 
+2023-12-13 20:23:01 [debug] : [Application Examples Provider] vitis_examples:false 
+2023-12-13 20:23:01 [debug] : [Application Examples Provider] installed_examples:true 
+2023-12-13 20:23:01 [debug] : [Application Examples Provider] vitis_libraries:true 
+2023-12-13 20:23:01 [debug] : [Application Examples Provider] Repositories model update completed. 
+2023-12-13 20:23:01 [debug] : [Application Examples Provider] Templates model update requested. 
+2023-12-13 20:23:01 [debug] : [Repository Service] Executing method:getAppTemplateTree from frontend. {"0":"request:"}
+2023-12-13 20:23:01 [debug] : [Repository Server] Executing method:getAppTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":{},"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:23:01 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): PluginManagerExtImpl/loadPlugin(c:\Users\monde\AppData\Local\Temp\monde-vscode-unpacked\rigel-config-vscode-0.0.0.vsix\extension\out\cfg-lsp-extension.js) 
+2023-12-13 20:23:01 [debug] : [hosted-plugin: 24096] ACTIVATE CONFIG LSP EXTENSION 
+2023-12-13 20:23:01 [debug] : command 'gitlens.clearFileAnnotations' already registered 
+2023-12-13 20:23:01 [debug] : command 'gitlens.computingFileAnnotations' already registered 
+2023-12-13 20:23:01 [debug] : [09368f1d-ced7-4e11-8402-6d6c18db64ae] Start of 16 plugins: 2568.0 ms [Finished 8.042 s after frontend start] 
+2023-12-13 20:23:01 [debug] : [hosted-plugin: 24096] PLUGIN_HOST(24096): PluginManagerExtImpl/loadPlugin(C:\Xilinx\Vitis\2023.2\ide\electron-app\win64\resources\app\plugins\vscode-builtin-github-authentication\extension\dist\extension.js) 
+2023-12-13 20:23:01 [debug] : An authentication provider with id 'github' was registered. 
+2023-12-13 20:23:01 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 20:23:01 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 20:23:02 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":1}}
+2023-12-13 20:23:02 [debug] : [Application Examples Provider] Templates model update completed. 
+2023-12-13 20:23:02 [debug] : [Application Examples Provider] common calling method completed. 
+2023-12-13 20:23:02 [debug] : [Application Examples Provider] refresh completed. 
+2023-12-13 20:23:03 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":1}}
+2023-12-13 20:23:03 [debug] : [Repository Server] Executing method:getHlsExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 20:23:03 [debug] : [Application Examples Provider]  Application repository status:1 for id:vitis_hls_examples 
+2023-12-13 20:23:03 [debug] : [Application Examples Provider] vitis_hls_examples:true 
+2023-12-13 20:23:03 [debug] : [Application Examples Provider] Repositories model update completed. 
+2023-12-13 20:23:03 [debug] : [Application Examples Provider] Templates model update requested. 
+2023-12-13 20:23:03 [debug] : [Repository Service] Executing method:getHlsExampleTemplateTree from frontend. {"0":"request:"}
+2023-12-13 20:23:03 [debug] : [Application Examples Provider] Templates model update completed. 
+2023-12-13 20:23:03 [debug] : [Application Examples Provider] common calling method completed. 
+2023-12-13 20:23:03 [debug] : [Application Examples Provider] refresh completed. 
+2023-12-13 20:23:27 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 113,
+        "startColumn": 1,
+        "endLineNumber": 113,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": ".peers.ini\r\n",
+      "rangeOffset": 3686,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:23:27 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:23:27 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:23:27 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:23:27 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:23:27 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:23:27 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:23:38 [debug] : [hosted-plugin: 24096] TextEditor is disposed! 
+2023-12-13 20:23:38 [debug] : [hosted-plugin: 24096] TextEditor is disposed! 
+2023-12-13 20:24:10 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:24:10 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:24:10 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 114,
+        "startColumn": 1,
+        "endLineNumber": 114,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": ".theia/settings.json\r\n",
+      "rangeOffset": 3698,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 3,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:24:10 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:24:10 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:24:10 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:24:10 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:24:23 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:24:23 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:24:23 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 115,
+        "startColumn": 1,
+        "endLineNumber": 115,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "logs/builder.py\r\nlogs/builder_7660.py\r\nlogs/ide_verbose.log\r\nlogs/vitis.log\r\n",
+      "rangeOffset": 3720,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 4,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:24:23 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:24:23 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:24:23 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 20:24:23 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:06:05 [debug] : MonacoEditorModel.cancelSync {"0":"vscode://schemas/settings/folder"}
+2023-12-13 21:06:05 [debug] : MonacoEditorModel.cancelSave {"0":"vscode://schemas/settings/folder"}
+2023-12-13 21:06:05 [debug] : MonacoEditorModel.cancelSync {"0":"vscode://schemas/settings/workspace"}
+2023-12-13 21:06:05 [debug] : MonacoEditorModel.cancelSave {"0":"vscode://schemas/settings/workspace"}
+2023-12-13 21:06:05 [debug] : MonacoEditorModel.cancelSync {"0":"vscode://schemas/settings/user"}
+2023-12-13 21:06:05 [debug] : MonacoEditorModel.cancelSave {"0":"vscode://schemas/settings/user"}
+2023-12-13 21:06:05 [debug] : MonacoEditorModel.cancelSync {"0":"vscode://schemas/settings/default"}
+2023-12-13 21:06:05 [debug] : MonacoEditorModel.cancelSave {"0":"vscode://schemas/settings/default"}
+2023-12-13 21:06:05 [debug] : MonacoEditorModel.cancelSync {"0":"vscode://schemas/launch"}
+2023-12-13 21:06:05 [debug] : MonacoEditorModel.cancelSave {"0":"vscode://schemas/launch"}
+2023-12-13 21:06:05 [debug] : MonacoEditorModel.cancelSync {"0":"vscode://schemas/tasks"}
+2023-12-13 21:06:05 [debug] : MonacoEditorModel.cancelSave {"0":"vscode://schemas/tasks"}
+2023-12-13 21:06:26 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:06:26 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:06:26 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 115,
+        "startColumn": 1,
+        "endLineNumber": 119,
+        "endColumn": 1
+      },
+      "rangeLength": 77,
+      "text": "logs/*\r\n",
+      "rangeOffset": 3720,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 5,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:06:26 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:06:26 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:06:26 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:06:26 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:08:08 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:08:08 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:08:08 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 29,
+        "startColumn": 1,
+        "endLineNumber": 105,
+        "endColumn": 1
+      },
+      "rangeLength": 2685,
+      "text": "Vivado_workspace/**/*.cache\r\nVivado_workspace/**/.metadata\r\nVivado_workspace/**/*.data\r\nVivado_workspace/**/*.ipdefs\r\nVivado_workspace/**/.Xil\r\nVivado_workspace/**/*.sdk\r\nVivado_workspace/**/*.hw\r\nVivado_workspace/**/*.ip_user_files\r\nVivado_workspace/**/*_synth_*\r\nVivado_workspace/**/.jobs\r\n\r\nVivado_workspace/**/*/*.runs/synth*/*.xml\r\nVivado_workspace/**/*/*.runs/synth*/*.txt\r\nVivado_workspace/**/*/*.runs/synth*/*.sh\r\nVivado_workspace/**/*/*.runs/synth*/*.tcl\r\nVivado_workspace/**/*/*.runs/synth*/*.bat\r\nVivado_workspace/**/*/*.runs/synth*/*.xdc\r\nVivado_workspace/**/!*/*.runs/synth*/*utilization*.rpt\r\nVivado_workspace/**/*.runs/synth*/*.xml\r\nVivado_workspace/**/*.runs/synth*/*.txt\r\nVivado_workspace/**/*.runs/synth*/*.sh\r\nVivado_workspace/**/*.runs/synth*/*.tcl\r\nVivado_workspace/**/*.runs/synth*/*.bat\r\nVivado_workspace/**/*.runs/synth*/*.xdc\r\nVivado_workspace/**/!*.runs/synth*/*utilization*.rpt\r\nVivado_workspace/**/### project impl\r\nVivado_workspace/**/*/*.runs/impl*/*.xml\r\nVivado_workspace/**/*/*.runs/impl*/*.html\r\nVivado_workspace/**/*/*.runs/impl*/*.txt\r\nVivado_workspace/**/*/*.runs/impl*/*.sh\r\nVivado_workspace/**/*/*.runs/impl*/*.tcl\r\nVivado_workspace/**/*/*.runs/impl*/*.bat\r\nVivado_workspace/**/!*/*.runs/impl*/*utilization*.rpt\r\nVivado_workspace/**/*.runs/impl*/*.xml\r\nVivado_workspace/**/*.runs/impl*/*.html\r\nVivado_workspace/**/*.runs/impl*/*.txt\r\nVivado_workspace/**/*.runs/impl*/*.sh\r\nVivado_workspace/**/*.runs/impl*/*.tcl\r\nVivado_workspace/**/*.runs/impl*/*.bat\r\nVivado_workspace/**/!*.runs/impl*/*utilization*.rpt\r\nVivado_workspace/**/*/*/bd/*/hdl\r\nVivado_workspace/**/*/*/*/bd/*/hdl\r\nVivado_workspace/**/*/*/bd/*/*.xdc\r\nVivado_workspace/**/*/*/*/bd/*/*.xdc\r\nVivado_workspace/**/*/*/bd/*/ip/*/*.xdc\r\nVivado_workspace/**/*/*/*/bd/*/ip/*/*.xdc\r\nVivado_workspace/**/*/*/bd/*/ip/*/*/\r\nVivado_workspace/**/*/*/*/bd/*/ip/*/*/\r\nVivado_workspace/**/*/*/bd/*/ip/*/*.vhd\r\nVivado_workspace/**/*/*/*/bd/*/ip/*/*.vhd\r\nVivado_workspace/**/*/*/bd/*/ip/*/*.xml\r\nVivado_workspace/**/*/*/*/bd/*/ip/*/*.xml\r\nVivado_workspace/**/*.vho\r\nVivado_workspace/**/*.htm\r\n",
+      "rangeOffset": 798,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "versionId": 6,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:08:08 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:08:08 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:08:08 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:08:08 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:09:00 [debug] : MonacoEditorModel.cancelSync {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.peers.ini\",\"ref\":\"~\"}"}
+2023-12-13 21:09:00 [debug] : MonacoEditorModel.doSync - enter {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.peers.ini\",\"ref\":\"~\"}"}
+2023-12-13 21:09:01 [debug] : MonacoEditorModel.cancelSync {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.theia\\\\settings.json\",\"ref\":\"~\"}"}
+2023-12-13 21:09:01 [debug] : MonacoEditorModel.doSync - enter {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.theia\\\\settings.json\",\"ref\":\"~\"}"}
+2023-12-13 21:09:01 [debug] : MonacoEditorModel.doSync - exit {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.peers.ini\",\"ref\":\"~\"}"}
+2023-12-13 21:09:01 [debug] : MonacoEditorModel.doSync - exit {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.theia\\\\settings.json\",\"ref\":\"~\"}"}
+2023-12-13 21:09:02 [debug] : MonacoEditorModel.cancelSync {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.theia\\\\settings.json\",\"ref\":\"~\"}"}
+2023-12-13 21:09:02 [debug] : MonacoEditorModel.cancelSave {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.theia\\\\settings.json\",\"ref\":\"~\"}"}
+2023-12-13 21:09:02 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 21:09:02 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.theia/settings.json"}
+2023-12-13 21:09:02 [debug] : [hosted-plugin: 24096] TextEditor is disposed! 
+2023-12-13 21:09:02 [debug] : [hosted-plugin: 24096] TextEditor is disposed! 
+2023-12-13 21:09:03 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:09:03 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.gitignore"}
+2023-12-13 21:09:03 [debug] : [hosted-plugin: 24096] TextEditor is disposed! 
+2023-12-13 21:09:09 [debug] : MonacoEditorModel.cancelSync {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.peers.ini\",\"ref\":\"~\"}"}
+2023-12-13 21:09:09 [debug] : MonacoEditorModel.cancelSave {"0":"git:/c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini?{\"path\":\"c:\\\\Users\\\\monde\\\\Documents\\\\GitHub\\\\nasa-CPU\\\\.peers.ini\",\"ref\":\"~\"}"}
+2023-12-13 21:09:09 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini"}
+2023-12-13 21:09:09 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/monde/Documents/GitHub/nasa-CPU/.peers.ini"}
+2023-12-13 21:09:24 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:24 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:37 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:37 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:42 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:42 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:42 [debug] : Shutting down because of Reload request. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/commands'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/keyboard'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/logger'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/messageService'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/startup-workspace'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/remote-filesystem'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/envs'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/workspace'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/stopwatch'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/application'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/i18n'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hostedPlugin'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/project'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/rigel-workspace'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/component'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/debugger'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/debug'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/shell-terminal'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/task'. 
+2023-12-13 21:09:42 [debug] : a client has disconnected - removed from list: 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/quickPick'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/plugin-ext'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/plugin-paths'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/search'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/server'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/repository'. 
+2023-12-13 21:09:42 [debug] : [Repository Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/rigel-utils'. 
+2023-12-13 21:09:42 [debug] : [Rigel Utils Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/program_flash'. 
+2023-12-13 21:09:42 [debug] : [Program Flash Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/build'. 
+2023-12-13 21:09:42 [debug] : [Build Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path 'services/rigel-backend-helper'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/analysis'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/notification'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/recent-summaries'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/platform'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls/l1library/service'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/elf-reader'. 
+2023-12-13 21:09:42 [debug] : [Elf Reader Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/aie'. 
+2023-12-13 21:09:42 [debug] : [AIE Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/rigel_explorer'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/linker-script'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/rigel-logger'. 
+2023-12-13 21:09:42 [debug] : [Logger Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/vitis-hls'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/device'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/vcxx'. 
+2023-12-13 21:09:42 [debug] : [Rigel Vcxx Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls/common/data/info'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/flow_navigator'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls/common/file/service'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls/dataflow/info'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls_flow'. 
+2023-12-13 21:09:42 [debug] : [Hls Flow Server] Disposing objects in backend. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/mini-browser-service'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/bootgen'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls/report'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/hls/wave/open'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/search-in-workspace'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/request-service'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/report-model'. 
+2023-12-13 21:09:42 [debug] : Closing channel on service path '/services/keytar'. 
+2023-12-13 21:09:42 [debug] : [hosted-plugin: 24096] DEACTIVATE CONFIG LSP EXTENSION 
+2023-12-13 21:09:42 [debug] : [hosted-plugin: 24096] TextEditor is disposed! 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/commands'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/keyboard'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/logger'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/messageService'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/startup-workspace'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/remote-filesystem'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/envs'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/workspace'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/stopwatch'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/application'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/i18n'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/hostedPlugin'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/project'. 
+2023-12-13 21:09:45 [debug] : [Workspace Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/rigel-workspace'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/component'. 
+2023-12-13 21:09:45 [debug] : [Debugger Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/debugger'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/debug'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/shell-terminal'. 
+2023-12-13 21:09:45 [debug] : a client has connected - adding it to the list: 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/task'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/quickPick'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/plugin-ext'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/plugin-paths'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/search'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/server'. 
+2023-12-13 21:09:45 [debug] : [Repository Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/repository'. 
+2023-12-13 21:09:45 [debug] : [Rigel Utils Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/rigel-utils'. 
+2023-12-13 21:09:45 [debug] : [Program Flash Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/program_flash'. 
+2023-12-13 21:09:45 [debug] : [Build Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/build'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path 'services/rigel-backend-helper'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/analysis'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/notification'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/recent-summaries'. 
+2023-12-13 21:09:45 [debug] : [Platform Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/platform'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/hls/l1library/service'. 
+2023-12-13 21:09:45 [debug] : [Elf Reader Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/elf-reader'. 
+2023-12-13 21:09:45 [debug] : [AIE Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/aie'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/rigel_explorer'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/linker-script'. 
+2023-12-13 21:09:45 [debug] : [Logger Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/rigel-logger'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/vitis-hls'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/device'. 
+2023-12-13 21:09:45 [debug] : [Rigel Vcxx Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/vcxx'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/hls/common/data/info'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/flow_navigator'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/hls/common/file/service'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/hls/dataflow/info'. 
+2023-12-13 21:09:45 [debug] : [Hls Flow Server] Connection established from backend to the frontend client. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/hls_flow'. 
+2023-12-13 21:09:45 [debug] : Opening channel for service path '/services/mini-browser-service'. 
+2023-12-13 21:09:45 [debug] : [Workspace Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : [Debugger Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : [Repository Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : [Rigel Utils Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : [Logger Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : [Rigel Vcxx Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : [Hls Flow Server] Initializing the frontend client. 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : getTasks(): about to return task information for 0 tasks 
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_examples","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2023.2","type":2},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/installed_examples","localDirectory":"C:/Xilinx/Vitis/2023.2/samples","gitUrl":"","gitBranch":"","type":2},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_libraries","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2023.2","type":1}]}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:listAieExampleRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:listHlsExampleRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Rigel Vcxx Server] Executing method:vcxx.hasVcxx with connection:(object). {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_examples","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2023.2","type":2},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/installed_examples","localDirectory":"C:/Xilinx/Vitis/2023.2/samples","gitUrl":"","gitBranch":"","type":2},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_libraries","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2023.2","type":1}]}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:listHlsExampleRepos. {"0":"result:","1":[{"id":"vitis_hls_examples","name":"Vitis HLS Introductory Examples","description":"Basic examples for Vitis HLS.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_hls_examples","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_hls_examples","gitUrl":"https://github.com/Xilinx/Vitis-HLS-Introductory-Examples.git","gitBranch":"2023.2","type":4}]}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_examples","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2023.2","type":2},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/installed_examples","localDirectory":"C:/Xilinx/Vitis/2023.2/samples","gitUrl":"","gitBranch":"","type":2},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_libraries","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2023.2","type":1}]}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_examples","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2023.2","type":2},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/installed_examples","localDirectory":"C:/Xilinx/Vitis/2023.2/samples","gitUrl":"","gitBranch":"","type":2},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/Xilinx/Vitis/2023.2/vitis_libraries","localDirectory":"C:/Users/monde/.Xilinx/Vitis/2023.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2023.2","type":1}]}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:listAieExampleRepos. {"0":"result:","1":[{"id":"installed_aie_examples","name":"Installed AI Engine Examples","description":"This repository contains some simple AI Engine examples.","installDirectory":"C:/Xilinx/Vitis/2023.2/installed_aie_examples","localDirectory":"C:/Xilinx/Vitis/2023.2/samples","gitUrl":"","gitBranch":"","type":3}]}
+2023-12-13 21:09:45 [debug] : [Rigel Vcxx Server] Executed method:vcxx.hasVcxx. {"0":"result:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[true],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : RIGEL SERVER 21:09:45 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\monde\AppData\Local\Temp\rigel_lopper_monde12375694248630254766 -r C:\Users\monde\Documents\GitHub\nasa-CPU\.repo.yaml && C:\Xilinx\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : Frontend TabBarDecoratorService.initialize: 1.1 ms [Finished 3.070 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend LabelProvider.initialize: 0.7 ms [Finished 3.071 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend ApplicationConnectionStatusContribution.initialize: 0.0 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend DialogOverlayService.initialize: 0.0 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend Object.initialize: 0.0 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend FileSystemFrontendContribution.initialize: 0.0 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend ProblemDecorationContribution.initialize: 0.1 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend MonacoFrontendApplicationContribution.initialize: 0.0 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend MonacoFormattingConflictsContribution.initialize: 0.0 ms [Finished 3.072 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend MonacoTextmateService.initialize: 4.7 ms [Finished 3.077 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend ConsoleContribution.initialize: 0.1 ms [Finished 3.077 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend WebviewFrontendSecurityWarnings.initialize: 0.1 ms [Finished 3.077 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend CoreContribution.initialize: 0.0 ms [Finished 3.077 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend ComponentProblemDecoratorContribution.initialize: 0.0 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend ApplicationProblemDecoratorContribution.initialize: 0.0 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Program Flash Output] Adding listeners to program flash service. 
+2023-12-13 21:09:45 [debug] : Frontend ProgramFlashContribution.initialize: 0.1 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Program Device Output] Adding listeners to program device service. 
+2023-12-13 21:09:45 [debug] : Frontend ProgramDeviceContribution.initialize: 0.0 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Build Output] Adding listeners to build service. 
+2023-12-13 21:09:45 [debug] : Frontend BuildContribution.initialize: 0.2 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Launch Menu] Adding listeners to manage launch session. 
+2023-12-13 21:09:45 [debug] : [Debug Manager] A debug session listener is registered to receive launch events. 
+2023-12-13 21:09:45 [debug] : Frontend LaunchContribution.initialize: 0.1 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend EmulationContribution.initialize: 0.1 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend AieContribution.initialize: 0.0 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend DebugXSDBConsoleContribution.initialize: 0.0 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Adding listeners to preference service. 
+2023-12-13 21:09:45 [debug] : Frontend LoggerContribution.initialize: 0.1 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Platform Output] Adding listeners to build service. 
+2023-12-13 21:09:45 [debug] : Frontend PlatformContribution.initialize: 0.1 ms [Finished 3.078 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend RigelOutputContribution.initialize: 3.8 ms [Finished 3.082 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Build Output] Adding listeners to build service. 
+2023-12-13 21:09:45 [debug] : Frontend VcxxContribution.initialize: 0.1 ms [Finished 3.082 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [HLS Output] Adding listeners to HLS service. 
+2023-12-13 21:09:45 [debug] : Frontend HlsFlowContribution.initialize: 0.0 ms [Finished 3.082 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend MiniBrowserFrontendSecurityWarnings.initialize: 0.1 ms [Finished 3.083 s after frontend start] 
+2023-12-13 21:09:45 [debug] : [Program Flash Client]  {"0":"Initializaton completed and program flash service is ready in the frontend to receive program flash logs."}
+2023-12-13 21:09:45 [debug] : [Build Client] Initializaton completed and build service is ready in the frontend to receive build logs. 
+2023-12-13 21:09:45 [debug] : Initializaton completed and build service is ready in the frontend to receive build logs. 
+2023-12-13 21:09:45 [debug] : [Elf Reader Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [AIE Client] Initializaton completed and build service is ready in the frontend to receive build logs. 
+2023-12-13 21:09:45 [debug] : [Workspace Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [ProjectCache] fetching projects for project-cache 
+2023-12-13 21:09:45 [debug] : [Debugger Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [Repository Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [Repository Client] Ready to accept calls from the UI widgets. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider]  updating the model on initialization. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] refresh requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] refresh requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] refresh requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] refresh requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] common calling method requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update requested. 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] common calling method requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update requested. 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] common calling method requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update requested. 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:listAieExampleRepos from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] common calling method requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update requested. 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:listHlsExampleRepos from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] common calling method requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update requested. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update completed. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Templates model update requested. 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Rigel Utils Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [Logger Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [Rigel vcxx Client] Initializaton completed. 
+2023-12-13 21:09:45 [debug] : [HLS Flow Client] Initialization completed. 
+2023-12-13 21:09:45 [debug] : Frontend CommonFrontendContribution.configure took longer than the expected maximum 100 milliseconds: 382.9 ms [Finished 3.466 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend WorkspaceFrontendContribution.configure: 0.2 ms [Finished 3.466 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["40c67b52-730f-45ed-beff-8e92a67bb9c7",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : Notification event posted from server - ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2023-12-13 21:09:45 [debug] : [ProjectCache] Project location updated to undefined 
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] installed_aie_examples:true 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Repositories model update completed. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Templates model update requested. 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAieExampleTemplateTree from frontend. {"0":"request:"}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAieExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2023-12-13 21:09:45 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2023-12-13 21:09:45 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["41fc2e78-767f-432e-8e0e-3f6d1aff84be",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_examples 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : Notification event posted from server - ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 21:09:45 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_examples 
+2023-12-13 21:09:45 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] Templates model update completed. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] common calling method completed. 
+2023-12-13 21:09:45 [debug] : [Application Examples Provider] refresh completed. 
+2023-12-13 21:09:45 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : [Workspace Server] In 'setWorkspace' with connection:[object Object] request:{"path":"C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace"} 
+2023-12-13 21:09:45 [debug] : [Workspace Server] In 'setWorkspace' with connection:[object Object] request:{"path":"C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace"} 
+2023-12-13 21:09:45 [debug] : [Workspace Service] Initializaton completed. Updating workspace 'C:\Users\monde\Documents\GitHub\nasa-CPU\Vitis_workspace' in the server from service. 
+2023-12-13 21:09:45 [debug] : [Workspace Service] Initializaton completed. Updating workspace 'C:\Users\monde\Documents\GitHub\nasa-CPU\Vitis_workspace' in the server from service. 
+2023-12-13 21:09:45 [debug] : Theia configuration directory file:///c:/Users/monde/.Xilinx/Vitis/2023.2/.vitisng' 
+2023-12-13 21:09:45 [debug] : Frontend BuildChannelContribution.configure: 54.3 ms [Finished 3.520 s after frontend start] 
+2023-12-13 21:09:45 [debug] : Frontend HLSCommonContribution.configure: 0.0 ms [Finished 3.520 s after frontend start] 

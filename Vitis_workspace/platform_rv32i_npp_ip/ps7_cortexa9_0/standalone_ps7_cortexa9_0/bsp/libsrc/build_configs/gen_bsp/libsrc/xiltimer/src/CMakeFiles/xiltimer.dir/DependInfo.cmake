@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/xiltimer/src/core/default_timer/globaltimer_sleep_zynq.c" "libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/core/default_timer/globaltimer_sleep_zynq.c.obj" "gcc" "libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/core/default_timer/globaltimer_sleep_zynq.c.obj.d"
-  "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/xiltimer/src/core/scutimer/scutimer.c" "libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/core/scutimer/scutimer.c.obj" "gcc" "libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/core/scutimer/scutimer.c.obj.d"
-  "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/xiltimer/src/xiltimer.c" "libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/xiltimer.c.obj" "gcc" "libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/xiltimer.c.obj.d"
+  "C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/xiltimer/src/core/default_timer/globaltimer_sleep_zynq.c" "libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/core/default_timer/globaltimer_sleep_zynq.c.obj" "gcc" "libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/core/default_timer/globaltimer_sleep_zynq.c.obj.d"
+  "C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/xiltimer/src/core/scutimer/scutimer.c" "libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/core/scutimer/scutimer.c.obj" "gcc" "libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/core/scutimer/scutimer.c.obj.d"
+  "C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/xiltimer/src/xiltimer.c" "libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/xiltimer.c.obj" "gcc" "libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/xiltimer.c.obj.d"
   )
 
 # Targets to which this target links.

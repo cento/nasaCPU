@@ -1,9 +1,8 @@
 [
-  "c:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip",
-  "c:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip",
-  "c:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vivado_workspace",
-  "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_fetching_ip\\export\\platform_fetching_ip",
-  "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_fetching_decoding_ip\\export\\platform_fetching_decoding_ip",
-  "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_fde_ip\\export\\platform_fde_ip",
-  "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_rv32i_npp_ip\\export\\platform_rv32i_npp_ip"
+  "c:\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip",
+  "c:\\GitHub\\nasa-CPU\\Vitis_workspace\\fetching_ip\\fetching_ip",
+  "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_fetching_ip\\export\\platform_fetching_ip",
+  "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_fetching_decoding_ip\\export\\platform_fetching_decoding_ip",
+  "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_fde_ip\\export\\platform_fde_ip",
+  "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_rv32i_npp_ip\\export\\platform_rv32i_npp_ip"
 ]

@@ -60,10 +60,10 @@ RM = C:/Xilinx/Vitis/2023.2/tps/win64/cmake-3.24.2/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp
+CMAKE_SOURCE_DIR = C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp
+CMAKE_BINARY_DIR = C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/common/src//CMakeFiles/progress.marks
-	cd C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/common/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
+	cd C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/common/src//CMakeFiles/progress.marks
+	cd C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/common/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/common/src/clean
+	cd C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/common/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -151,17 +151,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/common/src/preinstall
+	cd C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/common/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/common/src/preinstall
+	cd C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/common/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -187,6 +187,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

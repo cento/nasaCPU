@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.runs/impl_1/bd_0_wrapper.tcl"
+  variable script "C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.runs/impl_1/bd_0_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -126,12 +126,12 @@ set rc [catch {
   set_param chipscope.maxJobs 1
   set_param runs.launchOptions { -jobs 1  }
   reset_param project.defaultXPMLibraries 
-  open_checkpoint C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.runs/impl_1/bd_0_wrapper.dcp
-  set_property webtalk.parent_dir C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.cache/wt [current_project]
-  set_property parent.project_path C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.xpr [current_project]
-  set_property ip_repo_paths C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/ip [current_project]
+  open_checkpoint C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.runs/impl_1/bd_0_wrapper.dcp
+  set_property webtalk.parent_dir C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.cache/wt [current_project]
+  set_property parent.project_path C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.xpr [current_project]
+  set_property ip_repo_paths C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/ip [current_project]
   update_ip_catalog
-  set_property ip_output_repo C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.cache/ip [current_project]
+  set_property ip_output_repo C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip/hls/impl/verilog/project.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_FIFO XPM_MEMORY} [current_project]
 OPTRACE "init_design_reports" START { REPORT }

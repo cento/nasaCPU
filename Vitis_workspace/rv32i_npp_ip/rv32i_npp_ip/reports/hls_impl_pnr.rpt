@@ -2,8 +2,8 @@
 == Vivado Place & Route Results
 ================================================================
 + General Information:
-    * Date:            Thu Nov 23 19:21:44 +0800 2023
-    * Version:         2023.2 (Build 4023990 on Oct 11 2023)
+    * Date:            Sun Dec 31 11:33:54 +0800 2023
+    * Version:         2023.2 (Build 4070103 on Dec 13 2023)
     * Project:         rv32i_npp_ip
     * Solution:        hls (Vivado IP Flow Target)
     * Product family:  zynq

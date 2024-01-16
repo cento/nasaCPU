@@ -48,11 +48,11 @@
 
 
 // IP VLNV: xilinx.com:hls:rv32i_npp_ip:1.0
-// IP Revision: 2113308556
+// IP Revision: 2113362808
 
-(* X_CORE_INFO = "rv32i_npp_ip,Vivado 2023.2" *)
+(* X_CORE_INFO = "rv32i_npp_ip,Vivado 2023.2.1" *)
 (* CHECK_LICENSE_TYPE = "bd_0_hls_inst_0,rv32i_npp_ip,{}" *)
-(* CORE_GENERATION_INFO = "bd_0_hls_inst_0,rv32i_npp_ip,{x_ipProduct=Vivado 2023.2,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=rv32i_npp_ip,x_ipVersion=1.0,x_ipCoreRevision=2113308556,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_S_AXI_CONTROL_ADDR_WIDTH=20,C_S_AXI_CONTROL_DATA_WIDTH=32}" *)
+(* CORE_GENERATION_INFO = "bd_0_hls_inst_0,rv32i_npp_ip,{x_ipProduct=Vivado 2023.2.1,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=rv32i_npp_ip,x_ipVersion=1.0,x_ipCoreRevision=2113362808,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_S_AXI_CONTROL_ADDR_WIDTH=20,C_S_AXI_CONTROL_DATA_WIDTH=32}" *)
 (* IP_DEFINITION_SOURCE = "HLS" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module bd_0_hls_inst_0 (

@@ -56,10 +56,10 @@ RM = C:/Xilinx/Vitis/2023.2/tps/win64/cmake-3.24.2/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp
+CMAKE_SOURCE_DIR = C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp
+CMAKE_BINARY_DIR = C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp
 
 # Utility rule file for dmaps.
 
@@ -70,7 +70,7 @@ include CMakeFiles/dmaps.dir/compiler_depend.make
 include CMakeFiles/dmaps.dir/progress.make
 
 CMakeFiles/dmaps:
-	lopper -O C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/dmaps/src C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/hw_artifacts/ps7_cortexa9_0_baremetal.dts -- baremetalconfig_xlnx ps7_cortexa9_0 C:/Xilinx/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_9/src
+	lopper -O C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/dmaps/src C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/hw_artifacts/ps7_cortexa9_0_baremetal.dts -- baremetalconfig_xlnx ps7_cortexa9_0 C:/Xilinx/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_9/src
 
 dmaps: CMakeFiles/dmaps
 dmaps: CMakeFiles/dmaps.dir/build.make
@@ -85,6 +85,6 @@ CMakeFiles/dmaps.dir/clean:
 .PHONY : CMakeFiles/dmaps.dir/clean
 
 CMakeFiles/dmaps.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles/dmaps.dir/DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles/dmaps.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dmaps.dir/depend
 

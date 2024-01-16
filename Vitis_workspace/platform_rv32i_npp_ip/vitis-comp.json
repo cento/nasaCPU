@@ -3,7 +3,7 @@
   "type": "PLATFORM",
   "configuration": {
     "description": "",
-    "xsa": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vivado_workspace\\rv32i_npp_ip\\design_1_wrapper.xsa",
+    "xsa": "C:\\GitHub\\nasa-CPU\\Vivado_workspace\\rv32i_npp_ip\\design_1_wrapper.xsa",
     "xsaPathInPlatform": "platform_rv32i_npp_ip\\hw\\design_1_wrapper.xsa",
     "emulationXsa": "",
     "emulationXsaPathInPlatform": "",
@@ -28,8 +28,8 @@
         "os": "standalone",
         "appTemplate": "zynq_fsbl",
         "isBootDomain": true,
-        "qemuData": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_rv32i_npp_ip\\resources\\zynq_fsbl\\qemu",
-        "qemuArgsFile": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_rv32i_npp_ip\\resources\\zynq_fsbl\\qemu\\qemu_args.txt",
+        "qemuData": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_rv32i_npp_ip\\resources\\zynq_fsbl\\qemu",
+        "qemuArgsFile": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_rv32i_npp_ip\\resources\\zynq_fsbl\\qemu\\qemu_args.txt",
         "pmcQemuArgsFile": "",
         "isBSPGenReq": false
       },
@@ -42,8 +42,8 @@
         "os": "standalone",
         "appTemplate": "empty_application",
         "isBootDomain": false,
-        "qemuData": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_rv32i_npp_ip\\resources\\standalone_ps7_cortexa9_0\\qemu",
-        "qemuArgsFile": "C:\\Users\\monde\\Documents\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_rv32i_npp_ip\\resources\\standalone_ps7_cortexa9_0\\qemu\\qemu_args.txt",
+        "qemuData": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_rv32i_npp_ip\\resources\\standalone_ps7_cortexa9_0\\qemu",
+        "qemuArgsFile": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\platform_rv32i_npp_ip\\resources\\standalone_ps7_cortexa9_0\\qemu\\qemu_args.txt",
         "pmcQemuArgsFile": "",
         "isBSPGenReq": false
       }

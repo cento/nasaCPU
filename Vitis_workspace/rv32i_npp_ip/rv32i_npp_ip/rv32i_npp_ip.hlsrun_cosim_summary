@@ -1,0 +1,187 @@
+<ENTRY>
+{
+ "thisFile": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\rv32i_npp_ip.hlsrun_cosim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "12/31/23 11:26:44",
+ "timestampMillis": "3186155690",
+ "buildStep": {
+  "cmdId": "0c7c57e7-2910-4215-bb18-1cf5a26ae368",
+  "name": "vitis-run",
+  "logFile": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\logs\\rv32i_npp_ip.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2023.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --cosim --config C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\hls_config.cfg --work_dir rv32i_npp_ip ",
+  "args": [
+   "--mode",
+   "hls",
+   "--cosim",
+   "--config",
+   "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\hls_config.cfg",
+   "--work_dir",
+   "rv32i_npp_ip"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/31/23 11:26:44",
+ "timestampMillis": "3186155690",
+ "status": {
+  "cmdId": "0c7c57e7-2910-4215-bb18-1cf5a26ae368",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "12/31/23 11:26:48",
+ "timestampMillis": "3186159291",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_RTL_COSIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "rv32i_npp_ip",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\decode.cpp",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\decode.h",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\emulate.cpp",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\emulate.h",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\execute.cpp",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\execute.h",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\fetch.cpp",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\fetch.h",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\print.cpp",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\print.h",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip.cpp",
+     "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2023.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "12/31/23 11:26:48",
+ "timestampMillis": "3186159296",
+ "buildStep": {
+  "cmdId": "eba81c67-b71b-4d3f-a253-fb9177307e99",
+  "name": "cosim_design",
+  "logFile": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\hls.log",
+  "commandLine": "cosim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "12/31/23 11:26:48",
+ "timestampMillis": "3186159297",
+ "status": {
+  "cmdId": "eba81c67-b71b-4d3f-a253-fb9177307e99",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/31/23 11:26:48",
+ "timestampMillis": "3186159297",
+ "report": {
+  "path": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls\\sim\\report\\rv32i_npp_ip_cosim.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_COSIMULATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/31/23 11:26:48",
+ "timestampMillis": "3186159298",
+ "report": {
+  "path": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/31/23 11:26:48",
+ "timestampMillis": "3186159298",
+ "report": {
+  "path": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH_COSIM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/31/23 11:26:48",
+ "timestampMillis": "3186159299",
+ "report": {
+  "path": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_TIMELINE_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "12/31/23 11:26:48",
+ "timestampMillis": "3186159299",
+ "report": {
+  "path": "C:/GitHub\\nasa-CPU\\Vitis_workspace\\rv32i_npp_ip\\rv32i_npp_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_WAVE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<slxup:slxUserPragmas xmlns:slxup="http://www.xilinx.com/act/slxUserPragmas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xilinx.com/act/slxUserPragmas slxUserPragmas.xsd">
+  <Pragma displayName="pipeline" functionName="Outline_T4_F896_R16_Loop">
+    <Location beginColumn="1" beginLine="42" endColumn="1" endLine="42" file="C:/GitHub/nasa-CPU/Vitis_workspace/rv32i_npp_ip/rv32i_npp_ip.cpp"/>
+  </Pragma>
+</slxup:slxUserPragmas>

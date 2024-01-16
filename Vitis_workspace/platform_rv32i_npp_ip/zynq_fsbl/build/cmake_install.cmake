@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl
+# Install script for directory: C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/monde/Documents/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/GitHub/nasa-CPU/Vitis_workspace/platform_rv32i_npp_ip/zynq_fsbl/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
