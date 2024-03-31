@@ -16,6 +16,8 @@ Driven by the curiosity to build my own CPU from scratch, I bought an amazing bo
 
 This combination of events is perfect since I will be able to build my (hobbystic) CPU in my limited time available starting from a solid foundation such as the one described by Bernand Goossens in the mentioned book.
 
+> A testament to the fact that even in the realm of logic and circuits, there was room for the illogical whims of the heart.
+
 [^1]: _Guide to Computer Processor Architecture,
 A RISC-V Approach, with High-Level Synthesis_ - Bernard Goossens
 
