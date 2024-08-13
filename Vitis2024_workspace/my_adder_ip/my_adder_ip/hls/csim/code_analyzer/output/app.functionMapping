@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<cpuFpgaMapping:cpuFpgaMapping xmlns:cpuFpgaMapping="http://www.xilinx.com/act/cpuFpgaMapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xilinx.com/act/cpuFpgaMapping cpuFPGAMapping.xsd">
+  <Function id="_f200" name="main">
+    <MappedTo editable="true">
+      <Partition>CPU</Partition>
+    </MappedTo>
+  </Function>
+  <Function id="_f201" name="printf">
+    <MappedTo editable="true">
+      <Partition>CPU</Partition>
+    </MappedTo>
+  </Function>
+  <Function id="_f204" name="my_adder_ip">
+    <MappedTo editable="true">
+      <Partition>FPGA</Partition>
+    </MappedTo>
+    <TopLevel>true</TopLevel>
+    <IsCalledByHwFn>false</IsCalledByHwFn>
+    <Interfaces>
+      <Return>
+        <PragmaOrigin id="_fi204_return">
+          <CodeSection beginColumn="0" beginLine="4" endColumn="0" endLine="4" file="my_adder_ip.cpp"/>
+        </PragmaOrigin>
+        <AXI-Lite>
+          <Depth/>
+          <Name/>
+          <Register>false</Register>
+          <Offset/>
+          <Clock/>
+          <Bundle/>
+          <PortBitwidth>32</PortBitwidth>
+        </AXI-Lite>
+      </Return>
+      <Argument declaration="a (unsigned int)" id="_v8" name="a">
+        <PragmaOrigin id="_fi204_8">
+          <CodeSection beginColumn="0" beginLine="7" endColumn="0" endLine="7" file="my_adder_ip.cpp"/>
+        </PragmaOrigin>
+        <AXI-Lite>
+          <Depth/>
+          <Name/>
+          <Register>false</Register>
+          <Offset/>
+          <Clock/>
+          <Bundle/>
+          <PortBitwidth>32</PortBitwidth>
+        </AXI-Lite>
+      </Argument>
+      <Argument declaration="b (unsigned int)" id="_v9" name="b">
+        <PragmaOrigin id="_fi204_9">
+          <CodeSection beginColumn="0" beginLine="6" endColumn="0" endLine="6" file="my_adder_ip.cpp"/>
+        </PragmaOrigin>
+        <AXI-Lite>
+          <Depth/>
+          <Name/>
+          <Register>false</Register>
+          <Offset/>
+          <Clock/>
+          <Bundle/>
+          <PortBitwidth>32</PortBitwidth>
+        </AXI-Lite>
+      </Argument>
+      <Argument declaration="c (unsigned int*)" id="_v10" name="c">
+        <PragmaOrigin id="_fi204_10">
+          <CodeSection beginColumn="0" beginLine="5" endColumn="0" endLine="5" file="my_adder_ip.cpp"/>
+        </PragmaOrigin>
+        <AXI-Lite>
+          <Depth/>
+          <Name/>
+          <Register>false</Register>
+          <Offset/>
+          <Clock/>
+          <Bundle/>
+          <PortBitwidth>32</PortBitwidth>
+        </AXI-Lite>
+      </Argument>
+    </Interfaces>
+  </Function>
+</cpuFpgaMapping:cpuFpgaMapping>

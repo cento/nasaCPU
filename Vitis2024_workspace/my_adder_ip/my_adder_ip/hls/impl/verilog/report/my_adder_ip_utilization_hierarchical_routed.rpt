@@ -1,0 +1,34 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 11 22:39:06 2024
+| Host         : Naboo running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 5 -file ./report/my_adder_ip_utilization_hierarchical_routed.rpt
+| Design       : bd_0_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-------------------------+-------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+|         Instance        |                   Module                  | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++-------------------------+-------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| bd_0_wrapper            |                                     (top) |        128 |        128 |       0 |    0 | 148 |      0 |      0 |          0 |
+|   bd_0_i                |                                      bd_0 |        128 |        128 |       0 |    0 | 148 |      0 |      0 |          0 |
+|     hls_inst            |                           bd_0_hls_inst_0 |        128 |        128 |       0 |    0 | 148 |      0 |      0 |          0 |
+|       (hls_inst)        |                           bd_0_hls_inst_0 |          0 |          0 |       0 |    0 |   0 |      0 |      0 |          0 |
+|       inst              |               bd_0_hls_inst_0_my_adder_ip |        128 |        128 |       0 |    0 | 148 |      0 |      0 |          0 |
+|         control_s_axi_U | bd_0_hls_inst_0_my_adder_ip_control_s_axi |        128 |        128 |       0 |    0 | 148 |      0 |      0 |          0 |
++-------------------------+-------------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

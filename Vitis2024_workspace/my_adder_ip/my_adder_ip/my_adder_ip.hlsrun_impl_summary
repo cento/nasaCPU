@@ -1,0 +1,271 @@
+<ENTRY>
+{
+ "thisFile": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\my_adder_ip.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "08/11/24 22:35:47",
+ "timestampMillis": "1105061585",
+ "buildStep": {
+  "cmdId": "023925c0-1bae-4c2a-b695-33606a400cba",
+  "name": "vitis-run",
+  "logFile": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\logs\\my_adder_ip.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\hls_config.cfg --work_dir my_adder_ip ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\hls_config.cfg",
+   "--work_dir",
+   "my_adder_ip"
+  ],
+  "iniFiles": [],
+  "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/11/24 22:35:47",
+ "timestampMillis": "1105061585",
+ "status": {
+  "cmdId": "023925c0-1bae-4c2a-b695-33606a400cba",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "08/11/24 22:35:51",
+ "timestampMillis": "1105065546",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "my_adder_ip",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "08/11/24 22:35:51",
+ "timestampMillis": "1105065547",
+ "buildStep": {
+  "cmdId": "7b37b621-62fc-447c-8a79-3e5bd4005c1f",
+  "name": "export_design",
+  "logFile": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\hls.log",
+  "commandLine": "export_design -flow impl",
+  "args": [
+   "-flow",
+   "impl"
+  ],
+  "iniFiles": [],
+  "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/11/24 22:35:51",
+ "timestampMillis": "1105065547",
+ "status": {
+  "cmdId": "7b37b621-62fc-447c-8a79-3e5bd4005c1f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:35:51",
+ "timestampMillis": "1105065548",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:35:51",
+ "timestampMillis": "1105065548",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:35:51",
+ "timestampMillis": "1105065548",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:35:51",
+ "timestampMillis": "1105065549",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:35:51",
+ "timestampMillis": "1105065549",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:35:51",
+ "timestampMillis": "1105065549",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:39:09",
+ "timestampMillis": "1105264095",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:39:09",
+ "timestampMillis": "1105264096",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/11/24 22:39:09",
+ "timestampMillis": "1105264096",
+ "status": {
+  "cmdId": "7b37b621-62fc-447c-8a79-3e5bd4005c1f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/11/24 22:39:09",
+ "timestampMillis": "1105264172",
+ "status": {
+  "cmdId": "023925c0-1bae-4c2a-b695-33606a400cba",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:39:09",
+ "timestampMillis": "1105264173",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:39:09",
+ "timestampMillis": "1105264173",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

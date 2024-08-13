@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<callgraph:CallGraph xmlns:callgraph="http://www.xilinx.com/act/callgraph">
+  <DirectCall count="0" file="testbench_my_adder_ip.cpp" id="15" line="9">
+    <caller function="_f200"/>
+    <callee function="_f204"/>
+  </DirectCall>
+  <Function file="testbench_my_adder_ip.cpp" id="_f200" line="5" name="main"/>
+  <Function file="my_adder_ip.cpp" id="_f204" line="1" name="my_adder_ip"/>
+</callgraph:CallGraph>

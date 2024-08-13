@@ -1,0 +1,2 @@
+current_fileset
+open_wave_database my_adder_ip.wdb

@@ -1,0 +1,226 @@
+<ENTRY>
+{
+ "thisFile": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\my_adder_ip.hlsrun_cosim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "08/11/24 22:28:46",
+ "timestampMillis": "1104640996",
+ "buildStep": {
+  "cmdId": "315640d9-ae0a-4e04-a596-fb969a4cae80",
+  "name": "vitis-run",
+  "logFile": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\logs\\my_adder_ip.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --cosim --config E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\hls_config.cfg --work_dir my_adder_ip ",
+  "args": [
+   "--mode",
+   "hls",
+   "--cosim",
+   "--config",
+   "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\hls_config.cfg",
+   "--work_dir",
+   "my_adder_ip"
+  ],
+  "iniFiles": [],
+  "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/11/24 22:28:46",
+ "timestampMillis": "1104640996",
+ "status": {
+  "cmdId": "315640d9-ae0a-4e04-a596-fb969a4cae80",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "08/11/24 22:28:50",
+ "timestampMillis": "1104644910",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_RTL_COSIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "my_adder_ip",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "08/11/24 22:28:50",
+ "timestampMillis": "1104644911",
+ "buildStep": {
+  "cmdId": "0794797d-2c1b-44a0-9180-01d61ca77b13",
+  "name": "cosim_design",
+  "logFile": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\hls.log",
+  "commandLine": "cosim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/11/24 22:28:50",
+ "timestampMillis": "1104644912",
+ "status": {
+  "cmdId": "0794797d-2c1b-44a0-9180-01d61ca77b13",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:28:50",
+ "timestampMillis": "1104644912",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\sim\\report\\my_adder_ip_cosim.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_COSIMULATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:28:50",
+ "timestampMillis": "1104644912",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:28:50",
+ "timestampMillis": "1104644912",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH_COSIM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:28:50",
+ "timestampMillis": "1104644912",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_TIMELINE_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:28:50",
+ "timestampMillis": "1104644913",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_WAVE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/11/24 22:29:04",
+ "timestampMillis": "1104659144",
+ "status": {
+  "cmdId": "0794797d-2c1b-44a0-9180-01d61ca77b13",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/11/24 22:29:04",
+ "timestampMillis": "1104659236",
+ "status": {
+  "cmdId": "315640d9-ae0a-4e04-a596-fb969a4cae80",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:29:04",
+ "timestampMillis": "1104659236",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 22:29:04",
+ "timestampMillis": "1104659236",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

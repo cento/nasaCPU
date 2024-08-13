@@ -1,0 +1,407 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 11 22:37:59 2024
+| Host         : Naboo running 64-bit major release  (build 9200)
+| Command      : report_timing -max_paths 10 -file ./report/my_adder_ip_timing_paths_synth.rpt
+| Design       : bd_0_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[29]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        2.888ns  (logic 2.385ns (82.583%)  route 0.503ns (17.417%))
+  Logic Levels:           10  (CARRY4=8 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                         FDRE (Prop_fdre_C_Q)         0.518     0.518 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, unplaced)         0.494     1.012    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+                         LUT2 (Prop_lut2_I0_O)        0.295     1.307 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, unplaced)         0.000     1.307    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+                         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.533     1.840 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.009     1.849    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     1.966 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     1.966    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.083 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.083    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.200 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.200    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.317 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.317    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.434 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.434    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.551 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.551    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.337     2.888 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[31]_i_1/O[1]
+                         net (fo=1, unplaced)         0.000     2.888    bd_0_i/hls_inst/inst/control_s_axi_U/c[29]
+                         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[29]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[31]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        2.882ns  (logic 2.379ns (82.547%)  route 0.503ns (17.453%))
+  Logic Levels:           10  (CARRY4=8 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                         FDRE (Prop_fdre_C_Q)         0.518     0.518 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, unplaced)         0.494     1.012    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+                         LUT2 (Prop_lut2_I0_O)        0.295     1.307 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, unplaced)         0.000     1.307    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+                         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.533     1.840 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.009     1.849    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     1.966 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     1.966    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.083 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.083    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.200 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.200    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.317 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.317    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.434 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.434    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.551 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.551    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_O[3])
+                                                      0.331     2.882 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[31]_i_1/O[3]
+                         net (fo=1, unplaced)         0.000     2.882    bd_0_i/hls_inst/inst/control_s_axi_U/c[31]
+                         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[31]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_c_ap_vld_reg/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/rdata_reg[0]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        2.815ns  (logic 0.937ns (33.286%)  route 1.878ns (66.714%))
+  Logic Levels:           3  (FDRE=1 LUT6=2)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_ap_vld_reg/C
+                         FDRE (Prop_fdre_C_Q)         0.518     0.518 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_ap_vld_reg/Q
+                         net (fo=2, unplaced)         0.976     1.494    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_ap_vld
+                         LUT6 (Prop_lut6_I0_O)        0.295     1.789 r  bd_0_i/hls_inst/inst/control_s_axi_U/rdata[0]_i_3/O
+                         net (fo=1, unplaced)         0.902     2.691    bd_0_i/hls_inst/inst/control_s_axi_U/rdata[0]_i_3_n_0
+                         LUT6 (Prop_lut6_I2_O)        0.124     2.815 r  bd_0_i/hls_inst/inst/control_s_axi_U/rdata[0]_i_1/O
+                         net (fo=1, unplaced)         0.000     2.815    bd_0_i/hls_inst/inst/control_s_axi_U/rdata[0]_i_1_n_0
+                         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/rdata_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[30]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        2.807ns  (logic 2.304ns (82.081%)  route 0.503ns (17.919%))
+  Logic Levels:           10  (CARRY4=8 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                         FDRE (Prop_fdre_C_Q)         0.518     0.518 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, unplaced)         0.494     1.012    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+                         LUT2 (Prop_lut2_I0_O)        0.295     1.307 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, unplaced)         0.000     1.307    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+                         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.533     1.840 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.009     1.849    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     1.966 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     1.966    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.083 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.083    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.200 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.200    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.317 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.317    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.434 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.434    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.551 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.551    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.256     2.807 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[31]_i_1/O[2]
+                         net (fo=1, unplaced)         0.000     2.807    bd_0_i/hls_inst/inst/control_s_axi_U/c[30]
+                         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[30]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[28]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        2.783ns  (logic 2.280ns (81.926%)  route 0.503ns (18.074%))
+  Logic Levels:           10  (CARRY4=8 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                         FDRE (Prop_fdre_C_Q)         0.518     0.518 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, unplaced)         0.494     1.012    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+                         LUT2 (Prop_lut2_I0_O)        0.295     1.307 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, unplaced)         0.000     1.307    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+                         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.533     1.840 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.009     1.849    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     1.966 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     1.966    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.083 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.083    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.200 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.200    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.317 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.317    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.434 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.434    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.551 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.551    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.232     2.783 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[31]_i_1/O[0]
+                         net (fo=1, unplaced)         0.000     2.783    bd_0_i/hls_inst/inst/control_s_axi_U/c[28]
+                         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[28]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[25]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        2.771ns  (logic 2.268ns (81.848%)  route 0.503ns (18.152%))
+  Logic Levels:           9  (CARRY4=7 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                         FDRE (Prop_fdre_C_Q)         0.518     0.518 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, unplaced)         0.494     1.012    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+                         LUT2 (Prop_lut2_I0_O)        0.295     1.307 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, unplaced)         0.000     1.307    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+                         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.533     1.840 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.009     1.849    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     1.966 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     1.966    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.083 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.083    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.200 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.200    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.317 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.317    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.434 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.434    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.337     2.771 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/O[1]
+                         net (fo=1, unplaced)         0.000     2.771    bd_0_i/hls_inst/inst/control_s_axi_U/c[25]
+                         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[25]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        2.765ns  (logic 2.262ns (81.808%)  route 0.503ns (18.192%))
+  Logic Levels:           9  (CARRY4=7 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                         FDRE (Prop_fdre_C_Q)         0.518     0.518 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, unplaced)         0.494     1.012    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+                         LUT2 (Prop_lut2_I0_O)        0.295     1.307 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, unplaced)         0.000     1.307    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+                         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.533     1.840 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.009     1.849    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     1.966 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     1.966    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.083 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.083    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.200 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.200    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.317 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.317    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.434 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.434    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_O[3])
+                                                      0.331     2.765 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/O[3]
+                         net (fo=1, unplaced)         0.000     2.765    bd_0_i/hls_inst/inst/control_s_axi_U/c[27]
+                         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[26]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        2.690ns  (logic 2.187ns (81.301%)  route 0.503ns (18.699%))
+  Logic Levels:           9  (CARRY4=7 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                         FDRE (Prop_fdre_C_Q)         0.518     0.518 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, unplaced)         0.494     1.012    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+                         LUT2 (Prop_lut2_I0_O)        0.295     1.307 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, unplaced)         0.000     1.307    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+                         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.533     1.840 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.009     1.849    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     1.966 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     1.966    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.083 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.083    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.200 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.200    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.317 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.317    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.434 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.434    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.256     2.690 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/O[2]
+                         net (fo=1, unplaced)         0.000     2.690    bd_0_i/hls_inst/inst/control_s_axi_U/c[26]
+                         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[26]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[24]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        2.666ns  (logic 2.163ns (81.133%)  route 0.503ns (18.867%))
+  Logic Levels:           9  (CARRY4=7 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                         FDRE (Prop_fdre_C_Q)         0.518     0.518 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, unplaced)         0.494     1.012    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+                         LUT2 (Prop_lut2_I0_O)        0.295     1.307 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, unplaced)         0.000     1.307    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+                         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.533     1.840 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.009     1.849    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     1.966 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     1.966    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.083 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.083    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.200 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.200    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.317 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.317    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.434 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.434    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.232     2.666 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/O[0]
+                         net (fo=1, unplaced)         0.000     2.666    bd_0_i/hls_inst/inst/control_s_axi_U/c[24]
+                         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[24]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[21]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        2.654ns  (logic 2.151ns (81.047%)  route 0.503ns (18.953%))
+  Logic Levels:           8  (CARRY4=6 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                         FDRE (Prop_fdre_C_Q)         0.518     0.518 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, unplaced)         0.494     1.012    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+                         LUT2 (Prop_lut2_I0_O)        0.295     1.307 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, unplaced)         0.000     1.307    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+                         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.533     1.840 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.009     1.849    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     1.966 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     1.966    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.083 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.083    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.200 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.200    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.117     2.317 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, unplaced)         0.000     2.317    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+                         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.337     2.654 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/O[1]
+                         net (fo=1, unplaced)         0.000     2.654    bd_0_i/hls_inst/inst/control_s_axi_U/c[21]
+                         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[21]/D
+  -------------------------------------------------------------------    -------------------
+
+
+
+

@@ -1,0 +1,7 @@
+{
+  "workspaceRoot": "E:\\nasaCPU\\Vitis2024_workspace",
+  "mapping": {
+    "my_adder_ip\\my_adder_ip.cpp": "my_adder_ip",
+    "my_adder_ip\\testbench_my_adder_ip.cpp": "my_adder_ip"
+  }
+}

@@ -1,0 +1,363 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sun Aug 11 22:39:06 2024
+| Host         : Naboo running 64-bit major release  (build 9200)
+| Command      : report_timing -max_paths 10 -file ./report/my_adder_ip_timing_paths_routed.rpt
+| Design       : bd_0_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[29]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        3.490ns  (logic 2.286ns (65.503%)  route 1.204ns (34.497%))
+  Logic Levels:           10  (CARRY4=8 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y73         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+    SLICE_X28Y73         FDRE (Prop_fdre_C_Q)         0.419     0.419 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, routed)           1.195     1.614    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+    SLICE_X27Y70         LUT2 (Prop_lut2_I0_O)        0.299     1.913 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, routed)           0.000     1.913    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+    SLICE_X27Y70         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     2.463 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.463    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+    SLICE_X27Y71         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.577 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.577    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+    SLICE_X27Y72         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.691 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.691    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+    SLICE_X27Y73         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.805 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.805    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+    SLICE_X27Y74         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.919 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, routed)           0.009     2.928    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+    SLICE_X27Y75         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     3.042 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     3.042    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+    SLICE_X27Y76         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     3.156 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     3.156    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1_n_0
+    SLICE_X27Y77         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.334     3.490 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[31]_i_1/O[1]
+                         net (fo=1, routed)           0.000     3.490    bd_0_i/hls_inst/inst/control_s_axi_U/c[29]
+    SLICE_X27Y77         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[29]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[31]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        3.469ns  (logic 2.265ns (65.294%)  route 1.204ns (34.706%))
+  Logic Levels:           10  (CARRY4=8 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y73         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+    SLICE_X28Y73         FDRE (Prop_fdre_C_Q)         0.419     0.419 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, routed)           1.195     1.614    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+    SLICE_X27Y70         LUT2 (Prop_lut2_I0_O)        0.299     1.913 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, routed)           0.000     1.913    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+    SLICE_X27Y70         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     2.463 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.463    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+    SLICE_X27Y71         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.577 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.577    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+    SLICE_X27Y72         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.691 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.691    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+    SLICE_X27Y73         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.805 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.805    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+    SLICE_X27Y74         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.919 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, routed)           0.009     2.928    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+    SLICE_X27Y75         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     3.042 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     3.042    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+    SLICE_X27Y76         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     3.156 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     3.156    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1_n_0
+    SLICE_X27Y77         CARRY4 (Prop_carry4_CI_O[3])
+                                                      0.313     3.469 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[31]_i_1/O[3]
+                         net (fo=1, routed)           0.000     3.469    bd_0_i/hls_inst/inst/control_s_axi_U/c[31]
+    SLICE_X27Y77         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[31]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[30]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        3.395ns  (logic 2.191ns (64.538%)  route 1.204ns (35.462%))
+  Logic Levels:           10  (CARRY4=8 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y73         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+    SLICE_X28Y73         FDRE (Prop_fdre_C_Q)         0.419     0.419 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, routed)           1.195     1.614    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+    SLICE_X27Y70         LUT2 (Prop_lut2_I0_O)        0.299     1.913 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, routed)           0.000     1.913    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+    SLICE_X27Y70         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     2.463 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.463    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+    SLICE_X27Y71         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.577 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.577    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+    SLICE_X27Y72         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.691 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.691    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+    SLICE_X27Y73         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.805 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.805    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+    SLICE_X27Y74         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.919 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, routed)           0.009     2.928    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+    SLICE_X27Y75         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     3.042 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     3.042    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+    SLICE_X27Y76         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     3.156 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     3.156    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1_n_0
+    SLICE_X27Y77         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.239     3.395 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[31]_i_1/O[2]
+                         net (fo=1, routed)           0.000     3.395    bd_0_i/hls_inst/inst/control_s_axi_U/c[30]
+    SLICE_X27Y77         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[30]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[28]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        3.379ns  (logic 2.175ns (64.370%)  route 1.204ns (35.630%))
+  Logic Levels:           10  (CARRY4=8 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y73         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+    SLICE_X28Y73         FDRE (Prop_fdre_C_Q)         0.419     0.419 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, routed)           1.195     1.614    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+    SLICE_X27Y70         LUT2 (Prop_lut2_I0_O)        0.299     1.913 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, routed)           0.000     1.913    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+    SLICE_X27Y70         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     2.463 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.463    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+    SLICE_X27Y71         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.577 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.577    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+    SLICE_X27Y72         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.691 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.691    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+    SLICE_X27Y73         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.805 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.805    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+    SLICE_X27Y74         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.919 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, routed)           0.009     2.928    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+    SLICE_X27Y75         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     3.042 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     3.042    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+    SLICE_X27Y76         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     3.156 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     3.156    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1_n_0
+    SLICE_X27Y77         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.223     3.379 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[31]_i_1/O[0]
+                         net (fo=1, routed)           0.000     3.379    bd_0_i/hls_inst/inst/control_s_axi_U/c[28]
+    SLICE_X27Y77         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[28]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[25]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        3.376ns  (logic 2.172ns (64.338%)  route 1.204ns (35.662%))
+  Logic Levels:           9  (CARRY4=7 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y73         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+    SLICE_X28Y73         FDRE (Prop_fdre_C_Q)         0.419     0.419 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, routed)           1.195     1.614    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+    SLICE_X27Y70         LUT2 (Prop_lut2_I0_O)        0.299     1.913 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, routed)           0.000     1.913    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+    SLICE_X27Y70         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     2.463 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.463    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+    SLICE_X27Y71         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.577 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.577    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+    SLICE_X27Y72         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.691 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.691    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+    SLICE_X27Y73         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.805 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.805    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+    SLICE_X27Y74         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.919 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, routed)           0.009     2.928    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+    SLICE_X27Y75         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     3.042 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     3.042    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+    SLICE_X27Y76         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.334     3.376 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/O[1]
+                         net (fo=1, routed)           0.000     3.376    bd_0_i/hls_inst/inst/control_s_axi_U/c[25]
+    SLICE_X27Y76         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[25]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        3.355ns  (logic 2.151ns (64.115%)  route 1.204ns (35.885%))
+  Logic Levels:           9  (CARRY4=7 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y73         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+    SLICE_X28Y73         FDRE (Prop_fdre_C_Q)         0.419     0.419 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, routed)           1.195     1.614    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+    SLICE_X27Y70         LUT2 (Prop_lut2_I0_O)        0.299     1.913 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, routed)           0.000     1.913    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+    SLICE_X27Y70         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     2.463 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.463    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+    SLICE_X27Y71         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.577 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.577    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+    SLICE_X27Y72         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.691 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.691    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+    SLICE_X27Y73         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.805 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.805    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+    SLICE_X27Y74         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.919 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, routed)           0.009     2.928    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+    SLICE_X27Y75         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     3.042 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     3.042    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+    SLICE_X27Y76         CARRY4 (Prop_carry4_CI_O[3])
+                                                      0.313     3.355 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/O[3]
+                         net (fo=1, routed)           0.000     3.355    bd_0_i/hls_inst/inst/control_s_axi_U/c[27]
+    SLICE_X27Y76         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]/D
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 ap_rst_n
+                            (input port)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_wstate_reg[1]/R
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        3.349ns  (logic 0.124ns (3.703%)  route 3.225ns (96.297%))
+  Logic Levels:           1  (LUT1=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                                                      0.000     0.000 f  ap_rst_n (IN)
+                         net (fo=0)                   0.973     0.973    bd_0_i/hls_inst/inst/control_s_axi_U/ap_rst_n
+    SLICE_X28Y75         LUT1 (Prop_lut1_I0_O)        0.124     1.097 r  bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_wstate[1]_i_1/O
+                         net (fo=112, routed)         2.252     3.349    bd_0_i/hls_inst/inst/control_s_axi_U/ap_rst_n_inv
+    SLICE_X32Y73         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_wstate_reg[1]/R
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 ap_rst_n
+                            (input port)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_wstate_reg[2]/R
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        3.349ns  (logic 0.124ns (3.703%)  route 3.225ns (96.297%))
+  Logic Levels:           1  (LUT1=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                                                      0.000     0.000 f  ap_rst_n (IN)
+                         net (fo=0)                   0.973     0.973    bd_0_i/hls_inst/inst/control_s_axi_U/ap_rst_n
+    SLICE_X28Y75         LUT1 (Prop_lut1_I0_O)        0.124     1.097 r  bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_wstate[1]_i_1/O
+                         net (fo=112, routed)         2.252     3.349    bd_0_i/hls_inst/inst/control_s_axi_U/ap_rst_n_inv
+    SLICE_X32Y73         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_wstate_reg[2]/R
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 ap_rst_n
+                            (input port)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_wstate_reg[3]/R
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        3.349ns  (logic 0.124ns (3.703%)  route 3.225ns (96.297%))
+  Logic Levels:           1  (LUT1=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                                                      0.000     0.000 f  ap_rst_n (IN)
+                         net (fo=0)                   0.973     0.973    bd_0_i/hls_inst/inst/control_s_axi_U/ap_rst_n
+    SLICE_X28Y75         LUT1 (Prop_lut1_I0_O)        0.124     1.097 r  bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_wstate[1]_i_1/O
+                         net (fo=112, routed)         2.252     3.349    bd_0_i/hls_inst/inst/control_s_axi_U/ap_rst_n_inv
+    SLICE_X32Y73         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/FSM_onehot_wstate_reg[3]/R
+  -------------------------------------------------------------------    -------------------
+
+Slack:                    inf
+  Source:                 bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[26]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        3.281ns  (logic 2.077ns (63.306%)  route 1.204ns (36.694%))
+  Logic Levels:           9  (CARRY4=7 FDRE=1 LUT2=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y73         FDRE                         0.000     0.000 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/C
+    SLICE_X28Y73         FDRE (Prop_fdre_C_Q)         0.419     0.419 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_b_reg[1]/Q
+                         net (fo=4, routed)           1.195     1.614    bd_0_i/hls_inst/inst/control_s_axi_U/b[1]
+    SLICE_X27Y70         LUT2 (Prop_lut2_I0_O)        0.299     1.913 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4/O
+                         net (fo=1, routed)           0.000     1.913    bd_0_i/hls_inst/inst/control_s_axi_U/int_c[3]_i_4_n_0
+    SLICE_X27Y70         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.550     2.463 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.463    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[3]_i_1_n_0
+    SLICE_X27Y71         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.577 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.577    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[7]_i_1_n_0
+    SLICE_X27Y72         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.691 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.691    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[11]_i_1_n_0
+    SLICE_X27Y73         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.805 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.805    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[15]_i_1_n_0
+    SLICE_X27Y74         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.919 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1/CO[3]
+                         net (fo=1, routed)           0.009     2.928    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[19]_i_1_n_0
+    SLICE_X27Y75         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     3.042 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     3.042    bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[23]_i_1_n_0
+    SLICE_X27Y76         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.239     3.281 r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[27]_i_1/O[2]
+                         net (fo=1, routed)           0.000     3.281    bd_0_i/hls_inst/inst/control_s_axi_U/c[26]
+    SLICE_X27Y76         FDRE                                         r  bd_0_i/hls_inst/inst/control_s_axi_U/int_c_reg[26]/D
+  -------------------------------------------------------------------    -------------------
+
+
+
+

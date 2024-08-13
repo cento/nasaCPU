@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# xsim v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Aug 11 22:29:02 2024
+# Process ID: 12796
+# Current directory: E:/nasaCPU/Vitis2024_workspace/my_adder_ip/my_adder_ip/hls/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/my_adder_ip/xsim_script.tcl}
+# Log file: E:/nasaCPU/Vitis2024_workspace/my_adder_ip/my_adder_ip/hls/sim/verilog/xsim.log
+# Journal file: E:/nasaCPU/Vitis2024_workspace/my_adder_ip/my_adder_ip/hls/sim/verilog\xsim.jou
+# Running On        :Naboo
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 9 6900HS with Radeon Graphics        
+# CPU Frequency     :3294 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :33567 MB
+# Swap memory       :9126 MB
+# Total Virtual     :42694 MB
+# Available Virtual :13504 MB
+#-----------------------------------------------------------
+source xsim.dir/my_adder_ip/xsim_script.tcl
+open_wave_config my_adder_ip_dataflow_ana.wcfg
+source my_adder_ip.tcl

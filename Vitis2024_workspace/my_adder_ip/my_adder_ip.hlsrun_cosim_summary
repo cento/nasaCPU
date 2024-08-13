@@ -1,0 +1,82 @@
+<ENTRY>
+{
+ "thisFile": "e:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip.hlsrun_cosim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "08/11/24 16:06:19",
+ "timestampMillis": "1081693910",
+ "buildStep": {
+  "cmdId": "5c6d2f7e-23e2-4bf5-8f61-b3fd73044d58",
+  "name": "vitis-run",
+  "logFile": "e:/nasaCPU\\Vitis2024_workspace\\my_adder_ip\\logs\\my_adder_ip.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --cosim --config E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\hls_config.cfg --work_dir my_adder_ip ",
+  "args": [
+   "--mode",
+   "hls",
+   "--cosim",
+   "--config",
+   "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\hls_config.cfg",
+   "--work_dir",
+   "my_adder_ip"
+  ],
+  "iniFiles": [],
+  "cwd": "e:\\nasaCPU\\Vitis2024_workspace"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/11/24 16:06:19",
+ "timestampMillis": "1081693910",
+ "status": {
+  "cmdId": "5c6d2f7e-23e2-4bf5-8f61-b3fd73044d58",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/11/24 16:06:22",
+ "timestampMillis": "1081697211",
+ "status": {
+  "cmdId": "5c6d2f7e-23e2-4bf5-8f61-b3fd73044d58",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 16:06:22",
+ "timestampMillis": "1081697211",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/11/24 16:06:22",
+ "timestampMillis": "1081697212",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

@@ -1,0 +1,227 @@
+{
+    "rules": {
+        "['E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\my_adder_ip.cpp.0.bc', 'E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\my_adder_ip.cpp.0.bc.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-emit-llvm",
+                "-MD",
+                "-MF",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\my_adder_ip.cpp.0.bc.d",
+                "-fhls",
+                "-hls-syn-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\autopilot",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=my_adder_ip",
+                "-fslxtrace",
+                "my_adder_ip.cpp",
+                "-o",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\my_adder_ip.cpp.0.bc"
+            ],
+            "exectime": 0.046001434326171875,
+            "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+        },
+        "['E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\testbench_my_adder_ip.cpp.0.o', 'E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\testbench_my_adder_ip.cpp.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\testbench_my_adder_ip.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=my_adder_ip",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "testbench_my_adder_ip.cpp",
+                "-o",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\testbench_my_adder_ip.cpp.0.o"
+            ],
+            "exectime": 0.04751849174499512,
+            "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+        },
+        "['E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\my_adder_ip.cpp.0.o', 'E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\my_adder_ip.cpp.0.o.d']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang.exe",
+                "-c",
+                "-MD",
+                "-MF",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\my_adder_ip.cpp.0.o.d",
+                "-fhls-tb",
+                "-hls-sim-headers-dir=c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\include",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt",
+                "-fhlstoplevel=my_adder_ip",
+                "-fslxskipfunctionbody",
+                "-fslxtrace",
+                "my_adder_ip.cpp",
+                "-o",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\my_adder_ip.cpp.0.o"
+            ],
+            "exectime": 0.03299736976623535,
+            "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+        },
+        "['E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/llvm-link.exe",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\my_adder_ip.cpp.0.bc",
+                "-o",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc"
+            ],
+            "exectime": 0.015000581741333008,
+            "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+        },
+        "['E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\syn_srcs.opt.bc']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/opt.exe",
+                "-check-single-toplevel",
+                "-make-non-toplevel-internal",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.bc",
+                "-o",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc"
+            ],
+            "exectime": 0.021996498107910156,
+            "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+        },
+        "['E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\build\\\\app.exe']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/clang++.exe",
+                "-o",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\testbench_my_adder_ip.cpp.0.o",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\my_adder_ip.cpp.0.o",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\syn_srcs.opt.bc",
+                "-fhls",
+                "-fhlstoplevel=my_adder_ip",
+                "-vitis-hls=C:\\Xilinx\\Vitis_HLS\\2024.1",
+                "-fslxtrace",
+                "-Wl,-mllvm,-profilerOutputDirectory=E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\profiler\\0",
+                "-fslxpthreads",
+                "-lpthread",
+                "--sysroot=C:\\Xilinx\\Vitis_HLS\\2024.1\\tps\\mingw\\10.0.0\\win64.o\\nt"
+            ],
+            "exectime": 0.17471742630004883,
+            "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+        },
+        "['E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\instrument\\\\app_0\\\\binary_dependencies.json']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\libexec\\clang-scan-deps.exe",
+                "--compilation-database=E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\compile_commands.json",
+                "--format=vitiscxx",
+                "--reuse-filemanager=false",
+                "--output=E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\binary_dependencies.json"
+            ],
+            "exectime": 0.032475948333740234,
+            "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+        },
+        "['E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\output\\\\app.functionGraph']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/staticCallGraph.exe",
+                "-i",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "-o",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\output\\app.functionGraph"
+            ],
+            "exectime": 0.06800675392150879,
+            "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+        },
+        "['E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\output\\\\app.functionMapping']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/functionMapper.exe",
+                "--static-xml",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "--function-mapping",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\output\\app.functionMapping",
+                "--ir-module",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "--fn",
+                "204"
+            ],
+            "exectime": 0.04152369499206543,
+            "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+        },
+        "['E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stdout.txt', 'E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\bin\\\\.tracing_stderr.txt']": {
+            "command": [
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\build\\app.exe"
+            ],
+            "exectime": 0.03500223159790039,
+            "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\tracing\\csim\\build"
+        },
+        "['E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\output\\\\reduced_programmodel.app']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/optimizer.exe",
+                "-DFGPass",
+                "-appName=app",
+                "-outputDir",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\output",
+                "-logDir",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\log",
+                "-pmout=E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\output\\reduced_programmodel.app",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "-staticFile",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "-traceFile",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\profiler\\0\\app_0_0\\thread0000-trace.txt",
+                "-o",
+                "nul"
+            ],
+            "exectime": 0.04551982879638672,
+            "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+        },
+        "['E:\\\\nasaCPU\\\\Vitis2024_workspace\\\\my_adder_ip\\\\my_adder_ip\\\\hls\\\\csim\\\\code_analyzer\\\\.internal\\\\dataflow\\\\0\\\\taskgraph.json']": {
+            "command": [
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\/libexec/parallelismSelector.exe",
+                "-g",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\output\\reduced_programmodel.app",
+                "--basepath",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip",
+                "--static-xml",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\static.xml",
+                "--fpga-part",
+                "xc7z020-clg400-1",
+                "--device-totals",
+                "c:\\xilinx\\vitis_hls\\2024.1\\vcxx\\data\\platform\\logic\\fpga.devicetotals",
+                "--clock-frequency",
+                "100.0",
+                "--out-dir",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\output",
+                "--log-dir",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\log",
+                "--mapping",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\output\\app.functionMapping",
+                "--objective",
+                "none",
+                "--performance-target",
+                "target_both",
+                "--max-array-optimization-factor",
+                "1024",
+                "--complete-partition-limit",
+                "4",
+                "--lut-constraint",
+                "100.0",
+                "--ff-constraint",
+                "100.0",
+                "--dsp-constraint",
+                "100.0",
+                "--bram-constraint",
+                "100.0",
+                "--uram-constraint",
+                "100.0",
+                "--ir-module",
+                "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip\\my_adder_ip\\hls\\csim\\code_analyzer\\.internal\\instrument\\app_0\\project.symbols.bc",
+                "--max-iterations",
+                "1000",
+                "--max-iterations-branch-full-log",
+                "20",
+                "--df-id",
+                "0",
+                "--df-target",
+                "%F204"
+            ],
+            "exectime": 0.7186355590820312,
+            "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\my_adder_ip"
+        }
+    }
+}

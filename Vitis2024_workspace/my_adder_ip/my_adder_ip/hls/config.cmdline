@@ -1,0 +1,3 @@
+relativeroot=E:/nasaCPU/Vitis2024_workspace/my_adder_ip
+original_argv=--mode hls --impl --config E:\nasaCPU\Vitis2024_workspace\my_adder_ip\hls_config.cfg --work_dir my_adder_ip 
+
