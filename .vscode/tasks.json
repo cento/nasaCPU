@@ -6,6 +6,9 @@
 			"label": "C/C++: riscv-none-elf-gcc-14.2.0.exe build active file",
 			"command": "C:\\Users\\monde\\AppData\\Roaming\\xPacks\\@xpack-dev-tools\\riscv-none-elf-gcc\\14.2.0-1.1\\.content\\bin\\riscv-none-elf-gcc-14.2.0.exe",
 			"args": [
+				"-march=rv32i_zicsr_zifencei",
+				"-mabi=ilp32",
+				"-mcmodel=medany",
 				"-fdiagnostics-color=always",
 				"-g",
 				"${file}",
@@ -41,7 +44,7 @@
 				"kind": "none",
 				"isDefault": true
 			},
-			// "detail": "compiler: C:\\Users\\monde\\AppData\\Roaming\\xPacks\\@xpack-dev-tools\\riscv-none-elf-gcc\\14.2.0-1.1\\.content\\bin\\riscv-none-elf-objdump.exe"
+			"problemMatcher": []
 		}
 	]
 }
