@@ -23,6 +23,25 @@
 				"isDefault": true
 			},
 			"detail": "compiler: C:\\Users\\monde\\AppData\\Roaming\\xPacks\\@xpack-dev-tools\\riscv-none-elf-gcc\\14.2.0-1.1\\.content\\bin\\riscv-none-elf-gcc-14.2.0.exe"
+		},
+		{
+			"type": "shell",
+			"label": "C/C++: riscv-none-elf-objdump.exe  active file",
+			"command": "C:\\Users\\monde\\AppData\\Roaming\\xPacks\\@xpack-dev-tools\\riscv-none-elf-gcc\\14.2.0-1.1\\.content\\bin\\riscv-none-elf-objdump.exe",
+			"args": [
+				"-d",
+				"${file}",
+				">",
+				"${fileDirname}\\${fileBasenameNoExtension}.dump"
+			],
+			"options": {
+				"cwd": "C:\\Users\\monde\\AppData\\Roaming\\xPacks\\@xpack-dev-tools\\riscv-none-elf-gcc\\14.2.0-1.1\\.content\\bin"
+			},
+			"group": {
+				"kind": "none",
+				"isDefault": true
+			},
+			// "detail": "compiler: C:\\Users\\monde\\AppData\\Roaming\\xPacks\\@xpack-dev-tools\\riscv-none-elf-gcc\\14.2.0-1.1\\.content\\bin\\riscv-none-elf-objdump.exe"
 		}
 	]
 }

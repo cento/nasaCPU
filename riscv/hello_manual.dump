@@ -1,5 +1,5 @@
 
-E:\nasaCPU\riscv\hello.elf:     file format elf32-littleriscv
+.\hello:     file format elf32-littleriscv
 
 
 Disassembly of section .text:
