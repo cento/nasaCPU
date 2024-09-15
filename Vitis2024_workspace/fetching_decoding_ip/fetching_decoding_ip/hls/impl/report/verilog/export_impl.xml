@@ -1,0 +1,156 @@
+<profile>
+  <RunData>
+    <RUN_TYPE>impl</RUN_TYPE>
+    <VIVADO_VERSION>v.2024.1</VIVADO_VERSION>
+    <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+  </RunData>
+  <TimingReport>
+    <TargetClockPeriod>10.000</TargetClockPeriod>
+    <AchievedClockPeriod>8.373</AchievedClockPeriod>
+    <CLOCK_NAME>ap_clk</CLOCK_NAME>
+    <CP_FINAL>8.373</CP_FINAL>
+    <CP_ROUTE>8.373</CP_ROUTE>
+    <CP_SYNTH>5.940</CP_SYNTH>
+    <CP_TARGET>10.000</CP_TARGET>
+    <SLACK_FINAL>1.627</SLACK_FINAL>
+    <SLACK_ROUTE>1.627</SLACK_ROUTE>
+    <SLACK_SYNTH>4.060</SLACK_SYNTH>
+    <TIMING_MET>TRUE</TIMING_MET>
+    <TNS_FINAL>0.000</TNS_FINAL>
+    <TNS_ROUTE>0.000</TNS_ROUTE>
+    <TNS_SYNTH>0.000</TNS_SYNTH>
+    <WNS_FINAL>1.627</WNS_FINAL>
+    <WNS_ROUTE>1.627</WNS_ROUTE>
+    <WNS_SYNTH>4.060</WNS_SYNTH>
+  </TimingReport>
+  <AreaReport>
+    <Resources>
+      <BRAM>128</BRAM>
+      <CLB>0</CLB>
+      <DSP>0</DSP>
+      <FF>1019</FF>
+      <LATCH>0</LATCH>
+      <LUT>340</LUT>
+      <SLICE>425</SLICE>
+      <SRL>0</SRL>
+      <URAM>0</URAM>
+    </Resources>
+    <AvailableResources>
+      <BRAM>280</BRAM>
+      <CLB>0</CLB>
+      <DSP>220</DSP>
+      <FF>106400</FF>
+      <LUT>53200</LUT>
+      <SLICE>13300</SLICE>
+      <URAM>0</URAM>
+    </AvailableResources>
+  </AreaReport>
+  <RtlModules>
+    <RtlModule CELL="inst" DEPTH="0" IS_TOP="1" TYPE="function" MODULENAME="fetching_decoding_ip" DISPNAME="inst" RTLNAME="fetching_decoding_ip">
+      <SubModules count="4">control_s_axi_U flow_control_loop_delay_pipe_U grp_decode_fu_96 grp_fetch_fu_89</SubModules>
+      <Resources BRAM="128" FF="1019" LUT="340"/>
+      <LocalResources FF="853" LUT="2"/>
+    </RtlModule>
+    <RtlModule CELL="inst/control_s_axi_U" DEPTH="1" TYPE="resource" MODULENAME="control_s_axi" DISPNAME="control_s_axi_U" RTLNAME="fetching_decoding_ip_control_s_axi">
+      <Resources BRAM="128" FF="141" LUT="291"/>
+      <LocalResources FF="133" LUT="90"/>
+      <BindNode BINDTYPE="adapter" BRAM="128" BUNDLEDNAME="control" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="control_s_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="s_axilite" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
+    </RtlModule>
+    <RtlModule CELL="inst/flow_control_loop_delay_pipe_U" DEPTH="1" TYPE="rtl" MODULENAME="flow_control_loop_delay_pipe" DISPNAME="flow_control_loop_delay_pipe_U" RTLNAME="fetching_decoding_ip_flow_control_loop_delay_pipe">
+      <Resources FF="2" LUT="18"/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_decode_fu_96" DEPTH="1" TYPE="function" MODULENAME="decode" DISPNAME="grp_decode_fu_96" RTLNAME="fetching_decoding_ip_decode">
+      <Resources FF="21" LUT="26"/>
+    </RtlModule>
+    <RtlModule CELL="inst/grp_fetch_fu_89" DEPTH="1" TYPE="function" MODULENAME="fetch" DISPNAME="grp_fetch_fu_89" RTLNAME="fetching_decoding_ip_fetch">
+      <Resources FF="2" LUT="7"/>
+    </RtlModule>
+  </RtlModules>
+  <TimingPaths>
+    <TPATH DATAPATH_DELAY="8.366" DATAPATH_LOGIC_DELAY="3.865" DATAPATH_NET_DELAY="4.501" ENDPOINT_PIN="ap_loop_exit_ready_pp0_iter1_reg_reg/D" LOGIC_LEVELS="4" MAX_FANOUT="2" SLACK="1.627" STARTPOINT_PIN="control_s_axi_U/int_code_ram/mem_reg_1_0_7/CLKBWRCLK">
+      <CELL NAME="control_s_axi_U/int_code_ram/mem_reg_1_0_7" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="577" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/mem_reg_1_1_7" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="577" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/rewind_ap_ready_reg_i_9" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="170" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/rewind_ap_ready_reg_i_4" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="170" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/ap_loop_exit_ready_pp0_iter1_reg_i_1" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="170" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="ap_loop_exit_ready_pp0_iter1_reg_reg" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="fetching_decoding_ip.v" LINE_NUMBER="326"/>
+      <MODULE_INSTANCES>control_s_axi_U grp_decode_fu_96</MODULE_INSTANCES>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="8.225" DATAPATH_LOGIC_DELAY="3.865" DATAPATH_NET_DELAY="4.360" ENDPOINT_PIN="flow_control_loop_delay_pipe_U/rewind_ap_ready_reg_reg/D" LOGIC_LEVELS="4" MAX_FANOUT="2" SLACK="1.768" STARTPOINT_PIN="control_s_axi_U/int_code_ram/mem_reg_1_0_7/CLKBWRCLK">
+      <CELL NAME="control_s_axi_U/int_code_ram/mem_reg_1_0_7" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="577" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/mem_reg_1_1_7" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="577" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/rewind_ap_ready_reg_i_9" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="170" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/rewind_ap_ready_reg_i_4" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="170" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/rewind_ap_ready_reg_i_1" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="fetching_decoding_ip_flow_control_loop_delay_pipe.v" LINE_NUMBER="87" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="flow_control_loop_delay_pipe_U/rewind_ap_ready_reg_reg" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="fetching_decoding_ip_flow_control_loop_delay_pipe.v" LINE_NUMBER="87"/>
+      <MODULE_INSTANCES>control_s_axi_U grp_decode_fu_96</MODULE_INSTANCES>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="8.062" DATAPATH_LOGIC_DELAY="3.865" DATAPATH_NET_DELAY="4.197" ENDPOINT_PIN="is_running_reg_187_reg[0]/D" LOGIC_LEVELS="4" MAX_FANOUT="2" SLACK="1.933" STARTPOINT_PIN="control_s_axi_U/int_code_ram/mem_reg_1_0_7/CLKBWRCLK">
+      <CELL NAME="control_s_axi_U/int_code_ram/mem_reg_1_0_7" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="577" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/mem_reg_1_1_7" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="577" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/rewind_ap_ready_reg_i_9" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="170" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/ap_loop_init_i_3" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="170" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/is_running_reg_187[0]_i_1" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="fetching_decoding_ip.v" LINE_NUMBER="354" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="is_running_reg_187_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="fetching_decoding_ip.v" LINE_NUMBER="354"/>
+      <MODULE_INSTANCES>control_s_axi_U grp_decode_fu_96</MODULE_INSTANCES>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="7.729" DATAPATH_LOGIC_DELAY="4.099" DATAPATH_NET_DELAY="3.630" ENDPOINT_PIN="grp_decode_fu_96/d_i_type_write_assign_reg_92_reg[1]/D" LOGIC_LEVELS="4" MAX_FANOUT="9" SLACK="2.218" STARTPOINT_PIN="control_s_axi_U/int_code_ram/mem_reg_0_0_4/CLKBWRCLK">
+      <CELL NAME="control_s_axi_U/int_code_ram/mem_reg_0_0_4" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="577" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/mem_reg_0_1_4" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="577" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/d_i_type_write_assign_reg_92[2]_i_6" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="170" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/d_i_type_write_assign_reg_92[2]_i_2" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="170" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/d_i_type_write_assign_reg_92[1]_i_1" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="170" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="grp_decode_fu_96/d_i_type_write_assign_reg_92_reg[1]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="fetching_decoding_ip_decode.v" LINE_NUMBER="84" MODULE_INSTNAME="grp_decode_fu_96" IS_FUNCINST="0"/>
+      <MODULE_INSTANCES>control_s_axi_U grp_decode_fu_96</MODULE_INSTANCES>
+    </TPATH>
+    <TPATH DATAPATH_DELAY="7.778" DATAPATH_LOGIC_DELAY="3.865" DATAPATH_NET_DELAY="3.913" ENDPOINT_PIN="flow_control_loop_delay_pipe_U/ap_loop_init_reg/D" LOGIC_LEVELS="4" MAX_FANOUT="2" SLACK="2.219" STARTPOINT_PIN="control_s_axi_U/int_code_ram/mem_reg_1_0_7/CLKBWRCLK">
+      <CELL NAME="control_s_axi_U/int_code_ram/mem_reg_1_0_7" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="577" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/mem_reg_1_1_7" PRIMITIVE_TYPE="BMEM.bram.RAMB36E1" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="577" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/rewind_ap_ready_reg_i_9" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="170" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/ap_loop_init_i_3" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="170" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="control_s_axi_U/int_code_ram/ap_loop_init_i_1" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="fetching_decoding_ip_control_s_axi.v" LINE_NUMBER="170" MODULE_INSTNAME="control_s_axi_U" IS_FUNCINST="0"/>
+      <CELL NAME="flow_control_loop_delay_pipe_U/ap_loop_init_reg" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="fetching_decoding_ip_flow_control_loop_delay_pipe.v" LINE_NUMBER="77"/>
+      <MODULE_INSTANCES>control_s_axi_U grp_decode_fu_96</MODULE_INSTANCES>
+    </TPATH>
+  </TimingPaths>
+  <VivadoReportFiles>
+    <ReportFile TYPE="design_analysis" PATH="verilog/report/fetching_decoding_ip_design_analysis_routed.rpt"/>
+    <ReportFile TYPE="failfast" PATH="verilog/report/fetching_decoding_ip_failfast_routed.rpt"/>
+    <ReportFile TYPE="status" PATH="verilog/report/fetching_decoding_ip_status_routed.rpt"/>
+    <ReportFile TYPE="timing" PATH="verilog/report/fetching_decoding_ip_timing_routed.rpt"/>
+    <ReportFile TYPE="timing_paths" PATH="verilog/report/fetching_decoding_ip_timing_paths_routed.rpt"/>
+    <ReportFile TYPE="utilization" PATH="verilog/report/fetching_decoding_ip_utilization_routed.rpt"/>
+    <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/fetching_decoding_ip_utilization_hierarchical_routed.rpt"/>
+  </VivadoReportFiles>
+  <GeneralInfo NAME="General Information">
+    <item NAME="Date" VALUE="Tue Sep 03 20:07:13 +0800 2024"/>
+    <item NAME="Version" VALUE="2024.1 (Build 5069499 on May 21 2024)"/>
+    <item NAME="Project" VALUE="fetching_decoding_ip"/>
+    <item NAME="Solution" VALUE="hls (Vivado IP Flow Target)"/>
+    <item NAME="Product family" VALUE="zynq"/>
+    <item NAME="Target device" VALUE="xc7z020-clg400-1"/>
+  </GeneralInfo>
+  <RunOptions NAME="Run Constraints &amp; Options">
+    <General NAME="Design Constraints &amp; Options">
+      <item NAME="Place &amp; Route target clock" VALUE="10 ns"/>
+      <item NAME="C-Synthesis target clock" VALUE=""/>
+      <item NAME="C-Synthesis uncertainty" VALUE="27%"/>
+      <item NAME="config_export -ip_xdc_file" VALUE=""/>
+      <item NAME="config_export -ip_xdc_ooc_file" VALUE=""/>
+    </General>
+    <Syn NAME="RTL Synthesis Options">
+      <item NAME="config_export -vivado_synth_strategy" VALUE="default"/>
+      <item NAME="config_export -vivado_synth_design_args" VALUE="-directive sdx_optimization_effort_high"/>
+    </Syn>
+    <Impl NAME="Place &amp; Route Options">
+      <item NAME="config_export -vivado_impl_strategy" VALUE="default"/>
+      <item NAME="config_export -vivado_phys_opt" VALUE="auto"/>
+      <item NAME="config_export -vivado_pblock" VALUE=""/>
+    </Impl>
+    <Reporting NAME="Reporting Options">
+      <item NAME="config_export -vivado_report_level" VALUE="2"/>
+      <item NAME="config_export -vivado_max_timing_paths" VALUE="10"/>
+    </Reporting>
+  </RunOptions>
+</profile>
+

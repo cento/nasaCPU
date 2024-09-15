@@ -1,0 +1,39 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Tue Sep  3 20:05:33 2024
+| Host         : Naboo running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 6 -file ./report/fetching_decoding_ip_utilization_hierarchical_synth.rpt
+| Design       : bd_0_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------------------------+-------------------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+|                Instance                |                               Module                              | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++----------------------------------------+-------------------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+| bd_0_wrapper                           |                                                             (top) |        339 |        339 |       0 |    0 | 1011 |     64 |      0 |          0 |
+|   bd_0_i                               |                                                              bd_0 |        339 |        339 |       0 |    0 | 1011 |     64 |      0 |          0 |
+|     hls_inst                           |                                                   bd_0_hls_inst_0 |        339 |        339 |       0 |    0 | 1011 |     64 |      0 |          0 |
+|       (hls_inst)                       |                                                   bd_0_hls_inst_0 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|       inst                             |                              bd_0_hls_inst_0_fetching_decoding_ip |        339 |        339 |       0 |    0 | 1011 |     64 |      0 |          0 |
+|         (inst)                         |                              bd_0_hls_inst_0_fetching_decoding_ip |          2 |          2 |       0 |    0 |  853 |      0 |      0 |          0 |
+|         control_s_axi_U                |                bd_0_hls_inst_0_fetching_decoding_ip_control_s_axi |        286 |        286 |       0 |    0 |  133 |     64 |      0 |          0 |
+|           (control_s_axi_U)            |                bd_0_hls_inst_0_fetching_decoding_ip_control_s_axi |         91 |         91 |       0 |    0 |  133 |      0 |      0 |          0 |
+|           int_code_ram                 |            bd_0_hls_inst_0_fetching_decoding_ip_control_s_axi_ram |        195 |        195 |       0 |    0 |    0 |     64 |      0 |          0 |
+|         flow_control_loop_delay_pipe_U | bd_0_hls_inst_0_fetching_decoding_ip_flow_control_loop_delay_pipe |         18 |         18 |       0 |    0 |    2 |      0 |      0 |          0 |
+|         grp_decode_fu_96               |                       bd_0_hls_inst_0_fetching_decoding_ip_decode |         26 |         26 |       0 |    0 |   21 |      0 |      0 |          0 |
+|         grp_fetch_fu_89                |                        bd_0_hls_inst_0_fetching_decoding_ip_fetch |          7 |          7 |       0 |    0 |    2 |      0 |      0 |          0 |
++----------------------------------------+-------------------------------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+
+

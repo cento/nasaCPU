@@ -1,0 +1,171 @@
+<ENTRY>
+{
+ "thisFile": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip_v2\\fetching_decoding_ip\\fetching_decoding_ip.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "09/01/24 13:06:10",
+ "timestampMillis": "2885284809",
+ "buildStep": {
+  "cmdId": "39fb880f-1eed-4e2e-bf03-e335ef957ee5",
+  "name": "vitis-run",
+  "logFile": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip_v2\\fetching_decoding_ip\\logs\\fetching_decoding_ip.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config E:\\nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip_v2\\hls_config.cfg --work_dir fetching_decoding_ip ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "E:\\nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip_v2\\hls_config.cfg",
+   "--work_dir",
+   "fetching_decoding_ip"
+  ],
+  "iniFiles": [],
+  "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip_v2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "09/01/24 13:06:10",
+ "timestampMillis": "2885284810",
+ "status": {
+  "cmdId": "39fb880f-1eed-4e2e-bf03-e335ef957ee5",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "09/01/24 13:06:16",
+ "timestampMillis": "2885290494",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "fetching_decoding_ip",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\debug_fetching_decoding_ip.h",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\decode.cpp",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\decode.h",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\execute.cpp",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\execute.h",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\fetch.cpp",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\fetch.h",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\fetching_decoding_ip.cpp",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\fetching_decoding_ip.h",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\immediate.cpp",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\immediate.h",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\print.cpp",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\print.h",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\type.cpp",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\type.h",
+     "E:/goossens-book-ip-projects\\2022.1\\fetching_decoding_ip\\test_op_imm_0_text.hex"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "09/01/24 13:06:16",
+ "timestampMillis": "2885290496",
+ "buildStep": {
+  "cmdId": "32c4dd2e-1d49-420d-85a4-1be7775a4d37",
+  "name": "csim_design",
+  "logFile": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip_v2\\fetching_decoding_ip\\hls\\hls.log",
+  "commandLine": "csim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip_v2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "09/01/24 13:06:16",
+ "timestampMillis": "2885290496",
+ "status": {
+  "cmdId": "32c4dd2e-1d49-420d-85a4-1be7775a4d37",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "09/01/24 13:06:18",
+ "timestampMillis": "2885292610",
+ "status": {
+  "cmdId": "32c4dd2e-1d49-420d-85a4-1be7775a4d37",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "09/01/24 13:06:18",
+ "timestampMillis": "2885292737",
+ "status": {
+  "cmdId": "39fb880f-1eed-4e2e-bf03-e335ef957ee5",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "09/01/24 13:06:18",
+ "timestampMillis": "2885292737",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "09/01/24 13:06:18",
+ "timestampMillis": "2885292737",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

@@ -1,0 +1,24 @@
+
+
+Implementation tool: Xilinx Vivado v.2024.1
+Project:             fetching_ip
+Solution:            hls
+Device target:       xc7z020-clg400-1
+Report date:         Sun Aug 18 12:19:23 +0800 2024
+
+#=== Post-Implementation Resource usage ===
+SLICE:          186
+LUT:            289
+FF:             226
+DSP:              0
+BRAM:           128
+URAM:             0
+LATCH:            0
+SRL:              0
+CLB:              0
+
+#=== Final timing ===
+CP required:                     10.000
+CP achieved post-synthesis:      7.192
+CP achieved post-implementation: 8.775
+Timing met

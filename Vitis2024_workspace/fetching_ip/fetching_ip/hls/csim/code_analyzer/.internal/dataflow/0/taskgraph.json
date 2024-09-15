@@ -1,0 +1,257 @@
+[
+    {
+        "name": "_Z11fetching_ipjPj",
+        "df_function": "%F294",
+        "df_type": "Function",
+        "project": "SLX",
+        "processes": {
+            "1": {
+                "id": "1",
+                "name": "Artificial<Start>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                        "line": 13,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                        "line": 29,
+                        "column": 1
+                    }
+                },
+                "display_name": "<START>",
+                "kind": "start"
+            },
+            "2": {
+                "id": "2",
+                "name": "Artificial<End>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                        "line": 13,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                        "line": 29,
+                        "column": 1
+                    }
+                },
+                "display_name": "<END>",
+                "kind": "end"
+            },
+            "3": {
+                "id": "3",
+                "name": "Region<OutlineCall(R2 fetching_ip) BB 'codeRepl' [Loop] 'Outline_T3_F294_R2_Loop'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                        "line": 23,
+                        "column": 5
+                    },
+                    "end_loc": {
+                        "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                        "line": 28,
+                        "column": 24
+                    }
+                },
+                "display_name": "Process 1",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                                    "line": 15,
+                                    "column": 0
+                                },
+                                "id": "VId_153_[?(?,32)]dc",
+                                "name": "code_ram[*]",
+                                "display_name": "unsigned int code_ram[65536]"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "is_exact": false,
+                                        "is_empty": false
+                                    },
+                                    "instr": "load",
+                                    "exec_count": 14
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 1
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 170
+                },
+                "subregions": [
+                    {
+                        "id": "%F298_R2",
+                        "description": "<loop 'do.hdr'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                                "line": 23,
+                                "column": 5
+                            },
+                            "end_loc": {
+                                "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                                "line": 28,
+                                "column": 24
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": [
+                    {
+                        "id": "%F295",
+                        "region_type": "Function",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                                "line": 26,
+                                "column": 9
+                            },
+                            "end_loc": {
+                                "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                                "line": 26,
+                                "column": 24
+                            }
+                        }
+                    },
+                    {
+                        "id": "%F296",
+                        "region_type": "Function",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                                "line": 27,
+                                "column": 9
+                            },
+                            "end_loc": {
+                                "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                                "line": 27,
+                                "column": 60
+                            }
+                        }
+                    }
+                ],
+                "guidance": [
+                    {
+                        "type": "LoopGuidance",
+                        "ti": {
+                            "min": 168,
+                            "max": 168
+                        },
+                        "ii": {
+                            "min": 12,
+                            "max": 12
+                        },
+                        "effective_tc": {
+                            "min": 14,
+                            "max": 14
+                        },
+                        "tc": {
+                            "min": 14,
+                            "max": 14
+                        },
+                        "ureg_id": "%L1",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                                "line": 23,
+                                "column": 5
+                            },
+                            "end_loc": {
+                                "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                                "line": 28,
+                                "column": 24
+                            }
+                        },
+                        "details": []
+                    },
+                    {
+                        "type": "CallGuidance",
+                        "ti": {
+                            "min": 5,
+                            "max": 5
+                        },
+                        "ureg_id": "%F295",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                                "line": 26,
+                                "column": 9
+                            },
+                            "end_loc": {
+                                "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                                "line": 26,
+                                "column": 24
+                            }
+                        }
+                    },
+                    {
+                        "type": "CallGuidance",
+                        "ti": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "ureg_id": "%F296",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                                "line": 27,
+                                "column": 9
+                            },
+                            "end_loc": {
+                                "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                                "line": 27,
+                                "column": 60
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "channels": {
+            "code_ram[*]_RAW_1_3_#0": {
+                "name": "code_ram[*]_RAW_1_3_#0",
+                "variable_id": "VId_153_[?(?,32)]dc",
+                "variable_name": "code_ram[*]",
+                "declaration": "unsigned int code_ram[65536]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 32,
+                "src_loc": {
+                    "file": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+                    "line": 15,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 448,
+                    "channel_rate": 2.635294117647059E0
+                },
+                "source": "1",
+                "sink": "3"
+            }
+        },
+        "control": [
+            {
+                "source": "1",
+                "sink": "3"
+            },
+            {
+                "source": "3",
+                "sink": "2"
+            }
+        ]
+    }
+]

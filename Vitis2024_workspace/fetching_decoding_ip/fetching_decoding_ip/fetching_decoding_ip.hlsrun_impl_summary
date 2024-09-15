@@ -1,0 +1,285 @@
+<ENTRY>
+{
+ "thisFile": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetching_decoding_ip\\fetching_decoding_ip.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "09/03/24 20:03:11",
+ "timestampMillis": "3083105342",
+ "buildStep": {
+  "cmdId": "c4a6d02f-4910-445d-a695-8b0c5794d9fc",
+  "name": "vitis-run",
+  "logFile": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetching_decoding_ip\\logs\\fetching_decoding_ip.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config E:\\nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\hls_config.cfg --work_dir fetching_decoding_ip ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "E:\\nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\hls_config.cfg",
+   "--work_dir",
+   "fetching_decoding_ip"
+  ],
+  "iniFiles": [],
+  "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "09/03/24 20:03:11",
+ "timestampMillis": "3083105342",
+ "status": {
+  "cmdId": "c4a6d02f-4910-445d-a695-8b0c5794d9fc",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "09/03/24 20:03:16",
+ "timestampMillis": "3083110672",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "fetching_decoding_ip",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetching_decoding_ip.cpp",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetching_decoding_ip.h",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetch.h",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\execute.h",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetch.cpp",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\execute.cpp",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\decode.cpp",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\decode.h",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\type.cpp",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\type.h",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\immediate.h",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\immediate.cpp",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\debug_fetching_decoding_ip.h",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\print.h",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\print.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "09/03/24 20:03:16",
+ "timestampMillis": "3083110674",
+ "buildStep": {
+  "cmdId": "75de4564-efe8-4be0-b4bd-ebb47e09aa5f",
+  "name": "export_design",
+  "logFile": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetching_decoding_ip\\hls\\hls.log",
+  "commandLine": "export_design -flow impl",
+  "args": [
+   "-flow",
+   "impl"
+  ],
+  "iniFiles": [],
+  "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "09/03/24 20:03:16",
+ "timestampMillis": "3083110674",
+ "status": {
+  "cmdId": "75de4564-efe8-4be0-b4bd-ebb47e09aa5f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "09/03/24 20:03:16",
+ "timestampMillis": "3083110675",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetching_decoding_ip\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "09/03/24 20:03:16",
+ "timestampMillis": "3083110675",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetching_decoding_ip\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "09/03/24 20:03:16",
+ "timestampMillis": "3083110675",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetching_decoding_ip\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "09/03/24 20:03:16",
+ "timestampMillis": "3083110676",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetching_decoding_ip\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "09/03/24 20:03:16",
+ "timestampMillis": "3083110676",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetching_decoding_ip\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "09/03/24 20:03:16",
+ "timestampMillis": "3083110676",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetching_decoding_ip\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "09/03/24 20:07:13",
+ "timestampMillis": "3083348178",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetching_decoding_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "09/03/24 20:07:13",
+ "timestampMillis": "3083348178",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_decoding_ip\\fetching_decoding_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "09/03/24 20:07:13",
+ "timestampMillis": "3083348178",
+ "status": {
+  "cmdId": "75de4564-efe8-4be0-b4bd-ebb47e09aa5f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "09/03/24 20:07:13",
+ "timestampMillis": "3083348256",
+ "status": {
+  "cmdId": "c4a6d02f-4910-445d-a695-8b0c5794d9fc",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "09/03/24 20:07:13",
+ "timestampMillis": "3083348256",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "09/03/24 20:07:13",
+ "timestampMillis": "3083348256",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

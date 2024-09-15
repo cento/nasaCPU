@@ -1,0 +1,7 @@
+#ifndef __DEBUG_FETCHING_DECODING_IP
+#define __DEBUG_FETCHING_DECODING_IP
+
+#define DEBUG_FETCH
+#define DEBUG_DECODE
+
+#endif

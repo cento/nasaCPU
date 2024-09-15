@@ -1,0 +1,277 @@
+<ENTRY>
+{
+ "thisFile": "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip\\fetching_ip.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "08/18/24 12:15:39",
+ "timestampMillis": "1672653541",
+ "buildStep": {
+  "cmdId": "c3bec6ba-40d7-42b4-8671-61dfb7ce6c53",
+  "name": "vitis-run",
+  "logFile": "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip\\logs\\fetching_ip.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\hls_config.cfg --work_dir fetching_ip ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip\\hls_config.cfg",
+   "--work_dir",
+   "fetching_ip"
+  ],
+  "iniFiles": [],
+  "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/18/24 12:15:39",
+ "timestampMillis": "1672653541",
+ "status": {
+  "cmdId": "c3bec6ba-40d7-42b4-8671-61dfb7ce6c53",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "08/18/24 12:15:43",
+ "timestampMillis": "1672657334",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "fetching_ip",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.cpp",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip.h",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetch.h",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\execute.h",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetch.cpp",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\execute.cpp",
+     "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\debug_fetching_ip.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "08/18/24 12:15:43",
+ "timestampMillis": "1672657336",
+ "buildStep": {
+  "cmdId": "d19c8b7c-daaf-434f-b5c2-5bee22e29781",
+  "name": "export_design",
+  "logFile": "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip\\hls\\hls.log",
+  "commandLine": "export_design -flow impl",
+  "args": [
+   "-flow",
+   "impl"
+  ],
+  "iniFiles": [],
+  "cwd": "E:\\nasaCPU\\Vitis2024_workspace\\fetching_ip"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/18/24 12:15:43",
+ "timestampMillis": "1672657336",
+ "status": {
+  "cmdId": "d19c8b7c-daaf-434f-b5c2-5bee22e29781",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/18/24 12:15:43",
+ "timestampMillis": "1672657337",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/18/24 12:15:43",
+ "timestampMillis": "1672657337",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/18/24 12:15:43",
+ "timestampMillis": "1672657338",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/18/24 12:15:43",
+ "timestampMillis": "1672657338",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/18/24 12:15:43",
+ "timestampMillis": "1672657338",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/18/24 12:15:43",
+ "timestampMillis": "1672657338",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/18/24 12:19:23",
+ "timestampMillis": "1672877960",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/18/24 12:19:23",
+ "timestampMillis": "1672877961",
+ "report": {
+  "path": "E:/nasaCPU\\Vitis2024_workspace\\fetching_ip\\fetching_ip\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/18/24 12:19:23",
+ "timestampMillis": "1672877961",
+ "status": {
+  "cmdId": "d19c8b7c-daaf-434f-b5c2-5bee22e29781",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "08/18/24 12:19:23",
+ "timestampMillis": "1672878031",
+ "status": {
+  "cmdId": "c3bec6ba-40d7-42b4-8671-61dfb7ce6c53",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/18/24 12:19:23",
+ "timestampMillis": "1672878031",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "08/18/24 12:19:23",
+ "timestampMillis": "1672878032",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

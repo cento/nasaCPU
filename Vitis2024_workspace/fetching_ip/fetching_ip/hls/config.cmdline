@@ -1,0 +1,3 @@
+relativeroot=E:/nasaCPU/Vitis2024_workspace/fetching_ip
+original_argv=--mode hls --impl --config E:\nasaCPU\Vitis2024_workspace\fetching_ip\hls_config.cfg --work_dir fetching_ip 
+

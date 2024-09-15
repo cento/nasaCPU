@@ -1,0 +1,163 @@
+
+
+================================================================
+== Synthesis Summary Report of 'fetching_decoding_ip'
+================================================================
++ General Information: 
+    * Date:           Sun Sep  1 18:35:33 2024
+    * Version:        2024.1 (Build 5069499 on May 21 2024)
+    * Project:        fetching_decoding_ip
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +--------------------------------+--------+-------+---------+--------+----------+---------+------+----------+-----------+----+-----------+-----------+-----+
+    |             Modules            |  Issue |       | Latency | Latency| Iteration|         | Trip |          |           |    |           |           |     |
+    |             & Loops            |  Type  | Slack | (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined|   BRAM    | DSP|     FF    |    LUT    | URAM|
+    +--------------------------------+--------+-------+---------+--------+----------+---------+------+----------+-----------+----+-----------+-----------+-----+
+    |+ fetching_decoding_ip          |  Timing|  -2.56|        -|       -|         -|        0|     -|    rewind|  128 (45%)|   -|  315 (~0%)|   641 (1%)|    -|
+    | o VITIS_LOOP_39_1              |       -|   7.30|        -|       -|         4|        3|     -|       yes|          -|   -|          -|          -|    -|
+    |  + fetch                       |       -|   4.05|        1|  10.000|         -|        2|     -|       yes|          -|   -|    2 (~0%)|   14 (~0%)|    -|
+    |  + decode                      |       -|   2.93|        1|  10.000|         -|        2|     -|       yes|          -|   -|   47 (~0%)|   90 (~0%)|    -|
+    |  + running_conditional_update  |       -|   4.75|        0|   0.000|         -|        1|     -|       yes|          -|   -|          -|   39 (~0%)|    -|
+    |  + execute                     |       -|   3.16|        0|   0.000|         -|        1|     -|       yes|          -|   -|          -|  145 (~0%)|    -|
+    |  + statistic_update            |       -|   4.75|        0|   0.000|         -|        1|     -|       yes|          -|   -|          -|   39 (~0%)|    -|
+    +--------------------------------+--------+-------+---------+--------+----------+---------+------+----------+-----------+----+-----------+-----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE Interfaces
++---------------+------------+---------------+--------+----------+-------------------+
+| Interface     | Data Width | Address Width | Offset | Register | Resource Estimate |
++---------------+------------+---------------+--------+----------+-------------------+
+| s_axi_control | 32         | 19            | 16     | 0        | BRAM=128          |
++---------------+------------+---------------+--------+----------+-------------------+
+
+* S_AXILITE Registers
++---------------+---------------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface     | Register            | Offset | Width | Access | Description                      | Bit Fields                                                           |
++---------------+---------------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_control | CTRL                | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_control | GIER                | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_control | IP_IER              | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_control | IP_ISR              | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_control | start_pc            | 0x10   | 32    | W      | Data signal of start_pc          |                                                                      |
+| s_axi_control | nb_instruction      | 0x18   | 32    | R      | Data signal of nb_instruction    |                                                                      |
+| s_axi_control | nb_instruction_ctrl | 0x1c   | 32    | R      | Control signal of nb_instruction | 0=nb_instruction_ap_vld                                              |
++---------------+---------------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------------+-----------+---------------+
+| Argument       | Direction | Datatype      |
++----------------+-----------+---------------+
+| start_pc       | in        | unsigned int  |
+| code_ram       | in        | unsigned int* |
+| nb_instruction | inout     | unsigned int* |
++----------------+-----------+---------------+
+
+* SW-to-HW Mapping
++----------------+---------------+----------+-----------------------------------------------+
+| Argument       | HW Interface  | HW Type  | HW Info                                       |
++----------------+---------------+----------+-----------------------------------------------+
+| start_pc       | s_axi_control | register | name=start_pc offset=0x10 range=32            |
+| code_ram       | s_axi_control | memory   | name=code_ram offset=262144 range=262144      |
+| nb_instruction | s_axi_control | register | name=nb_instruction offset=0x18 range=32      |
+| nb_instruction | s_axi_control | register | name=nb_instruction_ctrl offset=0x1c range=32 |
++----------------+---------------+----------+-----------------------------------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+
+================================================================
+== Bind Op Report
+================================================================
++-------------------------------+-----+--------+------------+-----------+--------+---------+
+| Name                          | DSP | Pragma | Variable   | Op        | Impl   | Latency |
++-------------------------------+-----+--------+------------+-----------+--------+---------+
+| + fetching_decoding_ip        | 0   |        |            |           |        |         |
+|  + running_conditional_update | 0   |        |            |           |        |         |
+|    ap_return                  |     |        | icmp_ln12  | setne     | auto   | 0       |
+|  + execute                    | 0   |        |            |           |        |         |
+|    add_ln29_fu_70_p2          |     |        | add_ln29   | add       | fabric | 0       |
+|    next_pc_fu_144_p2          |     |        | add_ln26   | add       | fabric | 0       |
+|    icmp_ln9_fu_92_p2          |     |        | icmp_ln9   | seteq     | auto   | 0       |
+|    icmp_ln9_1_fu_98_p2        |     |        | icmp_ln9_1 | seteq     | auto   | 0       |
+|    icmp_ln9_2_fu_104_p2       |     |        | icmp_ln9_2 | seteq     | auto   | 0       |
+|    icmp_ln9_3_fu_110_p2       |     |        | icmp_ln9_3 | seteq     | auto   | 0       |
+|    icmp_ln9_4_fu_116_p2       |     |        | icmp_ln9_4 | seteq     | auto   | 0       |
+|    icmp_ln9_5_fu_122_p2       |     |        | icmp_ln9_5 | seteq     | auto   | 0       |
+|    sparsemux_15_6_16_1_1_U4   |     |        | next_pc    | sparsemux | auto   | 0       |
+|  + statistic_update           | 0   |        |            |           |        |         |
+|    ap_return                  |     |        | add_ln19   | add       | fabric | 0       |
++-------------------------------+-----+--------+------------+-----------+--------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| Name                   | Usage     | Type      | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                        |           |           |      |      |        |          |      |         | Banks            |
++------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+| + fetching_decoding_ip |           |           | 128  | 0    |        |          |      |         |                  |
+|   control_s_axi_U      | interface | s_axilite | 128  |      |        |          |      |         |                  |
++------------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+------------------------------------+---------------------------------------------------------------------+
+| Type      | Options                            | Location                                                            |
++-----------+------------------------------------+---------------------------------------------------------------------+
+| inline    |                                    | decode.cpp:16 in decode_instruction                                 |
+| inline    |                                    | decode.cpp:30 in decode_immediate                                   |
+| inline    | off                                | decode.cpp:57 in decode                                             |
+| inline    |                                    | execute.cpp:7 in compute_next_pc                                    |
+| inline    | off                                | execute.cpp:40 in execute                                           |
+| inline    | off                                | fetch.cpp:15 in fetch                                               |
+| inline    | off                                | fetching_decoding_ip.cpp:11 in running_conditional_update           |
+| inline    | off                                | fetching_decoding_ip.cpp:18 in statistic_update                     |
+| interface | mode=s_axilite port=nb_instruction | fetching_decoding_ip.cpp:27 in fetching_decoding_ip, nb_instruction |
+| interface | mode=s_axilite port=return         | fetching_decoding_ip.cpp:28 in fetching_decoding_ip, return         |
+| interface | mode=s_axilite port=code_ram       | fetching_decoding_ip.cpp:29 in fetching_decoding_ip, code_ram       |
+| interface | mode=s_axilite port=start_pc       | fetching_decoding_ip.cpp:30 in fetching_decoding_ip, start_pc       |
+| pipeline  | II=3                               | fetching_decoding_ip.cpp:40 in fetching_decoding_ip                 |
+| inline    |                                    | immediate.cpp:5 in i_immediate                                      |
+| inline    |                                    | immediate.cpp:14 in s_immediate                                     |
+| inline    |                                    | immediate.cpp:23 in b_immediate                                     |
+| inline    |                                    | immediate.cpp:32 in u_immediate                                     |
+| inline    |                                    | immediate.cpp:42 in j_immediate                                     |
+| inline    |                                    | type.cpp:4 in type_00                                               |
+| inline    |                                    | type.cpp:18 in type_01                                              |
+| inline    |                                    | type.cpp:32 in type_10                                              |
+| inline    |                                    | type.cpp:46 in type_11                                              |
+| inline    |                                    | type.cpp:60 in type                                                 |
++-----------+------------------------------------+---------------------------------------------------------------------+
+
+
